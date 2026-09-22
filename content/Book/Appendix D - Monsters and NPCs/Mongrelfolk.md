@@ -1,0 +1,13 @@
+
+![[Mongrelfolk Stat Block.png]]
+Mongrelfolk are humanoids that have undergone, or whose ancestors underwent, horrific magical transformations, to the extent that they retain only a fraction of their original being. Their humanoid bodies incorporate the features of various beasts. For example, one mongrel folk might have the basic body shape of a dwarf with a head that combines the features of a cat and a lizard, one arm that ends in a crab's pincer, and one leg that ends in a cloven hoof. Another might have the skin and horns of a cow, the eyes of a spider, frog's legs, and a scaly lizard's tail. Each  mongrelfolk's mad combination of humanoid and animal forms results in its having a slow, awkward gait.
+
+**Sound Mimicry.** Mongrelfolk have misshapen mouths and vocal cords. They speak fragmented Common mixed with various animal cries and nonsense. They can effectively imitate sounds made by beasts and humanoids that they've heard. Mongrelfolk aren't sophisticated enough to use these sounds as a covert form of communication, but they can use the sounds to lure enemies into a trap or otherwise distract them.
+
+**Outcasts.** Mongrelfolk are seldom welcome in other humanoid societies, where they are abused, enslaved, or shunned. They typically live on the fringes of civilization in ruins, deserted buildings, or other places that other humanoid races once lived in or built. They tend to be timid and skittish outside their homes and fiercely territorial within their lairs.
+
+**Camouflage Experts.** Mongrelfolk often hide their deformities under cloaks and cowls. In this way they can sometimes pass as stout humans or thin dwarves. They are fond of camouflage, attaching leaves and twigs to their cloaks, making brown paint to cover their skin, and weaving grass nets under which they can hide. They use such camouflage while hunting in the wild or while standing guard outside their lairs. Until it is seen, a camouflaged mongrelfolk has advantage on Stealth checks made to hide.
+
+**Horrific Offspring.** It's possible to restore a mongrelfolk to its original form using a *greater restoration* spell, but the same can't be said for a mongrelfolk's offspring. Only mongrelfolk that are made by magic can be restored to their original forms. Mongrelfolk that are born are true mongrelfolk arid not the subjects of a spell or an effect that can be undone.
+
+Mongrelfolk can breed with other humanoids, but nearly all children born to such parents are mongrelfolk. (About one child in every hundred is born looking like its non-mongrelfolk parent.)

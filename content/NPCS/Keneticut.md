@@ -1,0 +1,1 @@
+Now owned by [[Ignacious Teegan]], formerly owned by [[Garlan Shepard]]

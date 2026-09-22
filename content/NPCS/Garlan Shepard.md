@@ -1,0 +1,1 @@
+owns [[Stanford]] and [[Keneticut]]
