@@ -1,0 +1,15 @@
+{
+  "name": "remove-dm-spoilers",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": { ".": "./dist/index.js" },
+  "quartz": {
+    "name": "remove-dm-spoilers",
+    "displayName": "Remove DM Spoilers",
+    "description": "Strips [!dmspoiler] callout blocks from the AST before HTML is emitted",
+    "version": "1.0.0",
+    "category": "transformer",
+    "defaultOrder": 5
+  }
+}

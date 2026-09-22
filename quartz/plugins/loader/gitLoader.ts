@@ -448,6 +448,14 @@ export async function installPlugin(
           }
           return { pluginDir, nativeDeps: collectNativeDeps(pluginDir) }
         }
+        // On Windows, symlinks may be unavailable. Accept a plain directory
+        // that was pre-copied (e.g. by sync-plugins.mjs) as already installed.
+        if (stat.isDirectory() && fs.existsSync(path.join(pluginDir, "package.json"))) {
+          if (options.verbose) {
+            console.log(styleText("cyan", `→`), `Plugin ${spec.name} already present (pre-copied)`)
+          }
+          return { pluginDir, nativeDeps: collectNativeDeps(pluginDir) }
+        }
       } catch {
         // stat failed, recreate
       }

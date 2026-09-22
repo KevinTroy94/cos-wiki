@@ -1,0 +1,14 @@
+{
+  "name": "exclude-unpublished",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": { ".": "./dist/index.js" },
+  "quartz": {
+    "name": "exclude-unpublished",
+    "displayName": "Exclude Unpublished",
+    "description": "Excludes notes with publish: false and all notes under Sessions/",
+    "version": "1.0.0",
+    "category": "filter"
+  }
+}
