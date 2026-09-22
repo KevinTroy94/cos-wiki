@@ -11,6 +11,7 @@ configuration:
     - .obsidian
     - templates
     - private
+    - Sessions
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
