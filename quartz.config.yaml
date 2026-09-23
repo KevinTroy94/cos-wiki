@@ -11,8 +11,10 @@ configuration:
     - .obsidian
     - templates
     - private
-    - Book/Monsters and NPCs
-    - DM Story Notes
+    - "Book/Monsters and NPCs"
+    - "Book/Monsters and NPCs/**"
+    - "DM Story Notes"
+    - "DM Story Notes/**"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
