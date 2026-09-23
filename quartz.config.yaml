@@ -12,6 +12,7 @@ configuration:
     - templates
     - private
     - Book/Monsters and NPCs
+    - DM Story Notes
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
