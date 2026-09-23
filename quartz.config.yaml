@@ -41,11 +41,11 @@ configuration:
         textHighlight: "#b3aa0288"
 plugins:
   # ── DM content removal (must run before crawl-links at order 60) ──────────
-  - source: "c:\\Users\\kevin\\Documents\\cos-wiki\\.quartz\\plugins\\remove-dm-spoilers"
+  - source: ".quartz/plugins/remove-dm-spoilers"
     enabled: true
     order: 5
 
-  - source: "c:\\Users\\kevin\\Documents\\cos-wiki\\.quartz\\plugins\\exclude-unpublished"
+  - source: ".quartz/plugins/exclude-unpublished"
     enabled: true
 
   # ── Community transformers ────────────────────────────────────────────────
