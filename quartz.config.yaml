@@ -11,6 +11,7 @@ configuration:
     - .obsidian
     - templates
     - private
+    - Book/Monsters and NPCs
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
