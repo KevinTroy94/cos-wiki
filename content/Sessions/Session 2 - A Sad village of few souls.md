@@ -90,3 +90,5 @@ Retnuh lay in the upstairs in [[The Blood of the Vine]] with Sorvia and talked f
 Virro and Edric went to visit the Burgomasters manor to find it had been besieged by strahds forces. [[Ireena Kolyana]]  questioned the duo as she thought them to be agents of the dark lord. 
 Upon convincing her they meant no harm, they were invited inside, where the body of [[Kolyan Indirovich]] lay in state in a coffin. 
 ![[Pasted image 20260911223957.png]]
+
+PREVIOUS - >[[Session 1 - into the mists]] | | NEXT -> [[Session 3 - Strahd Von Zarovich]]

@@ -27,3 +27,5 @@ She unwrapped the deck slowly, her fingers moving with the ease of long practice
 
 With their fortune fortold, the party were each given a card that tell of their specific fates
 ![[Pasted image 20260909011950.png]]
+
+NEXT - > [[Session 2 - A Sad village of few souls]]
