@@ -34,14 +34,16 @@ Retnuh agreed without much thought, telling him that after they had found [[Arab
 
 "Wonderful" he said calmly, and something in his voice settled, satisfied, as the rain went on falling around them both.
 
-[[Strahd Von Zarovich]] vanished into the night as Retnuh rode off back towards [[The Village of Barovia]] on the back of the [[Nightmare]]. The wagon quietly vanished into the mists behind him. 
+[[Strahd von Zarovich]] vanished into the night as Retnuh rode off back towards [[The Village of Barovia]] on the back of the [[Nightmare]]. The wagon quietly vanished into the mists behind him. 
 > [!dmspoiler]
 > SECRET DM ONLY: 
 > Strahd now knows Edric and Retnuh's name as a result of the conversation. The Nightmare, Buccephalus can act as a scry that Strahd can see through. 
 
 Back at the burgomaster's manor, [[Virro]] and [[Edric Storm]] compare the letter that Edric had recieved to another, undelivered letter penned by [[Kolyan Indirovich]]
 
-[[Kolyan Indirovich's Letter.png]]
+test
+
+![[Kolyan Indirovich's Letter.png]]
 
 
 ![[finishedanastasia.png]]
