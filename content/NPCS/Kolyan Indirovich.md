@@ -1,0 +1,1 @@
+Burgomaster of Barovia village and father of [[Ireena Kolyana]] and [[Ismark The Lesser]]. By the time the party arrived in the village, he was already dead. His body lay in state in a coffin inside the Burgomaster's manor, which had been besieged by forces loyal to [[Strahd von Zarovich]].

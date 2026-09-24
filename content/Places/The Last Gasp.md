@@ -1,1 +1,1 @@
-placeholder
+There is nothing known about this mysterious venue.

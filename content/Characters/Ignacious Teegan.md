@@ -38,7 +38,7 @@ The party fled on foot, eventually reaching the [[The Gallows Oak]] inn, where I
 
 ## Session 2 - A Sad Village of Few Souls
 
-In Barovia village, Ignacious took it upon himself to go door to door searching for [[Arabelle]]. He found his way to [[Bildrath's Mercantile]], where [[Bildrath Cantomere]] was standoffish but eventually let slip that [[Krogarov]] had passed through with a wagon in need of repair and a horse to be re-shoed, helped by Bildrath's [[boy]] and leaving with three large sacks.
+In Barovia village, Ignacious took it upon himself to go door to door searching for [[Arabelle]]. He found his way to [[Bildrath's Mercantile]], where [[Bildrath Cantomere]] was standoffish but eventually let slip that [[Krogarov]] had passed through with a wagon in need of repair and a horse to be re-shoed, helped by Bildrath's [[Boy]] and leaving with three large sacks.
 
 Earlier in the evening, stepping outside the [[The Blood of the Vine]] for air, he was approached by an old woman pushing a wooden cart through the fog. She offered him a soft brown pastry and spoke of her sisters having moved on, leaving her alone at an old mill outside the village. He accepted the pastry. The moment he swallowed it, the world sharpened and softened all at once, colours deepening, sounds arriving late and layered. He sat with it washing over him.
 

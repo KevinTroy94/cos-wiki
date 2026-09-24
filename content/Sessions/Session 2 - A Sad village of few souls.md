@@ -80,7 +80,7 @@ Edric held her gaze. "Any favour."
 The moment the child left Morgantha's grip, it began crying again.
 Edric swore to return if the parents were reckless with their daughter again before the gang split up to search the town.
 
-Ignatious went door-to-door looking for any sign of Arabelle, before finding himself at the shop known as [[Bildrath's Mercantile]], there, [[Bildrath Cantomere]] was standoffish and unhelpful, directing Ignatious to a list of items he could buy at the general goods store. Eventually Bildrath relented and shared the info that Krogarov had arrived with a wagon that needed fixing and a horse that needed to be re-shoed. He shared that his [[boy]] had helped to fix the wagon and shoe the horse, helping him with three large sacks.
+Ignatious went door-to-door looking for any sign of Arabelle, before finding himself at the shop known as [[Bildrath's Mercantile]], there, [[Bildrath Cantomere]] was standoffish and unhelpful, directing Ignatious to a list of items he could buy at the general goods store. Eventually Bildrath relented and shared the info that Krogarov had arrived with a wagon that needed fixing and a horse that needed to be re-shoed. He shared that his [[Boy]] had helped to fix the wagon and shoe the horse, helping him with three large sacks.
 
 Ignatious continued searching around, knocking door-to door until he found a town house with an open door, and saw the sight of [[someone]] being dragged inside. Ignatious entered the building and felt the door close behind him.
 ![[Pasted image 20260917165511.png]]

@@ -1,1 +1,1 @@
-[[Arabelle]]
+[[Arabelle]]'s Father, He is believed to have travelled to Vallaki to request aid in finding his missing daughter. 

@@ -41,7 +41,7 @@ Retnuh agreed without much thought, telling him that after they had found [[Arab
 
 Back at the burgomaster's manor, [[Virro]] and [[Edric Storm]] compare the letter that Edric had recieved to another, undelivered letter penned by [[Kolyan Indirovich]]
 
-[[Kolyan Indirovich's Letter (Version 2).png]]
+[[Kolyan Indirovich's Letter.png]]
 
 
 ![[finishedanastasia.png]]

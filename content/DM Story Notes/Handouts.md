@@ -15,7 +15,7 @@
 ![[Journal of Rudolph van Richten 2.png]]
 
 # Kolyan Indirovich's Letter (Version 2)
-![[Kolyan Indirovich's Letter (Version 2).png]]
+![[Kolyan Indirovich's Letter.png]]
 
 # Journal of Argynvost
 ![[Journal of Argynvost.png]]
