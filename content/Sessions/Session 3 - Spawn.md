@@ -43,7 +43,7 @@ Back at the burgomaster's manor, [[Virro]] and [[Edric Storm]] compare the lette
 
 test
 
-![[Kolyan Indirovich's Letter.png]]
+!![[Kolyan Indirovich's Letter.png]]
 
 
 ![[finishedanastasia.png]]
