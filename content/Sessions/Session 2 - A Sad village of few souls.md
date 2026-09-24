@@ -91,4 +91,4 @@ Virro and Edric went to visit the Burgomasters manor to find it had been besiege
 Upon convincing her they meant no harm, they were invited inside, where the body of [[Kolyan Indirovich]] lay in state in a coffin. 
 ![[Pasted image 20260911223957.png]]
 
-PREVIOUS - >[[Session 1 - into the mists]] | | NEXT -> [[Session 3 - Strahd Von Zarovich]]
+PREVIOUS - >[[Session 1 - into the mists]] | | NEXT -> [[Session 3 - Spawn]]

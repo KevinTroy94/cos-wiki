@@ -1,1 +1,1 @@
-[[Strahd von Zarovich]] [[Kolyan Indirovich]]
+![[Pasted image 20260923133614.png]][[Strahd von Zarovich]] [[Kolyan Indirovich]]
