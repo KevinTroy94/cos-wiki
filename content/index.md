@@ -1,11 +1,15 @@
 ---
-title: Curse of Strahd — Player Wiki
+title: "Curse of Strahd: Player Wiki"
 ---
 
 Welcome to the player wiki for our Curse of Strahd campaign.
 
+Latest session: [[Session 3 - Spawn]]
+
 ## Browse by section
 
-- [[NPCS/Ireena Kolyana|NPCs]] — People you've met in Barovia
-- [[Places/The Blood of the Vine|Places]] — Locations you've visited
-- [[Characters/Edric Storm|Characters]] — The party
+- [Sessions](./sessions/): what's happened so far
+- [Characters](./characters/): the party
+- [NPCs](./npcs/): people you've met in Barovia
+- [Places](./places/): locations you've visited
+- [Bestiary](./bestiary/): creatures you've encountered

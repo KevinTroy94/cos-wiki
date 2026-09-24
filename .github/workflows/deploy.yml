@@ -19,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so page dates come from each file's last commit
 
       - uses: actions/setup-node@v4
         with:

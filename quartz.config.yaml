@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: "Curse of Strahd — Player Wiki"
+  pageTitle: "Curse of Strahd: Player Wiki"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
