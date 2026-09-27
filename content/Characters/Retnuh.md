@@ -1,4 +1,4 @@
-Half-Orc Barbarian
+Goliath Barbarian
 
 ## Background
 

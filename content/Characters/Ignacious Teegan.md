@@ -1,5 +1,6 @@
 Mountain Dwarf Paladin
 
+![[Pasted image 20260928004516.png]]
 ## Background
 
 Once based in the north ward of Waterdeep, a former paladin of Ilmater and member of the Order of the Golden Cups. Once, coming across an injured boy, Ignacious asked how he was hurt. The boy said he fell. He healed him.

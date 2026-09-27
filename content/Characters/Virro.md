@@ -1,5 +1,6 @@
 Harengon Fighter
 
+![[Pasted image 20260928004458.png]]
 ## Background
 
 Though his memories are blurred, Virro was born in the Feywild, his clan bound to the service of a minor fey lord as warriors. He took to combat naturally from a young age and developed a strong fondness for it. But the harsh discipline of his teachers and the strict, frugal life under his lord's command bred a deep resentment in him over the years.

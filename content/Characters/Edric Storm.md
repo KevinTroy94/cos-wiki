@@ -2,6 +2,7 @@
 
 *To be added.*
 
+![[Pasted image 20260928004444.png]]
 ## Session 1 - Into the Mists
 
 Edric was among the five travellers in [[Garlan Shepard]]'s wagon when the fog rolled in. When the party climbed down to investigate the woods, he cast a light spell on the wagon's cover to illuminate the area, and it was this glow that let [[Virro]] spot the silhouette of a great wolf among the trees, its eyes burning an unnatural amber.
