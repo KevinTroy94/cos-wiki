@@ -20,6 +20,8 @@ At the manor, Edric and [[Virro]] compared the letter Edric had received with an
 
 [[Ireena Kolyana]] asked to be escorted out of the village toward a safer town once her father was buried, and Edric set out with her and Virro for the church, hoping [[Father Donavich]] would bless the burial. At the centre of town they fell in with [[Ignacious Teegan]] and a stranger he had picked up, [[Vesper Kasimov]], and soon after [[Retnuh]] rode in on a [[Nightmare]], talking about Strahd.
 
+At the church, the party learned that [[Father Donavich]]'s son, [[Doru]], was a vampire chained in the undercroft, and went down to confront him. When Doru bit Retnuh, Edric and Virro threw him off. The party used the pillars and Doru's chain to hold him back until he leapt to the ceiling and clawed into Virro. As Retnuh's axe struck Doru's side, the floor above collapsed on all of them.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

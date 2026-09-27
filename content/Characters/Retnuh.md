@@ -27,3 +27,5 @@ Retnuh rode Buccephalus back into the village and found the rest of the party at
 He urged the party to come with him to Castle Ravenloft, saying Strahd could help them with the curse and the mists. Ireena refused.
 
 At the church, Retnuh made his way to the chapel, where he found [[Father Donavich]] kneeling at a claw-scarred altar, droning prayers to the Morninglord, his forearms covered in teeth marks. Before Retnuh could get a word out, a voice rose up from beneath the floor: "Father! I'm starving!" It was Donavich's son, [[Doru]]. The party went down into the undercroft to confront him.
+
+When [[Doru]] lunged, Retnuh was the first to act, charging in and striking him. He was bitten before Edric and Virro threw the vampire off him. At the height of the fight, as Doru clawed into Virro from the ceiling, Retnuh's axe found purchase in Doru's side, and at that moment the floor collapsed and the church came down on top of them.

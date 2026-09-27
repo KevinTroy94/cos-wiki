@@ -53,6 +53,7 @@ He said that he had been watching Ignacious and his party since they arrived in 
 
 Ignacious offered to assist him with his quest and Vesper revealed that he used his ability to throw his voice and cast illusions to draw Ignacious in and interrogate him. Quickly they reached an agreement with Ignacious offering to mend his wounds. Vesper picked up his bag and they head out into the street together
 ![[art-rogue-deep-gnome-for-curse-of-strahd-v0-pz9x5689ioa91-removebg-preview.png|528]]
+
 At the center of town, Ireena, Virro and Edric fell in with Vesper and Ignacious, the group finally catching a moment to breathe and compare notes on everything that had happened since they'd split up. The rain had eased to a fine mist by then, though the cold remained.
 Before long, hooves sounded on the wet cobblestones, and Retnuh rode into view atop Buccephalus, the ash grey horse moving with an unnatural, smooth grace despite the slick stone underfoot. The party turned as one to watch him approach, and Retnuh, grinning, began explaining where the horse had come from before anyone even asked.
 The mood soured the moment he mentioned Strahd's name. Ignacious went rigid. Ireena's expression closed off entirely. Virro's eyes narrowed on the horse itself, sizing it up like something dangerous rather than something to be admired.
@@ -78,11 +79,13 @@ Ignacious peeled off first, drawn toward a side room off the main hall, its door
 
 What caught Ignacious's attention wasn't the bed at all, though. Scattered across the table and along a shelf nearby sat dozens of small whittled figures, along with the knives and carving tools used to make them. The progression was obvious even at a glance. The earliest pieces were crude, blocky things, barely recognizable as anything at all, clearly the work of someone just learning the craft. Further along the shelf, the figures grew steadily more refined.
 Among them was a woman rendered in wood, and unlike everything surrounding it, this one was flawless. The wood had been worked so finely that it no longer looked carved at all. Her lips held a softness that shouldn't have been possible from a blade and a block of timber. Her hair fell in strands so fine they seemed to catch light the way real hair might. Even the folds of her dress carried a smoothness usually reserved for polished marble, not whittled wood.
+
 ![[finishedanastasia.png]]
 Among them was a woman rendered in wood, and unlike everything surrounding it, this one was flawless. The wood had been worked so finely that it no longer looked carved at all. Her lips held a softness that shouldn't have been possible from a blade and a block of timber. Her hair fell in strands so fine they seemed to catch light the way real hair might. Even the folds of her dress carried a smoothness usually reserved for polished marble, not whittled wood.
 
 Meanwhile, Retnuh made his way toward the far end of the church, where the main chapel opened up in a state of disarray. Pews lay broken and overturned across a dusty floor, and dozens of candles, set into candlesticks and candelabras crowded into every corner, burned steadily against a darkness, determined not to let any darkness in.  At the end of the room stood a claw scarred altar, and kneeling in front of it, dressed in vestments gone soiled and threadbare, was a priest.
 ![[Pasted image 20260927130303.png]]
+
 Even approaching him from behind it was clear that he had worn through the knees of his vestments. 
 
 "Morninglord Morninglord shine your light upon your son and see us through this darkness. Let your light guide us. Morninglord Morninglord.." He droned. His hands clasped in murmurous prayer, unclasping only to tug on the long rope that lay slack beside him and ran up into the tower above. The bell above tolls in turn. 
@@ -109,7 +112,14 @@ They learn that [[Doru]], Donavich's son was stricken with the curse of vampiris
 
 ![[Pasted image 20260927130402.png]]
 
-The party go down into the cellar to confront Doru.
+The party go down into the cellar to confront Doru. Below, the undercroft opened into a low, cramped space, its walls rough hewn stone, the floor packed clay and damp soil underfoot. Rotting wooden pillars strained upward, bowing and straining under the weight of the chapel floor above, and thin cracks let candlelight bleed weakly down from the room overhead, just enough to make out a gaunt shape hunched in the far corner.
 
+The shape shifted the moment they stepped off the last stair, a chorus of chains gliding across the floor could be heard as Doru made his way to them. 
+"I can smell your blood," he rasped, voice cracked and thin. Another step closer, faster this time. "Have you come to feed me?"
+
+Ignacious raises a hand toward Doru. "Swear it," he said. "Swear you'll harm no person again. Hunt animals if you must feed, or take only from those who offer it willingly. Do that, and we'll help you." Doru's eyes never left him as he spoke, though not his face, his throat, tracking the pulse visible beneath the skin there, watching blood move beneath the surface like something already promised to him.
+He lunges.
+The first to act is Retnuh, who charges forth and strikes the vampire, Retnuh is struck and bitten by the vampire before being thrown off him by Edric and Virro. Quickly the gang realise they can use the layout of the pillars to trap Doru using the long chain, forcing him to restrain himself. They lure him back and forward, with many close calls and the might of even a lowly vampire spawn proving to be tough to contend with. Every time he hit the end of that chain hard, the beams overhead groaned, a low, straining creak rolling through the timber like the whole church was holding its breath.
+Eventually Doru gets a small amount of slack in the chain and leaps to the cieling, where he grabs Virro by digging his claws into his shoulder, Before he can sink his teeth into the Harrengon, Retnuhs axe finds purchase in Dorus side. Just as it makes contact the groaning of the church reaches a crescendo and the floor collapses on them, with the rest of the building seeming to give suit. 
 
 PREVIOUS -> [[Session 2 - A Sad village of few souls]] 

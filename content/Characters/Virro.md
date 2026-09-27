@@ -39,3 +39,5 @@ At the centre of town they fell in with [[Ignacious Teegan]] and [[Vesper Kasimo
 Rather than argue, he circled behind her and slapped her flank, shouting at her to run off. Buccephalus reared and kicked him square in the chest, throwing him several feet and knocking him unconscious, his surcoat smouldering where the blow landed.
 
 Ireena later proposed that she and Virro use the horse as a channel back to Strahd, feeding him only the misinformation they chose.
+
+At the church, the party learned that [[Father Donavich]]'s son, [[Doru]], was a vampire chained in the undercroft, and went down to confront him. When Doru bit [[Retnuh]], Virro and Edric threw him off. The party used the pillars and Doru's chain to hold him back until he found some slack, leapt to the ceiling, and dug his claws into Virro's shoulder. Before Doru could bite, Retnuh's axe struck his side, and the floor above collapsed on all of them.

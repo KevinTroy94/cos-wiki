@@ -1,8 +1,8 @@
 ![[Pasted image 20260927130303.png|300]]
 
-The priest who keeps the church in Barovia village, a gray, sagging building on a rise against the roots of the pillar stone that holds up Castle Ravenloft. [[Ireena Kolyana]] asked that her father, [[Kolyan Indirovich]], be buried before she leaves the village, and the party came to the church hoping Donavich would bless the burial in the name of the Morninglord.
+The priest who keeps the [[Barovia Village Church|church in Barovia village]]. [[Ireena Kolyana]] asked that her father, [[Kolyan Indirovich]], be buried before she leaves the village, and the party came to the church hoping Donavich would bless the burial in the name of the Morninglord.
 
-They found him kneeling before a claw-scarred altar in a ruined chapel, surrounded by dozens of candles burning against the dark. He had worn through the knees of his vestments. He droned the same prayer over and over, "Morninglord, Morninglord, shine your light upon your son and see us through this darkness", unclasping his hands only to tug the bell rope beside him. His forearms are covered in pocked, circular cuts. Up close, they are teeth marks.
+They found him kneeling before an altar in a ruined chapel, surrounded by dozens of candles burning against the dark. He had worn through the knees of his vestments. He droned the same prayer over and over, "Morninglord, Morninglord, shine your light upon your son and see us through this darkness", unclasping his hands only to tug the bell rope beside him. His forearms are covered in pocked, circular teeth marks from feeding his son.
 
 "Forgive me," he told the party, his voice rough and hoarse. "I don't often get guests through those doors anymore. My name is Father Donavich. I keep this church, for whatever that's worth these days."
 

@@ -4,7 +4,7 @@ returning. Berez has remained mostly abandoned since.
 The ruins of Berez are now home to [[Baba Lysaga]], an almost mythic figure tied to Strahd's ancient
 past. A hermit, she spends most of her time crafting and animating scarecrows to hunt down and kill the ravens and the wereravens that infest Strahd's domain. When she isn't working evil magic, Baba Lysaga sacrifices beasts to Mother Night and collects their blood, then bathes in the blood on nights of the new moon in a ritual to stave off the effects of extreme old age.
 
-Baba Lysaga recently stole a magic gemstone from the Wizards of Wines vineyard ([[Curse of Strahd/Places/The Wizard of Wines]]), in the hope that the wereravens who protect the vineyard will try to reclaim it. She keeps it in her hut as bait to lure her enemies to their deaths. The gem has given her hut a semblance of life.
+Baba Lysaga recently stole a magic gemstone from the Wizards of Wines vineyard ([[The Wizard of Wines 1]]), in the hope that the wereravens who protect the vineyard will try to reclaim it. She keeps it in her hut as bait to lure her enemies to their deaths. The gem has given her hut a semblance of life.
 
 l HAD NOTHING LEFT TO GIVE
 but my own life's blood, but it

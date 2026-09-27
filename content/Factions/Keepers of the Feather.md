@@ -1,4 +1,9 @@
-An organisation the party first heard of from [[Vesper Kasimov]], who was expected to deliver a package to them. Nothing more is known about them yet.
+An organisation the party first heard of from [[Vesper Kasimov]], who was expected to deliver a package to them. Little more about them is known at the moment. They appear to operate in secret and oppose Strahd.
+
+Known Members
+-----------------------------
+[[Vesper Kasimov]]
+
 
 > [!dmspoiler]
 > A secret society of wereravens that opposes Strahd, using ordinary ravens as their spies.

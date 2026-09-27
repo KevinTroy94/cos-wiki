@@ -1,0 +1,1 @@
+A tower somewhere in Barovia. The wounded treasure hunter [[Brinn]] mentioned it as the place he needed to return to after the party patched him up on the road to Barovia village. The party has not been there.
