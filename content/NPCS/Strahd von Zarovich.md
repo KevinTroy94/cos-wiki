@@ -14,6 +14,8 @@ They talked for a long while. The stranger spoke of the curse laid over the land
 
 Asked whether anyone in this land looked out for him, the stranger named a girl: [[Ireena Kolyana]]. He asked Retnuh to bring her to Castle Ravenloft so that she could be "looked after properly." Retnuh agreed to do so once Arabelle is found. The stranger seemed satisfied. He vanished into the night, and the wagon faded into the mists behind him.
 
+When Retnuh rode back into the village and told the others where the horse had come from, the mood soured the moment he mentioned Strahd's name. He relayed the offer: Strahd could help them understand the curse and the mists. Ireena refused. She will go to the castle "when I am ready to bring the fight to him myself. Not before." She has since proposed using Buccephalus to feed Strahd misinformation.
+
 > [!dmspoiler]
 > **From Session 3:** Strahd now knows Edric's and Retnuh's names. Buccephalus can act as a scrying focus that Strahd sees through. The crest on the wagon door is Strahd's crest.
 >

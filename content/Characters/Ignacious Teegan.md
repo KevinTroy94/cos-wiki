@@ -43,3 +43,11 @@ In Barovia village, Ignacious took it upon himself to go door to door searching 
 Earlier in the evening, stepping outside the [[The Blood of the Vine]] for air, he was approached by an old woman pushing a wooden cart through the fog. She offered him a soft brown pastry and spoke of her sisters having moved on, leaving her alone at an old mill outside the village. He accepted the pastry. The moment he swallowed it, the world sharpened and softened all at once, colours deepening, sounds arriving late and layered. He sat with it washing over him.
 
 Continuing his search, he found a townhouse with an open door and caught sight of someone being dragged inside. He entered. The door closed behind him.
+
+## Session 3 - Spawn
+
+Inside the townhouse, a figure in the corner brandished a short blade at him and, in a performatively deep voice from behind a cloth face covering, ordered him to stand in the corner. It was a lean, wiry young man with long pointed ears, exhausted and clutching a bleeding wound in his side. He had drawn Ignacious in by throwing his voice and casting illusions, having watched the party since they arrived in the village, and needed to know whether they could be trusted.
+
+He introduced himself as [[Vesper Kasimov]], expected to deliver a package to an organisation called the [[Keepers of the Feather]]. Ignacious offered to help with the task and to mend his wounds, and the two headed out into the street together.
+
+At the centre of town they fell in with [[Ireena Kolyana]], [[Virro]], and [[Edric Storm]]. When [[Retnuh]] rode up on a [[Nightmare]] and mentioned Strahd's name, Ignacious went rigid. When the horse kicked Virro unconscious, Ignacious was the one who rushed to check on him.

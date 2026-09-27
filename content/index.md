@@ -12,4 +12,5 @@ Latest session: [[Session 3 - Spawn]]
 - [Characters](./characters/): the party
 - [NPCs](./npcs/): people you've met in Barovia
 - [Places](./places/): locations you've visited
+- [Factions](./factions/): groups and organisations
 - [Bestiary](./bestiary/): creatures you've encountered

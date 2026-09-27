@@ -29,3 +29,13 @@ In the [[The Blood of the Vine]] tavern in Barovia village, Virro pressed [[Arik
 Later, he attempted to alter the tab sheet while Arik had stepped away from the bar. Mirabelle caught him, told him it was brazen, wrote his name on the tabs, and threw them in the fire.
 
 He and [[Edric Storm]] went together to the Burgomaster's manor, finding it besieged. [[Ireena Kolyana]] met them at the door and took them for agents of the dark lord. Once they convinced her otherwise, she let them inside, where the body of [[Kolyan Indirovich]] lay in state.
+
+## Session 3 - Spawn
+
+At the manor, Virro and [[Edric Storm]] compared the letter Edric had received with an undelivered letter penned by [[Kolyan Indirovich]], and saw that Edric's had been altered. The original seemed to be warning people away from Barovia. [[Ireena Kolyana]] asked to be escorted out of the village once her father was buried, and Virro set out with her and Edric for the church.
+
+At the centre of town they fell in with [[Ignacious Teegan]] and [[Vesper Kasimov]]. When [[Retnuh]] rode up on a [[Nightmare]], gifted to him by Strahd, Virro sized the creature up like something dangerous. "You understand a nightmare like that could be watching us right now. Reporting everything we say back to him." When Retnuh insisted she was a good horse, Virro replied, "She is not a horse."
+
+Rather than argue, he circled behind her and slapped her flank, shouting at her to run off. Buccephalus reared and kicked him square in the chest, throwing him several feet and knocking him unconscious, his surcoat smouldering where the blow landed.
+
+Ireena later proposed that she and Virro use the horse as a channel back to Strahd, feeding him only the misinformation they chose.

@@ -14,6 +14,12 @@ Outside the [[The Blood of the Vine]] tavern, Edric heard raised voices and step
 
 He and Virro later went together to the Burgomaster's manor, finding it under siege. [[Ireena Kolyana]] met them at the door, suspicious they were agents of the dark lord. Once convinced otherwise, she let them inside, where the body of [[Kolyan Indirovich]] lay in state.
 
+## Session 3 - Spawn
+
+At the manor, Edric and [[Virro]] compared the letter Edric had received with an undelivered letter penned by [[Kolyan Indirovich]], and saw that Edric's had been altered. The original seemed to be warning people away from Barovia.
+
+[[Ireena Kolyana]] asked to be escorted out of the village toward a safer town once her father was buried, and Edric set out with her and Virro for the church, hoping [[Father Donavich]] would bless the burial. At the centre of town they fell in with [[Ignacious Teegan]] and a stranger he had picked up, [[Vesper Kasimov]], and soon after [[Retnuh]] rode in on a [[Nightmare]], talking about Strahd.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp
