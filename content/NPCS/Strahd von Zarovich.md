@@ -19,6 +19,8 @@ When Retnuh rode back into the village and told the others where the horse had c
 > [!dmspoiler]
 > **From Session 3:** Strahd now knows Edric's and Retnuh's names. Buccephalus can act as a scrying focus that Strahd sees through. The crest on the wagon door is Strahd's crest.
 >
+> **Anastasia**, Strahd's wife, turned [[Doru]] into a vampire spawn. Doru carved a flawless figure of her, which Ignacious found in the church.
+>
 > ![[Strahd's Crest.png]]
 >
 > ![[Strahd Stat Block.png]]

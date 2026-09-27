@@ -25,3 +25,5 @@ A voice behind him admired the horse, and the two talked for a long while withou
 Retnuh rode Buccephalus back into the village and found the rest of the party at the centre of town, grinning as he explained where the horse had come from. The mood soured at Strahd's name. When [[Virro]] called the horse a spy, Retnuh insisted, "She is not a spy. She is a good horse." Virro slapped her flank to drive her off and was kicked unconscious for it, and Retnuh muttered that he deserved it.
 
 He urged the party to come with him to Castle Ravenloft, saying Strahd could help them with the curse and the mists. Ireena refused.
+
+At the church, Retnuh made his way to the chapel, where he found [[Father Donavich]] kneeling at a claw-scarred altar, droning prayers to the Morninglord, his forearms covered in teeth marks. Before Retnuh could get a word out, a voice rose up from beneath the floor: "Father! I'm starving!" It was Donavich's son, [[Doru]]. The party went down into the undercroft to confront him.

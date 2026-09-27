@@ -64,17 +64,52 @@ Rather than argue further, Virro circled around behind the creature, and before 
 Buccephalus responded instantly. The horse let out a sharp, furious neigh and reared, hind legs snapping upward and catching Virro square in the chest. He was thrown backward, landing hard several feet away, unconscious, a thin curl of smoke rising faintly from his smoldering surcoat where the blow had struck.
 ![[Pasted image 20260927124220.png]]
 Ignacious rushed to check on him while Retnuh, more annoyed than concerned. muttered something about him deserving it. 
-"Come with me to Castle Ravenloft," Retnuh said. "Strahd asked it of me. He says he can help us understand this curse, help with the mist, help with all of it."****
+"Come with me to Castle Ravenloft," Retnuh said. "Strahd asked it of me. He says he can help us understand this curse, help with the mist, help with all of it."
 
 Ireena's answer came without hesitation. "I will go to that castle," she said, "when I am ready to bring the fight to him myself. Not before.
 
 It was Ireena, while speaking a short while later, who turned the horse itself into something useful. She proposed that her and Virro use Buccephalus as a channel back to Strahd, not for honest reports, but for whatever misinformation the party wanted him to believe. If the nightmare truly carried word back to its master, then let it carry only what they chose to feed it.
 
-(to finish updating final combat with doru and church scenes)
+The party arrived at the church atop its slight rise, the building looming gray and weary against the roots of the great pillar stone that held up Castle Ravenloft far above. Centuries of siege against whatever evil haunted this land had clearly worn the place down to its bones, stone crumbling in places, timber sagging where it hadn't already given way. A bell tower rose at the back, and through gaps in the shingled roof, flickering light spilled weakly into the misty air, the rafters groaning faintly under a weight they no longer seemed built to carry.
+
+Two creaky wooden doors marked the entrance, unlocked, and the party pushed through them without resistance.
+
+Ignacious peeled off first, drawn toward a side room off the main hall, its door left slightly ajar. Inside, the space was small and dirty, dominated by a straw stuffed mattress on a simple wooden bed frame. A small table beside it held an oil lamp burning steadily, and above the headboard hung a carved wooden sun, clearly meant as a holy symbol of some kind.
+
+What caught Ignacious's attention wasn't the bed at all, though. Scattered across the table and along a shelf nearby sat dozens of small whittled figures, along with the knives and carving tools used to make them. The progression was obvious even at a glance. The earliest pieces were crude, blocky things, barely recognizable as anything at all, clearly the work of someone just learning the craft. Further along the shelf, the figures grew steadily more refined.
+Among them was a woman rendered in wood, and unlike everything surrounding it, this one was flawless. The wood had been worked so finely that it no longer looked carved at all. Her lips held a softness that shouldn't have been possible from a blade and a block of timber. Her hair fell in strands so fine they seemed to catch light the way real hair might. Even the folds of her dress carried a smoothness usually reserved for polished marble, not whittled wood.
+![[finishedanastasia.png]]
+Among them was a woman rendered in wood, and unlike everything surrounding it, this one was flawless. The wood had been worked so finely that it no longer looked carved at all. Her lips held a softness that shouldn't have been possible from a blade and a block of timber. Her hair fell in strands so fine they seemed to catch light the way real hair might. Even the folds of her dress carried a smoothness usually reserved for polished marble, not whittled wood.
+
+Meanwhile, Retnuh made his way toward the far end of the church, where the main chapel opened up in a state of disarray. Pews lay broken and overturned across a dusty floor, and dozens of candles, set into candlesticks and candelabras crowded into every corner, burned steadily against a darkness, determined not to let any darkness in.  At the end of the room stood a claw scarred altar, and kneeling in front of it, dressed in vestments gone soiled and threadbare, was a priest.
 ![[Pasted image 20260927130303.png]]
-[[Doru]]
+Even approaching him from behind it was clear that he had worn through the knees of his vestments. 
+
+"Morninglord Morninglord shine your light upon your son and see us through this darkness. Let your light guide us. Morninglord Morninglord.." He droned. His hands clasped in murmurous prayer, unclasping only to tug on the long rope that lay slack beside him and ran up into the tower above. The bell above tolls in turn. 
+
+When the party approaches his murmuring stops and he address them, as they get closer they see his arms covered in pocked circular cuts.
+
+"Forgive me," he said, voice rough and hoarse. "I don't often get guests through those doors anymore. My name is [[Father Donavich]]. I keep this church, for whatever that's worth these days."
+
+Before Retnuh could get a word out, a voice rose up from somewhere beneath the floor, muffled by the timber but unmistakably desperate.
+
+"Father! I'm starving!"
+
+Donavich responded with prayer, his hands clasping high together in prayer. His sleeves fall to his elbow to give a closer look at the marks on his forearms, teeth marks.
+
+Ignacious asked him if he's keeping someone down there, he responded with "That's my son. Doru. He's... unwell. He doesn't leave the undercroft anymore, not since..."
+
+"...not since he came back from the castle, ive tried to feed him but hes always hungry for more."
+
+The sound of chains moving quickly across the floor underneath could be hear through the floorboards. Something underneath was watching them through the cracks.
+
+"The morninglord has sent you to me!" Donavich continued "You have to save my boy"
+
+They learn that [[Doru]], Donavich's son was stricken with the curse of vampirism, Ignacious tells of a story he remembers about a vampire that became a monk by dedicating himself to the light of [[Lathander]]. Ignacious tells them that a strict regimen or death is the only cure. 
+
 ![[Pasted image 20260927130402.png]]
 
+The party go down into the cellar to confront Doru.
 
-![[finishedanastasia.png]]
+
 PREVIOUS -> [[Session 2 - A Sad village of few souls]] 

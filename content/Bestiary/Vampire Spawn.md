@@ -8,3 +8,5 @@ The party witnessed a procession of spirits in Barovia village that included wha
 > They cannot cross running water, are repelled by the smell of garlic, and recoil from a presented holy symbol. Sunlight and a stake through the heart will destroy them. They must be invited into a residence before they can enter.
 >
 > Strahd keeps a number of spawn in Castle Ravenloft. They are all that remains of adventuring parties who came to Barovia before the current group.
+>
+> [[Doru]], the son of [[Father Donavich]], is a vampire spawn, kept in the undercroft of the church in Barovia village.
