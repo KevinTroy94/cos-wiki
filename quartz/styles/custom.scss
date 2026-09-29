@@ -47,6 +47,79 @@
   }
 }
 
+// ── Character sheet ─────────────────────────────────────────────────────────
+// `> [!sheet]- Character Sheet` callouts on Characters/ pages. Expected order
+// inside: header line, ability table, combat table, saving throws list,
+// skills list, then attacks / features / etc.
+.callout[data-callout="sheet"] {
+  --color: var(--secondary);
+  --border: var(--lightgray);
+  --bg: var(--highlight);
+  --callout-icon: var(--callout-icon-abstract);
+
+  .callout-content {
+    font-size: 0.92rem;
+
+    table {
+      width: 100%;
+      margin: 0.5rem 0 1rem;
+    }
+    th {
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--darkgray);
+    }
+
+    // Ability scores: big score, modifier underneath
+    & > .table-container:nth-of-type(1) {
+      td {
+        padding: 0.1rem 0.4rem;
+        border: none;
+      }
+      tr:first-child td {
+        font-size: 1.5rem;
+        font-weight: $boldWeight;
+        font-family: var(--headerFont);
+        color: var(--dark);
+      }
+      tr:last-child td {
+        font-size: 0.85rem;
+        color: var(--secondary);
+        font-weight: $semiBoldWeight;
+      }
+    }
+
+    // Combat stats row
+    & > .table-container:nth-of-type(2) td {
+      font-weight: $semiBoldWeight;
+      color: var(--dark);
+    }
+
+    // Saving throws and skills: compact multi-column lists
+    & > ul:nth-of-type(1),
+    & > ul:nth-of-type(2) {
+      columns: 3;
+      column-gap: 1.5rem;
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0.25rem;
+
+      li {
+        margin: 0.1rem 0;
+        break-inside: avoid;
+      }
+    }
+
+    @media all and ($mobile) {
+      & > ul:nth-of-type(1),
+      & > ul:nth-of-type(2) {
+        columns: 2;
+      }
+    }
+  }
+}
+
 // Below desktop width the right sidebar becomes a row under the page; give
 // the infobox a full-width row of its own instead of a squashed column.
 @media all and not ($desktop) {
