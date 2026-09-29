@@ -298,6 +298,121 @@
   }
 }
 
+// ── Monster stat block ──────────────────────────────────────────────────────
+// `> [!statblock]` callouts on Bestiary/ pages, styled like a Monster Manual
+// block: parchment in both themes, red rules, small-caps name. Expected
+// order: **Name**, *size type, alignment*, ---, AC/HP/Speed, ---, ability
+// table, ---, saves/senses/etc, ---, traits, **Actions**, actions.
+// Each line is its own paragraph (separate with a blank `>` line).
+.callout[data-callout="statblock"] {
+  --sb-red: #7a200d;
+  --sb-ink: #1f1a17;
+  --sb-parchment: #fdf1dc;
+  --color: var(--sb-red);
+  --border: #e0c9a6;
+  --bg: var(--sb-parchment);
+  max-width: 34rem;
+  padding: 0.25rem 1rem 0.75rem;
+  border: 1px solid #d9b98c;
+  border-top: 4px solid #e69a28;
+  border-bottom: 4px solid #e69a28;
+  border-radius: 2px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.35);
+  color: var(--sb-ink);
+  font-family: "Scaly Sans", "Trebuchet MS", var(--bodyFont), sans-serif;
+
+  // No title bar: the monster's name is the heading
+  & > .callout-title {
+    display: none;
+  }
+
+  .callout-content {
+    font-size: 0.9rem;
+    line-height: 1.35;
+
+    p {
+      margin: 0.15rem 0;
+      color: var(--sb-ink);
+    }
+    strong {
+      color: var(--sb-red);
+    }
+    em {
+      color: var(--sb-ink);
+    }
+    a {
+      color: var(--sb-red);
+    }
+
+    // Name
+    & > p:first-child {
+      margin-top: 0.6rem;
+      strong {
+        font-family: "Mrs Eaves", Georgia, "Times New Roman", serif;
+        font-variant: small-caps;
+        font-size: 1.7rem;
+        font-weight: $boldWeight;
+        letter-spacing: 0.02em;
+        line-height: 1.1;
+      }
+    }
+    // Size / type / alignment
+    & > p:nth-child(2) {
+      margin-bottom: 0.3rem;
+      font-style: italic;
+    }
+
+    // Tapered red rule
+    hr {
+      height: 5px;
+      margin: 0.5rem 0;
+      border: none;
+      background: var(--sb-red);
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+    }
+
+    // Ability scores
+    table {
+      width: 100%;
+      margin: 0.2rem 0;
+      table-layout: fixed;
+    }
+    th,
+    td {
+      padding: 0.05rem 0;
+      border: none;
+      text-align: center;
+      color: var(--sb-ink);
+      background: transparent;
+    }
+    th {
+      color: var(--sb-red);
+      font-weight: $boldWeight;
+    }
+    tr {
+      border: none;
+    }
+
+    // `#### Actions` / Reactions / Legendary Actions section headings
+    h4 {
+      margin: 0.9rem 0 0.35rem;
+      padding-bottom: 0.1rem;
+      border-bottom: 1px solid var(--sb-red);
+      font-family: "Mrs Eaves", Georgia, "Times New Roman", serif;
+      font-variant: small-caps;
+      font-size: 1.3rem;
+      font-weight: $normalWeight;
+      color: var(--sb-red);
+    }
+
+    // Trait / action names (***Name.***) stay dark, bold italic
+    strong > em,
+    em > strong {
+      color: var(--sb-ink);
+    }
+  }
+}
+
 // ── Mobile header / explorer ────────────────────────────────────────────────
 // The long site title wraps to 3-4 lines on phones, which pushes the
 // vertically-centred menu button down onto the first explorer entry.
