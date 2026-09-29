@@ -298,6 +298,18 @@
   }
 }
 
+// ── Mobile header / explorer ────────────────────────────────────────────────
+// The long site title wraps to 3-4 lines on phones, which pushes the
+// vertically-centred menu button down onto the first explorer entry.
+@media all and ($mobile) {
+  .page .page-title {
+    font-size: 1.4rem;
+  }
+  .explorer .explorer-content {
+    padding-top: 6rem;
+  }
+}
+
 // Brighter crimson so the accent reads on the dark background
 :root[saved-theme="dark"] .callout[data-callout="sheet"] {
   --sheet-accent: #c8475a;
