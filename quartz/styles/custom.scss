@@ -49,65 +49,156 @@
 
 // ── Character sheet ─────────────────────────────────────────────────────────
 // `> [!sheet]- Character Sheet` callouts on Characters/ pages. Expected order
-// inside: header line, ability table, combat table, saving throws list,
-// skills list, then attacks / features / etc.
+// inside: class line, ability table, combat table, **Saving Throws** + list,
+// **Skills** + list, then attacks / features / proficiencies / personality
+// (last list) / appearance. Proficient saves and skills are written in bold.
 .callout[data-callout="sheet"] {
-  --color: var(--secondary);
+  --sheet-accent: #9b2335;
+  --sheet-card: var(--light);
+  --color: var(--sheet-accent);
   --border: var(--lightgray);
   --bg: var(--highlight);
   --callout-icon: var(--callout-icon-abstract);
+  border-left: 4px solid var(--sheet-accent);
 
   .callout-content {
     font-size: 0.92rem;
+
+    // Class / species / background line as a banner
+    & > p:first-child {
+      margin: 0.25rem 0 1rem;
+      padding: 0.5rem 0.8rem;
+      border-radius: 4px;
+      background: var(--sheet-accent);
+      color: #fff;
+      letter-spacing: 0.02em;
+
+      strong {
+        color: #fff;
+        font-size: 1.05rem;
+      }
+    }
+
+    // Section labels (paragraphs that are just a bold word or two)
+    & > p:not(:first-child):has(> strong:only-child) > strong:only-child {
+      display: block;
+      margin-top: 1.25rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 2px solid var(--sheet-accent);
+      font-family: var(--headerFont);
+      font-variant: small-caps;
+      letter-spacing: 0.06em;
+      font-size: 1.05rem;
+      color: var(--dark);
+    }
 
     table {
       width: 100%;
       margin: 0.5rem 0 1rem;
     }
     th {
-      font-size: 0.72rem;
+      font-size: 0.7rem;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--darkgray);
     }
 
-    // Ability scores: big score, modifier underneath
-    & > .table-container:nth-of-type(1) {
+    // Ability scores and combat stats: one card per column
+    & > .table-container:nth-of-type(1) table,
+    & > .table-container:nth-of-type(2) table {
+      border-collapse: separate;
+      border-spacing: 0.4rem 0;
+      table-layout: fixed;
+
+      th,
       td {
-        padding: 0.1rem 0.4rem;
-        border: none;
+        background: var(--sheet-card);
+        border-left: 1px solid var(--lightgray);
+        border-right: 1px solid var(--lightgray);
+        border-bottom: none;
+        text-align: center;
       }
-      tr:first-child td {
-        font-size: 1.5rem;
+      th {
+        border-top: 3px solid var(--sheet-accent);
+        border-radius: 6px 6px 0 0;
+        padding: 0.4rem 0.2rem 0.1rem;
+      }
+      tr:last-child td {
+        border-bottom: 1px solid var(--lightgray);
+        border-radius: 0 0 6px 6px;
+      }
+    }
+
+    // Ability scores: big score, modifier underneath in accent
+    & > .table-container:nth-of-type(1) {
+      tbody tr:first-child td {
+        padding: 0.2rem 0 0;
+        font-size: 1.8rem;
         font-weight: $boldWeight;
         font-family: var(--headerFont);
         color: var(--dark);
       }
-      tr:last-child td {
-        font-size: 0.85rem;
-        color: var(--secondary);
-        font-weight: $semiBoldWeight;
+      tbody tr:last-child td {
+        padding: 0 0 0.5rem;
+        font-weight: $boldWeight;
+        color: var(--sheet-accent);
       }
     }
 
-    // Combat stats row
+    // Combat stats
     & > .table-container:nth-of-type(2) td {
-      font-weight: $semiBoldWeight;
+      padding: 0.35rem 0.2rem 0.5rem;
+      font-size: 1.05rem;
+      font-weight: $boldWeight;
       color: var(--dark);
     }
 
-    // Saving throws and skills: compact multi-column lists
+    // Saving throws and skills: compact multi-column lists, proficient in accent
     & > ul:nth-of-type(1),
     & > ul:nth-of-type(2) {
       columns: 3;
       column-gap: 1.5rem;
       list-style: none;
       padding-left: 0;
-      margin-top: 0.25rem;
+      margin-top: 0.4rem;
+      color: var(--gray);
 
       li {
-        margin: 0.1rem 0;
+        margin: 0.15rem 0;
         break-inside: avoid;
+      }
+      strong {
+        color: var(--sheet-accent);
+      }
+    }
+
+    // Attacks: attack bonus in accent
+    & > .table-container:nth-of-type(3) td:nth-child(2) {
+      font-weight: $boldWeight;
+      color: var(--sheet-accent);
+    }
+
+    // Personality: 2x2 grid of cards
+    & > ul:last-of-type {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.6rem;
+      list-style: none;
+      padding-left: 0;
+
+      li {
+        margin: 0;
+        padding: 0.6rem 0.8rem;
+        border-radius: 6px;
+        border: 1px solid var(--lightgray);
+        border-top: 3px solid var(--sheet-accent);
+        background: var(--sheet-card);
+      }
+      strong {
+        display: block;
+        font-variant: small-caps;
+        letter-spacing: 0.05em;
+        color: var(--sheet-accent);
       }
     }
 
@@ -116,8 +207,19 @@
       & > ul:nth-of-type(2) {
         columns: 2;
       }
+      & > ul:last-of-type {
+        grid-template-columns: 1fr;
+      }
+      & > .table-container:nth-of-type(1) tbody tr:first-child td {
+        font-size: 1.3rem;
+      }
     }
   }
+}
+
+// Brighter crimson so the accent reads on the dark background
+:root[saved-theme="dark"] .callout[data-callout="sheet"] {
+  --sheet-accent: #c8475a;
 }
 
 // Below desktop width the right sidebar becomes a row under the page; give
