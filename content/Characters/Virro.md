@@ -1,12 +1,93 @@
 ---
 Status: "Alive"
 Species: "Harengon"
-Class: "Fighter"
+Class: "Fighter 3 (Champion)"
 Portrait: "[[Pasted image 20260928004458.png]]"
+Affiliation: "[[Horsemen]]"
 ---
 Harengon Fighter
 
 ![[Pasted image 20260928004458.png]]
+
+> [!sheet]- Character Sheet
+> **Fighter 3 (Champion)** · Harengon · Soldier · Chaotic Neutral
+>
+> | STR | DEX | CON | INT | WIS | CHA |
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> | 16 | 16 | 16 | 12 | 13 | 12 |
+> | +3 | +3 | +3 | +1 | +1 | +1 |
+>
+> | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perception |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> | 16 (18 with shield) | +5 | 30 ft | 33 | 3d10 | +2 | 13 |
+>
+> **Saving Throws**
+> - ● Strength +5
+> - ○ Dexterity +3
+> - ● Constitution +5
+> - ○ Intelligence +1
+> - ○ Wisdom +1
+> - ○ Charisma +1
+>
+> **Skills**
+> - ● Acrobatics +5
+> - ○ Animal Handling +1
+> - ○ Arcana +1
+> - ● Athletics +5
+> - ○ Deception +1
+> - ○ History +1
+> - ○ Insight +1
+> - ● Intimidation +3
+> - ○ Investigation +1
+> - ○ Medicine +1
+> - ○ Nature +1
+> - ● Perception +3
+> - ○ Performance +1
+> - ○ Persuasion +1
+> - ○ Religion +1
+> - ○ Sleight of Hand +3
+> - ○ Stealth +3
+> - ● Survival +3
+>
+> **Attacks**
+>
+> | Weapon | Attack | Damage |
+> |---|:---:|---|
+> | Sabre | +5 | 1d8 slashing |
+> | Longbow | +5 | 1d8 piercing |
+> | Spear | +4 | 1d6 piercing (1d8 two-handed) |
+>
+> **Features & Traits**
+> - **Hare-Trigger:** add proficiency bonus to initiative rolls.
+> - **Leporine Senses:** proficiency in Perception.
+> - **Lucky Footwork:** when you fail a Dexterity saving throw, use your reaction to roll a d4 and add it to the save. Not usable while prone or at speed 0.
+> - **Rabbit Hop:** as a bonus action, jump a number of feet equal to five times your proficiency bonus without provoking opportunity attacks. Uses equal to proficiency bonus per long rest.
+> - Savage Attacker
+> - Fighting Style (Defense)
+> - Second Wind
+> - Weapon Mastery (Sabre, Longbow, Shortsword)
+> - Action Surge
+> - Tactical Mind
+> - Improved Critical
+> - Remarkable Athlete
+>
+> **Proficiencies & Languages**
+> - Armour: all armour, shields
+> - Weapons: simple and martial weapons
+> - Tools: dice set
+> - Languages: Common, Sylvan, Elvish
+>
+> **Equipment**
+> Sabre (2), longbow, spear, studded leather armour, shield, quiver, arrows (19), healer's kit (8), backpack, tinderbox, bedroll, caltrops, rope, crowbar, hooded lantern, manacles, oil (2), torches (10), rations (10), iron spikes (9), dice set, grappling hook, bounty poster, vial of stinky black oil.
+>
+> **Personality**
+> - **Traits:** I don't stress easy and just about always optimistic.
+> - **Ideals:** It is a gift to make my own choices and live free.
+> - **Bonds:** I will never return to the life I lived in the Feywild.
+> - **Flaws:** I've been called unrefined, unsophisticated and uncouth. Proud of it, I say.
+>
+> **Appearance:** Age 25 · 5'10" · 120 lb · Brown eyes · Russet brown hair
+
 ## Background
 
 Though his memories are blurred, Virro was born in the Feywild, his clan bound to the service of a minor fey lord as warriors. He took to combat naturally from a young age and developed a strong fondness for it. But the harsh discipline of his teachers and the strict, frugal life under his lord's command bred a deep resentment in him over the years.

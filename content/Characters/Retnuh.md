@@ -2,6 +2,7 @@
 Status: "Alive"
 Species: "Half-Orc"
 Class: "Barbarian"
+Affiliation: "[[Horsemen]]"
 ---
 Goliath Barbarian
 

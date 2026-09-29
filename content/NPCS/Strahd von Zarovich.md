@@ -3,6 +3,7 @@ Status: "Undead"
 Location: "Castle Ravenloft"
 First met: "[[Session 3 - Spawn]]"
 Portrait: "[[Pasted image 20260924100414.png]]"
+Affiliation: "[[Factions/Castle Ravenloft|Castle Ravenloft]]"
 ---
 The lord of Barovia. His profile is stamped on most of the coins in the valley, and it was the Senostrov brothers at [[The Gallows Oak]] who first named him to the party. They spoke of him without fear or complaint.
 

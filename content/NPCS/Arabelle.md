@@ -1,6 +1,6 @@
 ---
 Status: "Missing"
-Affiliation: "[[Vistani]]"
+Affiliation: "[[Tser Pool Vistani]]"
 Location: "Unknown"
 First met: "Not yet met"
 ---

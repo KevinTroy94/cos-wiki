@@ -1,6 +1,6 @@
 ---
 Status: "Alive"
-Affiliation: "[[Vistani]]"
+Affiliation: "[[Tser Pool Vistani]]"
 Location: "[[River Ivlis]]"
 First met: "[[Session 1 - into the mists]]"
 ---

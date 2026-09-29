@@ -3,6 +3,7 @@ Status: "Alive"
 Species: "Mountain Dwarf"
 Class: "Paladin"
 Portrait: "[[Pasted image 20260928004516.png]]"
+Affiliation: "[[Horsemen]]"
 ---
 Mountain Dwarf Paladin
 

@@ -1,6 +1,6 @@
 ---
 Status: "Unknown"
-Affiliation: "[[Vistani]]"
+Affiliation: "[[Tser Pool Vistani]]"
 Location: "Believed to be travelling to Vallaki"
 First met: "Not yet met"
 ---
