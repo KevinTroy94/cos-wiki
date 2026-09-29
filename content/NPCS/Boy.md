@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Affiliation: "Unaffiliated"
+Location: "[[Bildrath's Mercantile]]"
+First met: "Not yet met"
+---
 [[Bildrath Cantomere]]'s boy. A large, heavyset lad who helped [[Krogarov]] repair his wagon and re-shoe his horse, and assisted him out with three large sacks.
 
 > [!dmspoiler]

@@ -8,7 +8,7 @@ The outcome of the final showdown between Strahd and the characters determines h
 # STRAHD PREVAILS
 Once he is done toying with the characters, Strahd sets out to defeat them utterly, having concluded that none of them is worthy to replace him as the lord of Barovia. He won't be satisfied until all the characters are dead or turned into his vampire spawn consorts.
 
-If Strahd prevails, he seals the characters in the catacombs ([[Castle Ravenloft#CRYPT 23]]) and instructs his servants to hide all their magic items.
+If Strahd prevails, he seals the characters in the catacombs ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 23]]) and instructs his servants to hide all their magic items.
 
 With the characters out of the way, Strahd shifts his attention back to making Ireena Kolyana his bride. If she is still alive and within his grasp, Ireena is turned into a vampire spawn and sealed in her crypt beneath Castle Ravenloft.
 
@@ -29,7 +29,7 @@ Rahadin has served Strahd's family for hundreds of years and doesn't take his ma
 ## SERGEI AND IREENA
 This optional scene can be used after Strahd has been defeated. It assumes that Ireena Kolyana survived the adventure and hasn't yet been reunited with Sergei.
 
-On the morning after Strahd's demise, the characters feel drawn to Castle Ravenloft's overlook (area [[Castle Ravenloft#K6. OVERLOOK]]), and there they witness the following scene.
+On the morning after Strahd's demise, the characters feel drawn to Castle Ravenloft's overlook (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K6. OVERLOOK]]), and there they witness the following scene.
 
 ==Thick clouds fill the sky. Through the chilly morning mists, the land of Barovia is visible far below. There is peacefulness here. Rest has come to the valley for the first time anyone can remember.==
 

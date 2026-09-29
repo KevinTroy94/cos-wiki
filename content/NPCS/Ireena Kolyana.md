@@ -3,6 +3,7 @@ Status: "Alive"
 Location: "Barovia village"
 First met: "[[Session 2 - A Sad village of few souls]]"
 Portrait: "[[Pasted image 20260923133614.png]]"
+Affiliation: "Unaffiliated"
 ---
 ![[Pasted image 20260923133614.png]]
 

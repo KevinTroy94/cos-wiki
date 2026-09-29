@@ -605,7 +605,7 @@ The spiral staircase climbs 30 feet to area [[#X30. PRESERVED LIBRARY]]. See are
 Inside the wooden crates, buried in earth, are six **vampire spawn** created by Strahd from a dead party of adventurers. As soon as they hear intruders in the room, the vampire spawn burst out of their crates and attack, fighting until destroyed.
 
 TELEPORT DESTINATION
-Characters who teleport to this location from [[Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked T on the map.
+Characters who teleport to this location from [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked T on the map.
 
 AMBER SARCOPHAGI
 Characters who touch the amber sarcophagi are offered dark gifts by the evil vestiges contained within them (see the "[[Amber Sarcophagi.png]]" sidebar earlier in this chapter). Kasimir will know when he touches the east sarcophagus in this area that he has found the dark gift he seeks.
@@ -639,7 +639,7 @@ DEVELOPMENT
 Rahadin knows that Strahd will deal with the characters when he sees fit. If the characters confront the dusk elf, he defends himself but won't cause them any permanent harm. Strahd's chamberlain would sooner die than allow himself to be captured. Rahadin doesn't divulge his reason for visiting the temple, or even who is he or what role he serves. Left to his own devices, he rides back to Castle Ravenloft.
 
 ## KASIMIR's DARK GIFT
-If [[Kasimir Velikov]] (see [[The Town of Vallaki#N9A. KASIMIR'S HOVEL]]) finds his way to area [[#X42. AMBER VAULT]] and accepts the dark gift of Zhudun, he then asks the characters to accompany him to the catacombs of Castle Ravenloft so that he can restore the life of his centuries-dead sister, Patrina Velikovna (see [[Castle Ravenloft#CRYPT 21]]).
+If [[Kasimir Velikov]] (see [[The Town of Vallaki#N9A. KASIMIR'S HOVEL]]) finds his way to area [[#X42. AMBER VAULT]] and accepts the dark gift of Zhudun, he then asks the characters to accompany him to the catacombs of Castle Ravenloft so that he can restore the life of his centuries-dead sister, Patrina Velikovna (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 21]]).
 
 DEVELOPMENT
 If Kasimir succeeds in his quest, the newly resurrected Patrina (NE female dusk elf **archmage**) feigns repentance until she regains her strength and her spells, whereupon she travels to Castle Ravenloft and attempts to return to Strahd, seeking to become his vampire bride at last. The mutilation of her brother at the hands of Rahadin, Strahd's chamberlain, doesn't sit well with her. She hopes to avenge her brother and distract the characters by setting them on a path. to killing Rahadin, who has long opposed her Marriage to Strahd.

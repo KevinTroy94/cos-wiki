@@ -1,7 +1,8 @@
 ---
-Status: "Dead"
+Status: "Deceased"
 Location: "[[OLD SVALICH ROAD]]"
 First met: "[[Session 1 - into the mists]]"
+Affiliation: "Unaffiliated"
 ---
 An old man travelling north of Neverwinter in a covered wagon drawn by two dappled grey-black Basuto ponies, [[Keneticut]] and [[Stanford]]. He had picked up five travellers looking to head north and was four days into the journey when the fog rolled in and swallowed the road.
 

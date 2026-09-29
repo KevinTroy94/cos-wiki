@@ -305,7 +305,7 @@ Two members of the baron's household staff have vanished in the past week: the b
 **The Baroness.** At the risk of sacrificing her sanity, the baron's wife, Lydia Petrovna (LG female human **commoner**), has embraced her husband's philosophy of happiness. She laughs at the baron's every comment, to the extent that it has become a nervous reflex, and she tries to spread
 good cheer by throwing daily tea-and-sandwich parties in the parlor for her "dearest friends," many of them poor folk who tolerate the baroness only because they crave something warm to eat and drink. Lydia is a gods-fearing woman and the younger sister of the-town priest, Father
 Lucian Petrovich. She is a descendant of Tasha Petrovna, a priest entombed in Castle Ravenloft
-([[Castle Ravenloft#CRYPT 11]]).
+([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 11]]).
 
 **The Baronet.** The baron's miserable son, Victor Vallakovich (NE male human **mage**), has confined himself to the attic (area N3t), where he is content to avoid the unwanted attention of his mother and the disapproving glares of his father. Years ago, Victor found an old spellbook in the  mansion's library and used it to teach himself magic. He has been busy constructing a *teleportation circle* in the hope of escaping Barovia and leaving his parents to their doom.
 
@@ -410,7 +410,7 @@ The baron's desk contains three drawers stuffed with blank sheets of parchment, 
 
 The baron wears a signet ring and carries three keys: one that unlocks the outside door in area [[#N3G. KITCHEN]], and two keys for the door and the manacles in area [[#N3M. LOCKED CLOSET]].
 
-Treasure. The Vallakovich book collection contains old, leather-bound tomes on virtually every subject. Use the [[Castle Ravenloft Study Random Table.png]] (see [[Castle Ravenloft#K37. STUDY]]) to determine the subject matter of a particular book.
+Treasure. The Vallakovich book collection contains old, leather-bound tomes on virtually every subject. Use the [[Castle Ravenloft Study Random Table.png]] (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K37. STUDY]]) to determine the subject matter of a particular book.
 
 ### N3M. LOCKED CLOSET
 The door to this room is locked: The baron carries the key.

@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Species: "Harengon"
+Class: "Fighter"
+Portrait: "[[Pasted image 20260928004458.png]]"
+---
 Harengon Fighter
 
 ![[Pasted image 20260928004458.png]]

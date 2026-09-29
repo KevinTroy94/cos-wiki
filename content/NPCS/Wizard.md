@@ -1,3 +1,9 @@
+---
+Status: "Believed deceased"
+Affiliation: "Unaffiliated"
+Location: "Unknown"
+First met: "Not yet met"
+---
 A powerful wizard who came to Barovia over a year ago. According to [[Laszlo, The Storyteller]], he was a charismatic man who believed he could rally the people of Barovia against [[Strahd von Zarovich]]. He stirred them with thoughts of revolt and led them to Castle Ravenloft en masse. When Strahd appeared, most of army fled in terror. A few stood their ground and were never seen again.
 
 The wizard and Strahd duelled across the castle courtyards and out to a precipice overlooking the falls. Thunder shook the mountainside, rocks tumbled down upon him, lightning struck him, and still he stood. But when Strahd fell upon him directly, his magic couldn't save him. Laszlo watched him thrown a thousand feet to his death. He climbed down to the river to search the body, but the River Ivlis had already taken him.

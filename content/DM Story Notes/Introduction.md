@@ -90,7 +90,7 @@ Avg. Level Area Chapter
 7th [[Werewolf Den]]
 8th [[Tsolenka Pass]]
 8th [[The Ruins of Berez]]
-9th [[Castle Ravenloft]]
+9th [[Curse of Strahd/Undiscovered Places/Castle Ravenloft]]
 9th [[The Amber Temple]]
 
 # MARKS OF HORROR

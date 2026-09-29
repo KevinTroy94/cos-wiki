@@ -1,3 +1,9 @@
+---
+Status: "Undead"
+Location: "Castle Ravenloft"
+First met: "[[Session 3 - Spawn]]"
+Portrait: "[[Pasted image 20260924100414.png]]"
+---
 The lord of Barovia. His profile is stamped on most of the coins in the valley, and it was the Senostrov brothers at [[The Gallows Oak]] who first named him to the party. They spoke of him without fear or complaint.
 
 Others speak of him very differently. In [[Laszlo, The Storyteller]]'s telling he is "the devil Strahd" and a vampire. Over a year ago a [[Wizard]] rallied the peasants of Barovia and marched them on Castle Ravenloft. When Strahd appeared, the peasant army fled in terror, and the few who stood their ground were never seen again. Laszlo watched the two duel from the castle courtyards to a precipice above the falls, where Strahd threw the wizard a thousand feet to his death.
@@ -46,7 +52,7 @@ When Retnuh rode back into the village and told the others where the horse had c
 > ### HEART OF SORROW
 > Strahd can afford to be bold in his tactics, for he has additional protection in the form of a giant crystal heart hidden inside Castle Ravenloft.
 >
-> Any damage that Strahd takes is transferred to the Heart of Sorrow (see [[Castle Ravenloft#K20. HEART OF SORROW]]). If the heart absorbs damage that reduces it to 0 hit points, it is destroyed, and Strahd takes any leftover damage. The Heart of Sorrow has 50 hit points and is restored to that number of hit points each dawn, provided it has at least 1 hit point remaining. Strahd can, as a bonus action on his turn, break his link to the Heart of Sorrow so that it no longer absorbs damage dealt to him. Strahd can reestablish his link to the Heart of Sorrow as a bonus action on his turn, but only while in Castle Ravenloft.
+> Any damage that Strahd takes is transferred to the Heart of Sorrow (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K20. HEART OF SORROW]]). If the heart absorbs damage that reduces it to 0 hit points, it is destroyed, and Strahd takes any leftover damage. The Heart of Sorrow has 50 hit points and is restored to that number of hit points each dawn, provided it has at least 1 hit point remaining. Strahd can, as a bonus action on his turn, break his link to the Heart of Sorrow so that it no longer absorbs damage dealt to him. Strahd can reestablish his link to the Heart of Sorrow as a bonus action on his turn, but only while in Castle Ravenloft.
 >
 > The effect of the protection afforded by the Heart of Sorrow can be chilling to behold, as damage to Strahd is quickly undone. For example, a critical hit might dislocate Strahd's jaw, but only for a moment; then the vampire's jaw quickly resets itself.
 >

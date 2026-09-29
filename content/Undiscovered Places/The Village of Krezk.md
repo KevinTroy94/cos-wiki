@@ -138,7 +138,7 @@ in the following statement: "I don't like the way people judge me all the time."
 Carved into each gravestone is the name of a long-dead priest or nun. Some of the names include Brother Martek, Brother Valen, Sister Constance, and Sister Lenora.
 
 ### SUN'S GRAVE
-The gravestone marked X is carved with roses and bears a 3-inch-diameter sun-shaped indentation on its east side. Engraved beneath the indentation is the name PETROVNA. If Tasha Petrovna's holy symbol (see [[Castle Ravenloft#CRYPT 11]]) is placed in the indentation, both the holy symbol and the indentation vanish. Then read:
+The gravestone marked X is carved with roses and bears a 3-inch-diameter sun-shaped indentation on its east side. Engraved beneath the indentation is the name PETROVNA. If Tasha Petrovna's holy symbol (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 11]]) is placed in the indentation, both the holy symbol and the indentation vanish. Then read:
 
 ==A ray of golden sunlight breaks through the clouds to the west and shines upon the grave. The fog and the gloom shrink from its brilliance as the sunlight causes the gravestone to crack and crumble, revealing a ring within.==
 
@@ -358,7 +358,7 @@ in the following statement: "Being drunk keeps me sane." He is drunk most of the
 The larger head does all the talking. The smaller head has a forked snake's tongue and can't do anything except hiss and make other horrible sounds.
 
 TELEPORT DESTINATION
-Characters who teleport to this location from area [[Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked T on the map.
+Characters who teleport to this location from area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked T on the map.
 
 THING ON THE TABLE
 If the characters lift the black shroud covering the larger table, read:

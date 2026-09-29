@@ -36,7 +36,7 @@ The tower door is made of ironbound wood and barred from within. A character can
 The stairs climb 20 feet to area [[#T5. GUARD TOWER, UPPER FLOOR]].
 
 TELEPORT DESTINATION
-Characters who teleport to this location from area [[Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked X on the map.
+Characters who teleport to this location from area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K78. BRAZIER ROOM]] arrive at the point marked X on the map.
 
 ## T5. GUARD TOWER, UPPER FLOOR
 ==The upper level of the tower is an icebox with windows set in almost every wall. A rusted iron ladder bolted to the floor and ceiling leads up to a wooden trapdoor. Mounted above the stone hearth is a dire wolf's head. The wind coming down the chimney howls in its stead.==

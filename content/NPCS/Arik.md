@@ -1,3 +1,10 @@
+---
+Status: "Alive"
+Affiliation: "Unaffiliated"
+Location: "[[The Blood of the Vine]]"
+First met: "[[Session 2 - A Sad village of few souls]]"
+Portrait: "[[Pasted image 20260909170523.png]]"
+---
 ![[Pasted image 20260909170523.png]]
 
 Barman at the [[The Blood of the Vine]] tavern in Barovia village. Pudgy, tired-looking, and barely glances up when someone walks in. When [[Virro]] and [[Retnuh]] tried to press him for information about [[Arabelle]] and the town, he gave nothing back, just grunted and asked if they wanted a drink. No amount of prodding got more out of him.

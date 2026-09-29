@@ -1,3 +1,10 @@
+---
+Status: "Alive"
+Affiliation: "Unaffiliated"
+Location: "[[Bildrath's Mercantile]]"
+First met: "[[Session 2 - A Sad village of few souls]]"
+Portrait: "[[Pasted image 20260924105021.png]]"
+---
 ![[Pasted image 20260924105021.png]]
 Proprietor of [[Bildrath's Mercantile]] in Barovia village. Standoffish and unhelpful by default, directing [[Ignacious Teegan]] to a list of goods he could buy rather than answering any questions.
 

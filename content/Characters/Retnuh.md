@@ -1,3 +1,8 @@
+---
+Status: "Alive"
+Species: "Half-Orc"
+Class: "Barbarian"
+---
 Goliath Barbarian
 
 ## Background

@@ -195,7 +195,7 @@ Characters who can read the Draconic script can decipher the writing on the wall
 *founder of the Order of the Silver Dragon.*
 
 DEVELOPMENT
-If the skull of Argynvost is brought from Castle Ravenloft (see [[Castle Ravenloft]], area K67) and sealed inside the mausoleum, the dragon's spirit transforms into a brilliant light at the top of the tower (see area [[#Q53. BEACON OF ARGYNVOSTHOLT]]).
+If the skull of Argynvost is brought from Castle Ravenloft (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft]], area K67) and sealed inside the mausoleum, the dragon's spirit transforms into a brilliant light at the top of the tower (see area [[#Q53. BEACON OF ARGYNVOSTHOLT]]).
 
 ## Q17. WEST STAIRCASES
 ==Narrow windows illuminate this dusty, five-foot-wide spiral staircase.==
@@ -354,7 +354,7 @@ One of the revenants, Sir Godfrey Gwilym, is a spellcaster with a challenge rati
 3rd level (3 slots): *blinding smite, dispel magic, remove curse*
 4th level (2 slots): *aura of purity, staggering smite*
 
-Characters who inspect the fireplace notice a shield-shaped patch on the wall above the mantelpiece. A magic shield once hung there, but it was taken when Strahd's soldiers plundered the mansion. It now rests in Castle Ravenloft's treasury ([[Castle Ravenloft#K41. TREASURY]]).
+Characters who inspect the fireplace notice a shield-shaped patch on the wall above the mantelpiece. A magic shield once hung there, but it was taken when Strahd's soldiers plundered the mansion. It now rests in Castle Ravenloft's treasury ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K41. TREASURY]]).
 
 DEVELOPMENT
 Sir Godfrey can sense that the spirit of Argynvost isn't at rest and isn't happy that the order has been reduced to such a state. If the characters petition the revenants for aid, Sir Godfrey (speaking in a scratchy voice) relates all the information presented at the start of the chapter concerning Argynvost and the rise and fall of the Order of the Silver Dragon. Neither he nor the other revenants can help the characters in any meaningful way, however, because of the oaths they have sworn to Vladimir Horngaard.

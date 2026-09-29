@@ -1,3 +1,10 @@
+---
+Status: "Alive"
+Affiliation: "Unaffiliated"
+Location: "An old mill outside Barovia village"
+First met: "[[Session 2 - A Sad village of few souls]]"
+Portrait: "[[Pasted image 20260924105802.png]]"
+---
 ![[Pasted image 20260924105802.png]]
 
 An old woman who moves through Barovia village at night, pushing a rickety wooden cart through the fog and knocking on doors to sell soft brown pastries. She speaks of her sisters having moved on, leaving her alone at an old mill outside the village.

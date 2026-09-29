@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Affiliation: "[[Vistani]]"
+Location: "[[River Ivlis]]"
+First met: "[[Session 1 - into the mists]]"
+---
 A wiry Vistana with an easy grin and a saber at his hip, found at the camp near the [[River Ivlis]]. He introduced himself to [[Virro]] as Laszlo, the Storyteller, and when Virro asked if there was anyone worth crossing blades with, Laszlo's grin only widened.
 
 A crowd gathered quickly, money changed hands, and Laszlo played to every parry for a laugh, milking the bout shamelessly for the onlookers. Midway through, his showmanship dropped just long enough for him to scratch a magic circle into the dirt beneath their feet, meant to snare Virro mid-step. It didn't work. Virro broke through his guard and put him on the ground. The party collected 18 gold, with [[Edric Storm]] the only one who had bet on Virro to win.

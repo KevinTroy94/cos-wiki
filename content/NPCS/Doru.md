@@ -1,8 +1,9 @@
 ---
-Status: "Unknown"
+Status: "Deceased"
 Location: "[[Barovia Village Church]]"
 First met: "[[Session 3 - Spawn]]"
 Portrait: "[[Pasted image 20260927130402.png]]"
+Affiliation: "Unaffiliated"
 ---
 ![[Pasted image 20260927130402.png|300]]
 

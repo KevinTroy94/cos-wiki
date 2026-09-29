@@ -3,6 +3,7 @@ Status: "Unknown"
 Location: "[[Barovia Village Church]]"
 First met: "[[Session 3 - Spawn]]"
 Portrait: "[[Pasted image 20260927130303.png]]"
+Affiliation: "Unaffiliated"
 ---
 ![[Pasted image 20260927130303.png|300]]
 

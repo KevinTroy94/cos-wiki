@@ -1,3 +1,7 @@
+---
+Status: "Alive"
+Portrait: "[[Pasted image 20260928004444.png]]"
+---
 ## Background
 
 *To be added.*

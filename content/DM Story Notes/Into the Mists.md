@@ -123,7 +123,7 @@ The treasure is in the possession of Vladimir Horngaard in Argynvostholt ([[Argy
 
 2 OF SWORDS - PALADIN
 ==I see a sleeping prince, a servant of light and the brother of darkness. The treasure lies with him.==
-The treasure lies in Sergei's tomb ([[Castle Ravenloft#K85. SERGEI'S TOMB]]).
+The treasure lies in Sergei's tomb ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K85. SERGEI'S TOMB]]).
 
 3 OF SWORDS - SOLDIER
 ==Go to the mountains. Climb the white tower guarded by golden knights.==
@@ -131,7 +131,7 @@ The treasure lies on the rooftop of the Tsolenka Pass guard tower ([[Tsolenka Pa
 
 4 OF SWORDS - MERCENARY
 ==The thing you seek lies with the dead, under mountains of gold coins.==
-The treasure lies in a crypt in Castle Ravenloft ([[Castle Ravenloft#CRYPT 31]]).
+The treasure lies in a crypt in Castle Ravenloft ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 31]]).
 
 5 OF SWORDS- MYRMIDON
 ==Look for a den of wolves in the hills overlooking a mountain lake. The treasure belongs to Mother Night.==
@@ -139,7 +139,7 @@ The treasure lies in the shrine of Mother Night in the werewolf den [[Werewolf D
 
 6 OF SWORDS - BERSERKER
 ==Find the Mad Dog's crypt. The treasure lies within, beneath blackened bones.==
-The treasure lies in the crypt of General Kroval "Mad Dog" Grislek ([[Castle Ravenloft#CRYPT 38]]).
+The treasure lies in the crypt of General Kroval "Mad Dog" Grislek ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 38]]).
 
 7 OF SWORDS - HOODED ONE
 ==I see a faceless god. He awaits you at the end of a long and winding road, deep in the mountains.==
@@ -147,7 +147,7 @@ The treasure is inside the head of the giant statue in the Amber Temple ([[The A
 
 8 OF SWORDS - DICTATOR
 ==I see a throne fit for a king.==
-The treasure lies in Castle Ravenloft's audience hall ([[Castle Ravenloft#K25. AUDIENCE HALL]]).
+The treasure lies in Castle Ravenloft's audience hall ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K25. AUDIENCE HALL]]).
 
 9 OF SWORDS - TORTURER
 ==There is a town where all is not well. There you will find a house of corruption, and within, a dark room full of still ghosts.==
@@ -155,12 +155,12 @@ The treasure is hidden in the attic of the burgomaster's mansion in Vallaki ([[T
 
 MASTER OF SWORDS - WARRIOR
 ==That which you seek lies in the womb of darkness, the devil's lair: the one place to which he must return.==
-The treasure lies in Strahd's tomb ([[Castle Ravenloft#K86. STRAHD'S TOMB]]) .
+The treasure lies in Strahd's tomb ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K86. STRAHD'S TOMB]]) .
 
 ### STARS (CLUBS)
 1 OF STARS - TRANSMUTER
 ==Go to a place of dizzying heights, where the stone itself is alive!==
-The treasure lies in Castle Ravenloft's north tower peak ([[Castle Ravenloft#K60. NORTH TOWER PEAK]]).
+The treasure lies in Castle Ravenloft's north tower peak ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K60. NORTH TOWER PEAK]]).
 
 2 OF STARS-DIVINER
 ==Look to the one who sees all. The treasure is hidden in her camp.==
@@ -180,7 +180,7 @@ The treasure is inside a model of Castle Ravenloft in the Amber Temple ([[The Am
 
 6 OF STARS -EVOKER
 ==Search for the crypt of a wizard ordinaire. His staff is the key.==
-The treasure is hidden in the crypt of Gralmore Nimblenobs ([[Castle Ravenloft#CRYPT 37]]).
+The treasure is hidden in the crypt of Gralmore Nimblenobs ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 37]]).
 
 7 OF STARS - ILLUSIONIST
 ==A man is not what he seems. He comes here in a carnival wagon. Therein lies what you seek.==
@@ -188,7 +188,7 @@ The treasure lies in Rictavio's carnival wagon ([[The Town of Vallaki#N5. ARASEK
 
 8 OF STARS -NECROMANCER
 ==A woman hangs above a roaring fire. Find her, and you will find the treasure.==
-The treasure lies in Castle Ravenloft's study ([[Castle Ravenloft#K37. STUDY]]).
+The treasure lies in Castle Ravenloft's study ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K37. STUDY]]).
 
 9 OF STARS - CONJURER
 ==I see a dead village, drowned by a river, ruled by one who has brought great evil into the world.==
@@ -201,7 +201,7 @@ The treasure lies on the top floor of Van Richten's Tower ([[Van Richten's Tower
 ### COINS (DIAMONDS)
 1 OF COINS -SWASHBUCKLER
 ==I see the skeleton of a deadly warrior, lying on a bed of stone flanked by gargoyles.==
-The treasure lies in the crypt of Endorovich ([[Castle Ravenloft#CRYPT 7]]).
+The treasure lies in the crypt of Endorovich ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 7]]).
 
 2 OF COINS -PHILANTHROPIST
 ==Look to a place where sickness and madness are bred. Where children once cried, the treasure lies still.==
@@ -213,11 +213,11 @@ The treasure lies in the glassblower's workshop in the Wizard of Wines winery ([
 
 4 OF COINS -MERCHANT
 ==Seek a cask that once contained the finest wine, of which not a drop remains.==
-The treasure lies in Castle Ravenloft's wine cellar ([[Castle Ravenloft#K63. WINE CELLAR]]).
+The treasure lies in Castle Ravenloft's wine cellar ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K63. WINE CELLAR]]).
 
 5 OF COINS -GUILD MEMBER
 ==I see a dark room full of bottles. It is the tomb of a guild member.==
-The treasure lies in the crypt of Artank Swilovich ([[Castle Ravenloft#CRYPT 5]]).
+The treasure lies in the crypt of Artank Swilovich ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 5]]).
 
 6 OF COINS - BEGGAR
 ==A wounded elf has what you seek. He will part with the treasure to see his dark dreams fulfilled.==
@@ -233,7 +233,7 @@ The treasure is hidden in the Vistani treasure wagon ([[The Town of Vallaki#N9I.
 
 9 OF COINS-MISER
 ==Look for a fortress inside a fortress, in a place hidden behind fire.==
-The treasure lies in Castle Ravenloft's treasury ([[Castle Ravenloft#K41. TREASURY]]).
+The treasure lies in Castle Ravenloft's treasury ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K41. TREASURY]]).
 
 I MASTER OF COINS - ROGUE
 ==I see a nest of ravens. There you will find the prize.==
@@ -254,7 +254,7 @@ The treasure lies beneath the gazebo in the Shrine of the White Sun ([[The Villa
 
 4 OF GLYPHS -SHEPHERD
 ==Find the mother-she who gave birth to evil.==
-The treasure lies in the tomb of King Barov and Queen Ravenovia ([[Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
+The treasure lies in the tomb of King Barov and Queen Ravenovia ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
  
 5 OF GLYPHS -DRUID
 ==An evil tree grows atop a hill of graves where the ancient dead sleep. The ravens can help you find it. Look for the treasure there.==
@@ -262,7 +262,7 @@ The treasure lies at the base of the Gulthias free ([[Yester Hill#Y4. GULTHIAS T
 
 6 OF GLYPHS -ANARCHIST
 ==I see walls of bones, a chandelier of bones, and a table of bones-all that remains of enemies long forgotten.==
-The treasure lies in Castle Ravenloft's hill of bones ([[Castle Ravenloft#K67. HALL OF BONES]]).
+The treasure lies in Castle Ravenloft's hill of bones ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K67. HALL OF BONES]]).
 
 7 OF GLYPHS -CHARLATAN
 ==I see a lonely mill on a precipice. The treasure lies within.==
@@ -278,7 +278,7 @@ The treasure is hidden in the master bedroom of Wachterhaus ([[The Town of Valla
 
 MASTER OF GLYPHS - PRIEST
 ==You will find what you seek in the castle, amid the ruins of a place of supplication.==
-The treasure lies in Castle Ravenloft's chapel ([[Castle Ravenloft#K15. CHAPEL]]).
+The treasure lies in Castle Ravenloft's chapel ([[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K15. CHAPEL]]).
 
 ## STRAHD'S ENEMY
 Drawn from the high deck, the fourth card in the card reading determines the location of an NPC who can improve the characters' chances of defeating Strahd. (Some cards offer two possible results, A and B; in such a case, you can pick the one you prefer or that better suits the circumstances of the adventure.)
@@ -329,7 +329,7 @@ This card refers to the revenant Sir Godfrey Gwilym (see [[Argynvostholt#Q37. KN
 
 B. GHOST (KING OF HEARTS)
 ==Stir the spirit of the clumsy knight whose crypt lies deep within the castle.==
-This card refers to Sir Klutz the phantom warrior (see [[Castle Ravenloft#CRYPT 33]]). If Sir Klutz is Strahd's enemy, then the phantom warrior disappears not after seven days, but only after he or Strahd is reduced to 0 hit points.
+This card refers to Sir Klutz the phantom warrior (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#CRYPT 33]]). If Sir Klutz is Strahd's enemy, then the phantom warrior disappears not after seven days, but only after he or Strahd is reduced to 0 hit points.
 
 EXECUTIONER (JACK OF SPADES)
 ==Seek out the brother of the devil's bride. They call him "the lesser," but he has a powerful soul.==
@@ -356,7 +356,7 @@ This card refers to Ireena Kolyana (see [[The Village of Barovia#E4. BURGOMASTER
 
 A. MARIONETTE (JACK OF HEARTS)
 ==What horror is this? I see a man made by a man. Ageless and alone, it haunts the towers of the castle.==
-This card refers to [[Pidlwick II]] (see [[Castle Ravenloft#K59. HIGH TOWER PEAK]], as well as [[Monsters and NPCs 5e masterlist]]).
+This card refers to [[Pidlwick II]] (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K59. HIGH TOWER PEAK]], as well as [[Monsters and NPCs 5e masterlist]]).
 
 B. MARIONETTE (JACK OF HEARTS)
 ==Look for a man of music, a man with two heads. He lives in a place of great hunger and sorrow.==
@@ -383,47 +383,47 @@ Drawn from the high deck, the fifth card in the card reading determines the loca
 
 ARTIFACT (JOKER 1)
 ==He lurks in the darkness where the morning light once shone-a sacred place.==
-Strahd faces the characters in the chapel (area [[Castle Ravenloft#K15. CHAPEL]]).
+Strahd faces the characters in the chapel (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K15. CHAPEL]]).
 
 BEAST (JACK OF DIAMONDS)
 ==The beast sits on his dark throne.==
-Strahd faces the characters in the audience hall (area [[Castle Ravenloft#K25. AUDIENCE HALL]]).
+Strahd faces the characters in the audience hall (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K25. AUDIENCE HALL]]).
 
 BROKEN ONE (KING OF DIAMONDS)
 ==He haunts the tomb of the men he envied above all.==
-Strahd faces the characters in Sergei's tomb (area [[Castle Ravenloft#K85. SERGEI'S TOMB]]).
+Strahd faces the characters in Sergei's tomb (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K85. SERGEI'S TOMB]]).
 
 DARKLORD (KING OF SPADES)
 ==He lurks in the depths of darkness, in the one place to which he must return.==
-Strahd faces the characters in his tomb (area [[Castle Ravenloft#K86. STRAHD'S TOMB]]).
+Strahd faces the characters in his tomb (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K86. STRAHD'S TOMB]]).
 
 DONJON (KING OF CLUBS)
 ==He lurks in a hall of bones'. in the dark pits of his castle.==
-Strahd faces the characters-in the hall of bones (area [[Castle Ravenloft#K67. HALL OF BONES]]).
+Strahd faces the characters-in the hall of bones (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K67. HALL OF BONES]]).
 
 SEER (JACK OF CLUBS)
 ==He waits for you in a place of wisdom, warmth, and despair. Great secrets are there.==
-Strahd faces the characters int he study (area [[Castle Ravenloft#K37. STUDY]]).
+Strahd faces the characters int he study (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K37. STUDY]]).
 
 GHOST (KINC OF HEARTS)
 ==Look to the father's tomb.==
-Strahd faces the characters in the tomb of King Barov and Queen Ravenovia (area [[Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
+Strahd faces the characters in the tomb of King Barov and Queen Ravenovia (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
 
 EXECUTIONER (JACK OF SPADES)
 ==I see a dark figure on a balcony, looking down upon this tortured land with a twisted smile.==
-Strahd faces the characters at the overlook (area [[Castle Ravenloft#K6. OVERLOOK]]).
+Strahd faces the characters at the overlook (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K6. OVERLOOK]]).
 
 HORSEMAN (JOKER 2)
 ==He lurks in the one place to which he must return-a place of death.==
-Strahd faces the characters in his tomb (area [[Castle Ravenloft#K86. STRAHD'S TOMB]]).
+Strahd faces the characters in his tomb (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K86. STRAHD'S TOMB]]).
 
 INNOCENT (QUEEN OF HEARTS)
 ==He dwells with the one whose blood sealed his doom, a brother of light snuffed out too soon.==
-Strahd faces the characters in Sergei's tomb (area [[Castle Ravenloft#K85. SERGEI'S TOMB]]).
+Strahd faces the characters in Sergei's tomb (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K85. SERGEI'S TOMB]]).
 
 MARIONETTE (JACK OF HEARTS)
 ==Look to great heights. Find the beating heart of the castle. He waits nearby.==
-Strahd faces the characters in the north tower peak (area [[Castle Ravenloft#K60. NORTH TOWER PEAK]]).
+Strahd faces the characters in the north tower peak (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K60. NORTH TOWER PEAK]]).
 
 MISTS (QUEEN OF SPADES)
 ==The cards can't see where the evil lurks. The mists obscure all!==
@@ -432,11 +432,11 @@ the location of their enemy.
 
 RAVEN (QUEEN OF CLUBS)
 ==Look to the mother's tomb.==
-Strahd faces the characters in the tomb of King Barov and Queen Ravenovia (area [[Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
+Strahd faces the characters in the tomb of King Barov and Queen Ravenovia (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K88. TOMB OF KING BAROV AND QUEEN RAVENOVIA]]).
 
 TEMPTER (QUEEN OF DIAMONDS)
 ==I see a secret place-a vault of temptation hidden behind a woman of great beauty. The evil waits atop his tower of treasure.==
-Strahd confronts the characters in the treasury (area [[Castle Ravenloft#K41. TREASURY]]). "A woman of great beauty" refers to the portrait of Tatyana hanging in the castle's study (area [[Castle Ravenloft#K37. STUDY]]), which contains a secret door that leads to the treasury.
+Strahd confronts the characters in the treasury (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K41. TREASURY]]). "A woman of great beauty" refers to the portrait of Tatyana hanging in the castle's study (area [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K37. STUDY]]), which contains a secret door that leads to the treasury.
 
 # ADVENTURE HOOKS
 In the event that begins the adventure, the fates of Strahd and the adventurers are entwined as the characters are invited or forced into his domain. Different ways to get the adventurers to Barovia are described in the sections that follow. Use whichever one you favor.

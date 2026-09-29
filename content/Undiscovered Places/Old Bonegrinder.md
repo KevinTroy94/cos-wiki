@@ -8,7 +8,7 @@ The hags possess the shared spellcasting abilities of a coven (see the "Hag Cove
 
 [[Morgantha]]
 
-Morgantha gave her coven's *hag eye* to Cyrus Belview, Strahd's disfigured manservant (see [[Castle Ravenloft#K62. SERVANTS' HALL]]), so that she could spy on Castle Ravenloft and keep
+Morgantha gave her coven's *hag eye* to Cyrus Belview, Strahd's disfigured manservant (see [[Curse of Strahd/Undiscovered Places/Castle Ravenloft#K62. SERVANTS' HALL]]), so that she could spy on Castle Ravenloft and keep
 an eye on the vampire. The hags are fearful of Strahd and respect his dominion over this land. For more information on the hag eye, see the hags entry in the Monster Manual.
 
 DREAMS ARE FOR THE LMNG.

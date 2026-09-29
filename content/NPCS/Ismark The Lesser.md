@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Affiliation: "Unaffiliated"
+Location: "Barovia village"
+First met: "[[Session 2 - A Sad village of few souls]]"
+---
 Brother of [[Ireena Kolyana]] and son of the late [[Kolyan Indirovich]], Burgomaster of Barovia village. He carries the nickname Ismark the Lesser, a weight he seems well aware of.
 
 The party first spotted him sitting alone near the back of the [[The Blood of the Vine]] tavern. [[Ignacious Teegan]], unprompted, bought him a drink. Ismark dragged his chair over and joined the table.
