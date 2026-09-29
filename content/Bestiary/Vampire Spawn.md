@@ -64,6 +64,4 @@ In the undercroft of the [[Barovia Village Church|church]] in Barovia village, t
 > [!dmspoiler]
 > Vampire spawn are humanoids drained to the point of death by a vampire and reanimated as undead thralls. They retain none of their former personality and exist only to serve their creator. They have most of a vampire's strengths, including superhuman speed, strength, and the ability to climb walls and ceilings, but lack the vampire's intelligence and autonomy.
 >
-> They are repelled by the smell of garlic and recoil from a presented holy symbol.
->
 > Strahd keeps a number of spawn in Castle Ravenloft. They are all that remains of adventuring parties who came to Barovia before the current group.

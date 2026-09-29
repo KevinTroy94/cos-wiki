@@ -2,12 +2,85 @@
 Status: "Alive"
 Portrait: "[[Pasted image 20260928004444.png]]"
 Affiliation: "[[Horsemen]]"
+Species: "Elf"
+Class: "Cleric 3"
 ---
 ## Background
 
 *To be added.*
 
 ![[Pasted image 20260928004444.png]]
+
+> [!sheet]- Character Sheet
+> **Cleric 3** · Elf · Background TBC · Alignment TBC
+>
+> | STR | DEX | CON | INT | WIS | CHA |
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> | 8 | 12 | 15 | 12 | 16 | 12 |
+> | −1 | +1 | +2 | +1 | +3 | +1 |
+>
+> | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> | 11 | +1 | 30 ft | TBC | 3d8 | +2 | 15 |
+>
+> **Saving Throws**
+> - ○ Strength −1
+> - ○ Dexterity +1
+> - ○ Constitution +2
+> - ○ Intelligence +1
+> - **● Wisdom +5**
+> - **● Charisma +3**
+>
+> **Skills**
+> - ○ Acrobatics +1
+> - ○ Animal Handling +3
+> - ○ Arcana +4
+> - ○ Athletics −1
+> - ○ Deception +1
+> - ○ History +1
+> - **● Insight +5**
+> - ○ Intimidation +1
+> - ○ Investigation +1
+> - **● Medicine +5**
+> - ○ Nature +1
+> - **● Perception +5**
+> - ○ Performance +1
+> - ○ Persuasion +1
+> - **● Religion +6**
+> - ○ Sleight of Hand +1
+> - ○ Stealth +1
+> - **● Survival +5**
+>
+> **Attacks & Spells**
+>
+> | Attack | Hit | Damage | Range |
+> |---|:---:|---|:---:|
+> | Guiding Bolt (1st level) | +5 | 4d6 radiant | 120 ft |
+> | Shocking Grasp (cantrip) | +5 | 1d8 lightning | Touch |
+> | Unarmed Strike | +1 | 0 bludgeoning | 5 ft |
+>
+> **Features & Traits**
+> - **Darkvision:** 60 ft.
+> - **Fey Ancestry:** advantage on saving throws to avoid or end the Charmed condition.
+> - **Trance:** can't be put to sleep by magic.
+> - **Elven Lineage:** knows Shocking Grasp.
+> - Level 2 and 3 cleric features: TBC
+>
+> **Proficiencies & Languages**
+> - Armour: light armour, medium armour, shields
+> - Weapons: simple weapons
+> - Tools: calligrapher's supplies
+> - Languages: Common, Dwarvish, Elvish
+>
+> **Equipment**
+> TBC
+>
+> **Personality**
+> - **Traits:** TBC
+> - **Ideals:** TBC
+> - **Bonds:** TBC
+> - **Flaws:** TBC
+
 ## Session 1 - Into the Mists
 
 Edric was among the five travellers in [[Garlan Shepard]]'s wagon when the fog rolled in. When the party climbed down to investigate the woods, he cast a light spell on the wagon's cover to illuminate the area, and it was this glow that let [[Virro]] spot the silhouette of a great wolf among the trees, its eyes burning an unnatural amber.
