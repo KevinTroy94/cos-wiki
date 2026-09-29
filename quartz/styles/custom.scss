@@ -392,6 +392,26 @@
     tr {
       border: none;
     }
+    // 2024-style table with a label column (Score / Mod / Save); detected by
+    // its empty top-left header cell, so 2014-style tables are unaffected
+    table:has(th:first-child:empty) td:first-child {
+      font-size: 0.72rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--sb-red);
+    }
+
+    // Sub-traits (e.g. Vampire Weakness) as an indented list without bullets
+    ul {
+      list-style: none;
+      margin: 0.1rem 0 0.3rem;
+      padding-left: 1rem;
+
+      li {
+        margin: 0.15rem 0;
+        color: var(--sb-ink);
+      }
+    }
 
     // `#### Actions` / Reactions / Legendary Actions section headings
     h4 {
