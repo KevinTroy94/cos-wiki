@@ -1,3 +1,59 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// ── Infobox ─────────────────────────────────────────────────────────────────
+// The note-properties panel (frontmatter: Status, Affiliation, Location...)
+// sits in the right sidebar; restyle it as a wiki-style infobox card.
+.note-properties {
+  margin: 0 0 1rem;
+  border: 1px solid var(--lightgray);
+  border-top: 3px solid var(--secondary);
+  border-radius: 4px;
+  background: var(--highlight);
+  font-size: 0.85rem;
+
+  .note-properties-header {
+    padding: 0.45rem 0.8rem;
+    font-family: var(--headerFont);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--dark);
+  }
+
+  // Replace the generic "Properties" label and hide the item count
+  .note-properties-title {
+    font-size: 0;
+    &::after {
+      content: "At a glance";
+      font-size: 0.8rem;
+    }
+  }
+  .note-properties-count {
+    display: none;
+  }
+
+  .note-properties-key {
+    width: 40%;
+    padding: 0.4rem 0.8rem;
+    font-weight: 600;
+    color: var(--darkgray);
+  }
+
+  .note-properties-value {
+    padding: 0.4rem 0.8rem;
+    color: var(--dark);
+  }
+}
+
+// Below desktop width the right sidebar becomes a row under the page; give
+// the infobox a full-width row of its own instead of a squashed column.
+@media all and not ($desktop) {
+  .sidebar.right {
+    flex-wrap: wrap;
+  }
+  .sidebar.right > .note-properties {
+    flex: 1 1 100%;
+  }
+}

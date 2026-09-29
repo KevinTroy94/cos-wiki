@@ -282,18 +282,27 @@ plugins:
     enabled: true
     options:
       includeAll: false
+      # Shown in the infobox, in this order. Other frontmatter (e.g. Portrait)
+      # stays available to Bases but isn't displayed.
       includedProperties:
-        - description
+        - Status
+        - Species
+        - Class
+        - Player
+        - Affiliation
+        - Location
+        - First met
         - tags
-        - aliases
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
       language: yaml
     order: 5
+    # Right sidebar, above the graph (priority 10): styled as a wiki infobox
+    # in quartz/styles/custom.scss
     layout:
-      position: beforeBody
-      priority: 15
+      position: right
+      priority: 5
       display: all
 
   - source: "@quartz-community/unlisted-pages"
