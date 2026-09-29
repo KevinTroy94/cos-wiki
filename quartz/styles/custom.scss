@@ -233,8 +233,22 @@
 }
 
 // Mobile: 7 combat cards in one row are unreadable. Flatten the table into a
-// 4-column grid, placing each header (th) directly above its value (td).
+// 3-column grid, placing each header (th) directly above its value (td).
+// minmax(0, 1fr) stops long labels ("PROFICIENCY") widening a column past
+// the screen edge on phones with larger text.
 @media all and ($mobile) {
+  // Ability labels must never break mid-word ("ST/R")
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) {
+    table {
+      border-spacing: 0.25rem 0;
+    }
+    th {
+      white-space: nowrap;
+      letter-spacing: 0.02em;
+      padding: 0.35rem 0 0.1rem;
+    }
+  }
+
   .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) {
     table,
     thead,
@@ -244,7 +258,7 @@
     }
     & {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       column-gap: 0.4rem;
       row-gap: 0;
       margin: 0.5rem 0 1rem;
@@ -258,6 +272,7 @@
     }
     th {
       font-size: 0.62rem;
+      letter-spacing: 0.04em;
       padding: 0.35rem 0.15rem 0.1rem;
     }
     td {
@@ -267,9 +282,10 @@
       border-radius: 0 0 6px 6px;
     }
 
+    $cols: 3;
     @for $i from 1 through 7 {
-      $col: ($i - 1) % 4 + 1;
-      $pair: math.floor(math.div($i - 1, 4));
+      $col: ($i - 1) % $cols + 1;
+      $pair: math.floor(math.div($i - 1, $cols));
       th:nth-child(#{$i}) {
         grid-column: $col;
         grid-row: $pair * 2 + 1;
