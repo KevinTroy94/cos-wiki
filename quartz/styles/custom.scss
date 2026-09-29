@@ -1,3 +1,4 @@
+@use "sass:math";
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
@@ -212,6 +213,70 @@
       }
       & > .table-container:nth-of-type(1) tbody tr:first-child td {
         font-size: 1.3rem;
+      }
+    }
+  }
+}
+
+// Collapsed: the banner's padding/border otherwise outranks Quartz's
+// height-0 collapse rules and peeks out under the title.
+.callout[data-callout="sheet"].is-collapsed .callout-content {
+  & > *,
+  & > p:first-child {
+    padding: 0;
+    border: 0;
+    margin: 0;
+  }
+  & > p:first-child {
+    margin-top: -1rem; // matches Quartz's collapsed first-child offset
+  }
+}
+
+// Mobile: 7 combat cards in one row are unreadable. Flatten the table into a
+// 4-column grid, placing each header (th) directly above its value (td).
+@media all and ($mobile) {
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) {
+    table,
+    thead,
+    tbody,
+    tr {
+      display: contents;
+    }
+    & {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 0.4rem;
+      row-gap: 0;
+      margin: 0.5rem 0 1rem;
+    }
+    th,
+    td {
+      display: block;
+      word-break: normal;
+      overflow-wrap: normal;
+      hyphens: none;
+    }
+    th {
+      font-size: 0.62rem;
+      padding: 0.35rem 0.15rem 0.1rem;
+    }
+    td {
+      padding: 0.2rem 0.15rem 0.45rem;
+      margin-bottom: 0.4rem;
+      border-bottom: 1px solid var(--lightgray);
+      border-radius: 0 0 6px 6px;
+    }
+
+    @for $i from 1 through 7 {
+      $col: ($i - 1) % 4 + 1;
+      $pair: math.floor(math.div($i - 1, 4));
+      th:nth-child(#{$i}) {
+        grid-column: $col;
+        grid-row: $pair * 2 + 1;
+      }
+      td:nth-child(#{$i}) {
+        grid-column: $col;
+        grid-row: $pair * 2 + 2;
       }
     }
   }
