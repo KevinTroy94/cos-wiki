@@ -1,3 +1,8 @@
+---
+Status: "Dead"
+Location: "[[OLD SVALICH ROAD]]"
+First met: "[[Session 1 - into the mists]]"
+---
 An old man travelling north of Neverwinter in a covered wagon drawn by two dappled grey-black Basuto ponies, [[Keneticut]] and [[Stanford]]. He had picked up five travellers looking to head north and was four days into the journey when the fog rolled in and swallowed the road.
 
 The cold rain had left him fevered, and [[Retnuh]] was the first to notice he looked unwell. When [[Ignacious Teegan]] moved to heal him it was already too late. Garlan collapsed from the driver's box, landing with a sickening snap beside the wagon's wheel. Before [[Virro]] could reach him, his body was dragged into the treeline by something unseen. The sounds that followed were brief and final.

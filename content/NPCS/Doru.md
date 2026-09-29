@@ -1,3 +1,9 @@
+---
+Status: "Unknown"
+Location: "[[Barovia Village Church]]"
+First met: "[[Session 3 - Spawn]]"
+Portrait: "[[Pasted image 20260927130402.png]]"
+---
 ![[Pasted image 20260927130402.png|300]]
 
 The son of [[Father Donavich]], kept in the undercroft beneath the church in Barovia village. The party first heard him as a desperate voice rising up through the floorboards: "Father! I'm starving!" 

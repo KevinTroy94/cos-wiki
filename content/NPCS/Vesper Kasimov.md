@@ -1,3 +1,10 @@
+---
+Status: "Alive"
+Affiliation: "[[Keepers of the Feather]]"
+Location: "Barovia village"
+First met: "[[Session 3 - Spawn]]"
+Portrait: "[[art-rogue-deep-gnome-for-curse-of-strahd-v0-pz9x5689ioa91-removebg-preview.png]]"
+---
 ![[art-rogue-deep-gnome-for-curse-of-strahd-v0-pz9x5689ioa91-removebg-preview.png|400]]
 
 A lean, wiry young man with delicate features and long pointed ears, dark messy hair falling loosely in front of his face. When the party met him in Barovia village he looked exhausted and in pain, clutching a large, bleeding wound in his side.

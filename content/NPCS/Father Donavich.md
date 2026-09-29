@@ -1,3 +1,9 @@
+---
+Status: "Unknown"
+Location: "[[Barovia Village Church]]"
+First met: "[[Session 3 - Spawn]]"
+Portrait: "[[Pasted image 20260927130303.png]]"
+---
 ![[Pasted image 20260927130303.png|300]]
 
 The priest who keeps the [[Barovia Village Church|church in Barovia village]]. [[Ireena Kolyana]] asked that her father, [[Kolyan Indirovich]], be buried before she leaves the village, and the party came to the church hoping Donavich would bless the burial in the name of the Morninglord.

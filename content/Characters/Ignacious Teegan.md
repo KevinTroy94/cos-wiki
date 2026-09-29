@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Species: "Mountain Dwarf"
+Class: "Paladin"
+Portrait: "[[Pasted image 20260928004516.png]]"
+---
 Mountain Dwarf Paladin
 
 ![[Pasted image 20260928004516.png]]

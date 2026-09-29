@@ -1,3 +1,9 @@
+---
+Status: "Alive"
+Location: "Barovia village"
+First met: "[[Session 2 - A Sad village of few souls]]"
+Portrait: "[[Pasted image 20260923133614.png]]"
+---
 ![[Pasted image 20260923133614.png]]
 
 Adopted daughter of the late Burgomaster [[Kolyan Indirovich]] and sister of [[Ismark The Lesser]].
