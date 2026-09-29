@@ -17,37 +17,37 @@ Harengon Fighter
 > | 16 | 16 | 16 | 12 | 13 | 12 |
 > | +3 | +3 | +3 | +1 | +1 | +1 |
 >
-> | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perception |
+> | AC (Shield) | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
 > |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-> | 16 (18 with shield) | +5 | 30 ft | 33 | 3d10 | +2 | 13 |
+> | 16 (18) | +5 | 30 ft | 33 | 3d10 | +2 | 13 |
 >
 > **Saving Throws**
-> - ● Strength +5
+> - **● Strength +5**
 > - ○ Dexterity +3
-> - ● Constitution +5
+> - **● Constitution +5**
 > - ○ Intelligence +1
 > - ○ Wisdom +1
 > - ○ Charisma +1
 >
 > **Skills**
-> - ● Acrobatics +5
+> - **● Acrobatics +5**
 > - ○ Animal Handling +1
 > - ○ Arcana +1
-> - ● Athletics +5
+> - **● Athletics +5**
 > - ○ Deception +1
 > - ○ History +1
 > - ○ Insight +1
-> - ● Intimidation +3
+> - **● Intimidation +3**
 > - ○ Investigation +1
 > - ○ Medicine +1
 > - ○ Nature +1
-> - ● Perception +3
+> - **● Perception +3**
 > - ○ Performance +1
 > - ○ Persuasion +1
 > - ○ Religion +1
 > - ○ Sleight of Hand +3
 > - ○ Stealth +3
-> - ● Survival +3
+> - **● Survival +3**
 >
 > **Attacks**
 >
