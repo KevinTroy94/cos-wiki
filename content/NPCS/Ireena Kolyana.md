@@ -21,6 +21,8 @@ At the centre of town they fell in with [[Ignacious Teegan]] and [[Vesper Kasimo
 
 A short while later, it was Ireena who turned the horse into something useful. She proposed that she and Virro use Buccephalus as a channel back to Strahd, feeding him whatever misinformation the party wanted him to believe.
 
+When the church collapsed, [[Virro]] pulled Ireena from the rubble free of any major injuries. Her father's burial went ahead in the church grounds, in the coffin she and Ismark had made for him.
+
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.
 >

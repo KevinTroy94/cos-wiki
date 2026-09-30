@@ -111,3 +111,8 @@ He urged the party to come with him to Castle Ravenloft, saying Strahd could hel
 At the church, Retnuh made his way to the chapel, where he found [[Father Donavich]] kneeling at a claw-scarred altar, droning prayers to the Morninglord, his forearms covered in teeth marks. Before Retnuh could get a word out, a voice rose up from beneath the floor: "Father! I'm starving!" It was Donavich's son, [[Doru]]. The party went down into the undercroft to confront him.
 
 When [[Doru]] lunged, Retnuh was the first to act, charging in and striking him. He was bitten before Edric and Virro threw the vampire off him. At the height of the fight, as Doru clawed into Virro from the ceiling, Retnuh's axe found purchase in Doru's side, and at that moment the floor collapsed and the church came down on top of them.
+
+## Session 4 - Horsemen
+
+[[Virro]] dug Retnuh out of the rubble of the collapsed church. When Virro picked up [[Doru]]'s trail, Retnuh and [[Ignacious Teegan|Ignacious]] rode after him, passing the funeral procession on the way, where Retnuh held out a fist to [[Sorvia]] and she bumped it with a wry smile. They found Doru in a ditch just outside town. Retnuh cut a branch from a dead tree and pared it into a stake while Ignacious talked, and when Ignacious pinned the vampire down, Retnuh drove the stake into his heart. Doru crumbled to white ash.
+

@@ -129,3 +129,10 @@ Rather than argue, he circled behind her and slapped her flank, shouting at her 
 Ireena later proposed that she and Virro use the horse as a channel back to Strahd, feeding him only the misinformation they chose.
 
 At the church, the party learned that [[Father Donavich]]'s son, [[Doru]], was a vampire chained in the undercroft, and went down to confront him. When Doru bit [[Retnuh]], Virro and Edric threw him off. The party used the pillars and Doru's chain to hold him back until he found some slack, leapt to the ceiling, and dug his claws into Virro's shoulder. Before Doru could bite, Retnuh's axe struck his side, and the floor above collapsed on all of them.
+
+## Session 4 - Horsemen
+
+When the church came down, Virro woke somewhere else entirely: standing on black, still water that stretched to a horizon sealed in amber, like glass. A figure in robes of grey and gold, with glowing amber eyes, stood on the water and spoke in a warm voice that rang in his head. It told him he was drowning, trapped "within the stone and blessed rubble", and offered him strength: "Enough to pull stone from stone. Enough to save who can still be saved. It will cost you nothing today, but nothing is without a price." It said it sensed within him a spark of divinity. Virro took its outstretched hand.
+
+He woke beneath the rubble with the strength and vigour of youth surging through him, and tirelessly lifted his companions from the earth. He found [[Vesper Kasimov|Vesper]] first, in the form of a man-sized raven, then [[Ireena Kolyana|Ireena]], [[Retnuh]], [[Edric Storm|Edric]] and [[Ignacious Teegan|Ignacious]], and last of all [[Father Donavich]]. When Donavich asked after his son, Virro picked up a trail where rocks had been moved and realised it was [[Doru]]'s, and sent Ignacious and Retnuh after him.
+

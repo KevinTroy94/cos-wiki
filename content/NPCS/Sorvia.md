@@ -11,3 +11,6 @@ As the night wore on, she and [[Retnuh]] found themselves talking more to each o
 Afterward, she let slip that [[Alenka]] had seen [[Arabelle]] and [[Krogarov]] recently in town, with a wagon and two heavy sacks. Their conversation was cut short when spectral blue light appeared in the street below and Retnuh rushed out to investigate.
 
 It later emerged that Sorvia and her companions own the [[The Blood of the Vine]].
+
+She helped carry [[Kolyan Indirovich]]'s coffin to the church for his burial. As [[Retnuh]] rode past after [[Doru]], he held out a fist toward her, and she bumped it with a wry smile.
+

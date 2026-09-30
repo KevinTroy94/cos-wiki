@@ -19,6 +19,10 @@ Donavich begged the party to save his boy, and they went down into the [[Barovia
 
 [[Retnuh]] charged him first and was bitten before [[Edric Storm]] and [[Virro]] threw Doru off him. The party used the pillars and the length of Doru's chain to hold him back, luring him back and forth with many close calls. Eventually he found a little slack, leapt to the ceiling, and dug his claws into Virro's shoulder. Before he could bite, Retnuh's axe found purchase in his side, and at that moment the groaning timbers gave way and the floor collapsed on them all.
 
+When the party dug themselves out of the rubble, Doru was gone. [[Virro]] found a trail where rocks had been moved, and [[Ignacious Teegan]] and [[Retnuh]] rode after him. They found him in a ditch just outside town, one leg bent wrong beneath him, breathing in short, wet gasps, the wound from Retnuh's axe deep and plainly visible.
+
+"This darkness, you can't control it. You almost killed us," Ignacious told him. "This will be easier. There will be peace. Stay still, lad." He pinned Doru to the muddy ground while Retnuh drove a stake, pared from a dead branch, into his heart. Doru didn't scream. He only let out a long breath, something between relief and shock, before his features melted away and he dissolved into white ash. He had been a [[Vampire Spawn|vampire spawn]].
+
 > [!dmspoiler]
 > The whittled figures [[Ignacious Teegan]] found in the church are Doru's work. The flawless carving of a woman is Anastasia, Strahd's wife, and the one who turned Doru.
 >

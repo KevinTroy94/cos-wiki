@@ -11,3 +11,6 @@ At the manor, [[Virro]] and [[Edric Storm]] compared the letter Edric had receiv
 ![[Kolyan Indirovich's Letter.png]]
 
 Ireena asked that he be buried before she leaves the village, and the party set out for the church, hoping [[Father Donavich]] would bless the burial in the name of the Morninglord.
+
+[[Vistani]] women from the tavern and [[Ismark The Lesser|Ismark]] carried his body to the ruined church in a coffin that Ireena and Ismark had made, and a handful of Barovians gathered for a hurried burial. [[Father Donavich]] began the eulogy, "to honour a mighty and compassionate fallen friend to all", before [[NPCS/Rahadin|Rahadin]] arrived, put the priest in his seat, and finished it himself, paying mocking tribute to "a Barovian of little renown".
+

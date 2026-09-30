@@ -65,3 +65,8 @@ The party escorted Ireena to the church to see her father buried. Ignacious peel
 In the chapel, it was Ignacious who asked [[Father Donavich]] whether he was keeping someone beneath the floor. The priest admitted it was his son, [[Doru]], who hasn't left the undercroft since he came back from the castle. When the party learned Doru had been stricken with vampirism, Ignacious recalled a story of a vampire who became a monk by dedicating himself to the light of Lathander, and told them that a strict regimen, or death, is the only cure. The party went down into the undercroft to confront him.
 
 In the undercroft, Doru came at the party dragging his chain, asking if they had come to feed him. Ignacious raised a hand and offered him terms: "Swear it. Swear you'll harm no person again. Hunt animals if you must feed, or take only from those who offer it willingly. Do that, and we'll help you." Doru watched his throat the whole time he spoke, and then lunged. The fight ended when the floor above gave way and the church collapsed on top of them.
+
+## Session 4 - Horsemen
+
+[[Virro]] dug Ignacious out of the rubble of the collapsed church. When Virro found [[Doru]]'s trail, Ignacious and [[Retnuh]] rode after him and found him in a ditch just outside town, broken and gasping. "This darkness, you can't control it. You almost killed us," Ignacious told him. "This will be easier. There will be peace. Stay still, lad." He pinned Doru to the muddy ground while Retnuh drove a stake into his heart, and Doru dissolved into white ash in their hands.
+

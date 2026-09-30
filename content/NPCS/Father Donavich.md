@@ -17,6 +17,10 @@ Then a voice rose up from beneath the floor: "Father! I'm starving!" Donavich an
 
 He is convinced the Morninglord sent the party to him, and begged them to save his boy.
 
+Donavich was the last to be pulled from the rubble of his church, unconscious and at death's door, and the party brought him round. Before he said a word about the collapse, he asked where his son had gone. While [[Ignacious Teegan]] and [[Retnuh]] went after [[Doru]], Donavich dusted himself off, climbed up to the only intact section of the church, and carried on with the burial rites for [[Kolyan Indirovich]].
+
+He had barely begun the eulogy when [[NPCS/Rahadin|Rahadin]], the castle chamberlain, appeared behind him, laid a hand on his shoulder, and told him to take a seat. Donavich sat, and Rahadin took over the eulogy.
+
 > [!dmspoiler]
 > Donavich (LG male human **acolyte**) has been praying throughout the night. His voice is hoarse and weak. He is, in a word, insane. A little more than a year ago, his twenty-year-old son [[Doru]] and several other villagers stormed Castle Ravenloft in revolt, having been lured there by a wizard in black robes who came to Barovia from a faraway land (see [[Wizard]]). By all accounts, the wizard died by Strahd's hand, and so too did Doru, who returned to his father as a vampire spawn. Donavich was able to trap his son in the church's undercroft, where he remains to this day.
 >

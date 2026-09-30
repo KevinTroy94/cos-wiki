@@ -101,6 +101,10 @@ At the manor, Edric and [[Virro]] compared the letter Edric had received with an
 
 At the church, the party learned that [[Father Donavich]]'s son, [[Doru]], was a vampire chained in the undercroft, and went down to confront him. When Doru bit Retnuh, Edric and Virro threw him off. The party used the pillars and Doru's chain to hold him back until he leapt to the ceiling and clawed into Virro. As Retnuh's axe struck Doru's side, the floor above collapsed on all of them.
 
+## Session 4 - Horsemen
+
+[[Virro]] dug Edric out of the rubble of the collapsed church. Edric stayed for [[Kolyan Indirovich]]'s burial, and when a tall, dark-skinned stranger in black and deep purple appeared behind [[Father Donavich]] at the graveside, [[Ismark The Lesser|Ismark]] told him it was [[NPCS/Rahadin|Rahadin]], the castle chamberlain. When Rahadin laid a hand on the priest's shoulder, his eyes glinting purple, and told him to take a seat, Edric recognised the spell for what it was: *suggestion*.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

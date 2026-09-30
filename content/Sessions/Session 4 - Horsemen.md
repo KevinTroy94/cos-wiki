@@ -30,8 +30,6 @@ Resolute in the wake of his ruined church, Donavich dusted himself off and climb
 
 Retnuh and Ignacious passed the [[Vistani]] girls and [[Ismark The Lesser|Ismark]], who were carrying the body of Kolyan Indirovich in the coffin that Ireena and Ismark had made. Retnuh reached out his hand toward [[Sorvia]] for a fist-bump, which she accepted with a wry smile.
 
-## The Burial
-
 Several dour-looking, sallow-skinned [[Barovian|Barovians]] gathered for a hurried ceremony to bury Kolyan Indirovich. Father Donavich began the ceremony standing at the head of the grave.
 
 "We gather here in the light of the Morninglord to honour a mighty and compassionate fallen friend to all."
@@ -46,12 +44,16 @@ His hand found Father Donavich's shoulder, his eyes glinted purple, and Father D
 
 "We are gathered here beneath the glorious shadow of the Pillarstone of Ravenloft to pay humble tribute to a Barovian of little renown," began the eulogy. A look of discomfort washed across the crowd, while the stranger seemed to revel in his mockery for what felt like an eternity.
 
-## Doru
-
 Meanwhile, after a short time, Ignacious and Retnuh tracked Doru to just outside of town. He lay half in the ditch at the roadside, one leg bent wrong beneath him, breathing in short, wet gasps that rattled with every rise of his chest, the wound from Retnuh's axe deep and plainly visible. He managed to get to his knees before the pair. Retnuh chopped a branch from a dead tree and began paring it into a stake while they talked.
 
 "This darkness, you can't control it. You almost killed us," mourned Ignacious.
 
 "This will be easier. There will be peace. Stay still, lad," he said, attempting to hold the vampire down. Doru strained in Ignacious's grasp as he was pinned to the muddy ground. Retnuh drove the stake into his heart. Doru didn't scream. He only let out a long breath, something between relief and shock. Soon after, his features melted away and he dissolved into white ash in their hands, his last breath fading into the air with an unsettling rattle.
+
+Back at the funeral, Rahadin finishes by offering a large sack of gold to Father Donavich for rebuilding the church. He says it will come with "some instruction on how best to redesign it" and that it should help to guide people on how to live their lives. Rahadin had the body of Vesper the wereraven brought to the side of kolyans coffin and carelessly kicked it into the grave to 'save on space'.
+
+Rahadin attempted to speak with Edric and Virro who both told them their names were Retnuh. Rahadin, unamused left them in the graveyard as he walked off. As Rahadin left, virro mocked his dress sense, a comment that had Rahadin stop in his tracks before continuing on.  Each Barovian present gathered a handful of dirt and threw it into the grave. Once the numbers had dwindled and Rahadin had left, Ismarck began to give a eulogy of his own. 
+
+
 
 PREVIOUS -> [[Session 3 - Spawn]]
