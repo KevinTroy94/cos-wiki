@@ -72,6 +72,7 @@ Ireena's answer came without hesitation. "I will go to that castle," she said, "
 It was Ireena, while speaking a short while later, who turned the horse itself into something useful. She proposed that her and Virro use Buccephalus as a channel back to Strahd, not for honest reports, but for whatever misinformation the party wanted him to believe. If the nightmare truly carried word back to its master, then let it carry only what they chose to feed it.
 
 The party arrived at the church atop its slight rise, the building looming gray and weary against the roots of the great pillar stone that held up Castle Ravenloft far above. Centuries of siege against whatever evil haunted this land had clearly worn the place down to its bones, stone crumbling in places, timber sagging where it hadn't already given way. A bell tower rose at the back, and through gaps in the shingled roof, flickering light spilled weakly into the misty air, the rafters groaning faintly under a weight they no longer seemed built to carry.
+![[Pasted image 20260930233150.png]]
 
 Two creaky wooden doors marked the entrance, unlocked, and the party pushed through them without resistance.
 

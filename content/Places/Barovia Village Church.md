@@ -1,3 +1,5 @@
+![[Pasted image 20260930233150.png]]
+
 The church of Barovia village, kept by [[Father Donavich]]. It stands atop a slight rise, gray and weary against the roots of the great pillar stone that holds up Castle Ravenloft far above. Centuries of siege against whatever evil haunts this land have worn it down to its bones: stone crumbling in places, timber sagging where it hasn't already given way. A bell tower rises at the back, and flickering light spills weakly through gaps in the shingled roof, the rafters groaning under a weight they no longer seem built to carry.
 
 The party came here with [[Ireena Kolyana]], hoping Donavich would bless the burial of her father, [[Kolyan Indirovich]], in the name of the Morninglord. The two creaky wooden doors were unlocked.
