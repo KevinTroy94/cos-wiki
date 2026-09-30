@@ -124,4 +124,4 @@ He lunges.
 The first to act is Retnuh, who charges forth and strikes the vampire, Retnuh is struck and bitten by the vampire before being thrown off him by Edric and Virro. Quickly the gang realise they can use the layout of the pillars to trap Doru using the long chain, forcing him to restrain himself. They lure him back and forward, with many close calls and the might of even a lowly vampire spawn proving to be tough to contend with. Every time he hit the end of that chain hard, the beams overhead groaned, a low, straining creak rolling through the timber like the whole church was holding its breath.
 Eventually Doru gets a small amount of slack in the chain and leaps to the cieling, where he grabs Virro by digging his claws into his shoulder, Before he can sink his teeth into the Harrengon, Retnuhs axe finds purchase in Dorus side. Just as it makes contact the groaning of the church reaches a crescendo and the floor collapses on them, with the rest of the building seeming to follow suit. 
 
-PREVIOUS -> [[Session 2 - A Sad village of few souls]] 
+PREVIOUS -> [[Session 2 - A Sad village of few souls]] | | NEXT -> [[Session 4 - Horsemen]] 

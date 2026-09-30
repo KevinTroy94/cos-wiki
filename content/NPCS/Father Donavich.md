@@ -1,5 +1,5 @@
 ---
-Status: "Unknown"
+Status: "Alive"
 Location: "[[Barovia Village Church]]"
 First met: "[[Session 3 - Spawn]]"
 Portrait: "[[Pasted image 20260927130303.png]]"

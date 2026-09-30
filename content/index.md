@@ -4,7 +4,7 @@ title: "Curse of Strahd: Player Wiki"
 
 Welcome to the player wiki for our Curse of Strahd campaign.
 
-Latest session: [[Session 3 - Spawn]]
+Latest session: [[Session 4 - Horsemen]]
 
 ## Browse by section
 
