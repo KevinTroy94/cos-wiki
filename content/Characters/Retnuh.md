@@ -1,10 +1,86 @@
 ---
 Status: "Alive"
-Species: "Half-Orc"
-Class: "Barbarian"
+Species: "Goliath"
+Class: "Barbarian 3 (Wild Heart)"
 Affiliation: "[[Horsemen]]"
 ---
 Goliath Barbarian
+
+> [!sheet]- Character Sheet
+> **Barbarian 3 (Path of the Wild Heart)** · Goliath · Guard · Alignment TBC
+>
+> | STR | DEX | CON | INT | WIS | CHA |
+> |:---:|:---:|:---:|:---:|:---:|:---:|
+> | 16 | 12 | 15 | 8 | 10 | 13 |
+> | +3 | +1 | +2 | −1 | +0 | +1 |
+>
+> | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
+> |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+> | 13 | +3 | 35 ft | 32 | 3d12 | +2 | 12 |
+>
+> **Saving Throws**
+> - **● Strength +5**
+> - ○ Dexterity +1
+> - **● Constitution +4**
+> - ○ Intelligence −1
+> - ○ Wisdom +0
+> - ○ Charisma +1
+>
+> **Skills**
+> - ○ Acrobatics +1
+> - **● Animal Handling +2**
+> - ○ Arcana −1
+> - **● Athletics +5**
+> - ○ Deception +1
+> - ○ History −1
+> - ○ Insight +0
+> - **● Intimidation +3**
+> - ○ Investigation −1
+> - ○ Medicine +0
+> - ○ Nature −1
+> - **● Perception +2**
+> - ○ Performance +1
+> - **● Persuasion +3**
+> - ○ Religion −1
+> - ○ Sleight of Hand +1
+> - ○ Stealth +1
+> - ○ Survival +0
+>
+> **Attacks**
+>
+> | Weapon | Hit | Damage | Range |
+> |---|:---:|---|:---:|
+> | Greataxe | +5 | 1d12 + 3 slashing | 5 ft |
+> | Light Crossbow | +3 | 1d8 + 1 piercing | 80 (320) ft |
+> | Unarmed Strike | +5 | 4 bludgeoning | 5 ft |
+>
+> **Features & Traits**
+> - **Rage:** as a bonus action, enter a Rage if not wearing heavy armour. 3 uses per long rest; regain one on a short rest.
+> - **Unarmored Defense:** while not wearing armour, base AC equals 13 + any shield bonus.
+> - **Weapon Mastery:** Greataxe (Cleave), Greatsword (Graze).
+> - **Danger Sense:** advantage on Dexterity saving throws unless Incapacitated.
+> - **Reckless Attack:** on the first attack roll of your turn, gain advantage on Strength attack rolls until your next turn; attacks against you also have advantage.
+> - **Primal Knowledge:** proficiency in Animal Handling. While raging, Acrobatics, Intimidation, Perception, Stealth and Survival checks can be made as Strength checks.
+> - **Animal Speaker:** cast *Beast Sense* and *Speak with Animals* as rituals only, using Wisdom.
+> - **Rage of the Wilds:** when you activate Rage, gain one primal option of your choice (choice TBC).
+> - **Stone's Endurance (Giant Ancestry):** when you take damage, use your reaction to roll 1d12 + 2 and reduce the damage by that total. 2 uses per long rest.
+> - **Powerful Build:** advantage on checks to end the Grappled condition; count as one size larger for carrying capacity.
+> - **Alert (feat, from Guard):** add proficiency bonus to initiative rolls.
+>
+> **Proficiencies & Languages**
+> - Armour: light armour, medium armour, shields
+> - Weapons: simple and martial weapons
+> - Tools: playing card set
+> - Languages: Common, Elvish, Giant
+>
+> **Equipment**
+> Greataxe, light crossbow, bolts (20), handaxes (4), spear, hooded lantern, manacles, Three-Dragon Ante set, traveler's clothes, backpack, bedroll, oil (2), rations (10), rope, tinderbox, torches (10), waterskin, 27 gp.
+>
+> **Personality**
+> - **Traits:** TBC
+> - **Ideals:** TBC
+> - **Bonds:** TBC
+> - **Flaws:** TBC
 
 ## Background
 
