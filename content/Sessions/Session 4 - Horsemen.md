@@ -50,10 +50,52 @@ Meanwhile, after a short time, Ignacious and Retnuh tracked Doru to just outside
 
 "This will be easier. There will be peace. Stay still, lad," he said, attempting to hold the vampire down. Doru strained in Ignacious's grasp as he was pinned to the muddy ground. Retnuh drove the stake into his heart. Doru didn't scream. He only let out a long breath, something between relief and shock. Soon after, his features melted away and he dissolved into white ash in their hands, his last breath fading into the air with an unsettling rattle.
 
-Back at the funeral, Rahadin finishes by offering a large sack of gold to Father Donavich for rebuilding the church. He says it will come with "some instruction on how best to redesign it" and that it should help to guide people on how to live their lives. Rahadin had the body of Vesper the wereraven brought to the side of kolyans coffin and carelessly kicked it into the grave to 'save on space'.
+Back at the funeral, Rahadin finished by offering a large sack of gold to Father Donavich for rebuilding the church. He said it would come with "some instruction on how best to redesign it", and that it should help to guide people on how to live their lives. Rahadin had the body of Vesper the wereraven brought to the side of Kolyan's coffin and carelessly kicked it into the grave to "save on space".
 
-Rahadin attempted to speak with Edric and Virro who both told them their names were Retnuh. Rahadin, unamused left them in the graveyard as he walked off. As Rahadin left, virro mocked his dress sense, a comment that had Rahadin stop in his tracks before continuing on.  Each Barovian present gathered a handful of dirt and threw it into the grave. Once the numbers had dwindled and Rahadin had left, Ismarck began to give a eulogy of his own. 
+Rahadin attempted to speak with Edric and Virro, who both told him their names were Retnuh. Unamused, Rahadin left them in the graveyard and walked off. As he left, Virro mocked his dress sense, a comment that stopped Rahadin in his tracks before he continued on. Each Barovian present gathered a handful of dirt and threw it into the grave. Once the numbers had dwindled and Rahadin had gone, Ismark began to give a eulogy of his own.
 
+The road narrowed as it wound between two halves of an old graveyard. Weak wooden fences sagged along either side. To the east, a scatter of grave plots stretched off into the mist. To the west stood a squat stone mausoleum.
 
+In the middle of the road lay a horse's corpse, mauled and stiff. Beside it knelt a figure the party hadn't expected to see again: ginger hair plastered to his forehead with rain and sweat, armour rent open at the chest, the breastplate torn clean away, his right arm caked in dried blood.
+
+"It's you!" the party chimed in amazement.
+
+"I thought he died," Retnuh said.
+
+"No," Ignacious said slowly. "He went off in a different direction. To an inn, or..."
+
+[[Red]] looked up at them, eyes wide, disbelieving, scrambling back half a step. "You guys can't be real."
+
+"They're after me," he said, voice climbing, words spilling faster than he could organise them. "The things that come out of the ground. Everywhere I go, they keep following me. They keep getting up."
+
+"What are you talking about, lad?" someone asked. "And," Ignacious added, nodding at the book, "what's that in your hand?"
+
+"The lady in white gave it to me," Red said. "At [[The Last Gasp]]. She asked me to pick a weapon, but I couldn't pick one, so she gave me this. I lost my shield to some wolves as well..." he admitted.
+
+Retnuh crouched beside the horse's ruined body, frowning at the ground. Hoofprints circled the corpse at odd, dragging angles, and a long smear of gore trailed off toward the treeline, inconsistent with a horse simply collapsing where it stood. The horse, who once drew the wagon that brought them here, was barely recognisable as [[Stanford]].
+
+"Did he limp here," Retnuh muttered, half to himself, "or did something drag him?" He turned to Red, motioning at the fallen horse. "I think you might be bait, or he is."
+
+Before Red could answer, or the party could press further, Ignacious went still, eyes dropping to the grave markers around them.
+
+"Something's moving," he said.
+
+![[wmremove-transformed(1).png]]
+
+The ground shifted, wet earth bulging upwards by the headstones. Then a hand broke the surface, grey and swollen, skin split and sloughing from the knuckles. The earth tore open, and a dozen [[Zombie|zombies]] marched toward the party. The party launched into action and attacked.
+
+"They're back," Red whispered, and then, louder, panicked, "they're back!" before bolting to the mausoleum despite Ignacious's protests.
+
+Retnuh, Ignacious, Virro and Ireena began fighting back the hordes of the dead while Edric grasped his holy symbol and cast *turn undead*. A wave of radiant light burst outward from him, washing over the graveyard in a pulse that made every zombie in its path flinch and stagger. Several of them turned at once, compelled to march away from Edric, some marching off into the mists in confusion, never to be seen again.
+
+Red attempted to climb the mausoleum but slipped and landed on the side of his ankle with a sickening crack. Just then, a mass of writhing dead limbs emerged from the mausoleum. The [[Swarm of Zombie Limbs]] marched toward Red until Edric compelled it to march off into the mist. One of the zombies made its way past both fences to Red, although when it reached its target, it simply stood there. Virro took aim at the zombie standing motionless beside Red and fired, the arrow finding its target not in the undead, but in Red's heart. Red looked shocked for a moment, and then fell to the ground motionless.
+
+![[Pasted image 20261001210701.png]]
+
+The gang dispatched the rest of the zombies and rushed to Red, who immediately took in a sharp breath and bolted upright, clutching his lilac book. Red's skin was pale and Virro's arrow was clean through his heart. He looked deeply confused. "You got me," he said, his other hand waving vaguely at the arrow in his chest. Virro ripped the arrow out and Red got to his feet, his right ankle folding under his shin, though he didn't seem to notice it.
+
+"Lad, I think you might be dead," chirped Ignacious, "or undead at least." The party deliberated over what this could mean for some time, before Red asked, "Do you guys have a quill? I lost mine," and Edric obliged him. Over Ignacious's protests, Red began to draw a horse on a page of the lilac book. (describe stanford rising from the ground as a reanimated corpse). Red handed the page to Edric and moved to march on into the mists in search of the woman who gave him the book, so that he could be fixed. The party tried to get him to stay but failed to persuade him, only managing to anger him when they forgot his name.
+
+"IT'S FREDRICK!!" roared Red, his voice breaking as he shambled into the distance.
 
 PREVIOUS -> [[Session 3 - Spawn]]

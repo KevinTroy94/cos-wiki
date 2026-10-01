@@ -70,3 +70,5 @@ In the undercroft, Doru came at the party dragging his chain, asking if they had
 
 [[Virro]] dug Ignacious out of the rubble of the collapsed church. When Virro found [[Doru]]'s trail, Ignacious and [[Retnuh]] rode after him and found him in a ditch just outside town, broken and gasping. "This darkness, you can't control it. You almost killed us," Ignacious told him. "This will be easier. There will be peace. Stay still, lad." He pinned Doru to the muddy ground while Retnuh drove a stake into his heart, and Doru dissolved into white ash in their hands.
 
+On the graveyard road, Ignacious was the first to sense the [[Zombie|zombies]] rising: "Something's moving." After [[Red]] took an arrow to the heart and got back up, Ignacious put it plainly: "Lad, I think you might be dead. Or undead at least."
+

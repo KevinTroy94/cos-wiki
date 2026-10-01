@@ -1,7 +1,7 @@
 ---
 Status: "Deceased"
 Affiliation: "Unaffiliated"
-Location: "Burgomaster's manor, Barovia village"
+Location: "Buried at [[Barovia Village Church]]"
 First met: "[[Session 2 - A Sad village of few souls]]"
 ---
 Burgomaster of Barovia village and father of [[Ireena Kolyana]] and [[Ismark The Lesser]]. By the time the party arrived in the village, he was already dead. His body lay in state in a coffin inside the Burgomaster's manor, which had been besieged by forces loyal to [[Strahd von Zarovich]].
@@ -13,4 +13,6 @@ At the manor, [[Virro]] and [[Edric Storm]] compared the letter Edric had receiv
 Ireena asked that he be buried before she leaves the village, and the party set out for the church, hoping [[Father Donavich]] would bless the burial in the name of the Morninglord.
 
 [[Vistani]] women from the tavern and [[Ismark The Lesser|Ismark]] carried his body to the ruined church in a coffin that Ireena and Ismark had made, and a handful of Barovians gathered for a hurried burial. [[Father Donavich]] began the eulogy, "to honour a mighty and compassionate fallen friend to all", before [[NPCS/Rahadin|Rahadin]] arrived, put the priest in his seat, and finished it himself, paying mocking tribute to "a Barovian of little renown".
+
+Before he left, Rahadin had the body of [[Vesper Kasimov|Vesper]] the wereraven kicked into Kolyan's grave. Each Barovian present threw a handful of dirt into the grave, and once Rahadin had gone and the crowd had dwindled, [[Ismark The Lesser|Ismark]] gave a eulogy of his own.
 

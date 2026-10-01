@@ -13,6 +13,10 @@ He appeared behind [[Father Donavich]] as the priest began the eulogy at [[Kolya
 
 Rahadin then gave the eulogy himself, beneath "the glorious shadow of the Pillarstone of Ravenloft", paying mocking tribute to "a Barovian of little renown" while the mourners looked on in discomfort.
 
+To close the funeral, he offered [[Father Donavich]] a large sack of gold for rebuilding the church, which he said would come with "some instruction on how best to redesign it", to help guide people on how to live their lives. He had the body of [[Vesper Kasimov|Vesper]] the wereraven brought to Kolyan's graveside and kicked it into the grave to "save on space".
+
+When he tried to speak with [[Edric Storm|Edric]] and [[Virro]], both told him their names were Retnuh. Unamused, he walked off, though Virro's parting jab at his dress sense stopped him in his tracks for a moment before he carried on.
+
 > [!dmspoiler]
 > Rahadin, the dusk elf chamberlain of Castle Ravenloft, has served Strahd's family faithfully for nearly five hundred years. He is Strahd's eternal servant, a longtime comrade-in-arms, and a ruthless warrior who has killed thousands in his lifetime.
 >

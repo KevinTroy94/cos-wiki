@@ -136,3 +136,7 @@ When the church came down, Virro woke somewhere else entirely: standing on black
 
 He woke beneath the rubble with the strength and vigour of youth surging through him, and tirelessly lifted his companions from the earth. He found [[Vesper Kasimov|Vesper]] first, in the form of a man-sized raven, then [[Ireena Kolyana|Ireena]], [[Retnuh]], [[Edric Storm|Edric]] and [[Ignacious Teegan|Ignacious]], and last of all [[Father Donavich]]. When Donavich asked after his son, Virro picked up a trail where rocks had been moved and realised it was [[Doru]]'s, and sent Ignacious and Retnuh after him.
 
+When [[NPCS/Rahadin|Rahadin]] tried to speak with him and Edric, both told him their names were Retnuh, and as Rahadin walked off, Virro mocked his dress sense, stopping him in his tracks.
+
+On the graveyard road, during the fight with the rising [[Zombie|zombies]], Virro fired at a zombie standing motionless beside [[Red]]. The arrow struck Red in the heart instead. Red fell, then sat bolt upright moments later, pale and apparently undead, and Virro pulled the arrow from his chest.
+

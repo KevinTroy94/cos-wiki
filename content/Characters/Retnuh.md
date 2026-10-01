@@ -116,3 +116,5 @@ When [[Doru]] lunged, Retnuh was the first to act, charging in and striking him.
 
 [[Virro]] dug Retnuh out of the rubble of the collapsed church. When Virro picked up [[Doru]]'s trail, Retnuh and [[Ignacious Teegan|Ignacious]] rode after him, passing the funeral procession on the way, where Retnuh held out a fist to [[Sorvia]] and she bumped it with a wry smile. They found Doru in a ditch just outside town. Retnuh cut a branch from a dead tree and pared it into a stake while Ignacious talked, and when Ignacious pinned the vampire down, Retnuh drove the stake into his heart. Doru crumbled to white ash.
 
+On the road between two halves of an old graveyard, the party found [[Red]] beside the mauled body of [[Stanford]]. Retnuh studied the dragging hoofprints and the smear of gore leading to the treeline, and suggested to Red that one of them might be bait. Moments later, [[Zombie|zombies]] began to rise, and Retnuh fought them back with the others.
+

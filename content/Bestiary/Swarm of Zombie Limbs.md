@@ -1,5 +1,7 @@
 ![[image-removebg-preview(5).png|300]]
 
+During the fight in the graveyard, a mass of writhing dead limbs emerged from the squat stone mausoleum and went for [[Red]], until [[Edric Storm|Edric]] turned it with *turn undead* and it marched off into the mist.
+
 > [!statblock]
 > **Swarm of Zombie Limbs**
 >

@@ -21,6 +21,8 @@ Donavich was the last to be pulled from the rubble of his church, unconscious an
 
 He had barely begun the eulogy when [[NPCS/Rahadin|Rahadin]], the castle chamberlain, appeared behind him, laid a hand on his shoulder, and told him to take a seat. Donavich sat, and Rahadin took over the eulogy.
 
+At the end of the funeral, [[NPCS/Rahadin|Rahadin]] offered Donavich a large sack of gold for rebuilding the church, saying it would come with "some instruction on how best to redesign it".
+
 > [!dmspoiler]
 > Donavich (LG male human **acolyte**) has been praying throughout the night. His voice is hoarse and weak. He is, in a word, insane. A little more than a year ago, his twenty-year-old son [[Doru]] and several other villagers stormed Castle Ravenloft in revolt, having been lured there by a wizard in black robes who came to Barovia from a faraway land (see [[Wizard]]). By all accounts, the wizard died by Strahd's hand, and so too did Doru, who returned to his father as a vampire spawn. Donavich was able to trap his son in the church's undercroft, where he remains to this day.
 >

@@ -23,6 +23,8 @@ A short while later, it was Ireena who turned the horse into something useful. S
 
 When the church collapsed, [[Virro]] pulled Ireena from the rubble free of any major injuries. Her father's burial went ahead in the church grounds, in the coffin she and Ismark had made for him.
 
+On the road between two halves of an old graveyard, she fought alongside the party against the [[Zombie|zombies]] that rose from the graves.
+
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.
 >

@@ -105,6 +105,10 @@ At the church, the party learned that [[Father Donavich]]'s son, [[Doru]], was a
 
 [[Virro]] dug Edric out of the rubble of the collapsed church. Edric stayed for [[Kolyan Indirovich]]'s burial, and when a tall, dark-skinned stranger in black and deep purple appeared behind [[Father Donavich]] at the graveside, [[Ismark The Lesser|Ismark]] told him it was [[NPCS/Rahadin|Rahadin]], the castle chamberlain. When Rahadin laid a hand on the priest's shoulder, his eyes glinting purple, and told him to take a seat, Edric recognised the spell for what it was: *suggestion*.
 
+When Rahadin tried to speak with him and Virro, both told him their names were Retnuh.
+
+On the graveyard road, when [[Zombie|zombies]] rose from the graves and the party found [[Red]] again, Edric grasped his holy symbol and cast *turn undead*. The wave of radiant light sent several zombies marching away into the mists, never to be seen again, and drove off the [[Swarm of Zombie Limbs]] that had emerged from the mausoleum. Afterwards, he lent the undead Red a quill, and Red handed him a page from his lilac book with a horse drawn on it.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp
