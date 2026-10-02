@@ -118,3 +118,5 @@ When [[Doru]] lunged, Retnuh was the first to act, charging in and striking him.
 
 On the road between two halves of an old graveyard, the party found [[Red]] beside the mauled body of [[Stanford]]. Retnuh studied the dragging hoofprints and the smear of gore leading to the treeline, and suggested to Red that one of them might be bait. Moments later, [[Zombie|zombies]] began to rise, and Retnuh fought them back with the others.
 
+At [[Morgantha]]'s windmill, Retnuh scratched [[Tatters]], a scarecrow shaped like a horse, which leaned into his hand. When Morgantha admitted she wouldn't share where [[Arabelle]] was unless Edric agreed to help her, Retnuh refused to go in: "Then I'll stay outside. I don't want anything to do with you."
+

@@ -17,6 +17,8 @@ To close the funeral, he offered [[Father Donavich]] a large sack of gold for re
 
 When he tried to speak with [[Edric Storm|Edric]] and [[Virro]], both told him their names were Retnuh. Unamused, he walked off, though Virro's parting jab at his dress sense stopped him in his tracks for a moment before he carried on.
 
+[[Morgantha]] wants his head. In return for telling the party where [[Arabelle]] is, she asked them to bring her "the tongue of a very rude dusk elf": the head of Rahadin. She called him very rude and arrogant but didn't say what her grievance was, and told them that if he isn't in the castle, he can sometimes be found in the drowned village of Berez, or up Mount Balinok.
+
 > [!dmspoiler]
 > Rahadin, the dusk elf chamberlain of Castle Ravenloft, has served Strahd's family faithfully for nearly five hundred years. He is Strahd's eternal servant, a longtime comrade-in-arms, and a ruthless warrior who has killed thousands in his lifetime.
 >

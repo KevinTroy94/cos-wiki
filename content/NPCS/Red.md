@@ -14,7 +14,7 @@ When the fog swallowed the road and the party climbed down to investigate, Red r
 
 At the fork, Red split from the group and headed toward [[The Last Gasp]], while the others followed the Old Svalich Road.
 
-The party found him again on a road winding between two halves of an old graveyard, kneeling beside the mauled corpse of [[Stanford]]. His breastplate had been torn clean away and his right arm was caked in dried blood. He could hardly believe they were real. Something had been following him, he said: "The things that come out of the ground. Everywhere I go, they keep following me. They keep getting up." He had lost his shield to wolves, and carried a lilac book given to him by a lady in white at [[The Last Gasp]].
+The party found him again on a road winding between two halves of an old graveyard, kneeling beside the mauled corpse of [[Stanford]]. His breastplate had been torn clean away and his right arm was caked in dried blood. Something had been following him, he said: "The things that come out of the ground. Everywhere I go, they keep following me. They keep getting up." He had lost his shield to wolves, and carried a lilac book given to him by a lady in white at [[The Last Gasp]].
 
 When [[Zombie|zombies]] clawed their way out of the graves, Red bolted for the mausoleum, slipped climbing it, and broke his ankle. In the fight, an arrow from [[Virro]] meant for a zombie beside him struck Red in the heart instead, and he fell still. Moments later he took a sharp breath and sat bolt upright, pale, the arrow clean through his heart. "You got me," he said. Virro pulled it out, and Red stood on his broken ankle without seeming to notice.
 

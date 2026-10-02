@@ -109,6 +109,8 @@ When Rahadin tried to speak with him and Virro, both told him their names were R
 
 On the graveyard road, when [[Zombie|zombies]] rose from the graves and the party found [[Red]] again, Edric grasped his holy symbol and cast *turn undead*. The wave of radiant light sent several zombies marching away into the mists, never to be seen again, and drove off the [[Swarm of Zombie Limbs]] that had emerged from the mausoleum. Afterwards, he lent the undead Red a quill, and Red handed him a page from his lilac book with a horse drawn on it.
 
+Edric carefully approached the risen [[Stanford]], who let Edric mount him. At [[Morgantha]]'s windmill, she offered him a choice: where [[Arabelle]] was, or calling in his favour. "Tell me where the girl is," he said. Inside, he pointed out that she'd claimed her sisters had left Barovia; she introduced the two women as her daughters. In return for the information, she asked for the head of [[NPCS/Rahadin|Rahadin]].
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

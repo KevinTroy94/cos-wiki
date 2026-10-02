@@ -1,0 +1,1 @@
+Straw and sack creatures in the shape of men, standing in loose rings across the field outside [[Morgantha]]'s windmill on the road toward Vallaki. One of them, [[Tatters]], is shaped like a horse, and moves like a living one.

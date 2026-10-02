@@ -140,3 +140,5 @@ When [[NPCS/Rahadin|Rahadin]] tried to speak with him and Edric, both told him t
 
 On the graveyard road, during the fight with the rising [[Zombie|zombies]], Virro fired at a zombie standing motionless beside [[Red]]. The arrow struck Red in the heart instead. Red fell, then sat bolt upright moments later, pale and apparently undead, and Virro pulled the arrow from his chest.
 
+At [[Morgantha]]'s windmill, he told her he wasn't a tea person but a wine person. She rapped her knuckle on the teapot and poured him wine from it.
+

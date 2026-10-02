@@ -98,4 +98,46 @@ The gang dispatched the rest of the zombies and rushed to Red, who immediately t
 
 "IT'S FREDRICK!!" roared Red, his voice breaking as he shambled into the distance.
 
-PREVIOUS -> [[Session 3 - Spawn]]
+Edric carefully approached Stanford, who allowed Edric to mount him.
+
+Continuing down the road toward Vallaki, the party arrived at a squat stone windmill gone grey with age, its great sails turning slowly despite the stillness of the air, creaking with every rotation. In loose rings across the field leading up to it stood straw and sack creatures in the shape of men. The field was full of [[Scarecrow|scarecrows]]. Smoke curled faintly from the base of the mill and carried a sweet smell of something delicious, baked with cinnamon.
+
+![[Pasted image 20261002101309.png]]
+
+The party approached the onion-domed mill to find [[Morgantha]], wearing an apron covered in flour, who offered to host them for tea. Before they entered, Morgantha made an offer to Edric.
+
+"I can tell you where young [[Arabelle]] is, or I can call in your favour," Morgantha started with a wry smirk, before continuing, "but I want you to do something for me."
+
+"Tell me where the girl is," came Edric's reply.
+
+It was impossible not to notice that one of the straw and sack creatures in the field was as large as a horse, and shaped like one too. It had hooves of blackthorn root and a mane and forelock of frayed hemp rope, combed straight. Its eyes were bone-white buttons, hanging mismatched over its face of sack and straw. Retnuh scratched it as though it were a living horse, and it moved its head toward his hand in kind. Retnuh was unfazed; his mind was elsewhere.
+
+Musing for a moment, Retnuh remarked, "Would you not tell us where the girl is if he didn't agree to help?"
+
+"Yes," came Morgantha's hollow reply.
+
+"Then I'll stay outside. I don't want anything to do with you," Retnuh said defiantly, while Ignacious, Edric and Virro went inside.
+
+Entering the first floor of the old mill, the trio saw a set table and two older women who moved around it with quick, practised hands, smoothing cloth, setting cups and resting a large ceramic teapot in the middle.
+
+"I thought you said your sisters had left Barovia?" said Edric.
+
+"Oh, you flatterer." Morgantha's smile widened, something satisfied settling into the lines of her face, plain for anyone paying attention to see. "These are my daughters."
+
+"[[Bella Sunbane]]." The first inclined her head, dark-eyed and sharp-featured, watching the party with open, unhidden interest. "And [[Ophalia Wormwiggle]]." The second woman stared vacantly.
+
+"Sit, sit. Tea first. Business after."
+
+The trio sat, and Morgantha poured tea for each of them before reaching Virro, who said, "I'm not a tea person, I'm a wine person." Morgantha rapped her knuckle on the side of the teapot and poured it into Virro's cup. Wine poured from the spout in turn.
+
+Being watched expectantly, the trio drank from their cups and found the drinks pleasant and sweet.
+
+"Young Arabelle is in Vallaki. She has been separated from [[Krogarov]] and taken by a man named [[NPCS/Izek Strazni|Izek Strazni]]," mulled Morgantha. "My sources say that the town militia had her last, and that her father was last seen heading to the lake to..." Morgantha paused to consider her next words. "...drown his sorrows."
+
+"Now... in return for this information, I need you to get something for me. I need the tongue of a very rude dusk elf. Bring me the head of [[NPCS/Rahadin|Rahadin]], the castle chamberlain."
+
+Morgantha described him as very rude and arrogant, but did not mention her specific grievance. She told them that if he isn't in the castle, he can sometimes be found in the drowned village of Berez, or up Mount Balinok.
+
+"And I can't have any of you unhorsed. Take [[Tatters]] with you. He needs a walk. You don't need to feed him, but you can if you want to." She smiled as the party shared some concerned looks.
+
+PREVIOUS -> [[Session 3 - Spawn]]  | | NEXT -> [[Session 5 - All will be well]]

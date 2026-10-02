@@ -72,3 +72,5 @@ In the undercroft, Doru came at the party dragging his chain, asking if they had
 
 On the graveyard road, Ignacious was the first to sense the [[Zombie|zombies]] rising: "Something's moving." After [[Red]] took an arrow to the heart and got back up, Ignacious put it plainly: "Lad, I think you might be dead. Or undead at least."
 
+He went into [[Morgantha]]'s windmill with Edric and Virro, took tea with her and her daughters, and heard where [[Arabelle]] had been taken, and what Morgantha wanted in return: the head of [[NPCS/Rahadin|Rahadin]].
+
