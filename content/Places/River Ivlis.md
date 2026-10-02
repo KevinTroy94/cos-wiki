@@ -4,7 +4,7 @@ A river running through the valley of Barovia.
 
 ![[Pasted image 20260904173604.png]]
 
-A camp of [[Vistani]] wagons pitched near a tributary of the river, which the [[The Gallows Oak]] brothers pointed the party toward. It was here that Madam Eva read the party's fortune in her tent, and [[Laszlo, The Storyteller]] told the tale of the [[Wizard]] and fought [[Virro]] in front of a betting crowd.
+A camp of [[Vistani]] wagons pitched near a tributary of the river, which the [[The Gallows Oak]] brothers pointed the party toward. It was here that [[NPCS/Madam Eva|Madam Eva]] read the party's fortune in her tent, and [[Laszlo, The Storyteller]] told the tale of the [[Wizard]] and fought [[Virro]] in front of a betting crowd.
 
 [[Arabelle]], daughter of the jeweler [[Norella]], went missing from this camp after being told she couldn't go fishing with [[Krogarov]]. Laszlo promised the party safe passage beyond [[The Mists]] if they bring her back.
 

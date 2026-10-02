@@ -2,6 +2,10 @@ A coven of [[Hag|hags]] who keep an old stone windmill on the road toward Vallak
 
 Known Members
 -----------------------------
-[[Morgantha]]
-[[Bella Sunbane]]
-[[Ophalia Wormwiggle]]
+- [[Morgantha]]
+- [[Bella Sunbane]]
+- [[Ophalia Wormwiggle]]
+
+Associates
+-----------------------------
+- [[Tatters]], a scarecrow horse, lent to the party
