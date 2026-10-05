@@ -7,7 +7,13 @@ Class: "Cleric 3"
 ---
 ## Background
 
-*To be added.*
+Edric was raised in Baldur's Gate by a large merchant family of half-elves, and had a mostly normal life growing up in the city. Eager for the world beyond it, he took to the merchant caravans and trading ships that traversed the Sword Coast, learning to fight with a blade along the way.
+
+One fateful day, pirates boarded the merchant ship he and his younger brother Geralt were on. Outnumbering them three to one, they started killing the crew where they stood. When all seemed lost, a sudden storm formed, its strong winds and lightning tearing the ship asunder. Edric woke up on the shore, seemingly the only survivor, a changed man.
+
+He took his survival as a sign of the gods saving him for something greater. Never groomed for the priesthood, he worships the gods the only way he knows how: fixing the woes of the world with the powers they have bestowed on him. His own morals put him in conflict with the lightning god Talos, who he believes spared him but left his brother and crew for dead.
+
+While still young and naïve, he has since signed up for many adventures, always trying to be a force for good, in honour of those he failed to save.
 
 ![[Pasted image 20260928004444.png]]
 
