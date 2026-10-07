@@ -33,8 +33,7 @@ jobs:
       - name: Sync local plugins
         run: |
           mkdir -p .quartz/plugins
-          cp -r plugins/exclude-unpublished .quartz/plugins/
-          cp -r plugins/remove-dm-spoilers .quartz/plugins/
+          cp -r plugins/* .quartz/plugins/
 
       - run: npx quartz build -d content
 

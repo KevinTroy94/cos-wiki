@@ -224,6 +224,199 @@
   }
 }
 
+// ── Initiative roller (plugins/dice-roller) ─────────────────────────────────
+.callout[data-callout="sheet"] {
+  th.dice-roll-head::after {
+    content: " 🎲";
+    font-size: 0.85em;
+  }
+  td.dice-roll {
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--highlight);
+      outline: none;
+    }
+    .dice-bonus {
+      display: block;
+    }
+    .dice-result {
+      display: block;
+      margin-top: 0.15rem;
+      font-size: 0.7rem;
+      font-weight: $normalWeight;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--gray);
+
+      strong {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 1.1;
+        letter-spacing: 0;
+        color: var(--sheet-accent);
+      }
+      small {
+        display: block;
+        font-size: 0.68rem;
+        text-transform: none;
+        color: var(--gray);
+      }
+    }
+    // After a roll, the total replaces the bonus (bonus stays in the small line)
+    &.rolled .dice-bonus {
+      display: none;
+    }
+    &.rolled .dice-result {
+      margin-top: 0;
+    }
+    &.rolled .dice-result strong {
+      animation: dice-pop 0.35s ease-out;
+    }
+    &.nat20 .dice-result strong {
+      color: #c9a227;
+      text-shadow: 0 0 6px rgba(201, 162, 39, 0.6);
+    }
+    &.nat1 .dice-result strong {
+      color: var(--gray);
+      text-decoration: line-through;
+    }
+  }
+}
+
+// Saves, skills and attack rows (plugins/dice-roller/dist/client.js)
+.callout[data-callout="sheet"] .callout-content {
+  .roll-target {
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--highlight);
+      outline: none;
+    }
+  }
+
+  // Inline result after a save / skill
+  li .roll-out:not(:empty) {
+    margin-left: 0.4rem;
+    white-space: nowrap;
+
+    strong {
+      color: var(--sheet-accent);
+      font-size: 1.05em;
+    }
+    small {
+      margin-left: 0.3rem;
+      font-size: 0.75em;
+      color: var(--gray);
+    }
+  }
+  li.rolled .roll-out strong,
+  tr.rolled .attack-out strong {
+    display: inline-block;
+    animation: dice-pop 0.35s ease-out;
+  }
+
+  // Attack result under the weapon name
+  .attack-out:not(:empty) {
+    display: block;
+    margin-top: 0.2rem;
+    font-weight: $normalWeight;
+
+    .hit,
+    .dmg {
+      margin-right: 0.8rem;
+      white-space: nowrap;
+    }
+    strong {
+      font-size: 1.15em;
+      color: var(--sheet-accent);
+    }
+    small {
+      display: block;
+      font-size: 0.75em;
+      color: var(--gray);
+    }
+    .tag {
+      font-style: normal;
+      font-weight: $boldWeight;
+      font-size: 0.75em;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  // Nat 20 / nat 1 (initiative card has its own rules above)
+  li.nat20 .roll-out strong,
+  tr.nat20 .attack-out .hit strong,
+  tr.nat20 .tag {
+    color: #c9a227;
+    text-shadow: 0 0 6px rgba(201, 162, 39, 0.6);
+  }
+  li.nat1 .roll-out strong,
+  tr.nat1 .attack-out .hit strong,
+  tr.nat1 .tag {
+    color: var(--gray);
+  }
+
+  // Advantage toggle in the banner
+  .roll-mode {
+    float: right;
+    display: inline-flex;
+    gap: 0.25rem;
+    margin-left: 0.6rem;
+
+    button {
+      padding: 0.1rem 0.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: 999px;
+      background: transparent;
+      color: #fff;
+      font-family: inherit;
+      font-size: 0.72rem;
+      font-weight: $semiBoldWeight;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &.active {
+        background: #fff;
+        color: var(--sheet-accent);
+      }
+    }
+  }
+  b {
+    color: var(--dark);
+  }
+  s {
+    opacity: 0.6;
+  }
+}
+
+@media all and ($mobile) {
+  .callout[data-callout="sheet"] .callout-content {
+    .roll-mode {
+      float: none;
+      display: flex;
+      margin: 0.5rem 0 0;
+    }
+    li .roll-out:not(:empty) small {
+      display: none;
+    }
+  }
+}
+
+@keyframes dice-pop {
+  0% { transform: scale(0.4) rotate(-25deg); opacity: 0; }
+  70% { transform: scale(1.15) rotate(4deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0); }
+}
+
 // Collapsed: the banner's padding/border otherwise outranks Quartz's
 // height-0 collapse rules and peeks out under the title.
 .callout[data-callout="sheet"].is-collapsed .callout-content {

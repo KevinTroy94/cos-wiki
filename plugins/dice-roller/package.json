@@ -1,0 +1,14 @@
+{
+  "name": "dice-roller",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": { ".": "./dist/index.js" },
+  "quartz": {
+    "name": "dice-roller",
+    "displayName": "Dice Roller",
+    "description": "Makes the Initiative card on [!sheet] character sheets clickable to roll d20 + bonus",
+    "version": "1.0.0",
+    "category": "transformer"
+  }
+}

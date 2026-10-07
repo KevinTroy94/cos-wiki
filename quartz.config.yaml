@@ -54,6 +54,10 @@ plugins:
   - source: "./.quartz/plugins/exclude-unpublished"
     enabled: true
 
+  # Clickable initiative roll on character sheets (client-side script only)
+  - source: "./.quartz/plugins/dice-roller"
+    enabled: true
+
   # ── Community transformers ────────────────────────────────────────────────
   - source: "@quartz-community/created-modified-date"
     enabled: true
