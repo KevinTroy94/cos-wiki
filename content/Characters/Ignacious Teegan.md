@@ -59,13 +59,13 @@ Mountain Dwarf Paladin
 >
 > **Spells** Spell save DC 12 · Spell attack +4
 >
-> | Spell | Casting Time | Range | Notes |
-> |---|:---:|:---:|---|
-> | Compel Duel (1st) | Bonus action | 30 ft | Concentration |
-> | Detect Evil and Good (1st) | Action | Self | Concentration |
-> | Detect Poison and Disease (1st) | Action | Self | Concentration, ritual |
-> | Divine Smite (1st) | Bonus action | 10 ft | |
-> | Purify Food and Drink (1st) | Action | 10 ft | Ritual |
+> | Spell | Casting Time | Range | Damage | Notes |
+> |---|:---:|:---:|---|---|
+> | Compel Duel (1st) | Bonus action | 30 ft | | Concentration |
+> | Detect Evil and Good (1st) | Action | Self | | Concentration |
+> | Detect Poison and Disease (1st) | Action | Self | | Concentration, ritual |
+> | Divine Smite (1st) | Bonus action | 10 ft | 2d8 radiant | After a melee hit; +1d8 per slot above 1st; +1d8 vs undead or fiend |
+> | Purify Food and Drink (1st) | Action | 10 ft | | Ritual |
 >
 > **Features & Traits**
 > - Lay on Hands
