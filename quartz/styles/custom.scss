@@ -301,6 +301,53 @@
     }
   }
 
+  // Ability cards: whole column highlights together; save result under the mod
+  .ability-roll.roll-target {
+    border-radius: 0;
+  }
+  th.ability-roll {
+    border-radius: 6px 6px 0 0;
+  }
+  .ability-roll.hover {
+    background: var(--highlight);
+  }
+  .save-out:not(:empty) {
+    display: block;
+    margin-top: 0.3rem;
+    font-weight: $normalWeight;
+    line-height: 1.15;
+
+    strong {
+      display: block;
+      font-size: 1.3rem;
+      color: var(--sheet-accent);
+    }
+    em {
+      display: block;
+      font-style: normal;
+      font-size: 0.6rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+    small {
+      display: block;
+      font-size: 0.62rem;
+      color: var(--gray);
+    }
+  }
+  td.rolled .save-out strong {
+    display: block;
+    animation: dice-pop 0.35s ease-out;
+  }
+  td.nat20 .save-out strong {
+    color: #c9a227;
+    text-shadow: 0 0 6px rgba(201, 162, 39, 0.6);
+  }
+  td.nat1 .save-out strong {
+    color: var(--gray);
+  }
+
   // Inline result after a save / skill
   li .roll-out:not(:empty) {
     margin-left: 0.4rem;
@@ -398,6 +445,30 @@
   }
 }
 
+// 3D dice overlay (dice-box canvas); click-through so the page stays usable
+#dice-tray {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+
+  &.show {
+    opacity: 1;
+  }
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+}
+.callout[data-callout="sheet"] .callout-content .rolling {
+  opacity: 0.6;
+}
+.callout[data-callout="sheet"] .callout-content .roll-mode .toggle-3d {
+  margin-left: 0.4rem;
+}
+
 @media all and ($mobile) {
   .callout[data-callout="sheet"] .callout-content {
     .roll-mode {
@@ -405,7 +476,8 @@
       display: flex;
       margin: 0.5rem 0 0;
     }
-    li .roll-out:not(:empty) small {
+    li .roll-out:not(:empty) small,
+    .save-out small {
       display: none;
     }
   }
