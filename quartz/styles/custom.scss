@@ -732,6 +732,100 @@
   }
 }
 
+// Dice roller on stat blocks (parchment colours)
+.callout[data-callout="statblock"] .callout-content {
+  .roll-target {
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: -0.3rem;
+    margin-right: -0.3rem;
+    padding: 0.1rem 0.3rem;
+    transition: background 0.15s ease;
+
+    &:hover,
+    &:focus-visible {
+      background: rgba(122, 32, 13, 0.08);
+      outline: none;
+    }
+  }
+  .rolling {
+    opacity: 0.6;
+  }
+  .roll-mode {
+    float: right;
+    display: inline-flex;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+
+    button {
+      padding: 0.05rem 0.45rem;
+      border: 1px solid var(--sb-red);
+      border-radius: 999px;
+      background: transparent;
+      color: var(--sb-red);
+      font-family: inherit;
+      font-size: 0.68rem;
+      font-weight: $semiBoldWeight;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      cursor: pointer;
+
+      &.active {
+        background: var(--sb-red);
+        color: var(--sb-parchment);
+      }
+    }
+    .toggle-3d {
+      margin-left: 0.3rem;
+    }
+  }
+  .attack-out:not(:empty) {
+    display: block;
+    margin-top: 0.25rem;
+    padding: 0.3rem 0.5rem;
+    border-left: 3px solid var(--sb-red);
+    background: rgba(122, 32, 13, 0.06);
+    font-style: normal;
+
+    .hit,
+    .dmg {
+      margin-right: 0.8rem;
+    }
+    strong {
+      font-size: 1.15em;
+      color: var(--sb-red);
+    }
+    small {
+      display: block;
+      font-size: 0.75em;
+      color: #6b5a4a;
+    }
+    .tag {
+      font-style: normal;
+      font-weight: $boldWeight;
+      font-size: 0.75em;
+      text-transform: uppercase;
+    }
+    b {
+      color: var(--sb-ink);
+    }
+    s {
+      opacity: 0.6;
+    }
+  }
+  p.rolled .attack-out strong {
+    display: inline-block;
+    animation: dice-pop 0.35s ease-out;
+  }
+  p.nat20 .attack-out .hit strong,
+  p.nat20 .attack-out .tag {
+    color: #b8860b;
+  }
+  p.nat1 .attack-out .hit strong {
+    color: #8a7a6a;
+  }
+}
+
 // ── Mobile header / explorer ────────────────────────────────────────────────
 // The long site title wraps to 3-4 lines on phones, which pushes the
 // vertically-centred menu button down onto the first explorer entry.

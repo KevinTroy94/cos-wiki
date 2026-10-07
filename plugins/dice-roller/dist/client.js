@@ -537,6 +537,123 @@
     })
   }
 
+  // ── Monster stat blocks ([!statblock]) ───────────────────────────────────
+  // Attack actions ("*Melee Attack Roll:* +6 ... *Hit:* 8 (2d4 + 3) Slashing
+  // damage plus 10 (3d6) Necrotic damage") roll to-hit and every damage part;
+  // saving-throw actions ("*Constitution Saving Throw:* DC 14 ... *Failure:*
+  // 5 (1d4 + 3) ...") roll the damage only.
+  function multiRoll(els, withD20, comps, render) {
+    if (busy) return
+    busy = true
+    els.forEach(function (e) {
+      e.classList.add("rolling")
+    })
+    var dice = comps.map(function (c) {
+      return { n: c.n, sides: c.sides }
+    })
+    rollGroups((withD20 ? [{ n: d20Count(), sides: 20 }] : []).concat(dice))
+      .then(function (out) {
+        var r = withD20 ? pickD20(out[0]) : null
+        var dmg = withD20 ? out.slice(1) : out
+        if (r && r.kept === 20) {
+          // Crit: throw the damage dice again and add them
+          return rollGroups(dice).then(function (extra) {
+            return [
+              r,
+              dmg.map(function (a, i) {
+                return a.concat(extra[i])
+              }),
+            ]
+          })
+        }
+        return [r, dmg]
+      })
+      .then(function (res) {
+        render(res[0], res[1])
+        els.forEach(function (e) {
+          mark(e, res[0])
+        })
+      })
+      .catch(function (err) {
+        console.warn(err)
+      })
+      .then(function () {
+        busy = false
+        els.forEach(function (e) {
+          e.classList.remove("rolling")
+        })
+      })
+  }
+
+  function setupStatblock(content) {
+    setupMode(content)
+    content.querySelectorAll(":scope > p").forEach(function (p) {
+      if (p.dataset.roller) return
+      var text = p.textContent.replace(/−/g, "-")
+      var hit = text.match(/(?:Attack Roll|Weapon Attack|Spell Attack)[^:]*:\s*([+-]\d+)/i)
+      var save = text.match(/(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma) Saving Throw:\s*DC\s*(\d+)/i)
+      var seg
+      if (hit) {
+        var hi = text.indexOf("Hit:")
+        if (hi < 0) return
+        seg = text.slice(hi + 4)
+      } else if (save) {
+        var fi = text.indexOf("Failure:")
+        if (fi < 0) return
+        seg = text.slice(fi + 8)
+      } else return
+      // First sentence only, and only the first of "X damage, or Y damage"
+      seg = seg.split(/\.\s/)[0].split(/,?\s+or\s+/)[0]
+      var comps = []
+      var re = /\d+\s*\((\d+)d(\d+)(?:\s*([+-])\s*(\d+))?\)\s*([A-Za-z]+)/g
+      var m
+      while ((m = re.exec(seg))) {
+        comps.push({
+          n: +m[1],
+          sides: +m[2],
+          mod: m[3] ? (m[3] === "-" ? -1 : 1) * +m[4] : 0,
+          type: m[5].toLowerCase(),
+        })
+      }
+      if (!comps.length) return
+      p.dataset.roller = "1"
+      var nameEl = p.querySelector("strong")
+      var name = nameEl ? nameEl.textContent.replace(/\.\s*$/, "").trim() : "Attack"
+      var bonus = hit ? num(hit[1]) : 0
+      var out = document.createElement("span")
+      out.className = "roll-out attack-out"
+      out.setAttribute("aria-live", "polite")
+      p.appendChild(out)
+      clickable(p, "Roll " + name, function () {
+        multiRoll([p], !!hit, comps, function (r, dmg) {
+          var total = 0
+          var parts = []
+          var detail = []
+          comps.forEach(function (c, i) {
+            var sum = Math.max(
+              0,
+              dmg[i].reduce(function (a, b) {
+                return a + b
+              }, 0) + c.mod,
+            )
+            total += sum
+            parts.push("<strong>" + sum + "</strong> " + c.type)
+            detail.push(dmg[i].length + "d" + c.sides + " [" + dmg[i].join(", ") + "]" + (c.mod ? " " + fmtMod(c.mod) : ""))
+          })
+          var head = hit
+            ? '<span class="hit"><strong>' + (r.kept + bonus) + "</strong> to hit" +
+              (r.kept === 20 ? ' <em class="tag">Crit!</em>' : r.kept === 1 ? ' <em class="tag">Nat 1</em>' : "") +
+              "</span>"
+            : '<span class="hit">DC ' + save[2] + " " + save[1].slice(0, 3) + " save · on a failure</span>"
+          out.innerHTML =
+            head +
+            '<span class="dmg">' + parts.join(" + ") + (parts.length > 1 ? " = <strong>" + total + "</strong>" : "") + "</span>" +
+            "<small>" + (hit ? d20Html(r) + " " + fmtMod(bonus) + " · " : "") + detail.join(" · ") + "</small>"
+        })
+      })
+    })
+  }
+
   function setup() {
     if (tray && !document.body.contains(tray)) document.body.appendChild(tray)
     document.querySelectorAll('.callout[data-callout="sheet"] .callout-content').forEach(function (content) {
@@ -546,6 +663,7 @@
       setupLists(content)
       setupAttacks(content)
     })
+    document.querySelectorAll('.callout[data-callout="statblock"] .callout-content').forEach(setupStatblock)
   }
 
   document.addEventListener("nav", setup)
