@@ -403,6 +403,81 @@
     return f ? { n: 0, sides: 0, mod: +f[1], type: f[2] } : null
   }
 
+  // Damage-only row: throws just the damage dice. Toggle chips:
+  //   - any "+XdY vs something" found in the row (e.g. "+1d8 vs undead or fiend")
+  //   - Crit: doubles every damage die
+  function setupDamageRow(tr, dmgCell) {
+    if (tr.dataset.roller || !dmgCell) return
+    var dmg = parseDamage(dmgCell.textContent)
+    if (!dmg || !dmg.n) return
+    tr.dataset.roller = "1"
+    var nameCell = tr.children[0]
+    var name = nameCell.textContent.trim()
+
+    var opts = []
+    var re = /\+\s*(\d+)d(\d+)\s+vs\.?\s+([^;|,.]+)/gi
+    var m
+    while ((m = re.exec(tr.textContent))) {
+      opts.push({ n: +m[1], sides: +m[2], label: "vs " + m[3].trim(), on: false })
+    }
+    var crit = { label: "Crit", on: false }
+
+    var chips = document.createElement("span")
+    chips.className = "roll-opts"
+    opts.concat([crit]).forEach(function (o) {
+      var b = document.createElement("button")
+      b.type = "button"
+      b.className = "roll-opt"
+      b.textContent = o === crit ? "Crit ×2" : o.label + " +" + o.n + "d" + o.sides
+      b.setAttribute("aria-pressed", "false")
+      b.addEventListener("click", function () {
+        o.on = !o.on
+        b.classList.toggle("active", o.on)
+        b.setAttribute("aria-pressed", String(o.on))
+      })
+      chips.appendChild(b)
+    })
+    nameCell.appendChild(chips)
+
+    var out = document.createElement("span")
+    out.className = "roll-out attack-out"
+    out.setAttribute("aria-live", "polite")
+    nameCell.appendChild(out)
+
+    clickable(tr, "Roll " + name + " damage", function () {
+      if (busy) return
+      busy = true
+      tr.classList.add("rolling")
+      var mult = crit.on ? 2 : 1
+      var parts = [{ n: dmg.n * mult, sides: dmg.sides, label: dmg.n * mult + "d" + dmg.sides }]
+      opts.forEach(function (o) {
+        if (o.on) parts.push({ n: o.n * mult, sides: o.sides, label: o.n * mult + "d" + o.sides + " " + o.label })
+      })
+      rollGroups(parts)
+        .then(function (res) {
+          var total = dmg.mod
+          var detail = parts.map(function (p, i) {
+            total += res[i].reduce(function (a, b) {
+              return a + b
+            }, 0)
+            return p.label + " [" + res[i].join(", ") + "]"
+          })
+          out.innerHTML =
+            '<span class="dmg"><strong>' + Math.max(0, total) + "</strong> " + dmg.type +
+            (crit.on ? ' <em class="tag">Crit</em>' : "") + "</span>" +
+            "<small>" + detail.join(" + ") + (dmg.mod ? " " + fmtMod(dmg.mod) : "") + "</small>"
+          mark(tr, null)
+        })
+        .catch(function (err) {
+          console.warn(err)
+        })
+        .then(function () {
+          busy = false
+          tr.classList.remove("rolling")
+        })
+    })
+  }
+
   function setupAttacks(content) {
     content.querySelectorAll(":scope > .table-container table").forEach(function (table) {
       var heads = Array.prototype.map.call(table.querySelectorAll("thead th"), function (th) {
@@ -412,7 +487,14 @@
         return i > 0 && /^(hit|to hit|attack)$/.test(h)
       })
       var dmgIdx = heads.indexOf("damage")
-      if (hitIdx < 0 || dmgIdx < 0) return
+      if (dmgIdx < 0) return
+      if (hitIdx < 0) {
+        // No attack roll column: damage-only rows (e.g. Divine Smite)
+        table.querySelectorAll("tbody tr").forEach(function (tr) {
+          setupDamageRow(tr, tr.children[dmgIdx])
+        })
+        return
+      }
       table.classList.add("attack-table")
       table.querySelectorAll("tbody tr").forEach(function (tr) {
         if (tr.dataset.roller) return

@@ -411,6 +411,34 @@
     color: var(--gray);
   }
 
+  // Option chips on damage-only rows (vs undead, crit)
+  .roll-opts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.3rem;
+  }
+  .roll-opt {
+    padding: 0.05rem 0.45rem;
+    border: 1px solid var(--lightgray);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--darkgray);
+    font-family: inherit;
+    font-size: 0.7rem;
+    cursor: pointer;
+
+    &.active {
+      border-color: var(--sheet-accent);
+      background: var(--sheet-accent);
+      color: #fff;
+    }
+  }
+  tr.rolled .attack-out .dmg strong {
+    display: inline-block;
+    animation: dice-pop 0.35s ease-out;
+  }
+
   // Advantage toggle in the banner
   .roll-mode {
     float: right;
