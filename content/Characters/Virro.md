@@ -53,9 +53,9 @@ Harengon Fighter
 >
 > | Weapon | Attack | Damage |
 > |---|:---:|---|
-> | Sabre | +5 | 1d8 slashing |
-> | Longbow | +5 | 1d8 piercing |
-> | Spear | +4 | 1d6 piercing (1d8 two-handed) |
+> | Sabre | +5 | 1d8 + 3 slashing |
+> | Longbow | +5 | 1d8 + 3 piercing |
+> | Spear | +4 | 1d6 + 3 piercing (1d8 + 3 two-handed) |
 >
 > **Features & Traits**
 > - **Hare-Trigger:** add proficiency bonus to initiative rolls.
