@@ -10,7 +10,7 @@ Mountain Dwarf Paladin
 ![[Pasted image 20260928004516.png]]
 
 > [!sheet]- Character Sheet
-> **Paladin 3 (Oathbreaker)** · Dwarf · Deacon · Previously Neutral Good
+> **Paladin 3 (Oathbreaker)** · Dwarf · Deacon · Neutral Good
 >
 > | STR | DEX | CON | INT | WIS | CHA |
 > |:---:|:---:|:---:|:---:|:---:|:---:|

@@ -18,7 +18,7 @@ While still young and naïve, he has since signed up for many adventures, always
 ![[Pasted image 20260928004444.png]]
 
 > [!sheet]- Character Sheet
-> **Cleric 3** · Elf · Background TBC · Alignment TBC
+> **Cleric 3** · Half-Elf · Background TBC · Alignment TBC
 >
 > | STR | DEX | CON | INT | WIS | CHA |
 > |:---:|:---:|:---:|:---:|:---:|:---:|
