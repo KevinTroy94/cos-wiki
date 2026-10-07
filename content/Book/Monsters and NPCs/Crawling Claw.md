@@ -1,0 +1,38 @@
+Crawling claws are severed hands that move and act of their own murderous accord. These deathless appendages can spring to life from the severed limbs of killers and villains, and sinister magic-users might animate crawling claws as foul servants. Crawling claws appear in a variety of forms, from decaying human hands to the fresh appendages of animals or monsters.
+
+Lone crawling claws can continue killing sprees they perpetrated in life. Some recklessly attack the living, while others pursue specific victims. In rare cases, a crawling claw wreaks mayhem while the rest of its body still lives, with the original creature potentially unaware of its severed hand's crimes.
+
+> [!statblock]
+> **Crawling Claw**
+>
+> *Tiny Undead, Neutral Evil*
+>
+> ---
+>
+> **AC** 12 · **Initiative** +2 (12)
+>
+> **HP** 2 (1d4)
+>
+> **Speed** 20 ft., Climb 20 ft.
+>
+> ---
+>
+> | | STR | DEX | CON | INT | WIS | CHA |
+> |---|:---:|:---:|:---:|:---:|:---:|:---:|
+> | Score | 13 | 14 | 11 | 5 | 10 | 4 |
+> | Mod | +1 | +2 | +0 | −3 | +0 | −3 |
+> | Save | +1 | +2 | +0 | −3 | +0 | −3 |
+>
+> ---
+>
+> **Immunities** Necrotic, Poison; Charmed, Exhaustion, Frightened, Incapacitated, Poisoned
+>
+> **Senses** Blindsight 30 ft.; Passive Perception 10
+>
+> **Languages** Understands Common but can't speak
+>
+> **CR** 0 (XP 10; PB +2)
+>
+> #### Actions
+>
+> ***Slam.*** *Melee Attack Roll:* +3, reach 5 ft. *Hit:* 2 Necrotic damage.

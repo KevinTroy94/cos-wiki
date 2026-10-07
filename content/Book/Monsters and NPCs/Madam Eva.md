@@ -14,3 +14,62 @@ The fortune-teller Madam Eva lives among the Vistani but-isn't truly one of them
 **Bond.** "The Vistani are my people now."
 
 **Flaw.** "The people whose fates I divine aren't important. They are but the means to an end."
+
+## 2024 Stat Block
+
+> [!statblock]
+> **Madam Eva**
+>
+> *Medium Humanoid (Human), Chaotic Neutral*
+>
+> ---
+>
+> **AC** 15 · **Initiative** +4 (14)
+>
+> **HP** 117 (18d8 + 36)
+>
+> **Speed** 30 ft.
+>
+> ---
+>
+> | | STR | DEX | CON | INT | WIS | CHA |
+> |---|:---:|:---:|:---:|:---:|:---:|:---:|
+> | Score | 8 | 11 | 14 | 17 | 20 | 18 |
+> | Mod | −1 | +0 | +2 | +3 | +5 | +4 |
+> | Save | −1 | +0 | +2 | +3 | +9 | +8 |
+>
+> ---
+>
+> **Skills** Arcana +7, Insight +9, Perception +9, Religion +7
+>
+> **Senses** Passive Perception 19
+>
+> **Languages** Abyssal, Common, Elvish, Infernal
+>
+> **CR** 10 (XP 5,900; PB +4)
+>
+> #### Traits
+>
+> ***Magic Resistance.*** Madam Eva has Advantage on saving throws against spells and other magical effects.
+>
+> #### Actions
+>
+> ***Multiattack.*** Madam Eva makes three attacks, using Cursed Dagger or Radiant Flame in any combination.
+>
+> ***Cursed Dagger.*** *Melee Attack Roll:* +9, reach 5 ft. *Hit:* 10 (2d4 + 5) Piercing damage plus 21 (6d6) Necrotic damage.
+>
+> ***Radiant Flame.*** *Ranged Attack Roll:* +9, range 60 ft. *Hit:* 21 (3d10 + 5) Radiant damage, and the target has the Blinded condition until the start of Madam Eva's next turn.
+>
+> ***Apocalyptic Visions (Recharge 5–6).*** *Wisdom Saving Throw:* DC 17, each creature in a 20-foot-radius Sphere centered on a point Madam Eva can see within 120 feet. *Failure:* 24 (7d6) Necrotic damage plus 24 (7d6) Psychic damage, and the target has the Frightened condition until the start of Madam Eva's next turn. *Success:* Half damage only.
+>
+> ***Spellcasting.*** Madam Eva casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 17):
+>
+> **At Will:** *Light, Mending, Thaumaturgy*
+>
+> **2/Day Each:** *Dispel Magic, Remove Curse*
+>
+> **1/Day Each:** *Greater Restoration, Raise Dead, Scrying, Spirit Guardians* (level 8 version)
+>
+> #### Bonus Actions
+>
+> ***Evil Eye (2/Day).*** Madam Eva casts *Hold Person*, using the same spellcasting ability as Spellcasting.
