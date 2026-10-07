@@ -27,7 +27,7 @@ While still young and naïve, he has since signed up for many adventures, always
 >
 > | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
 > |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-> | 11 | +1 | 30 ft | TBC | 3d8 | +2 | 15 |
+> | 16 | +1 | 30 ft | TBC | 3d8 | +2 | 15 |
 >
 > **Saving Throws**
 > - ○ Strength −1
