@@ -1,31 +1,59 @@
-Ireena and Retnuh stand outside the old mill. The Vanes of the mill creak in the wind (description)
-ireena to retnuh: would you really have given me to strahd?
-retnuh to ireena: The cool magic guy who gave me this horse? yeah maybe, but theres no end date to the agreement. You said you didnt want to go to him until you're ready, so we can wait until then.
-"Your honesty is quite disarming"
-Ireena looks at buccephalus and thinks.  
-"You must be from a warm land? you are dressed uncommon strange for cold weather"
-"I dont really remember, I think I might have lived near a mountain, or maybe by the ocean"
+Outside the old mill, the night wind pushed across the bare hilltop and set the great sails turning. Warm light spilled from the mill’s windows, and the smell of cinnamon and baked bread drifted down the slope, among the rows of scarecrows rattling softly on their poles.
 
-confused she says "what is an ocean   "
+Ireena and Retnuh stood a little apart from it, the horses shifting behind them, neither quite willing to go inside.
 
-retnuh is stunned, realises that they dont know life outside the valley, and that possibly he wont remember it either soon.
+“Would you really have given me to Strahd?” Ireena asked.
 
-Its like a massive lake as far as the eye can see.
+Retnuh considered it, then shrugged. “The cool magic guy who gave me this horse? Yeah, maybe. But there’s no end date on the agreement. You said you didn’t want to go to him until you were ready, so we can wait until then.”
 
-"that sounds terrifying"
-"Yeah really I think the ocean should only belong to those who are born there"
+Ireena looked at him for a moment. “Your honesty is quite disarming.”
 
-"who is born in the ocean?"
-"fish... and mermen"
-"Whats a mermen?"
-Well...
-and just as he begins to explain to a very interested ireena, the bonegrinder door opens, Edric, Virro and Ignacious emerge. 
+Her eyes drifted to Buccephalus and she was quiet, turning something over.
 
-The party agrees to rest for the night, with Virro and Edric making the point that the women in the old mill seem to scare off any of the strange creatures. 
-retnuh says "thats more reason not to stay here"
-and with that, the party heads down the road to make camp. 
-Ignacious scavenges for berries and food, finds an orange bushel of berries and makes them into a tincture but doesnt get time to test it before sleep takes him, Edric spies something in the treeline, a large raven watching the party, he murmurs something about it being a friend of vespers. Virro builds a lean-to (somehow, how? think it through)
-Ignacious is plagues by nightmares of a cornfield with a looming mill and wakes in a cold sweat.
+“You must be from a warm land,” she said at last. “You are dressed very strangely for the cold.”
+
+“I don’t really remember,” Retnuh admitted. “I think I might have lived near a mountain. Or maybe by the ocean.”
+
+Ireena frowned. “What is an ocean?”
+
+Retnuh stared at her, and the question landed somewhere deeper than he’d expected. She had never left the valley. Nobody here had. And he realised, with a slow cold weight, that he might lose the memory of what he’d just named as easily as everything else.
+
+“It’s like a massive lake,” he said carefully. “As far as the eye can see.”
+
+“That sounds terrifying.”
+
+“Yeah.” He almost smiled. “Honestly, I think the ocean should only belong to people who were born there.”
+
+“Who is born in the ocean?”
+
+“Fish. And mermen.”
+
+“What is a merman?”
+
+“Well...” Retnuh began, and Ireena leaned in, wholly interested, as he started to explain.
+
+Behind them, the mill door opened, and Edric, Virro, and Ignacious stepped out into the wind.
+
+The party talked it over on the hilltop and agreed to rest for the night. Virro and Edric made a point that whatever lurked in the dark around here seemed to keep well clear of the women in the old mill.
+
+“That’s more reason not to stay,” Retnuh said.
+
+Nobody argued with him. They took the road down the hill and made camp in the shelter of the trees, well out of sight of the turning sails.
+
+Ignacious wandered the treeline with a pouch, and in the dusk he found a thicket heavy with orange berries, plump and glossy. He gathered a good bushel and, back at the fire, crushed them into a tincture, the juice running a deep amber into a small flask. He meant to test it, but the fire was warm and the day had been long, and sleep took him before he could.
+
+Edric noticed a large raven perched on a low branch at the edge of the firelight, watching the camp with one bright, steady eye. It didn’t move when he looked back at it.
+“A friend of Vesper’s,” he murmured, to no one in particular.
+
+The raven stayed where it was until the fire burned low.
+
+Ignacious dreamed of a cornfield. The stalks stood taller than a man, dry and rustling, and above them loomed a mill, its great sails turning slowly against a starless sky.
+
+He woke in a cold sweat, gasping, the flask of amber tincture still unopened beside his bedroll. He was exhausted, as if he hadnt slept a wink. 
+
+
+
+---
 
 start at bonegrinder
 conversation between ireena and retnuh
