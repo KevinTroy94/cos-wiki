@@ -1,4 +1,4 @@
-
+![[Pasted image 20261008001806.png]]
 
 Vampires sometimes turn mortal servants unworthy of the gift of vampirism into skeletal soldiers. Known as Strahd skeletons, in recognition of the lord of Barovia who first created them, these silent, capable undead soldiers wield vampiric blades. Strahd skeletons that whet their blades in blood often carry their weapons back to their vampire lords. Tales disagree on whether vampires can feed from these bloody blades or merely revel in the sacrifice.
 

@@ -1,4 +1,4 @@
-
+![[Pasted image 20261008001855.png]]
 
 Realistic humanoid sculptures come to life, waxworks seek to kill and replace those they've been crafted to resemble. These creatures typically believe they're the original living beings rather than duplicates. Any waxwork confronted with evidence of its true nature flies into a rage until it or its double is destroyed.
 

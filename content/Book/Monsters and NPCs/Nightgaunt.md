@@ -1,4 +1,4 @@
-
+![[Pasted image 20261008002142.png]]
 
 Inscrutable, gargoyle-like fiends, nightgaunts soar over subterranean mountain ranges and the skies of alien worlds. These hunters are infamous for abducting victims and dropping them from incredible heights. Those who have escaped nightgaunts describe the touch of their razor-like claws as "tickling" in a way that causes every sense to scream.
 
