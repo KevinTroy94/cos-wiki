@@ -56,15 +56,23 @@ function parseBlock(lines) {
 }
 
 const monsters = []
+const sheets = []
 for (const file of walk(contentDir)) {
   const lines = readFileSync(file, "utf8").split(/\r?\n/)
+  const rel = relative(contentDir, file).split("\\").join("/")
   for (let i = 0; i < lines.length; i++) {
-    if (!/^>\s*\[!statblock\]/i.test(lines[i])) continue
+    const isStat = /^>\s*\[!statblock\]/i.test(lines[i])
+    const isSheet = /^>\s*\[!sheet\]/i.test(lines[i])
+    if (!isStat && !isSheet) continue
     const block = []
     for (let j = i + 1; j < lines.length && /^>/.test(lines[j]); j++) block.push(lines[j].replace(/^>\s?/, ""))
+    if (isSheet) {
+      // Character sheets: keyed by page name (matches the name on initiative rolls)
+      sheets.push({ name: basename(file, ".md"), source: rel.replace(/\.md$/, ""), md: block.join("\n") })
+      continue
+    }
     const m = parseBlock(block)
     if (!m) continue
-    const rel = relative(contentDir, file).split("\\").join("/")
     m.source = rel.replace(/\.md$/, "")
     m.folder = rel.split("/").slice(0, -1).join("/")
     monsters.push(m)
@@ -72,5 +80,5 @@ for (const file of walk(contentDir)) {
 }
 monsters.sort((a, b) => a.name.localeCompare(b.name))
 mkdirSync(dirname(outFile), { recursive: true })
-writeFileSync(outFile, JSON.stringify({ built: new Date().toISOString(), monsters }))
-console.log(`build-monsters: ${monsters.length} stat blocks -> ${outFile}`)
+writeFileSync(outFile, JSON.stringify({ built: new Date().toISOString(), monsters, sheets }))
+console.log(`build-monsters: ${monsters.length} stat blocks, ${sheets.length} character sheets -> ${outFile}`)

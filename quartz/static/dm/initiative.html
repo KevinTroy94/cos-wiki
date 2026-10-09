@@ -111,7 +111,7 @@
   .list { display: flex; flex-direction: column; gap: 0.35rem; }
   .row {
     display: grid;
-    grid-template-columns: 58px minmax(0, 1.7fr) 132px 56px minmax(0, 1.2fr) 96px;
+    grid-template-columns: 76px minmax(0, 1.7fr) 132px 56px minmax(0, 1.2fr) 128px;
     gap: 0.5rem;
     align-items: center;
     padding: 0.45rem 0.55rem;
@@ -127,7 +127,7 @@
   .row.down .name input { text-decoration: line-through; }
   .row.selected { box-shadow: inset 0 0 0 1px var(--accent); }
   @media (max-width: 760px) {
-    .row { grid-template-columns: 58px minmax(0, 1fr) auto; }
+    .row { grid-template-columns: 76px minmax(0, 1fr) auto; }
     .row .notes { grid-column: 1 / -1; }
   }
   .init input {
@@ -140,6 +140,8 @@
     border-color: transparent;
   }
   .init input::placeholder { color: var(--line); }
+  .init input::-webkit-inner-spin-button, .init input::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+  .init input { -moz-appearance: textfield; appearance: textfield; }
   .init input:hover, .init input:focus { border-color: var(--line); }
   .name { display: flex; flex-direction: column; min-width: 0; }
   .name input { background: transparent; border-color: transparent; font-weight: 600; padding-left: 0.2rem; }
@@ -241,6 +243,82 @@
   .callout[data-callout="statblock"] .attack-out s { opacity: 0.6; }
   .callout[data-callout="statblock"] p.nat20 .attack-out .hit strong { color: #b8860b; }
 
+
+  /* Autocomplete dropdown for the Name box */
+  .name-wrap { position: relative; }
+  .ac-list {
+    position: absolute; z-index: 30; left: 0; right: 0; top: 100%; margin-top: 3px;
+    max-height: 320px; overflow: auto;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--panel);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  .ac-list[hidden] { display: none; }
+  .ac-item { display: flex; justify-content: space-between; gap: 0.6rem; padding: 0.35rem 0.6rem; cursor: pointer; text-transform: none; letter-spacing: 0; font-size: 0.9rem; color: var(--text); }
+  .ac-item small { color: var(--muted); font-size: 0.75rem; white-space: nowrap; }
+  .ac-item.on, .ac-item:hover { background: var(--accent-dim); }
+  .ac-item.on small, .ac-item:hover small { color: #f3d6db; }
+  .ac-item mark { background: none; color: var(--gold); }
+
+  /* Character sheet in the side panel (compact version of the wiki's [!sheet]) */
+  .callout[data-callout="sheet"] { margin: 0; padding: 0.2rem 0.7rem 0.6rem; border-left: 4px solid var(--accent); border-radius: 6px; background: var(--panel2); }
+  .callout[data-callout="sheet"] .callout-content { font-size: 0.82rem; }
+  .callout[data-callout="sheet"] p { margin: 0.25rem 0; }
+  .callout[data-callout="sheet"] .callout-content > p:first-child { margin: 0.5rem 0 0.7rem; padding: 0.45rem 0.6rem; border-radius: 4px; background: var(--accent-dim); color: #fff; }
+  .callout[data-callout="sheet"] .callout-content > p:first-child strong { color: #fff; }
+  .callout[data-callout="sheet"] .callout-content > p:not(:first-child) > strong:only-child { display: block; margin-top: 0.8rem; padding-bottom: 0.15rem; border-bottom: 2px solid var(--accent); font-variant: small-caps; letter-spacing: 0.05em; font-size: 0.95rem; }
+  .callout[data-callout="sheet"] table { width: 100%; border-collapse: collapse; margin: 0.3rem 0 0.6rem; }
+  .callout[data-callout="sheet"] th { font-size: 0.62rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); text-align: left; padding: 0.2rem 0.3rem; }
+  .callout[data-callout="sheet"] td { padding: 0.25rem 0.3rem; border-top: 1px solid var(--line); }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) table,
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) table { border-collapse: separate; border-spacing: 0.25rem 0; table-layout: fixed; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) th,
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) td { text-align: center; background: var(--bg); border: none; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) th { border-top: 3px solid var(--accent); border-radius: 5px 5px 0 0; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) tbody tr:first-child td { font-size: 1.15rem; font-weight: 700; padding-top: 0; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(1) tbody tr:last-child td { color: var(--accent); font-weight: 700; border-radius: 0 0 5px 5px; }
+  /* combat stats: 4-column grid of cards, header above value */
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 0.3rem; margin: 0.3rem 0 0.6rem; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) :is(table, thead, tbody, tr) { display: contents; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) :is(th, td) { display: block; text-align: center; background: var(--bg); border: none; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th { border-top: 3px solid var(--accent); border-radius: 5px 5px 0 0; font-size: 0.56rem; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td { margin-bottom: 0.3rem; border-radius: 0 0 5px 5px; font-weight: 700; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(1), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(1) { grid-column: 1; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(2), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(2) { grid-column: 2; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(3), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(3) { grid-column: 3; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(4), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(4) { grid-column: 4; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(5), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(5) { grid-column: 1; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(6), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(6) { grid-column: 2; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(7), .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(7) { grid-column: 3; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(-n+4) { grid-row: 1; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(-n+4) { grid-row: 2; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) th:nth-child(n+5) { grid-row: 3; }
+  .callout[data-callout="sheet"] .callout-content > .table-container:nth-of-type(2) td:nth-child(n+5) { grid-row: 4; }
+  .callout[data-callout="sheet"] .callout-content > ul { list-style: none; padding-left: 0; margin: 0.3rem 0; }
+  .callout[data-callout="sheet"] .callout-content > ul:nth-of-type(1), .callout[data-callout="sheet"] .callout-content > ul:nth-of-type(2) { columns: 2; column-gap: 0.8rem; color: var(--muted); }
+  .callout[data-callout="sheet"] .callout-content > ul:nth-of-type(1) li, .callout[data-callout="sheet"] .callout-content > ul:nth-of-type(2) li { break-inside: avoid; }
+  .callout[data-callout="sheet"] .callout-content > ul strong { color: var(--accent); }
+  .callout[data-callout="sheet"] .callout-content > ul:not(:nth-of-type(1)):not(:nth-of-type(2)) li { margin: 0.15rem 0; }
+  /* dice-roller bits on the sheet */
+  .callout[data-callout="sheet"] .roll-target { cursor: pointer; }
+  .callout[data-callout="sheet"] .roll-target:hover { background: var(--panel); }
+  .callout[data-callout="sheet"] .rolling { opacity: 0.6; }
+  .callout[data-callout="sheet"] .roll-mode { display: flex; gap: 0.25rem; margin-top: 0.4rem; }
+  .callout[data-callout="sheet"] .roll-mode button { padding: 0.05rem 0.45rem; border: 1px solid rgba(255,255,255,0.6); border-radius: 999px; background: transparent; color: #fff; font-size: 0.65rem; text-transform: uppercase; }
+  .callout[data-callout="sheet"] .roll-mode button.active { background: #fff; color: var(--accent-dim); }
+  .callout[data-callout="sheet"] :is(.roll-out, .save-out, .dice-result) strong { color: var(--accent); }
+  .callout[data-callout="sheet"] li .roll-out:not(:empty) { margin-left: 0.3rem; }
+  .callout[data-callout="sheet"] li .roll-out small { display: none; }
+  .callout[data-callout="sheet"] :is(.save-out, .dice-result, .dice-bonus) { display: block; }
+  .callout[data-callout="sheet"] :is(.save-out, .dice-result) :is(em, small) { display: block; font-style: normal; font-size: 0.6rem; color: var(--muted); font-weight: 400; }
+  .callout[data-callout="sheet"] td.rolled .dice-bonus { display: none; }
+  .callout[data-callout="sheet"] .dm-sent { display: block; font-size: 0.55rem; color: var(--muted); font-weight: 400; }
+  .callout[data-callout="sheet"] .attack-out:not(:empty) { display: block; margin-top: 0.2rem; }
+  .callout[data-callout="sheet"] .attack-out small { display: block; font-size: 0.7rem; color: var(--muted); }
+  .callout[data-callout="sheet"] .attack-out .hit, .callout[data-callout="sheet"] .attack-out .dmg { margin-right: 0.6rem; }
+  .callout[data-callout="sheet"] .roll-opts { display: flex; flex-wrap: wrap; gap: 0.2rem; margin-top: 0.2rem; }
+  .callout[data-callout="sheet"] .roll-opt { padding: 0 0.4rem; font-size: 0.65rem; border-radius: 999px; }
+  .callout[data-callout="sheet"] .roll-opt.active { background: var(--accent-dim); border-color: var(--accent-dim); }
+  .callout[data-callout="sheet"] :is(.nat20) :is(.roll-out, .save-out, .dice-result) strong { color: var(--gold); }
   #dice-tray { position: fixed; inset: 0; z-index: 50; pointer-events: none; opacity: 0; transition: opacity 0.4s; }
   #dice-tray.show { opacity: 1; }
   #dice-tray canvas { width: 100%; height: 100%; }
@@ -263,7 +341,7 @@
   <section>
     <h2>Add combatant</h2>
     <form class="add" id="addForm" autocomplete="off">
-      <label class="name">Name<input id="fName" list="library" placeholder="Start typing: Zombie, Vampire Spawn…" required></label>
+      <label class="name">Name<span class="name-wrap"><input id="fName" placeholder="Start typing: Zombie, Vampire Spawn…" required style="width:100%"><span class="ac-list" id="acList" hidden></span></span></label>
       <label>Init bonus<input id="fBonus" type="number" value="0"></label>
       <label>HP<input id="fHp" type="number" min="0" placeholder="22"></label>
       <label>AC<input id="fAc" type="number" min="0" placeholder="8"></label>
@@ -272,7 +350,6 @@
       <button type="submit" class="primary" title="Add and roll d20 + bonus">Add &amp; roll</button>
       <button type="button" id="addPc" title="Add a party member by hand">+ PC</button>
     </form>
-    <datalist id="library"></datalist>
     <div class="libhint" id="libhint"></div>
 
     <div id="list" class="list"></div>
@@ -353,24 +430,22 @@
 
   // ── Monster library (built from every [!statblock] in the vault) ──────
   var library = {}
+  var sheets = {}
   fetch("monsters.json").then(function (r) { if (!r.ok) throw 0; return r.json() }).then(function (d) {
-    var dl = document.getElementById("library")
-    d.monsters.forEach(function (m) {
-      library[m.name.toLowerCase()] = m
-      var o = document.createElement("option")
-      o.value = m.name
-      o.label = "AC " + m.ac + " · HP " + m.hp + (m.cr ? " · CR " + m.cr : "")
-      dl.appendChild(o)
-    })
-    hint("Library: <b>" + d.monsters.length + "</b> stat blocks.")
+    d.monsters.forEach(function (m) { library[m.name.toLowerCase()] = m })
+    ;(d.sheets || []).forEach(function (sh) { sheets[sh.name.toLowerCase()] = sh })
+    libCount = d.monsters.length
+    hint(libHint())
     render()
   }).catch(function () { hint("Monster library not found (it's generated when the site builds). Manual entry still works.") })
 
+  var libCount = 0
+  function libHint() { return libCount ? "Library: <b>" + libCount + "</b> stat blocks. Start typing a name to pick one." : "" }
   function hint(html) { document.getElementById("libhint").innerHTML = html }
   var fName = document.getElementById("fName")
   fName.addEventListener("input", function () {
     var m = library[fName.value.trim().toLowerCase()]
-    if (!m) return
+    if (!m) { hint(libHint()); return }
     document.getElementById("fBonus").value = m.init
     document.getElementById("fHp").value = m.hp != null ? m.hp : ""
     document.getElementById("fAc").value = m.ac != null ? m.ac : ""
@@ -379,6 +454,53 @@
     rh.checked = !!m.hpDice
     hint("<b>" + esc(m.name) + "</b>: AC " + m.ac + ", HP " + m.hp + (m.hpDice ? " (" + esc(m.hpDice) + ")" : "") + ", init " + sign(m.init) + (m.cr ? ", CR " + esc(m.cr) : "") + " · from " + esc(m.folder))
   })
+
+  // ── Name dropdown ──────────────────────────────────────────────────────
+  var acList = document.getElementById("acList")
+  var acItems = []
+  var acOn = -1
+  function acRender() {
+    var q = fName.value.trim().toLowerCase()
+    var all = Object.keys(library).map(function (k) { return library[k] })
+    acItems = (q ? all.filter(function (m) { return m.name.toLowerCase().indexOf(q) >= 0 }) : all)
+      .sort(function (a, b) {
+        var as = a.name.toLowerCase().indexOf(q) === 0 ? 0 : 1, bs = b.name.toLowerCase().indexOf(q) === 0 ? 0 : 1
+        return as - bs || a.name.localeCompare(b.name)
+      })
+      .slice(0, 10)
+    if (!acItems.length || (acItems.length === 1 && acItems[0].name.toLowerCase() === q)) { acList.hidden = true; return }
+    acOn = Math.min(acOn, acItems.length - 1)
+    acList.innerHTML = acItems.map(function (m, i) {
+      var nm = esc(m.name)
+      if (q) { var at = m.name.toLowerCase().indexOf(q); nm = esc(m.name.slice(0, at)) + "<mark>" + esc(m.name.slice(at, at + q.length)) + "</mark>" + esc(m.name.slice(at + q.length)) }
+      return '<span class="ac-item' + (i === acOn ? " on" : "") + '" data-i="' + i + '"><span>' + nm + "</span><small>AC " + m.ac + " · HP " + m.hp + (m.cr ? " · CR " + esc(m.cr) : "") + "</small></span>"
+    }).join("")
+    acList.hidden = false
+  }
+  function acPick(i) {
+    var m = acItems[i]
+    if (!m) return
+    fName.value = m.name
+    acList.hidden = true
+    fName.dispatchEvent(new Event("input"))
+    acList.hidden = true
+    document.getElementById("fCount").focus()
+  }
+  fName.addEventListener("input", function () { acOn = -1; acRender() })
+  fName.addEventListener("focus", function () { if (fName.value) acRender() })
+  fName.addEventListener("keydown", function (e) {
+    if (acList.hidden) { if (e.key === "ArrowDown") { acOn = 0; acRender() } return }
+    if (e.key === "ArrowDown") { e.preventDefault(); acOn = (acOn + 1) % acItems.length; acRender() }
+    else if (e.key === "ArrowUp") { e.preventDefault(); acOn = acOn <= 0 ? acItems.length - 1 : acOn - 1; acRender() }
+    else if (e.key === "Enter" && acOn >= 0) { e.preventDefault(); acPick(acOn) }
+    else if (e.key === "Tab" && acItems.length) { e.preventDefault(); acPick(acOn >= 0 ? acOn : 0) }
+    else if (e.key === "Escape") { acList.hidden = true }
+  })
+  acList.addEventListener("mousedown", function (e) {
+    var it = e.target.closest(".ac-item")
+    if (it) { e.preventDefault(); acPick(+it.dataset.i) }
+  })
+  fName.addEventListener("blur", function () { setTimeout(function () { acList.hidden = true }, 150) })
 
   // ── Sorting / rendering ────────────────────────────────────────────────
   function initOf(c) { return c.init == null ? -Infinity : c.init }
@@ -408,7 +530,7 @@
       var condHtml = c.conds.map(function (k, ci) {
         return '<span class="cond" data-i="' + ci + '" title="Click to remove">' + esc(k.name) + (k.rounds ? " <em>" + k.rounds + "r</em>" : "") + "</span>"
       }).join("")
-      var hasSb = c.ref && library[c.ref.toLowerCase()]
+      var hasSb = c.kind === "pc" ? sheets[c.name.toLowerCase()] : c.ref && library[c.ref.toLowerCase()]
       row.innerHTML =
         '<div class="init"><input type="number" value="' + (c.init == null ? "" : c.init) + '" placeholder="–" title="Initiative"></div>' +
         '<div class="name"><input value="' + esc(c.name) + '"><span class="meta"><span class="badge ' + c.kind + '">' + (c.kind === "pc" ? "PC" : "Foe") + "</span>" + esc(meta) + "</span>" +
@@ -417,7 +539,7 @@
         '<div class="ac"><input value="' + (c.ac != null ? c.ac : "") + '" placeholder="AC" title="AC"></div>' +
         '<div class="notes"><input value="' + esc(c.notes || "") + '" placeholder="notes"></div>' +
         '<div class="acts">' +
-        (hasSb ? '<button class="small ghost sb" title="Show stat block">📜</button>' : "") +
+        (hasSb ? '<button class="small ghost sb" title="' + (c.kind === "pc" ? "Show character sheet" : "Show stat block") + '">📜</button>' : "") +
         '<button class="small ghost cnd" title="Add condition">⚑</button>' +
         (c.kind === "monster" ? '<button class="small ghost reroll" title="Reroll initiative">🎲</button>' : "") +
         '<button class="small ghost del" title="Remove">✕</button></div>'
@@ -531,6 +653,7 @@
     var name = fName.value.trim()
     if (!name) return
     var lib = library[name.toLowerCase()]
+    if (lib) name = lib.name
     var bonus = parseInt(document.getElementById("fBonus").value, 10) || 0
     var hp = parseInt(document.getElementById("fHp").value, 10)
     var ac = parseInt(document.getElementById("fAc").value, 10)
@@ -643,20 +766,29 @@
           return l.trim().replace(/^\||\|$/g, "").split("|").map(function (x) { return x.trim() })
         })
         var head = rows.shift()
-        return '<table' + (head[0] === "" ? ' class="labelled"' : "") + "><thead><tr>" + head.map(function (h) { return "<th>" + inline(h) + "</th>" }).join("") +
-          "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (x) { return "<td>" + inline(x) + "</td>" }).join("") + "</tr>" }).join("") + "</tbody></table>"
+        return '<div class="table-container"><table' + (head[0] === "" ? ' class="labelled"' : "") + "><thead><tr>" + head.map(function (h) { return "<th>" + inline(h) + "</th>" }).join("") +
+          "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (x) { return "<td>" + inline(x) + "</td>" }).join("") + "</tr>" }).join("") + "</tbody></table></div>"
       }
-      if (lines.every(function (l) { return /^-\s/.test(l) })) return "<ul>" + lines.map(function (l) { return "<li>" + inline(l.replace(/^-\s*/, "")) + "</li>" }).join("") + "</ul>"
-      return "<p>" + inline(lines.join(" ")) + "</p>"
+      // Paragraph lines and "- " list lines can share a block ("**Skills**" then the list)
+      var out = "", para = [], items = []
+      function flushP() { if (para.length) { out += "<p>" + inline(para.join(" ")) + "</p>"; para = [] } }
+      function flushL() { if (items.length) { out += "<ul>" + items.map(function (l) { return "<li>" + inline(l) + "</li>" }).join("") + "</ul>"; items = [] } }
+      lines.forEach(function (l) {
+        if (/^-\s/.test(l)) { flushP(); items.push(l.replace(/^-\s*/, "")) }
+        else { flushL(); para.push(l) }
+      })
+      flushP(); flushL()
+      return out
     }).join("")
   }
   function openSb(c) {
-    var m = library[(c.ref || "").toLowerCase()]
+    var isPc = c.kind === "pc"
+    var m = isPc ? sheets[c.name.toLowerCase()] : library[(c.ref || "").toLowerCase()]
     if (!m) return
     selectedId = c.id
-    document.getElementById("sbTitle").textContent = c.name
+    document.getElementById("sbTitle").textContent = c.name + (isPc ? " · character sheet" : "")
     document.getElementById("sbBody").innerHTML =
-      '<blockquote class="callout" data-callout="statblock"><div class="callout-content">' + mdToHtml(m.md) + "</div></blockquote>"
+      '<blockquote class="callout" data-callout="' + (isPc ? "sheet" : "statblock") + '"><div class="callout-content">' + mdToHtml(m.md) + "</div></blockquote>"
     document.getElementById("sbPanel").hidden = false
     // Let the shared dice roller make the attacks clickable
     document.dispatchEvent(new CustomEvent("nav"))
