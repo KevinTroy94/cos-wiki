@@ -266,6 +266,21 @@
         color: var(--gray);
       }
     }
+    .dm-sent {
+      display: block;
+      margin-top: 0.15rem;
+      font-size: 0.6rem;
+      letter-spacing: 0.03em;
+      text-transform: none;
+      color: var(--gray);
+
+      &.ok {
+        color: #5a9e6f;
+      }
+      &.fail {
+        color: var(--sheet-accent);
+      }
+    }
     // After a roll, the total replaces the bonus (bonus stays in the small line)
     &.rolled .dice-bonus {
       display: none;

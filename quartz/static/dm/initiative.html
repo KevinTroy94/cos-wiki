@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Initiative Tracker</title>
+<link rel="icon" href="../icon.png">
+<style>
+  :root {
+    --bg: #161618;
+    --panel: #212124;
+    --panel2: #2a2a2e;
+    --line: #393639;
+    --text: #ebebec;
+    --muted: #8f8f96;
+    --accent: #c8475a;
+    --accent-dim: #9b2335;
+    --gold: #d4a933;
+    --ok: #5a9e6f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.4 "Source Sans Pro", "Segoe UI", system-ui, sans-serif;
+  }
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem 1rem;
+    padding: 0.8rem 1rem;
+    border-bottom: 3px solid var(--accent-dim);
+    background: var(--panel);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+  h1 { margin: 0; font-size: 1.25rem; letter-spacing: 0.02em; }
+  .round { font-size: 0.9rem; color: var(--muted); }
+  .round b { color: var(--text); font-size: 1.1rem; }
+  .spacer { flex: 1; }
+  .status { display: inline-flex; align-items: center; gap: 0.35rem; font-size: 0.8rem; color: var(--muted); }
+  .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); }
+  .dot.live { background: var(--ok); box-shadow: 0 0 6px var(--ok); }
+  .dot.down { background: var(--accent); }
+  button, input, select {
+    font: inherit;
+    color: var(--text);
+  }
+  button {
+    padding: 0.35rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--panel2);
+    cursor: pointer;
+  }
+  button:hover { border-color: var(--accent); }
+  button.primary { background: var(--accent-dim); border-color: var(--accent-dim); }
+  button.primary:hover { background: var(--accent); }
+  button.small { padding: 0.15rem 0.45rem; font-size: 0.8rem; }
+  button.ghost { background: transparent; border-color: transparent; color: var(--muted); }
+  button.ghost:hover { color: var(--text); border-color: var(--line); }
+  button.on { background: var(--text); color: var(--bg); }
+  input {
+    padding: 0.35rem 0.5rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--bg);
+    min-width: 0;
+  }
+  input:focus { outline: none; border-color: var(--accent); }
+  main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  section {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.8rem;
+  }
+  h2 { margin: 0 0 0.6rem; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  form.add {
+    display: grid;
+    grid-template-columns: 2fr repeat(4, minmax(0, 1fr)) auto auto;
+    gap: 0.4rem;
+    margin-bottom: 0.9rem;
+    align-items: end;
+  }
+  form.add label { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  @media (max-width: 700px) { form.add { grid-template-columns: repeat(2, minmax(0, 1fr)); } form.add .name { grid-column: span 2; } }
+  .empty { padding: 2rem 1rem; text-align: center; color: var(--muted); }
+  .list { display: flex; flex-direction: column; gap: 0.35rem; }
+  .row {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1.6fr) 150px 60px minmax(0, 1.4fr) 64px;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.45rem 0.55rem;
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--line);
+    border-radius: 6px;
+    background: var(--panel2);
+  }
+  .row.pc { border-left-color: #5c7fa3; }
+  .row.monster { border-left-color: var(--accent-dim); }
+  .row.current { outline: 2px solid var(--gold); background: #2f2b22; }
+  .row.down { opacity: 0.5; }
+  .row.down .name input { text-decoration: line-through; }
+  @media (max-width: 700px) {
+    .row { grid-template-columns: 58px minmax(0, 1fr) auto; }
+    .row .hp, .row .ac, .row .notes { grid-column: span 1; }
+    .row .notes { grid-column: 1 / -1; }
+  }
+  .init input {
+    width: 100%;
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: transparent;
+    border-color: transparent;
+  }
+  .init input:hover, .init input:focus { border-color: var(--line); }
+  .name { display: flex; flex-direction: column; min-width: 0; }
+  .name input { background: transparent; border-color: transparent; font-weight: 600; padding-left: 0.2rem; }
+  .name input:hover, .name input:focus { border-color: var(--line); }
+  .meta { font-size: 0.72rem; color: var(--muted); padding-left: 0.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .badge { display: inline-block; padding: 0 0.35rem; border-radius: 999px; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.3rem; }
+  .badge.pc { background: #34465a; }
+  .badge.monster { background: #4a2228; }
+  .hp { display: flex; align-items: center; gap: 0.25rem; }
+  .hp input { width: 48px; text-align: center; }
+  .hp .max { font-size: 0.8rem; color: var(--muted); }
+  .hp .bar { height: 3px; border-radius: 2px; background: var(--line); grid-column: 1 / -1; }
+  .ac input { width: 100%; text-align: center; }
+  .notes input { width: 100%; font-size: 0.85rem; }
+  .acts { display: flex; gap: 0.15rem; }
+  .feed { display: flex; flex-direction: column; gap: 0.35rem; max-height: 60vh; overflow: auto; }
+  .feed .item { padding: 0.4rem 0.5rem; border-radius: 6px; background: var(--panel2); font-size: 0.85rem; }
+  .feed .item b { color: var(--accent); }
+  .feed .item small { display: block; color: var(--muted); font-size: 0.72rem; }
+  .feed .item.nat20 b { color: var(--gold); }
+  .help { font-size: 0.8rem; color: var(--muted); }
+  .help code { background: var(--bg); padding: 0 0.25rem; border-radius: 3px; }
+  .flash { animation: flash 1.2s ease-out; }
+  @keyframes flash { 0% { background: #4a3d1a; } 100% { background: var(--panel2); } }
+  #dice-tray { position: fixed; inset: 0; z-index: 50; pointer-events: none; opacity: 0; transition: opacity 0.4s; }
+  #dice-tray.show { opacity: 1; }
+  #dice-tray canvas { width: 100%; height: 100%; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Initiative</h1>
+  <span class="round">Round <b id="round">1</b></span>
+  <button id="prev" class="ghost" title="Previous turn">◀</button>
+  <button id="next" class="primary" title="Next turn (Space)">Next turn ▶</button>
+  <span class="spacer"></span>
+  <span class="status"><span id="dot" class="dot"></span><span id="conn">connecting…</span></span>
+  <button id="toggle3d" class="small" title="3D dice for monster rolls">3D</button>
+  <button id="newCombat" title="Clear everyone and start listening for fresh rolls">New combat</button>
+</header>
+
+<main>
+  <section>
+    <h2>Add combatant</h2>
+    <form class="add" id="addForm" autocomplete="off">
+      <label class="name">Name<input id="fName" placeholder="Zombie" required></label>
+      <label>Init bonus<input id="fBonus" type="number" value="0"></label>
+      <label>HP<input id="fHp" type="number" min="0" placeholder="22"></label>
+      <label>AC<input id="fAc" type="number" min="0" placeholder="8"></label>
+      <label>Count<input id="fCount" type="number" min="1" max="20" value="1"></label>
+      <button type="submit" class="primary" title="Add and roll d20 + bonus">Add &amp; roll</button>
+      <button type="button" id="addPc" title="Add a player character by hand (if their roll didn't come through)">+ PC</button>
+    </form>
+
+    <div id="list" class="list"></div>
+    <div id="empty" class="empty">Waiting for initiative rolls. Players tap the Initiative card on their character sheet and they'll appear here.</div>
+  </section>
+
+  <aside>
+    <section>
+      <h2>Incoming rolls</h2>
+      <div id="feed" class="feed"><div class="help">Rolls from the wiki show up here as they arrive.</div></div>
+    </section>
+    <section style="margin-top:1rem">
+      <h2>Tips</h2>
+      <div class="help">
+        HP box: type <code>-7</code> to deal 7 damage, <code>+5</code> to heal, or a plain number to set it.<br>
+        Click any initiative number to edit it. Ties sort by bonus.<br>
+        <kbd>Space</kbd> = next turn. Everything is saved in this browser.
+      </div>
+    </section>
+  </aside>
+</main>
+
+<script>
+(function () {
+  // Must match DM_TOPIC in plugins/dice-roller/dist/client.js
+  var TOPIC = "cos-7j76gfs57pvvzfnipjai"
+  var KEY = "cos-initiative-v1"
+
+  var state = load() || { combatants: [], round: 1, turn: 0, since: Math.floor(Date.now() / 1000) - 3600, seen: [], use3d: true, started: false }
+
+  function load() {
+    try { return JSON.parse(localStorage.getItem(KEY)) } catch (e) { return null }
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {}
+  }
+  function uid() { return Math.random().toString(36).slice(2, 10) }
+  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] }) }
+  function sign(n) { return n >= 0 ? "+" + n : "−" + Math.abs(n) }
+
+  // ── Sorting / rendering ────────────────────────────────────────────────
+  function sorted() {
+    return state.combatants.slice().sort(function (a, b) {
+      return (b.init - a.init) || (b.bonus - a.bonus) || (a.kind === "pc" ? -1 : 1) - (b.kind === "pc" ? -1 : 1) || a.order - b.order
+    })
+  }
+
+  var listEl = document.getElementById("list")
+  function render(flashId) {
+    var list = sorted()
+    if (state.turn >= list.length) state.turn = 0
+    document.getElementById("round").textContent = state.round
+    document.getElementById("next").textContent = state.started ? "Next turn ▶" : "Start combat ▶"
+    document.getElementById("empty").style.display = list.length ? "none" : ""
+    listEl.innerHTML = ""
+    list.forEach(function (c, i) {
+      var row = document.createElement("div")
+      var down = c.maxHp && c.hp <= 0
+      row.className = "row " + c.kind + (state.started && i === state.turn ? " current" : "") + (down ? " down" : "") + (c.id === flashId ? " flash" : "")
+      var meta = c.kind === "pc" ? (c.detail || "player") : "d20 " + (c.d20 != null ? c.d20 : "?") + " " + sign(c.bonus)
+      row.innerHTML =
+        '<div class="init"><input type="number" value="' + c.init + '" title="Initiative"></div>' +
+        '<div class="name"><input value="' + esc(c.name) + '"><span class="meta"><span class="badge ' + c.kind + '">' + (c.kind === "pc" ? "PC" : "Foe") + "</span>" + esc(meta) + "</span></div>" +
+        '<div class="hp" title="HP: type -7 for damage, +5 to heal"><input class="cur" value="' + (c.hp != null ? c.hp : "") + '" placeholder="HP"><span class="max">/ ' + (c.maxHp != null ? c.maxHp : "–") + "</span></div>" +
+        '<div class="ac"><input value="' + (c.ac != null ? c.ac : "") + '" placeholder="AC" title="AC"></div>' +
+        '<div class="notes"><input value="' + esc(c.notes || "") + '" placeholder="conditions, notes"></div>' +
+        '<div class="acts">' +
+        (c.kind === "monster" ? '<button class="small ghost reroll" title="Reroll initiative">🎲</button>' : "") +
+        '<button class="small ghost del" title="Remove">✕</button></div>'
+      var q = function (s) { return row.querySelector(s) }
+      q(".init input").addEventListener("change", function (e) { c.init = parseInt(e.target.value, 10) || 0; save(); render() })
+      q(".name input").addEventListener("change", function (e) { c.name = e.target.value.trim() || c.name; save() })
+      q(".hp .cur").addEventListener("change", function (e) {
+        var v = e.target.value.trim()
+        var base = c.hp != null ? c.hp : (c.maxHp || 0)
+        if (/^[+-]\d+$/.test(v) && c.hp == null && c.maxHp == null) { /* no HP known yet: ignore */ }
+        else if (/^[+-]\d+$/.test(v)) c.hp = Math.max(0, base + parseInt(v, 10))
+        else if (/^\d+$/.test(v)) { c.hp = parseInt(v, 10); if (c.maxHp == null) c.maxHp = c.hp }
+        else if (v === "") c.hp = null
+        if (c.maxHp != null && c.hp > c.maxHp) c.hp = c.maxHp
+        save(); render()
+      })
+      q(".ac input").addEventListener("change", function (e) { var n = parseInt(e.target.value, 10); c.ac = isNaN(n) ? null : n; save() })
+      q(".notes input").addEventListener("change", function (e) { c.notes = e.target.value; save() })
+      q(".del").addEventListener("click", function () {
+        var curId = (sorted()[state.turn] || {}).id
+        state.combatants = state.combatants.filter(function (x) { return x !== c })
+        restoreTurn(curId); save(); render()
+      })
+      var rr = q(".reroll")
+      if (rr) rr.addEventListener("click", function () {
+        rollD20s(1).then(function (d) { c.d20 = d[0]; c.init = d[0] + c.bonus; save(); render(c.id) })
+      })
+      listEl.appendChild(row)
+    })
+    save()
+  }
+
+  // Keep the turn marker on the same combatant after the order changes
+  function restoreTurn(id) {
+    if (!state.started) { state.turn = 0; return }
+    var idx = sorted().findIndex(function (c) { return c.id === id })
+    state.turn = idx >= 0 ? idx : Math.min(state.turn, Math.max(0, state.combatants.length - 1))
+  }
+
+  // ── Turns ──────────────────────────────────────────────────────────────
+  function next() {
+    var n = state.combatants.length
+    if (!n) return
+    if (!state.started) { state.started = true; state.turn = 0; save(); render(); return }
+    state.turn++
+    if (state.turn >= n) { state.turn = 0; state.round++ }
+    save(); render()
+  }
+  function prev() {
+    var n = state.combatants.length
+    if (!n || !state.started) return
+    state.turn--
+    if (state.turn < 0) { if (state.round > 1) { state.round--; state.turn = n - 1 } else state.turn = 0 }
+    save(); render()
+  }
+  document.getElementById("next").addEventListener("click", next)
+  document.getElementById("prev").addEventListener("click", prev)
+  document.addEventListener("keydown", function (e) {
+    if (e.code === "Space" && !/INPUT|TEXTAREA|BUTTON/.test(document.activeElement.tagName)) { e.preventDefault(); next() }
+  })
+
+  document.getElementById("newCombat").addEventListener("click", function () {
+    if (state.combatants.length && !confirm("Start a new combat? This clears everyone from the tracker.")) return
+    state.combatants = []
+    state.round = 1
+    state.turn = 0
+    state.started = false
+    state.since = Math.floor(Date.now() / 1000)
+    document.getElementById("feed").innerHTML = '<div class="help">New combat. Waiting for rolls…</div>'
+    save(); render(); connect()
+  })
+
+  // ── Adding combatants ──────────────────────────────────────────────────
+  var order = 0
+  document.getElementById("addForm").addEventListener("submit", function (e) {
+    e.preventDefault()
+    var name = document.getElementById("fName").value.trim()
+    if (!name) return
+    var bonus = parseInt(document.getElementById("fBonus").value, 10) || 0
+    var hp = parseInt(document.getElementById("fHp").value, 10)
+    var ac = parseInt(document.getElementById("fAc").value, 10)
+    var count = Math.min(20, Math.max(1, parseInt(document.getElementById("fCount").value, 10) || 1))
+    rollD20s(count).then(function (d) {
+      var curId = (sorted()[state.turn] || {}).id
+      var lastId
+      d.forEach(function (roll, i) {
+        var c = {
+          id: uid(), kind: "monster", order: Date.now() + order++,
+          name: count > 1 ? name + " " + (i + 1) : name,
+          bonus: bonus, d20: roll, init: roll + bonus,
+          hp: isNaN(hp) ? null : hp, maxHp: isNaN(hp) ? null : hp,
+          ac: isNaN(ac) ? null : ac, notes: "",
+        }
+        state.combatants.push(c)
+        lastId = c.id
+      })
+      if (curId) restoreTurn(curId)
+      save(); render(lastId)
+      document.getElementById("fName").select()
+    })
+  })
+
+  document.getElementById("addPc").addEventListener("click", function () {
+    var name = prompt("Player character name?")
+    if (!name) return
+    var init = parseInt(prompt("Their initiative total?"), 10)
+    if (isNaN(init)) return
+    upsertPc({ who: name.trim(), total: init, detail: "added by DM" })
+  })
+
+  function upsertPc(msg) {
+    var curId = (sorted()[state.turn] || {}).id
+    var c = state.combatants.find(function (x) { return x.kind === "pc" && x.name.toLowerCase() === String(msg.who).toLowerCase() })
+    if (!c) {
+      c = { id: uid(), kind: "pc", order: Date.now() + order++, name: msg.who, hp: null, maxHp: null, ac: null, notes: "" }
+      state.combatants.push(c)
+    }
+    c.init = msg.total
+    c.bonus = msg.bonus || 0
+    // Fill AC / max HP from the sheet, without overwriting anything the DM set
+    if (c.ac == null && msg.ac != null) c.ac = msg.ac
+    if (c.maxHp == null && msg.hp != null) { c.maxHp = msg.hp; if (c.hp == null) c.hp = msg.hp }
+    c.detail = msg.detail || ("d20 " + (msg.d20 || []).join(" / ") + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " (" + msg.mode + ")" : ""))
+    if (curId) restoreTurn(curId)
+    save(); render(c.id)
+  }
+
+  // ── Live rolls from the wiki (ntfy.sh) ─────────────────────────────────
+  var es = null
+  var dot = document.getElementById("dot")
+  var conn = document.getElementById("conn")
+  function connect() {
+    if (es) es.close()
+    dot.className = "dot"
+    conn.textContent = "connecting…"
+    es = new EventSource("https://ntfy.sh/" + TOPIC + "/sse?since=" + state.since)
+    es.onopen = function () { dot.className = "dot live"; conn.textContent = "listening" }
+    es.onerror = function () { dot.className = "dot down"; conn.textContent = "reconnecting…" }
+    es.onmessage = function (ev) {
+      var m
+      try { m = JSON.parse(ev.data) } catch (e) { return }
+      if (m.event !== "message" || state.seen.indexOf(m.id) >= 0) return
+      state.seen.push(m.id)
+      if (state.seen.length > 300) state.seen = state.seen.slice(-200)
+      var msg
+      try { msg = JSON.parse(m.message) } catch (e) { return }
+      if (msg.type !== "init" || !msg.who) return
+      upsertPc(msg)
+      addFeed(msg, m.time)
+    }
+  }
+
+  function addFeed(msg, time) {
+    var feed = document.getElementById("feed")
+    var help = feed.querySelector(".help")
+    if (help) help.remove()
+    var div = document.createElement("div")
+    div.className = "item" + (msg.kept === 20 ? " nat20" : "")
+    var t = new Date((time || Date.now() / 1000) * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    div.innerHTML = esc(msg.who) + " rolled <b>" + esc(msg.total) + "</b>" + (msg.kept === 20 ? " ✨" : "") +
+      "<small>" + t + " · d20 " + esc((msg.d20 || []).join(" / ")) + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " · " + esc(msg.mode) : "") + "</small>"
+    feed.prepend(div)
+  }
+
+  // ── Dice (3D via the wiki's dice-box, instant fallback) ────────────────
+  var t3d = document.getElementById("toggle3d")
+  function sync3d() { t3d.classList.toggle("on", !!state.use3d) }
+  t3d.addEventListener("click", function () { state.use3d = !state.use3d; sync3d(); save() })
+  sync3d()
+
+  var boxP = null
+  var tray = null
+  var clearT = null
+  function getBox() {
+    if (!state.use3d) return Promise.resolve(null)
+    if (boxP) return boxP
+    tray = document.createElement("div")
+    tray.id = "dice-tray"
+    document.body.appendChild(tray)
+    var base = new URL("../dice-box/", location.href)
+    boxP = import(base.href + "dice-box.es.min.js").then(function (mod) {
+      var box = new mod.default({
+        container: "#dice-tray", assetPath: base.pathname + "assets/", origin: base.origin,
+        theme: "default", themeColor: "#9b2335", scale: 6, gravity: 1.5,
+      })
+      return box.init().then(function () { return box })
+    }).catch(function (e) { console.warn("3D dice unavailable", e); return null })
+    return boxP
+  }
+  function rollD20s(n) {
+    var instant = function () { var a = []; for (var i = 0; i < n; i++) a.push(1 + Math.floor(Math.random() * 20)); return a }
+    return getBox().then(function (box) {
+      if (!box) return instant()
+      tray.classList.add("show")
+      clearTimeout(clearT)
+      return box.roll(n + "d20").then(function (res) {
+        clearT = setTimeout(function () { tray.classList.remove("show"); setTimeout(function () { box.clear() }, 400) }, 2000)
+        return res.map(function (r) { return r.value })
+      })
+    }).catch(function () { return instant() })
+  }
+
+  render()
+  connect()
+})()
+</script>
+</body>
+</html>

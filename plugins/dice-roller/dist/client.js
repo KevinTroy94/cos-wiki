@@ -13,6 +13,25 @@
   var mode = "normal"
   var busy = false
 
+  // Initiative rolls are also sent to the DM's tracker (static/dm/initiative.html)
+  // through ntfy.sh. Must match TOPIC in the tracker page.
+  var DM_TOPIC = "cos-7j76gfs57pvvzfnipjai"
+
+  function sendToDM(payload) {
+    return fetch("https://ntfy.sh/" + DM_TOPIC, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify(payload),
+    }).then(function (res) {
+      if (!res.ok) throw new Error("ntfy " + res.status)
+    })
+  }
+
+  function characterName() {
+    var h = document.querySelector("h1.article-title")
+    return (h ? h.textContent : document.title).trim()
+  }
+
   // Where the site's static folder lives (this script is served from it)
   var STATIC = (function () {
     var src = (document.currentScript && document.currentScript.src) || ""
@@ -355,10 +374,42 @@
       '<span class="dice-bonus">' +
       cell.textContent.trim() +
       '</span><span class="dice-result" aria-live="polite">tap to roll</span>'
-    clickable(cell, "Roll initiative", function () {
+    clickable(cell, "Roll initiative (sent to the DM)", function () {
       check([cell], null, function (r) {
-        cell.querySelector(".dice-result").innerHTML =
-          "<strong>" + (r.kept + bonus) + "</strong><small>" + d20Html(r) + " " + fmtMod(bonus) + "</small>"
+        var total = r.kept + bonus
+        var res = cell.querySelector(".dice-result")
+        res.innerHTML =
+          "<strong>" + total + "</strong><small>" + d20Html(r) + " " + fmtMod(bonus) + "</small>" +
+          '<span class="dm-sent">sending to DM…</span>'
+        var status = res.querySelector(".dm-sent")
+        // AC and max HP from the same combat table, so the tracker can fill them in
+        var stat = function (re) {
+          var i = headers.findIndex(function (th) {
+            return re.test(th.textContent.trim())
+          })
+          var v = i >= 0 && row.children[i] ? parseInt(row.children[i].textContent, 10) : NaN
+          return isNaN(v) ? null : v
+        }
+        sendToDM({
+          type: "init",
+          who: characterName(),
+          ac: stat(/^AC\b/i),
+          hp: stat(/^HP$/i),
+          total: total,
+          d20: r.all,
+          kept: r.kept,
+          bonus: bonus,
+          mode: mode,
+          t: Date.now(),
+        })
+          .then(function () {
+            status.textContent = "sent to DM ✓"
+            status.classList.add("ok")
+          })
+          .catch(function () {
+            status.textContent = "not sent, tell the DM"
+            status.classList.add("fail")
+          })
       })
     })
   }
