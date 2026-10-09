@@ -18,6 +18,9 @@
     --accent-dim: #9b2335;
     --gold: #d4a933;
     --ok: #5a9e6f;
+    --sb-red: #7a200d;
+    --sb-ink: #1f1a17;
+    --sb-parchment: #fdf1dc;
   }
   * { box-sizing: border-box; }
   body {
@@ -30,7 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 0.6rem 1rem;
+    gap: 0.6rem 0.8rem;
     padding: 0.8rem 1rem;
     border-bottom: 3px solid var(--accent-dim);
     background: var(--panel);
@@ -46,10 +49,7 @@
   .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--muted); }
   .dot.live { background: var(--ok); box-shadow: 0 0 6px var(--ok); }
   .dot.down { background: var(--accent); }
-  button, input, select {
-    font: inherit;
-    color: var(--text);
-  }
+  button, input, select { font: inherit; color: var(--text); }
   button {
     padding: 0.35rem 0.75rem;
     border: 1px solid var(--line);
@@ -72,36 +72,46 @@
     min-width: 0;
   }
   input:focus { outline: none; border-color: var(--accent); }
+  input[type=checkbox] { accent-color: var(--accent); }
   main {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 280px;
+    grid-template-columns: minmax(0, 1fr) 380px;
     gap: 1rem;
     padding: 1rem;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
   }
-  @media (max-width: 860px) { main { grid-template-columns: 1fr; } }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
   section {
     background: var(--panel);
     border: 1px solid var(--line);
     border-radius: 8px;
     padding: 0.8rem;
   }
-  h2 { margin: 0 0 0.6rem; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+  aside section + section { margin-top: 1rem; }
+  h2 { margin: 0 0 0.6rem; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 0.5rem; }
+  h2 .spacer { flex: 1; }
+
+  /* Add form */
   form.add {
     display: grid;
-    grid-template-columns: 2fr repeat(4, minmax(0, 1fr)) auto auto;
+    grid-template-columns: 2.2fr repeat(4, minmax(0, 0.8fr)) auto auto auto;
     gap: 0.4rem;
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.4rem;
     align-items: end;
   }
   form.add label { display: flex; flex-direction: column; gap: 0.15rem; font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
-  @media (max-width: 700px) { form.add { grid-template-columns: repeat(2, minmax(0, 1fr)); } form.add .name { grid-column: span 2; } }
+  form.add label.check { flex-direction: row; align-items: center; gap: 0.3rem; padding-bottom: 0.45rem; white-space: nowrap; }
+  .libhint { font-size: 0.75rem; color: var(--muted); min-height: 1.1em; margin: 0 0 0.8rem 0.1rem; }
+  .libhint b { color: var(--text); }
+  @media (max-width: 760px) { form.add { grid-template-columns: repeat(2, minmax(0, 1fr)); } form.add .name { grid-column: span 2; } }
+
+  /* Combatant rows */
   .empty { padding: 2rem 1rem; text-align: center; color: var(--muted); }
   .list { display: flex; flex-direction: column; gap: 0.35rem; }
   .row {
     display: grid;
-    grid-template-columns: 58px minmax(0, 1.6fr) 150px 60px minmax(0, 1.4fr) 64px;
+    grid-template-columns: 58px minmax(0, 1.7fr) 132px 56px minmax(0, 1.2fr) 96px;
     gap: 0.5rem;
     align-items: center;
     padding: 0.45rem 0.55rem;
@@ -115,9 +125,9 @@
   .row.current { outline: 2px solid var(--gold); background: #2f2b22; }
   .row.down { opacity: 0.5; }
   .row.down .name input { text-decoration: line-through; }
-  @media (max-width: 700px) {
+  .row.selected { box-shadow: inset 0 0 0 1px var(--accent); }
+  @media (max-width: 760px) {
     .row { grid-template-columns: 58px minmax(0, 1fr) auto; }
-    .row .hp, .row .ac, .row .notes { grid-column: span 1; }
     .row .notes { grid-column: 1 / -1; }
   }
   .init input {
@@ -129,6 +139,7 @@
     background: transparent;
     border-color: transparent;
   }
+  .init input::placeholder { color: var(--line); }
   .init input:hover, .init input:focus { border-color: var(--line); }
   .name { display: flex; flex-direction: column; min-width: 0; }
   .name input { background: transparent; border-color: transparent; font-weight: 600; padding-left: 0.2rem; }
@@ -137,22 +148,99 @@
   .badge { display: inline-block; padding: 0 0.35rem; border-radius: 999px; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; margin-right: 0.3rem; }
   .badge.pc { background: #34465a; }
   .badge.monster { background: #4a2228; }
+  .conds { display: flex; flex-wrap: wrap; gap: 0.2rem; padding-left: 0.2rem; margin-top: 0.15rem; }
+  .cond {
+    padding: 0 0.4rem;
+    border: 1px solid #6b4a1f;
+    border-radius: 999px;
+    background: #3a2d18;
+    color: #f0d9a8;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+  .cond:hover { border-color: var(--accent); text-decoration: line-through; }
+  .cond em { font-style: normal; opacity: 0.75; }
   .hp { display: flex; align-items: center; gap: 0.25rem; }
-  .hp input { width: 48px; text-align: center; }
+  .hp input { width: 52px; text-align: center; }
   .hp .max { font-size: 0.8rem; color: var(--muted); }
-  .hp .bar { height: 3px; border-radius: 2px; background: var(--line); grid-column: 1 / -1; }
   .ac input { width: 100%; text-align: center; }
   .notes input { width: 100%; font-size: 0.85rem; }
-  .acts { display: flex; gap: 0.15rem; }
-  .feed { display: flex; flex-direction: column; gap: 0.35rem; max-height: 60vh; overflow: auto; }
+  .acts { display: flex; gap: 0.1rem; justify-content: flex-end; }
+
+  /* Condition picker */
+  #condPop {
+    position: absolute;
+    z-index: 20;
+    width: 280px;
+    padding: 0.6rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+  #condPop .grid { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-bottom: 0.5rem; }
+  #condPop .grid button { padding: 0.15rem 0.45rem; font-size: 0.75rem; }
+  #condPop .grid button.on { background: #f0d9a8; color: #2a2010; }
+  #condPop .line { display: flex; gap: 0.35rem; align-items: center; font-size: 0.8rem; color: var(--muted); }
+  #condPop .line input { width: 64px; }
+  #condPop .line input.custom { flex: 1; width: auto; }
+
+  /* Feed */
+  .feed { display: flex; flex-direction: column; gap: 0.35rem; max-height: 40vh; overflow: auto; }
   .feed .item { padding: 0.4rem 0.5rem; border-radius: 6px; background: var(--panel2); font-size: 0.85rem; }
   .feed .item b { color: var(--accent); }
   .feed .item small { display: block; color: var(--muted); font-size: 0.72rem; }
   .feed .item.nat20 b { color: var(--gold); }
+  .feed .item.sys { background: transparent; border: 1px dashed var(--line); color: var(--muted); }
   .help { font-size: 0.8rem; color: var(--muted); }
   .help code { background: var(--bg); padding: 0 0.25rem; border-radius: 3px; }
   .flash { animation: flash 1.2s ease-out; }
   @keyframes flash { 0% { background: #4a3d1a; } 100% { background: var(--panel2); } }
+
+  /* Stat block panel (same look as the wiki's [!statblock]) */
+  #sbPanel[hidden] { display: none; }
+  #sbBody { max-height: 70vh; overflow: auto; }
+  .callout[data-callout="statblock"] {
+    margin: 0;
+    padding: 0.25rem 0.9rem 0.75rem;
+    border: 1px solid #d9b98c;
+    border-top: 4px solid #e69a28;
+    border-bottom: 4px solid #e69a28;
+    border-radius: 2px;
+    background: var(--sb-parchment);
+    color: var(--sb-ink);
+    font-family: "Scaly Sans", "Trebuchet MS", "Source Sans Pro", sans-serif;
+  }
+  .callout[data-callout="statblock"] .callout-content { font-size: 0.88rem; line-height: 1.35; }
+  .callout[data-callout="statblock"] p { margin: 0.15rem 0; color: var(--sb-ink); }
+  .callout[data-callout="statblock"] strong { color: var(--sb-red); }
+  .callout[data-callout="statblock"] strong em, .callout[data-callout="statblock"] em strong { color: var(--sb-ink); }
+  .callout[data-callout="statblock"] .callout-content > p:first-child { margin-top: 0.6rem; }
+  .callout[data-callout="statblock"] .callout-content > p:first-child strong { font-family: Georgia, "Times New Roman", serif; font-variant: small-caps; font-size: 1.5rem; line-height: 1.1; }
+  .callout[data-callout="statblock"] .callout-content > p:nth-child(2) { font-style: italic; margin-bottom: 0.3rem; }
+  .callout[data-callout="statblock"] hr { height: 5px; margin: 0.5rem 0; border: none; background: var(--sb-red); clip-path: polygon(0 0, 100% 50%, 0 100%); }
+  .callout[data-callout="statblock"] table { width: 100%; margin: 0.2rem 0; table-layout: fixed; border-collapse: collapse; }
+  .callout[data-callout="statblock"] th, .callout[data-callout="statblock"] td { padding: 0.05rem 0; text-align: center; color: var(--sb-ink); }
+  .callout[data-callout="statblock"] th { color: var(--sb-red); }
+  .callout[data-callout="statblock"] table.labelled td:first-child { font-size: 0.68rem; text-transform: uppercase; color: var(--sb-red); }
+  .callout[data-callout="statblock"] h4 { margin: 0.8rem 0 0.3rem; padding-bottom: 0.1rem; border-bottom: 1px solid var(--sb-red); font-family: Georgia, serif; font-variant: small-caps; font-size: 1.15rem; font-weight: 400; color: var(--sb-red); }
+  .callout[data-callout="statblock"] ul { list-style: none; margin: 0.1rem 0 0.3rem; padding-left: 1rem; }
+  .callout[data-callout="statblock"] li { margin: 0.15rem 0; }
+  /* dice-roller additions inside the stat block */
+  .callout[data-callout="statblock"] .roll-target { cursor: pointer; border-radius: 3px; margin: 0 -0.3rem; padding: 0.1rem 0.3rem; }
+  .callout[data-callout="statblock"] .roll-target:hover { background: rgba(122, 32, 13, 0.08); }
+  .callout[data-callout="statblock"] .rolling { opacity: 0.6; }
+  .callout[data-callout="statblock"] .roll-mode { float: right; display: inline-flex; gap: 0.25rem; margin-top: 0.4rem; }
+  .callout[data-callout="statblock"] .roll-mode button { padding: 0.05rem 0.4rem; border: 1px solid var(--sb-red); border-radius: 999px; background: transparent; color: var(--sb-red); font-size: 0.65rem; font-weight: 600; text-transform: uppercase; }
+  .callout[data-callout="statblock"] .roll-mode button.active { background: var(--sb-red); color: var(--sb-parchment); }
+  .callout[data-callout="statblock"] .attack-out:not(:empty) { display: block; margin-top: 0.25rem; padding: 0.3rem 0.5rem; border-left: 3px solid var(--sb-red); background: rgba(122, 32, 13, 0.07); font-style: normal; }
+  .callout[data-callout="statblock"] .attack-out .hit, .callout[data-callout="statblock"] .attack-out .dmg { margin-right: 0.7rem; }
+  .callout[data-callout="statblock"] .attack-out strong { font-size: 1.1em; }
+  .callout[data-callout="statblock"] .attack-out small { display: block; font-size: 0.75em; color: #6b5a4a; }
+  .callout[data-callout="statblock"] .attack-out .tag { font-style: normal; font-weight: 700; font-size: 0.75em; text-transform: uppercase; }
+  .callout[data-callout="statblock"] .attack-out s { opacity: 0.6; }
+  .callout[data-callout="statblock"] p.nat20 .attack-out .hit strong { color: #b8860b; }
+
   #dice-tray { position: fixed; inset: 0; z-index: 50; pointer-events: none; opacity: 0; transition: opacity 0.4s; }
   #dice-tray.show { opacity: 1; }
   #dice-tray canvas { width: 100%; height: 100%; }
@@ -163,72 +251,145 @@
   <h1>Initiative</h1>
   <span class="round">Round <b id="round">1</b></span>
   <button id="prev" class="ghost" title="Previous turn">◀</button>
-  <button id="next" class="primary" title="Next turn (Space)">Next turn ▶</button>
+  <button id="next" class="primary" title="Space">Start combat ▶</button>
   <span class="spacer"></span>
   <span class="status"><span id="dot" class="dot"></span><span id="conn">connecting…</span></span>
-  <button id="toggle3d" class="small" title="3D dice for monster rolls">3D</button>
-  <button id="newCombat" title="Clear everyone and start listening for fresh rolls">New combat</button>
+  <button id="callInit" title="Pop up 'Roll initiative' on every player's open character sheet">📣 Call initiative</button>
+  <button id="toggle3d" class="small" title="3D dice">3D</button>
+  <button id="newCombat" title="Clear monsters and initiative. The party stays.">New combat</button>
 </header>
 
 <main>
   <section>
     <h2>Add combatant</h2>
     <form class="add" id="addForm" autocomplete="off">
-      <label class="name">Name<input id="fName" placeholder="Zombie" required></label>
+      <label class="name">Name<input id="fName" list="library" placeholder="Start typing: Zombie, Vampire Spawn…" required></label>
       <label>Init bonus<input id="fBonus" type="number" value="0"></label>
       <label>HP<input id="fHp" type="number" min="0" placeholder="22"></label>
       <label>AC<input id="fAc" type="number" min="0" placeholder="8"></label>
       <label>Count<input id="fCount" type="number" min="1" max="20" value="1"></label>
+      <label class="check" title="Roll each creature's HP from its hit dice instead of using the average"><input type="checkbox" id="fRollHp"> Roll HP</label>
       <button type="submit" class="primary" title="Add and roll d20 + bonus">Add &amp; roll</button>
-      <button type="button" id="addPc" title="Add a player character by hand (if their roll didn't come through)">+ PC</button>
+      <button type="button" id="addPc" title="Add a party member by hand">+ PC</button>
     </form>
+    <datalist id="library"></datalist>
+    <div class="libhint" id="libhint"></div>
 
     <div id="list" class="list"></div>
-    <div id="empty" class="empty">Waiting for initiative rolls. Players tap the Initiative card on their character sheet and they'll appear here.</div>
+    <div id="empty" class="empty">Waiting for initiative. Press <b>📣 Call initiative</b>, or players tap the Initiative card on their sheet.</div>
   </section>
 
   <aside>
-    <section>
-      <h2>Incoming rolls</h2>
-      <div id="feed" class="feed"><div class="help">Rolls from the wiki show up here as they arrive.</div></div>
+    <section id="sbPanel" hidden>
+      <h2><span id="sbTitle">Stat block</span><span class="spacer"></span><button class="small ghost" id="sbClose" title="Close">✕</button></h2>
+      <div id="sbBody"></div>
     </section>
-    <section style="margin-top:1rem">
+    <section>
+      <h2>Feed</h2>
+      <div id="feed" class="feed"><div class="item sys">Rolls and condition changes show up here.</div></div>
+    </section>
+    <section>
       <h2>Tips</h2>
       <div class="help">
-        HP box: type <code>-7</code> to deal 7 damage, <code>+5</code> to heal, or a plain number to set it.<br>
-        Click any initiative number to edit it. Ties sort by bonus.<br>
+        Pick a creature from the list as you type and its HP, AC and initiative fill in.<br>
+        HP box: <code>-7</code> damage, <code>+5</code> heal, or a number to set it.<br>
+        📜 opens a monster's stat block here; tap its attacks to roll them.<br>
+        ⚑ adds a condition. Ones with rounds count down each time a new round starts. Click a chip to remove it.<br>
         <kbd>Space</kbd> = next turn. Everything is saved in this browser.
       </div>
     </section>
   </aside>
 </main>
 
+<div id="condPop" hidden>
+  <div class="grid" id="condGrid"></div>
+  <div class="line">Rounds <input type="number" id="condRounds" min="1" placeholder="∞"> <input class="custom" id="condCustom" placeholder="or custom…"></div>
+  <div class="line" style="margin-top:0.5rem; justify-content:flex-end"><button class="small" id="condCancel">Cancel</button><button class="small primary" id="condAdd">Add</button></div>
+</div>
+
+<script src="../dice-roller.js"></script>
 <script>
 (function () {
   // Must match DM_TOPIC in plugins/dice-roller/dist/client.js
   var TOPIC = "cos-7j76gfs57pvvzfnipjai"
   var KEY = "cos-initiative-v1"
+  var CONDITIONS = ["Blinded", "Charmed", "Deafened", "Frightened", "Grappled", "Incapacitated", "Invisible", "Paralyzed", "Petrified", "Poisoned", "Prone", "Restrained", "Stunned", "Unconscious", "Concentrating", "Hexed", "Marked"]
 
-  var state = load() || { combatants: [], round: 1, turn: 0, since: Math.floor(Date.now() / 1000) - 3600, seen: [], use3d: true, started: false }
+  var state = load() || {}
+  state.combatants = (state.combatants || []).map(function (c) { c.conds = c.conds || []; return c })
+  state.round = state.round || 1
+  state.turn = state.turn || 0
+  state.since = state.since || Math.floor(Date.now() / 1000) - 3600
+  state.seen = state.seen || []
+  state.started = !!state.started
 
-  function load() {
-    try { return JSON.parse(localStorage.getItem(KEY)) } catch (e) { return null }
-  }
-  function save() {
-    try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {}
-  }
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)) } catch (e) { return null } }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {} }
   function uid() { return Math.random().toString(36).slice(2, 10) }
-  function esc(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] }) }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] }) }
   function sign(n) { return n >= 0 ? "+" + n : "−" + Math.abs(n) }
+  var order = 0
+
+  // ── Dice: shared with the wiki's roller (dice-roller.js) ───────────────
+  var Dice = window.CosDice
+  function rollD20s(n) {
+    var instant = function () { var a = []; for (var i = 0; i < n; i++) a.push(1 + Math.floor(Math.random() * 20)); return a }
+    if (!Dice) return Promise.resolve(instant())
+    return Dice.rollGroups([{ n: n, sides: 20 }]).then(function (r) { return r[0] }).catch(instant)
+  }
+  function rollFormula(f) {
+    // "3d8 + 9" -> total (instant; rolling HP for six zombies in 3D is a lot)
+    var m = String(f).replace(/−/g, "-").match(/(\d+)d(\d+)(?:\s*([+-])\s*(\d+))?/)
+    if (!m) return null
+    var t = 0
+    for (var i = 0; i < +m[1]; i++) t += 1 + Math.floor(Math.random() * +m[2])
+    if (m[3]) t += (m[3] === "-" ? -1 : 1) * +m[4]
+    return Math.max(1, t)
+  }
+  var t3d = document.getElementById("toggle3d")
+  function sync3d() { t3d.classList.toggle("on", !Dice || Dice.get3d()); t3d.disabled = !Dice }
+  t3d.addEventListener("click", function () { if (Dice) { Dice.set3d(!Dice.get3d()); sync3d() } })
+  sync3d()
+
+  // ── Monster library (built from every [!statblock] in the vault) ──────
+  var library = {}
+  fetch("monsters.json").then(function (r) { if (!r.ok) throw 0; return r.json() }).then(function (d) {
+    var dl = document.getElementById("library")
+    d.monsters.forEach(function (m) {
+      library[m.name.toLowerCase()] = m
+      var o = document.createElement("option")
+      o.value = m.name
+      o.label = "AC " + m.ac + " · HP " + m.hp + (m.cr ? " · CR " + m.cr : "")
+      dl.appendChild(o)
+    })
+    hint("Library: <b>" + d.monsters.length + "</b> stat blocks.")
+    render()
+  }).catch(function () { hint("Monster library not found (it's generated when the site builds). Manual entry still works.") })
+
+  function hint(html) { document.getElementById("libhint").innerHTML = html }
+  var fName = document.getElementById("fName")
+  fName.addEventListener("input", function () {
+    var m = library[fName.value.trim().toLowerCase()]
+    if (!m) return
+    document.getElementById("fBonus").value = m.init
+    document.getElementById("fHp").value = m.hp != null ? m.hp : ""
+    document.getElementById("fAc").value = m.ac != null ? m.ac : ""
+    var rh = document.getElementById("fRollHp")
+    rh.disabled = !m.hpDice
+    rh.checked = !!m.hpDice
+    hint("<b>" + esc(m.name) + "</b>: AC " + m.ac + ", HP " + m.hp + (m.hpDice ? " (" + esc(m.hpDice) + ")" : "") + ", init " + sign(m.init) + (m.cr ? ", CR " + esc(m.cr) : "") + " · from " + esc(m.folder))
+  })
 
   // ── Sorting / rendering ────────────────────────────────────────────────
+  function initOf(c) { return c.init == null ? -Infinity : c.init }
   function sorted() {
     return state.combatants.slice().sort(function (a, b) {
-      return (b.init - a.init) || (b.bonus - a.bonus) || (a.kind === "pc" ? -1 : 1) - (b.kind === "pc" ? -1 : 1) || a.order - b.order
+      return (initOf(b) - initOf(a)) || ((b.bonus || 0) - (a.bonus || 0)) || ((a.kind === "pc" ? 0 : 1) - (b.kind === "pc" ? 0 : 1)) || (a.order - b.order)
     })
   }
 
   var listEl = document.getElementById("list")
+  var selectedId = null
   function render(flashId) {
     var list = sorted()
     if (state.turn >= list.length) state.turn = 0
@@ -238,27 +399,45 @@
     listEl.innerHTML = ""
     list.forEach(function (c, i) {
       var row = document.createElement("div")
-      var down = c.maxHp && c.hp <= 0
-      row.className = "row " + c.kind + (state.started && i === state.turn ? " current" : "") + (down ? " down" : "") + (c.id === flashId ? " flash" : "")
-      var meta = c.kind === "pc" ? (c.detail || "player") : "d20 " + (c.d20 != null ? c.d20 : "?") + " " + sign(c.bonus)
+      var down = c.maxHp && c.hp != null && c.hp <= 0
+      row.className = "row " + c.kind + (state.started && i === state.turn ? " current" : "") + (down ? " down" : "") +
+        (c.id === flashId ? " flash" : "") + (c.id === selectedId ? " selected" : "")
+      var meta = c.kind === "pc"
+        ? (c.init == null ? "waiting for roll" : (c.detail || "player"))
+        : "d20 " + (c.d20 != null ? c.d20 : "?") + " " + sign(c.bonus || 0) + (c.hpNote ? " · " + c.hpNote : "")
+      var condHtml = c.conds.map(function (k, ci) {
+        return '<span class="cond" data-i="' + ci + '" title="Click to remove">' + esc(k.name) + (k.rounds ? " <em>" + k.rounds + "r</em>" : "") + "</span>"
+      }).join("")
+      var hasSb = c.ref && library[c.ref.toLowerCase()]
       row.innerHTML =
-        '<div class="init"><input type="number" value="' + c.init + '" title="Initiative"></div>' +
-        '<div class="name"><input value="' + esc(c.name) + '"><span class="meta"><span class="badge ' + c.kind + '">' + (c.kind === "pc" ? "PC" : "Foe") + "</span>" + esc(meta) + "</span></div>" +
-        '<div class="hp" title="HP: type -7 for damage, +5 to heal"><input class="cur" value="' + (c.hp != null ? c.hp : "") + '" placeholder="HP"><span class="max">/ ' + (c.maxHp != null ? c.maxHp : "–") + "</span></div>" +
+        '<div class="init"><input type="number" value="' + (c.init == null ? "" : c.init) + '" placeholder="–" title="Initiative"></div>' +
+        '<div class="name"><input value="' + esc(c.name) + '"><span class="meta"><span class="badge ' + c.kind + '">' + (c.kind === "pc" ? "PC" : "Foe") + "</span>" + esc(meta) + "</span>" +
+        (condHtml ? '<div class="conds">' + condHtml + "</div>" : "") + "</div>" +
+        '<div class="hp" title="-7 damage, +5 heal, or a number"><input class="cur" value="' + (c.hp != null ? c.hp : "") + '" placeholder="HP"><span class="max">/ ' + (c.maxHp != null ? c.maxHp : "–") + "</span></div>" +
         '<div class="ac"><input value="' + (c.ac != null ? c.ac : "") + '" placeholder="AC" title="AC"></div>' +
-        '<div class="notes"><input value="' + esc(c.notes || "") + '" placeholder="conditions, notes"></div>' +
+        '<div class="notes"><input value="' + esc(c.notes || "") + '" placeholder="notes"></div>' +
         '<div class="acts">' +
+        (hasSb ? '<button class="small ghost sb" title="Show stat block">📜</button>' : "") +
+        '<button class="small ghost cnd" title="Add condition">⚑</button>' +
         (c.kind === "monster" ? '<button class="small ghost reroll" title="Reroll initiative">🎲</button>' : "") +
         '<button class="small ghost del" title="Remove">✕</button></div>'
       var q = function (s) { return row.querySelector(s) }
-      q(".init input").addEventListener("change", function (e) { c.init = parseInt(e.target.value, 10) || 0; save(); render() })
+      q(".init input").addEventListener("change", function (e) {
+        var cur = currentId()
+        var v = parseInt(e.target.value, 10)
+        c.init = isNaN(v) ? null : v
+        restoreTurn(cur); save(); render()
+      })
       q(".name input").addEventListener("change", function (e) { c.name = e.target.value.trim() || c.name; save() })
       q(".hp .cur").addEventListener("change", function (e) {
         var v = e.target.value.trim()
-        var base = c.hp != null ? c.hp : (c.maxHp || 0)
-        if (/^[+-]\d+$/.test(v) && c.hp == null && c.maxHp == null) { /* no HP known yet: ignore */ }
-        else if (/^[+-]\d+$/.test(v)) c.hp = Math.max(0, base + parseInt(v, 10))
-        else if (/^\d+$/.test(v)) { c.hp = parseInt(v, 10); if (c.maxHp == null) c.maxHp = c.hp }
+        if (/^[+-]\d+$/.test(v)) {
+          if (c.hp != null || c.maxHp != null) {
+            var base = c.hp != null ? c.hp : c.maxHp
+            c.hp = Math.max(0, base + parseInt(v, 10))
+            if (c.hp === 0 && c.kind === "monster") log(c.name + " is down.")
+          }
+        } else if (/^\d+$/.test(v)) { c.hp = parseInt(v, 10); if (c.maxHp == null) c.maxHp = c.hp }
         else if (v === "") c.hp = null
         if (c.maxHp != null && c.hp > c.maxHp) c.hp = c.maxHp
         save(); render()
@@ -266,33 +445,56 @@
       q(".ac input").addEventListener("change", function (e) { var n = parseInt(e.target.value, 10); c.ac = isNaN(n) ? null : n; save() })
       q(".notes input").addEventListener("change", function (e) { c.notes = e.target.value; save() })
       q(".del").addEventListener("click", function () {
-        var curId = (sorted()[state.turn] || {}).id
+        var cur = currentId()
         state.combatants = state.combatants.filter(function (x) { return x !== c })
-        restoreTurn(curId); save(); render()
+        if (selectedId === c.id) closeSb()
+        restoreTurn(cur); save(); render()
       })
       var rr = q(".reroll")
       if (rr) rr.addEventListener("click", function () {
-        rollD20s(1).then(function (d) { c.d20 = d[0]; c.init = d[0] + c.bonus; save(); render(c.id) })
+        var cur = currentId()
+        rollD20s(1).then(function (d) { c.d20 = d[0]; c.init = d[0] + (c.bonus || 0); restoreTurn(cur); save(); render(c.id) })
+      })
+      var sb = q(".sb")
+      if (sb) sb.addEventListener("click", function () { openSb(c) })
+      q(".cnd").addEventListener("click", function (e) { openCondPop(c, e.currentTarget) })
+      row.querySelectorAll(".cond").forEach(function (chip) {
+        chip.addEventListener("click", function () {
+          var k = c.conds[+chip.dataset.i]
+          c.conds.splice(+chip.dataset.i, 1)
+          log(k.name + " removed from " + c.name + ".")
+          save(); render()
+        })
       })
       listEl.appendChild(row)
     })
     save()
   }
 
-  // Keep the turn marker on the same combatant after the order changes
+  function currentId() { return state.started ? (sorted()[state.turn] || {}).id : null }
   function restoreTurn(id) {
     if (!state.started) { state.turn = 0; return }
     var idx = sorted().findIndex(function (c) { return c.id === id })
     state.turn = idx >= 0 ? idx : Math.min(state.turn, Math.max(0, state.combatants.length - 1))
   }
 
-  // ── Turns ──────────────────────────────────────────────────────────────
+  // ── Turns (conditions with rounds count down when a new round begins) ──
+  function tickRound() {
+    state.combatants.forEach(function (c) {
+      c.conds = c.conds.filter(function (k) {
+        if (!k.rounds) return true
+        k.rounds--
+        if (k.rounds <= 0) { log(k.name + " ended on " + c.name + ".", true); return false }
+        return true
+      })
+    })
+  }
   function next() {
     var n = state.combatants.length
     if (!n) return
-    if (!state.started) { state.started = true; state.turn = 0; save(); render(); return }
+    if (!state.started) { state.started = true; state.turn = 0; log("Combat started. Round 1."); save(); render(); return }
     state.turn++
-    if (state.turn >= n) { state.turn = 0; state.round++ }
+    if (state.turn >= n) { state.turn = 0; state.round++; log("Round " + state.round + "."); tickRound() }
     save(); render()
   }
   function prev() {
@@ -305,76 +507,183 @@
   document.getElementById("next").addEventListener("click", next)
   document.getElementById("prev").addEventListener("click", prev)
   document.addEventListener("keydown", function (e) {
-    if (e.code === "Space" && !/INPUT|TEXTAREA|BUTTON/.test(document.activeElement.tagName)) { e.preventDefault(); next() }
+    if (e.code === "Space" && !/INPUT|TEXTAREA|BUTTON|SELECT/.test(document.activeElement.tagName)) { e.preventDefault(); next() }
   })
 
   document.getElementById("newCombat").addEventListener("click", function () {
-    if (state.combatants.length && !confirm("Start a new combat? This clears everyone from the tracker.")) return
-    state.combatants = []
+    var foes = state.combatants.filter(function (c) { return c.kind === "monster" }).length
+    if ((foes || state.started) && !confirm("New combat? Monsters are cleared and initiative resets. The party (and their HP) stays.")) return
+    state.combatants = state.combatants.filter(function (c) { return c.kind === "pc" })
+    state.combatants.forEach(function (c) { c.init = null; c.detail = null; c.conds = [] })
     state.round = 1
     state.turn = 0
     state.started = false
     state.since = Math.floor(Date.now() / 1000)
-    document.getElementById("feed").innerHTML = '<div class="help">New combat. Waiting for rolls…</div>'
+    closeSb()
+    document.getElementById("feed").innerHTML = ""
+    log("New combat. The party is ready; call for initiative.")
     save(); render(); connect()
   })
 
   // ── Adding combatants ──────────────────────────────────────────────────
-  var order = 0
   document.getElementById("addForm").addEventListener("submit", function (e) {
     e.preventDefault()
-    var name = document.getElementById("fName").value.trim()
+    var name = fName.value.trim()
     if (!name) return
+    var lib = library[name.toLowerCase()]
     var bonus = parseInt(document.getElementById("fBonus").value, 10) || 0
     var hp = parseInt(document.getElementById("fHp").value, 10)
     var ac = parseInt(document.getElementById("fAc").value, 10)
+    var rollHp = document.getElementById("fRollHp").checked && lib && lib.hpDice
     var count = Math.min(20, Math.max(1, parseInt(document.getElementById("fCount").value, 10) || 1))
+    // Number duplicates after any already in the fight ("Zombie 4" after 1-3)
+    var existing = state.combatants.filter(function (c) { return c.kind === "monster" && c.baseName === name }).length
     rollD20s(count).then(function (d) {
-      var curId = (sorted()[state.turn] || {}).id
+      var cur = currentId()
       var lastId
       d.forEach(function (roll, i) {
+        var thisHp = rollHp ? rollFormula(lib.hpDice) : (isNaN(hp) ? null : hp)
         var c = {
           id: uid(), kind: "monster", order: Date.now() + order++,
-          name: count > 1 ? name + " " + (i + 1) : name,
+          baseName: name, ref: lib ? lib.name : null,
+          name: count > 1 || existing ? name + " " + (existing + i + 1) : name,
           bonus: bonus, d20: roll, init: roll + bonus,
-          hp: isNaN(hp) ? null : hp, maxHp: isNaN(hp) ? null : hp,
-          ac: isNaN(ac) ? null : ac, notes: "",
+          hp: thisHp, maxHp: thisHp, hpNote: rollHp ? "HP rolled " + lib.hpDice : null,
+          ac: isNaN(ac) ? null : ac, notes: "", conds: [],
         }
         state.combatants.push(c)
         lastId = c.id
       })
-      if (curId) restoreTurn(curId)
-      save(); render(lastId)
-      document.getElementById("fName").select()
+      restoreTurn(cur); save(); render(lastId)
+      fName.select()
     })
   })
 
   document.getElementById("addPc").addEventListener("click", function () {
-    var name = prompt("Player character name?")
+    var name = prompt("Party member's name?")
     if (!name) return
-    var init = parseInt(prompt("Their initiative total?"), 10)
-    if (isNaN(init)) return
-    upsertPc({ who: name.trim(), total: init, detail: "added by DM" })
+    var init = prompt("Their initiative total? (leave blank to wait for their roll)")
+    var v = parseInt(init, 10)
+    upsertPc({ who: name.trim(), total: isNaN(v) ? null : v, detail: isNaN(v) ? null : "entered by DM" })
   })
 
   function upsertPc(msg) {
-    var curId = (sorted()[state.turn] || {}).id
+    var cur = currentId()
     var c = state.combatants.find(function (x) { return x.kind === "pc" && x.name.toLowerCase() === String(msg.who).toLowerCase() })
     if (!c) {
-      c = { id: uid(), kind: "pc", order: Date.now() + order++, name: msg.who, hp: null, maxHp: null, ac: null, notes: "" }
+      c = { id: uid(), kind: "pc", order: Date.now() + order++, name: msg.who, hp: null, maxHp: null, ac: null, notes: "", conds: [] }
       state.combatants.push(c)
     }
     c.init = msg.total
     c.bonus = msg.bonus || 0
-    // Fill AC / max HP from the sheet, without overwriting anything the DM set
+    c.detail = msg.detail || (msg.d20 ? "d20 " + msg.d20.join(" / ") + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " (" + msg.mode + ")" : "") : null)
     if (c.ac == null && msg.ac != null) c.ac = msg.ac
     if (c.maxHp == null && msg.hp != null) { c.maxHp = msg.hp; if (c.hp == null) c.hp = msg.hp }
-    c.detail = msg.detail || ("d20 " + (msg.d20 || []).join(" / ") + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " (" + msg.mode + ")" : ""))
-    if (curId) restoreTurn(curId)
-    save(); render(c.id)
+    restoreTurn(cur); save(); render(c.id)
   }
 
-  // ── Live rolls from the wiki (ntfy.sh) ─────────────────────────────────
+  // ── Conditions ─────────────────────────────────────────────────────────
+  var pop = document.getElementById("condPop")
+  var popTarget = null
+  var popPick = null
+  var grid = document.getElementById("condGrid")
+  CONDITIONS.forEach(function (name) {
+    var b = document.createElement("button")
+    b.type = "button"
+    b.textContent = name
+    b.addEventListener("click", function () {
+      popPick = popPick === name ? null : name
+      grid.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x.textContent === popPick) })
+    })
+    grid.appendChild(b)
+  })
+  function openCondPop(c, anchor) {
+    popTarget = c
+    popPick = null
+    grid.querySelectorAll("button").forEach(function (x) { x.classList.remove("on") })
+    document.getElementById("condRounds").value = ""
+    document.getElementById("condCustom").value = ""
+    var r = anchor.getBoundingClientRect()
+    pop.style.top = window.scrollY + r.bottom + 6 + "px"
+    pop.style.left = Math.max(8, window.scrollX + r.right - 280) + "px"
+    pop.hidden = false
+  }
+  function closePop() { pop.hidden = true; popTarget = null }
+  document.getElementById("condCancel").addEventListener("click", closePop)
+  document.getElementById("condAdd").addEventListener("click", function () {
+    var name = document.getElementById("condCustom").value.trim() || popPick
+    if (!popTarget || !name) return closePop()
+    var rounds = parseInt(document.getElementById("condRounds").value, 10)
+    popTarget.conds.push({ name: name, rounds: isNaN(rounds) || rounds < 1 ? null : rounds })
+    log(popTarget.name + " is " + name + (rounds > 0 ? " (" + rounds + (rounds === 1 ? " round)" : " rounds)") : "") + ".")
+    closePop(); save(); render()
+  })
+  document.addEventListener("mousedown", function (e) {
+    if (!pop.hidden && !pop.contains(e.target) && !e.target.closest(".cnd")) closePop()
+  })
+
+  // ── Stat block panel ───────────────────────────────────────────────────
+  function inline(s) {
+    return esc(s)
+      .replace(/\[\[([^\]|]+)\|([^\]]+)\]\]/g, "$2")
+      .replace(/\[\[([^\]]+)\]\]/g, "$1")
+      .replace(/\*\*\*(.+?)\*\*\*/g, "<strong><em>$1</em></strong>")
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(.+?)\*/g, "<em>$1</em>")
+  }
+  function mdToHtml(md) {
+    var blocks = md.split(/\n\s*\n/)
+    return blocks.map(function (b) {
+      var lines = b.split("\n").filter(function (l) { return l.trim() })
+      if (!lines.length) return ""
+      if (lines.length === 1 && /^-{3,}$/.test(lines[0].trim())) return "<hr>"
+      if (/^####\s/.test(lines[0])) return "<h4>" + inline(lines[0].replace(/^####\s*/, "")) + "</h4>"
+      if (lines.every(function (l) { return /^\|/.test(l.trim()) })) {
+        var rows = lines.filter(function (l) { return !/^\|[\s:|-]+\|$/.test(l.trim()) }).map(function (l) {
+          return l.trim().replace(/^\||\|$/g, "").split("|").map(function (x) { return x.trim() })
+        })
+        var head = rows.shift()
+        return '<table' + (head[0] === "" ? ' class="labelled"' : "") + "><thead><tr>" + head.map(function (h) { return "<th>" + inline(h) + "</th>" }).join("") +
+          "</tr></thead><tbody>" + rows.map(function (r) { return "<tr>" + r.map(function (x) { return "<td>" + inline(x) + "</td>" }).join("") + "</tr>" }).join("") + "</tbody></table>"
+      }
+      if (lines.every(function (l) { return /^-\s/.test(l) })) return "<ul>" + lines.map(function (l) { return "<li>" + inline(l.replace(/^-\s*/, "")) + "</li>" }).join("") + "</ul>"
+      return "<p>" + inline(lines.join(" ")) + "</p>"
+    }).join("")
+  }
+  function openSb(c) {
+    var m = library[(c.ref || "").toLowerCase()]
+    if (!m) return
+    selectedId = c.id
+    document.getElementById("sbTitle").textContent = c.name
+    document.getElementById("sbBody").innerHTML =
+      '<blockquote class="callout" data-callout="statblock"><div class="callout-content">' + mdToHtml(m.md) + "</div></blockquote>"
+    document.getElementById("sbPanel").hidden = false
+    // Let the shared dice roller make the attacks clickable
+    document.dispatchEvent(new CustomEvent("nav"))
+    render()
+  }
+  function closeSb() { selectedId = null; document.getElementById("sbPanel").hidden = true }
+  document.getElementById("sbClose").addEventListener("click", function () { closeSb(); render() })
+
+  // ── Feed ───────────────────────────────────────────────────────────────
+  var feedEl = document.getElementById("feed")
+  function log(text, highlight) {
+    var div = document.createElement("div")
+    div.className = "item sys"
+    if (highlight) div.style.borderColor = "var(--gold)"
+    div.textContent = text
+    feedEl.prepend(div)
+  }
+  function addRollFeed(msg, time) {
+    var div = document.createElement("div")
+    div.className = "item" + (msg.kept === 20 ? " nat20" : "")
+    var t = new Date((time || Date.now() / 1000) * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    div.innerHTML = esc(msg.who) + " rolled <b>" + esc(msg.total) + "</b>" + (msg.kept === 20 ? " ✨" : "") +
+      "<small>" + t + " · d20 " + esc((msg.d20 || []).join(" / ")) + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " · " + esc(msg.mode) : "") + "</small>"
+    feedEl.prepend(div)
+  }
+
+  // ── Live channel (ntfy.sh) ─────────────────────────────────────────────
   var es = null
   var dot = document.getElementById("dot")
   var conn = document.getElementById("conn")
@@ -386,68 +695,32 @@
     es.onopen = function () { dot.className = "dot live"; conn.textContent = "listening" }
     es.onerror = function () { dot.className = "dot down"; conn.textContent = "reconnecting…" }
     es.onmessage = function (ev) {
-      var m
+      var m, msg
       try { m = JSON.parse(ev.data) } catch (e) { return }
       if (m.event !== "message" || state.seen.indexOf(m.id) >= 0) return
       state.seen.push(m.id)
       if (state.seen.length > 300) state.seen = state.seen.slice(-200)
-      var msg
       try { msg = JSON.parse(m.message) } catch (e) { return }
       if (msg.type !== "init" || !msg.who) return
       upsertPc(msg)
-      addFeed(msg, m.time)
+      addRollFeed(msg, m.time)
     }
   }
 
-  function addFeed(msg, time) {
-    var feed = document.getElementById("feed")
-    var help = feed.querySelector(".help")
-    if (help) help.remove()
-    var div = document.createElement("div")
-    div.className = "item" + (msg.kept === 20 ? " nat20" : "")
-    var t = new Date((time || Date.now() / 1000) * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
-    div.innerHTML = esc(msg.who) + " rolled <b>" + esc(msg.total) + "</b>" + (msg.kept === 20 ? " ✨" : "") +
-      "<small>" + t + " · d20 " + esc((msg.d20 || []).join(" / ")) + " " + sign(msg.bonus || 0) + (msg.mode && msg.mode !== "normal" ? " · " + esc(msg.mode) : "") + "</small>"
-    feed.prepend(div)
-  }
-
-  // ── Dice (3D via the wiki's dice-box, instant fallback) ────────────────
-  var t3d = document.getElementById("toggle3d")
-  function sync3d() { t3d.classList.toggle("on", !!state.use3d) }
-  t3d.addEventListener("click", function () { state.use3d = !state.use3d; sync3d(); save() })
-  sync3d()
-
-  var boxP = null
-  var tray = null
-  var clearT = null
-  function getBox() {
-    if (!state.use3d) return Promise.resolve(null)
-    if (boxP) return boxP
-    tray = document.createElement("div")
-    tray.id = "dice-tray"
-    document.body.appendChild(tray)
-    var base = new URL("../dice-box/", location.href)
-    boxP = import(base.href + "dice-box.es.min.js").then(function (mod) {
-      var box = new mod.default({
-        container: "#dice-tray", assetPath: base.pathname + "assets/", origin: base.origin,
-        theme: "default", themeColor: "#9b2335", scale: 6, gravity: 1.5,
-      })
-      return box.init().then(function () { return box })
-    }).catch(function (e) { console.warn("3D dice unavailable", e); return null })
-    return boxP
-  }
-  function rollD20s(n) {
-    var instant = function () { var a = []; for (var i = 0; i < n; i++) a.push(1 + Math.floor(Math.random() * 20)); return a }
-    return getBox().then(function (box) {
-      if (!box) return instant()
-      tray.classList.add("show")
-      clearTimeout(clearT)
-      return box.roll(n + "d20").then(function (res) {
-        clearT = setTimeout(function () { tray.classList.remove("show"); setTimeout(function () { box.clear() }, 400) }, 2000)
-        return res.map(function (r) { return r.value })
-      })
-    }).catch(function () { return instant() })
-  }
+  document.getElementById("callInit").addEventListener("click", function (e) {
+    var btn = e.currentTarget
+    btn.disabled = true
+    fetch("https://ntfy.sh/" + TOPIC, {
+      method: "POST",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify({ type: "request", what: "initiative", t: Date.now() }),
+    }).then(function (r) {
+      if (!r.ok) throw 0
+      log("Called for initiative. Players with a sheet open will get a prompt.")
+    }).catch(function () {
+      log("Couldn't send the call. Check the connection.", true)
+    }).then(function () { setTimeout(function () { btn.disabled = false }, 3000) })
+  })
 
   render()
   connect()

@@ -705,8 +705,73 @@
     })
   }
 
+  // ── DM calls for initiative ──────────────────────────────────────────────
+  // On pages with a character sheet, listen on the DM channel; when the DM
+  // dashboard sends {type:"request", what:"initiative"}, show a prompt.
+  var dmListener = null
+  function listenForDM() {
+    if (dmListener || !document.querySelector('.callout[data-callout="sheet"]')) return
+    dmListener = new EventSource("https://ntfy.sh/" + DM_TOPIC + "/sse")
+    dmListener.onmessage = function (ev) {
+      var m, msg
+      try {
+        m = JSON.parse(ev.data)
+        msg = JSON.parse(m.message)
+      } catch (e) {
+        return
+      }
+      if (m.event !== "message" || msg.type !== "request") return
+      if (Date.now() / 1000 - m.time > 120) return // ignore stale calls
+      showCall(msg)
+    }
+  }
+
+  function showCall(msg) {
+    var cell = document.querySelector("td.dice-roll")
+    if (!cell) return
+    var old = document.getElementById("dm-call")
+    if (old) old.remove()
+    var box = document.createElement("div")
+    box.id = "dm-call"
+    box.innerHTML =
+      '<div class="dm-call-title">⚔ The DM calls for initiative!</div>' +
+      (msg.note ? '<div class="dm-call-note"></div>' : "") +
+      '<div class="dm-call-btns"><button type="button" class="go">Roll initiative</button><button type="button" class="later">Dismiss</button></div>'
+    if (msg.note) box.querySelector(".dm-call-note").textContent = msg.note
+    document.body.appendChild(box)
+    box.querySelector(".go").addEventListener("click", function () {
+      box.remove()
+      var sheet = cell.closest(".callout")
+      if (sheet && sheet.classList.contains("is-collapsed")) {
+        var title = sheet.querySelector(".callout-title")
+        if (title) title.click()
+      }
+      cell.scrollIntoView({ block: "center", behavior: "smooth" })
+      cell.click()
+    })
+    box.querySelector(".later").addEventListener("click", function () {
+      box.remove()
+    })
+  }
+
+  // Shared with the DM dashboard (static/dm/), which loads this same file
+  window.CosDice = {
+    rollGroups: rollGroups,
+    get3d: function () {
+      return use3d
+    },
+    set3d: function (v) {
+      use3d = !!v
+      try {
+        localStorage.setItem("dice-3d", use3d ? "on" : "off")
+      } catch (e) {}
+    },
+    topic: DM_TOPIC,
+  }
+
   function setup() {
     if (tray && !document.body.contains(tray)) document.body.appendChild(tray)
+    listenForDM()
     document.querySelectorAll('.callout[data-callout="sheet"] .callout-content').forEach(function (content) {
       setupMode(content)
       setupAbilities(content)

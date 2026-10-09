@@ -488,6 +488,60 @@
   }
 }
 
+// "The DM calls for initiative!" prompt on character pages
+#dm-call {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: min(92vw, 360px);
+  padding: 0.9rem 1rem;
+  border: 1px solid #9b2335;
+  border-top: 4px solid #9b2335;
+  border-radius: 8px;
+  background: var(--light);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
+  animation: dm-call-in 0.35s ease-out;
+
+  .dm-call-title {
+    font-family: var(--headerFont);
+    font-weight: $boldWeight;
+    font-size: 1.05rem;
+    color: var(--dark);
+  }
+  .dm-call-note {
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: var(--darkgray);
+  }
+  .dm-call-btns {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.7rem;
+  }
+  button {
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid var(--lightgray);
+    background: transparent;
+    color: var(--dark);
+    font-family: inherit;
+    cursor: pointer;
+  }
+  button.go {
+    flex: 1;
+    border-color: #9b2335;
+    background: #9b2335;
+    color: #fff;
+    font-weight: $semiBoldWeight;
+  }
+}
+@keyframes dm-call-in {
+  from { transform: translate(-50%, 1rem); opacity: 0; }
+  to { transform: translate(-50%, 0); opacity: 1; }
+}
+
 // 3D dice overlay (dice-box canvas); click-through so the page stays usable
 #dice-tray {
   position: fixed;

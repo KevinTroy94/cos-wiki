@@ -37,6 +37,14 @@ jobs:
 
       - run: npx quartz build -d content
 
+      # DM dashboard extras, written straight into the built site:
+      # the monster library (every [!statblock] in the vault) and a copy of the
+      # dice roller so the dashboard can share the 3D dice.
+      - name: DM dashboard data
+        run: |
+          node scripts/build-monsters.mjs content public/static/dm/monsters.json
+          cp plugins/dice-roller/dist/client.js public/static/dice-roller.js
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
