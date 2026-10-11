@@ -13,7 +13,7 @@
   var mode = "normal"
   var busy = false
 
-  // Initiative rolls are also sent to the DM's tracker (static/dm/initiative.html)
+  // Initiative rolls are also sent to the DM's dashboard (static/dm/dashboard.html)
   // through ntfy.sh. Must match TOPIC in the tracker page.
   var DM_TOPIC = "cos-7j76gfs57pvvzfnipjai"
 
