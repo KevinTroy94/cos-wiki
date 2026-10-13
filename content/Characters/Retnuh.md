@@ -120,3 +120,9 @@ On the road between two halves of an old graveyard, the party found [[Red]] besi
 
 At [[Morgantha]]'s windmill, Retnuh scratched [[Tatters]], a scarecrow shaped like a horse, which leaned into his hand. When Morgantha admitted she wouldn't share where [[Arabelle]] was unless Edric agreed to help her, Retnuh refused to go in: "Then I'll stay outside. I don't want anything to do with you."
 
+## Session 5 - All will be well
+
+Outside the old mill, [[Ireena Kolyana|Ireena]] asked whether he would really have given her to Strahd. He admitted he might have, "but there's no end date on the agreement," so they could wait until she was ready. Trying to describe the ocean to someone who had never left the valley, he realised he might lose the memory as easily as everything else. The party camped below the hill rather than stay near the mill, at his insistence.
+
+On the road to Vallaki, the party came upon two knights fighting. Retnuh decided first: he charged [[Dmitry]], the smiling knight, and knocked him to the ground, and [[Ernest Festibule]] beheaded him. Festibule found Retnuh's honesty about his accord with Strahd disarming, but his parting warning, that his lord [[Vladimir Horngaard]] brooks no ally of Strahd, was delivered looking straight at Retnuh. Retnuh made Virro swear to return Dmitry's sword to that spot when he was done with it.
+

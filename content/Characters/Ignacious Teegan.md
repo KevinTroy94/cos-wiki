@@ -164,3 +164,9 @@ On the graveyard road, Ignacious was the first to sense the [[Zombie|zombies]] r
 
 He went into [[Morgantha]]'s windmill with Edric and Virro, took tea with her and her daughters, and heard where [[Arabelle]] had been taken, and what Morgantha wanted in return: the head of [[NPCS/Rahadin|Rahadin]].
 
+## Session 5 - All will be well
+
+At the camp below the old mill, Ignacious found a thicket of plump, glossy orange berries and crushed a bushel of them into a deep amber tincture. Sleep took him before he could test it. He dreamed of a cornfield, the stalks taller than a man, with a mill looming above them, its sails turning against a starless sky. He woke in a cold sweat, exhausted, the flask still unopened beside him.
+
+On the road to Vallaki he asked [[Ernest Festibule]] to travel with the party, but Festibule declined: "The wards against the undead prevent my entry."
+

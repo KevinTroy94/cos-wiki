@@ -117,6 +117,10 @@ On the graveyard road, when [[Zombie|zombies]] rose from the graves and the part
 
 Edric carefully approached the risen [[Stanford]], who let Edric mount him. At [[Morgantha]]'s windmill, she offered him a choice: where [[Arabelle]] was, or calling in his favour. "Tell me where the girl is," he said. Inside, he pointed out that she'd claimed her sisters had left Barovia; she introduced the two women as her daughters. In return for the information, she asked for the head of [[NPCS/Rahadin|Rahadin]].
 
+## Session 5 - All will be well
+
+At camp, Edric noticed a large raven perched at the edge of the firelight, watching with one bright, steady eye. "A friend of [[Vesper Kasimov|Vesper]]'s," he murmured. It stayed until the fire burned low. On the road to Vallaki, he asked [[Ernest Festibule]] whether he was allied with Strahd, and why he no longer needed the caparison he gave them for [[Stanford]]: his horse had been taken by a roc.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

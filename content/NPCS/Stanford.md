@@ -1,7 +1,7 @@
 ---
 Status: "Undead"
 Affiliation: "Unaffiliated"
-Location: "With the party"
+Location: "With the party, ridden by [[Edric Storm]]"
 First met: "[[Session 1 - into the mists]]"
 ---
 One of two dappled grey-black Basuto ponies that pulled [[Garlan Shepard]]'s covered wagon into the mists. Stanford was the restless one. When Garlan collapsed and panic took hold, it was Stanford who broke free of the reins entirely, sending the wagon lurching and snapping its front axle clean off. He bolted into the dark and hasn't been seen since.
@@ -54,4 +54,6 @@ After [[Red]] drew a horse on a page of his lilac book and handed it to [[Edric 
 > #### Actions
 >
 > ***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) bludgeoning damage.
+
+On the road to Vallaki, [[Ernest Festibule]] took one look at him, "Dear me. That poor fellow looks rather the worse for wear," and gave the party a caparison in the colours of the [[Order of the Silver Dragon]], amber and silver, embroidered with a dragon's coil.
 

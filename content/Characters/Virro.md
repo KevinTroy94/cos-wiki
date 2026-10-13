@@ -142,3 +142,7 @@ On the graveyard road, during the fight with the rising [[Zombie|zombies]], Virr
 
 At [[Morgantha]]'s windmill, he told her he wasn't a tea person but a wine person. She rapped her knuckle on the teapot and poured him wine from it.
 
+## Session 5 - All will be well
+
+Virro argued for camping near the mill, since whatever lurked in the dark seemed to keep clear of the women there, but the party camped below the hill instead. On the road to Vallaki, he asked [[Ernest Festibule]] the obvious question first, "Are you alive?" ("In a manner of speaking.") After the party burned [[Dmitry]]'s body, Virro took the smiling knight's sword, swearing to Retnuh that he would return it to that spot when he was done with it.
+
