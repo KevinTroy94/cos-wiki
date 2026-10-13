@@ -1,7 +1,7 @@
 Ernest Festibule 
 update session 4 with shar and selune discussion/shar holy symbol
 
-
+https://fliphtml5.com/teewr/aasa/Curse_of_Strahd/
 
 ---
 

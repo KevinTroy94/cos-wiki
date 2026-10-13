@@ -1,6 +1,6 @@
 ---
 Status: "Alive"
-Location: "Barovia village"
+Location: "[[Vallaki]]"
 First met: "[[Session 2 - A Sad village of few souls]]"
 Portrait: "[[Pasted image 20260923133614.png]]"
 Affiliation: "Unaffiliated"
@@ -28,6 +28,8 @@ On the road between two halves of an old graveyard, she fought alongside the par
 Outside the old mill, while the others were inside with [[Morgantha]], Ireena asked [[Retnuh]] whether he really would have given her to Strahd. "The cool magic guy who gave me this horse? Yeah, maybe," he said, "but there's no end date on the agreement." She found his honesty "quite disarming". She had never left the valley, and had never heard of an ocean. Retnuh's description, "a massive lake, as far as the eye can see," struck her as terrifying, and she leaned in, wholly interested, when he started on mermen.
 
 On the road to Vallaki she met [[Ernest Festibule]], and asked him why the smiling knight had wanted to kill him.
+
+In the town square of [[Vallaki]], where [[Baron Vargas Vallakovich]] was hearing petitions, the giant [[Izek Strazni]] fixed his eyes on her from the moment the party approached the crowd.
 
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.

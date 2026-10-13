@@ -1,7 +1,7 @@
 ---
 Status: "Missing"
 Affiliation: "[[Tser Pool Vistani]]"
-Location: "Vallaki (according to Morgantha)"
+Location: "[[Vallaki]] (according to Morgantha)"
 First met: "Not yet met"
 ---
 Young Vistani girl, daughter of [[Norella]], a jeweler at the camp near the [[River Ivlis]]. She went missing in the night after being told she couldn't go fishing with [[Krogarov]], and had been gone a full day by the time the party learned of it.

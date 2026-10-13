@@ -133,4 +133,30 @@ He paused as he turned to leave.
 
 The gang burned the body of the smiling knight. Virro took his sword, but Retnuh made him swear to return it to this spot when he was done with it.
 
+The road ended at a pair of iron gates, tall and plain and very well kept. Along either side of the approach, a row of pikes stood planted in the earth, and on each one sat the head of a wolf, jaws frozen open, eyes long since gone.
+
+At the gates of [[Vallaki]], the group was directed to the town square by two guards in smiling armour.
+
+![[Pasted image 20261013173023.png]]
+
+![[wmremove-transformed.jpeg]]
+
+In the town square, the party found a large assembly of [[Barovian|Barovians]], some of them wearing masks with the same smiling-faced sun. Atop a large stage in the town centre, too high and shallow to be anything other than a repurposed gallows, stood a squat man with long, receding hair and vibrant red finery. His arms moved about as though he were a conductor while he spoke. At his side was a tall, slender woman in similar finery, who wrung her hands as the man spoke. Two large basset hounds flanked the pair and eyed the crowd.
+
+A giant of a man, his right arm draped in a large cloak, was the only one not smiling. His head was shaven and he glowered at the crowd beneath him. He stood off to the side, his eyes fixed on Ireena from the moment the gang approached the crowd. This man was [[Izek Strazni]].
+
+![[Pasted image 20261013174333.png]]
+
+The man in the finery, who the gang came to learn was [[Baron Vargas Vallakovich]], was hearing petitions from the townspeople the way a king does. One by one they approached the gallows with forced smiles, and one by one their concerns were dismissed with blind optimism.
+
+"Something comes in the night to take my pigs, and leaves no prints."
+
+"Many blessings! Think of the amount you will save on pig feed! All will be well!"
+
+"The flour cart has not come this past month. My bakery runs dry."
+
+"Great news! We can work off some of this winter fat and spare our purses for the time being! All will be well!"
+
+The church sexton approached to ask about stolen church property, and was similarly dismissed. Each time the Baron said "All will be well," the crowd answered in kind, as though at a church gathering.
+
 PREVIOUS -> [[Session 4 - Horsemen]]
