@@ -233,6 +233,6 @@ Ignacious caught up with the rest of the gang on their way to the church to ask 
 
 ![[Pasted image 20261017062615.png]]
 
-In the church, [[St. Andral's Church|St. Andral's]], they met [[Father Lucian]], a kindly priest of the Morninglord, who asked Ignacious and Edric about their faith. (describe him physically.) Sensing that they were men of faith, he asked them for help locating the bones of St. Andral, which he told them were missing from the church's crypt. He warned them that without the bones, Vallaki's protection against the undead wouldn't function, and that there could be vampires amongst them at this very moment.
+In the church, [[St. Andral's Church|St. Andral's]], they met [[Father Lucian]], a kindly priest of the Morninglord, who asked Ignacious and Edric about their faith. Sensing that they were men of faith, he asked them for help locating the bones of St. Andral, which he told them were missing from the church's crypt. He warned them that without the bones, Vallaki's protection against the undead wouldn't function, and that there could be vampires amongst them at this very moment.
 
 PREVIOUS -> [[Session 4 - Horsemen]] | | NEXT -> [[Session 6 - Resting place]]
