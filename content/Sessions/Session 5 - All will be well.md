@@ -159,4 +159,80 @@ The man in the finery, who the gang came to learn was [[Baron Vargas Vallakovich
 
 The church sexton approached to ask about stolen church property, and was similarly dismissed. Each time the Baron said "All will be well," the crowd answered in kind, as though at a church gathering.
 
-PREVIOUS -> [[Session 4 - Horsemen]]
+The gang were invited up to the stage to introduce themselves. The large man, [[Izek Strazni]], found himself in a face-off with Virro, who remarked on his lack of a smiling demeanour. Izek, easily seven feet tall, said only, "I have condition."
+
+After the crowd had mostly dispersed, the Baron called Izek away from Virro.
+
+Retnuh knelt to feed the basset hounds and spoke to them softly. As he leaned in, he caught the smell on their breath: sulphur and old smoke, the same infernal reek he'd known from Buccephalus. These were no dogs. They were [[Hell Hound|hellhounds]].
+
+![[Pasted image 20261014001141.png]]
+
+As the square emptied, one woman remained, standing with such a carefree air that she seemed to float on it. She rocked from side to side with a wide smile, watching Virro with a fixed, curious interest. She was short, her large brown boots moving easily beneath her, and she wore a shoulderless gold dress and a mask made from the skull of a horned creature.
+
+“A rabbit?” she mused. “How’d you get into that?”
+
+“What do you mean?” Virro asked, confused.
+
+“The ears.” She gasped. “Are they real?”
+
+Ignacious told her it wasn’t a costume, and that Virro came from the Feywild. She stared at them in silent confusion, then reached out and touched his ears in amazement.
+
+“Well,” she said, “you saw what the Baron is like.” She glanced at the crowd and lowered her voice. “I think we should change a few things around here.” She paused, eyes lighting up. “Would you care for a bit of... _revolutionary violence?_”
+
+The party asked about the town and the Baron. The woman introduced herself as [[Volenta Popofsky]].
+
+Ignacious wondered aloud whether the Baron might be an immortal like Strahd, a vampire who kept everyone cheerful for a reason. Volenta burst out laughing. “Oh, no. I remember the day he became Baron.”
+
+Virro narrowed his eyes. “And how old are you?”
+
+“You can’t ask a woman that!” She gasped in mock shock, then held up her left hand, the ring finger conspicuously bare. “Careful, I’m married!” She let it hang in the air for a moment. “Well, he is dead, though.”
+
+She nodded toward a side alley, and Retnuh was the first to follow. As he rounded the corner, she rose on her toes and kissed him, catching him completely off guard. They shared an awkward fist-bump just before the rest of the party turned the corner.
+
+Ireena drew close to Virro. “Can we trust her?”
+
+Virro wasn’t sure.
+
+“At least we can probably be certain she isn’t a vampire,” Ireena said. “The revenant said there are wards on this town that keep them out.”
+
+The party traded ideas for causing general havoc, and Volenta mentioned that the [[Keepers of the Feather]] might be willing to stir things up, though she had no idea where to find them. Then the group split up to explore. Volenta and Retnuh headed for the [[Blue Water Inn]], Ignacious went to find [[Bozena]], the baker who had petitioned the Baron, and Ireena, Virro and Edric wandered the town.
+
+The trio found themselves outside [[Blinsky's Toys]]. The shop was a cramped little place, its entrance sunk under a dark portico, with a wooden sign shaped like a rocking horse hanging above the door, a B carved into both faces. Through the dirty glass, toys lay jumbled in crowded displays, and placards hung between them carrying the shop’s slogan, “Is no fun, is no Blinsky!” Inside, every shelf and rafter was crowded with playthings, and most of them were a little wrong: dolls with faces too lifelike, wind-up soldiers frozen mid-stride, puppets watching the door. The proprietor was [[Gadof Blinsky]], a man with a fondness for eerie toys, and at his side perched Piccolo, a white-faced capuchin monkey in a tutu.
+
+![[Pasted image 20261015211830.png]]
+
+Blinsky was a warm, energetic man who bounced on his heels with every word, as though the sentences themselves were wind-up toys. “Ah, wyelcome, wyelcome, friends!” he sang, spreading his arms wide. “Come, come, see the leetle wonders of Blinsky! Is joy for the small, is joy for the big, and the prices, they are very kind!”
+
+The gang looked around at the wares. Virro found a hand puppet in the likeness of Strahd, complete with a stiff cape and a thin, hungry smile, slid his hand inside it for a moment, and bought it.
+
+Ireena stopped in front of a doll on a high shelf, and the colour drained from her face. It had her bronze skin, her scarlet hair, even the same shade of dress she wore. It was her face, almost exactly, down to the line of her jaw.
+
+Blinsky followed her gaze and laughed, delighted. “Ah-hah! You muss show Blinsky how you make them, yes? Clearly my leetle creations are pale beside yours!” He nodded at the doll, then at her, beaming at the resemblance.
+
+When she asked, his cheer wavered, and he lowered his voice. The dolls were Izek’s doing, he said, the captain of the [[Order of Contentment]]. Each month, Izek demanded a new one in lieu of taxes. Blinsky made them and handed them over, and he had no idea what they were for.
+
+Ignacious had found his way to [[The Merry Crust]]. It was a plain little place, little more than a worn wooden counter with a handful of pastries laid out on trays, the rest of the shelves nearly bare. Behind it stood Bozena, floury to the elbows, with a smile that didn’t quite reach her eyes. When he asked about the flour, she sighed. It came from Krezk, to the west, she said, and nothing had arrived for weeks. They’d had no word from the village, either.
+
+At the Blue Water Inn, the timber building leaned over the street, its yellow windows warm against the dusk. A sun banner hung limp over the door, and the smell of woodsmoke and roasting meat drifted out into the cold. Inside, hunters and townsfolk filled the long common room, loud and flushed with drink, and the low noise of conversation welcomed Retnuh and Volenta inside.
+
+![[Pasted image 20261016223542.png]]
+
+Inside they met the innkeeper and his family, the Martikovs. [[Urwin Martikov]] and [[Danika Martikov]] manage the tavern and inn, which thrives as much as anything can in this place. The place was busy, but a glance at the shelves behind the bar showed little ale and less wine.
+
+Urwin poured for Retnuh and Volenta, and when Retnuh asked after the wine, he sighed. No shipment had come from the Wizard of Wines, the winery out west, in far too long, and he would gladly hire adventurers to go and see what was wrong. His relatives ran the place, he said, and if Retnuh and his companions could find out what was going on, they’d have free room and board at the inn for as long as they liked.
+
+Volenta, who was not listening, plucked a bottle of Red Strongwash off the bar and began drinking it straight from the neck.
+
+Two men came up behind Retnuh. They were young and noble, and their fine coats were rumpled and stained from a long evening. The Wachter brothers were brash drunks who spent their nights at the Blue Water Inn looking for trouble. [[Nikolai Wachter|Nikolai]], the elder, was lean and pale, with the glassy, amused look of a man who found everything slightly funny. [[Karl Wachter|Karl]], the louder and more obnoxious of the two, was broader and redder, his shirt half untucked and his grin loose with wine.
+
+![[Pasted image 20261017064245.png]]
+
+Karl Wachter leaned right next to Retnuh's ear and let out a loud belch. Retnuh landed a clenched fist between the man's legs, doubling him over. Volenta's eyes lit up. She took a large swig of wine before bringing the bottle down on his head in a rain of glass and wine, then kicked him in the neck, dropping him to the floor unconscious with a horrid slap. Mayhem broke out in the bar all at once.
+
+Ignacious caught up with the rest of the gang on their way to the church to ask about its stolen property. On the way, they came upon a sign detailing the town's methods of "discipline": "Contentment", "Amusement", "Convalescence" and "Dischargement". The gang recalled seeing some people wearing strapped masks, called masks of contentment.
+
+![[Pasted image 20261017062615.png]]
+
+In the church, [[St. Andral's Church|St. Andral's]], they met [[Father Lucian]], a kindly priest of the Morninglord, who asked Ignacious and Edric about their faith. (describe him physically.) Sensing that they were men of faith, he asked them for help locating the bones of St. Andral, which he told them were missing from the church's crypt. He warned them that without the bones, Vallaki's protection against the undead wouldn't function, and that there could be vampires amongst them at this very moment.
+
+PREVIOUS -> [[Session 4 - Horsemen]] | | NEXT -> [[Session 6 - Resting place]]

@@ -121,6 +121,8 @@ Edric carefully approached the risen [[Stanford]], who let Edric mount him. At [
 
 At camp, Edric noticed a large raven perched at the edge of the firelight, watching with one bright, steady eye. "A friend of [[Vesper Kasimov|Vesper]]'s," he murmured. It stayed until the fire burned low. On the road to Vallaki, he asked [[Ernest Festibule]] whether he was allied with Strahd, and why he no longer needed the caparison he gave them for [[Stanford]]: his horse had been taken by a roc.
 
+In [[Vallaki]], Edric wandered the town with Ireena and Virro, and was at [[Blinsky's Toys]] when Ireena found a doll in her own likeness. At [[St. Andral's Church]], [[Father Lucian]] asked him and Ignacious to help find the stolen bones of St. Andral, without which the town's protection against the undead won't function.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

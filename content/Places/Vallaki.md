@@ -8,6 +8,16 @@ The smiling-faced sun is everywhere: on the guards' armour, and on the masks som
 
 [[Morgantha]] said [[Arabelle]] was brought here, taken by [[Izek Strazni]], and that the town militia had her last.
 
+Places the party has visited in town:
+- [[Blue Water Inn]], run by the Martikovs
+- [[Blinsky's Toys]], the toymaker's shop
+- [[The Merry Crust]], [[Bozena]]'s bakery
+- [[St. Andral's Church]], tended by [[Father Lucian]]
+
+A sign in town details the methods of "discipline" used by the [[Order of Contentment]]: "Contentment", "Amusement", "Convalescence" and "Dischargement". Some townsfolk wear strapped masks, called masks of contentment.
+
+The town is said to be warded against vampires. According to Father Lucian, those wards depend on the bones of St. Andral, which have been stolen from the church's crypt.
+
 > [!dmspoiler]
 > See [[Undiscovered Places/The Town of Vallaki|The Town of Vallaki]] for the full module text.
 >

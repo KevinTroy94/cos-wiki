@@ -1,0 +1,1 @@
+[[Bozena]]'s bakery in [[Vallaki]]. A plain little place, little more than a worn wooden counter with a handful of pastries laid out on trays, the rest of the shelves nearly bare. Its flour comes from Krezk, to the west, and nothing has arrived for weeks.

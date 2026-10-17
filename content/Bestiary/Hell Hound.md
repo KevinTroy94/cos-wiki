@@ -1,0 +1,1 @@
+[[Baron Vargas Vallakovich]] keeps two large basset hounds at his side. When [[Retnuh]] knelt to feed them, he caught the smell on their breath: sulphur and old smoke, the same infernal reek he knew from Buccephalus, his [[Nightmare]]. These are no dogs. They are hellhounds.

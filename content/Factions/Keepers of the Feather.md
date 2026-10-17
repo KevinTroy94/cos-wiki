@@ -1,4 +1,4 @@
-An organisation the party first heard of from [[Vesper Kasimov]], who was expected to deliver a package to them. Little more about them is known at the moment. They appear to operate in secret and oppose Strahd.
+An organisation the party first heard of from [[Vesper Kasimov]], who was expected to deliver a package to them. Little more about them is known at the moment. They appear to operate in secret and oppose Strahd. In [[Vallaki]], [[Volenta Popofsky]] suggested the Keepers might be willing to stir things up against the Baron, though she had no idea where to find them.
 
 Known Members
 -----------------------------

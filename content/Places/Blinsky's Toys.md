@@ -1,0 +1,3 @@
+A cramped toy shop in [[Vallaki]], its entrance sunk under a dark portico, with a wooden sign shaped like a rocking horse hanging above the door, a B carved into both faces. Placards between the jumbled displays carry the shop's slogan, "Is no fun, is no Blinsky!" Every shelf and rafter is crowded with playthings, and most of them are a little wrong: dolls with faces too lifelike, wind-up soldiers frozen mid-stride, puppets watching the door.
+
+The proprietor is [[Gadof Blinsky]], with his capuchin monkey, Piccolo. [[Virro]] bought a Strahd hand puppet here. On a high shelf sits a doll in the exact likeness of [[Ireena Kolyana|Ireena]], one of many [[Izek Strazni]] demands each month in lieu of taxes.
