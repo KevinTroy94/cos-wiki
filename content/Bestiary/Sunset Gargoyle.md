@@ -1,3 +1,5 @@
+![[Pasted image 20261017071843.png]]
+
 > [!statblock]
 > **Sunset Gargoyle**
 >
