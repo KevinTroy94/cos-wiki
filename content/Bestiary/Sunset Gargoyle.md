@@ -1,5 +1,7 @@
 ![[Pasted image 20261017071843.png]]
 
+Stone creatures with smiling, sun-faced heads that crouch on the roof of [[Sunset Lodge]], weathered pale, indistinguishable from statues until they move. A fine pale grit on the porch below is the only sign. When [[Edric Storm|Edric]] woke the rug inside, four of them unfurled and struck: one crashed through a window, seized [[Ignacious Teegan|Ignacious]] and carried him up into the sky, and another blocked the front door.
+
 > [!statblock]
 > **Sunset Gargoyle**
 >

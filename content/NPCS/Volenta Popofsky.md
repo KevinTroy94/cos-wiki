@@ -17,6 +17,8 @@ At the [[Blue Water Inn]] she drank a bottle of Red Strongwash straight from the
 
 [[Ireena Kolyana|Ireena]] isn't sure she can be trusted, but is fairly certain she isn't a vampire: the wards on Vallaki keep them out.
 
+As the brawl at the inn spread, several of the quieter drinkers stepped in without a word and pinned her arms. The moment she was released, she vanished through the door.
+
 > [!dmspoiler]
 > Volenta is one of Strahd's three brides, a [[Vampire Spawn]]. Module text, Strahd's tomb in Castle Ravenloft:
 >

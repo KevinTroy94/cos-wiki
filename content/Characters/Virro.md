@@ -147,3 +147,8 @@ At [[Morgantha]]'s windmill, he told her he wasn't a tea person but a wine perso
 Virro argued for camping near the mill, since whatever lurked in the dark seemed to keep clear of the women there, but the party camped below the hill instead. On the road to Vallaki, he asked [[Ernest Festibule]] the obvious question first, "Are you alive?" ("In a manner of speaking.") After the party burned [[Dmitry]]'s body, Virro took the smiling knight's sword, swearing to Retnuh that he would return it to that spot when he was done with it.
 
 In [[Vallaki]], Virro found himself in a face-off on the stage with [[Izek Strazni]], remarking on the giant's lack of a smiling demeanour. ("I have condition.") [[Volenta Popofsky]] was fascinated by his ears and touched them in amazement. At [[Blinsky's Toys]] he bought a hand puppet of Strahd, complete with a stiff cape and a thin, hungry smile.
+
+## Session 6 - Resting place
+
+In the undercroft of [[St. Andral's Church]], Virro found it suspicious that anyone else could know how to get in, and pressed [[Father Lucian]] on it. Inspecting the walls, he found the thieves' tunnel. At [[Sunset Lodge]] he noticed the pale grit on the porch, and looked up to see the four sun-faced statues on the roof.
+

@@ -123,6 +123,10 @@ At camp, Edric noticed a large raven perched at the edge of the firelight, watch
 
 In [[Vallaki]], Edric wandered the town with Ireena and Virro, and was at [[Blinsky's Toys]] when Ireena found a doll in her own likeness. At [[St. Andral's Church]], [[Father Lucian]] asked him and Ignacious to help find the stolen bones of St. Andral, without which the town's protection against the undead won't function.
 
+## Session 6 - Resting place
+
+Edric followed the thieves' tunnel from the undercroft of [[St. Andral's Church]] out to [[Sunset Lodge]] with Ignacious. Inside, he noticed that the [[Animated Rug of Smothering|rug]] at the centre of the room was far too clean, and took it by a corner tassel. It reared up like a cobra, dropped over him and coiled tight.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

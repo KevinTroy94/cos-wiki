@@ -4,6 +4,8 @@ It is run by [[Urwin Martikov]] and [[Danika Martikov]] and their family, and th
 
 The Wachter brothers, [[Karl Wachter|Karl]] and [[Nikolai Wachter|Nikolai]], drink here most nights. The party's first visit ended in a brawl.
 
+The brawl swept the whole room, patron against patron, bottles flying and tables splintering, until the quieter drinkers pinned [[Volenta Popofsky|Volenta]]'s arms and [[Urwin Martikov|Urwin]] settled the room with a crossbow. The hunters [[Szoldar Szoldarovich]] and [[Yevgeni Krushkin]] drink here too.
+
 > [!dmspoiler]
 > The inn is the Vallaki base of the [[Keepers of the Feather]]. "At any given time, another 1d4 wereravens (members of the Keepers of the Feather) are present at the inn, either perched on the rooftop in raven form or huddled inside in human form."
 >

@@ -4,7 +4,8 @@ Affiliation: "[[Order of the Silver Dragon]]"
 Location: "Argynvostholt"
 First met: "Not yet met"
 ---
-Commander of the [[Order of the Silver Dragon]], and [[Ernest Festibule]]'s lord. According to Festibule, he still keeps watch at Argynvostholt, the Order's old home.
+Commander of the [[Order of the Silver Dragon]]. 
+According to [[Ernest Festibule]], he still keeps watch at Argynvostholt, the Order's old home.
 
 Festibule left the party with a warning about him, given "kindly": "He brooks no ally of Strahd. None. Anything less than complete opposition to the dark lord will make you his enemy." He looked at [[Retnuh]] as he said it.
 

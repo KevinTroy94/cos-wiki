@@ -18,6 +18,8 @@ A sign in town details the methods of "discipline" used by the [[Order of Conten
 
 The town is said to be warded against vampires. According to Father Lucian, those wards depend on the bones of St. Andral, which have been stolen from the church's crypt.
 
+Outside the walls, an hour's walk north, stands [[Sunset Lodge]], one of the town's punishments. Kozlov Manor, in town, has stood empty since its family was sent out to the lodge three years ago.
+
 > [!dmspoiler]
 > See [[Undiscovered Places/The Town of Vallaki|The Town of Vallaki]] for the full module text.
 >

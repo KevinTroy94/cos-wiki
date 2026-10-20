@@ -1,0 +1,42 @@
+Packs of ghouls haunt the rotten corners of the world, ravenously hunting for corpses and those soon to be corpses. These gaunt, animate cadavers with unnaturally long tongues dwell in catacombs and ruins where they devour the contents of graves and paralyze foes with vicious claws.
+
+Ghouls rise from the bodies of cannibals and villains with depraved hungers. They form packs out of shared voracity.
+
+> [!statblock]
+> **Ghoul**
+>
+> *Medium Undead, Chaotic Evil*
+>
+> ---
+>
+> **AC** 12 · **Initiative** +2 (12)
+>
+> **HP** 22 (5d8)
+>
+> **Speed** 30 ft.
+>
+> ---
+>
+> | | STR | DEX | CON | INT | WIS | CHA |
+> |---|:---:|:---:|:---:|:---:|:---:|:---:|
+> | Score | 13 | 15 | 10 | 7 | 10 | 6 |
+> | Mod | +1 | +2 | +0 | −2 | +0 | −2 |
+> | Save | +1 | +2 | +0 | −2 | +0 | −2 |
+>
+> ---
+>
+> **Immunities** Poison; Charmed, Exhaustion, Poisoned
+>
+> **Senses** Darkvision 60 ft.; Passive Perception 10
+>
+> **Languages** Common
+>
+> **CR** 1 (XP 200; PB +2)
+>
+> #### Actions
+>
+> ***Multiattack.*** The ghoul makes two Bite attacks.
+>
+> ***Bite.*** *Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 3 (1d6) Necrotic damage.
+>
+> ***Claw.*** *Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Slashing damage. If the target is a creature that isn't an Undead or elf, it is subjected to the following effect. *Constitution Saving Throw:* DC 10. *Failure:* The target has the Paralyzed condition until the end of its next turn.

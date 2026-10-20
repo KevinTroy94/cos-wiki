@@ -11,6 +11,8 @@ The younger of the Wachter brothers, young nobles and brash drunks who spend the
 
 He leaned in and belched in [[Retnuh]]'s ear. Retnuh punched him between the legs, and [[Volenta Popofsky|Volenta]] broke a bottle of wine over his head and kicked him to the floor, unconscious. Mayhem broke out in the bar.
 
+He lay unconscious through the brawl that followed. [[Retnuh]] tried to reach him and pleaded with the hunters [[Szoldar Szoldarovich]] and [[Yevgeni Krushkin]] to help, and Szoldar went to find a doctor.
+
 > [!dmspoiler]
 > "Nikolai and Karl Wachter (N male human **nobles**) are brothers of noble birth. They are brash drunkards always looking for trouble, though they are smart enough not to pick fights with well-armed strangers. Their mother, Fiona Wachter, is an influential figure in town, but her sons never talk about her."
 >

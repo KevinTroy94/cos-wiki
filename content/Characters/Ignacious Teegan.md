@@ -171,3 +171,8 @@ At the camp below the old mill, Ignacious found a thicket of plump, glossy orang
 On the road to Vallaki he asked [[Ernest Festibule]] to travel with the party, but Festibule declined: "The wards against the undead prevent my entry."
 
 In [[Vallaki]], Ignacious explained to [[Volenta Popofsky]] that Virro's ears were real, and wondered aloud whether the Baron might be a vampire. He visited [[Bozena]] at [[The Merry Crust]] and learned that her flour comes from Krezk, and nothing has arrived for weeks. At [[St. Andral's Church]], [[Father Lucian]] asked him and Edric to help find the stolen bones of St. Andral, without which the town's protection against the undead won't function.
+
+## Session 6 - Resting place
+
+Ignacious followed the thieves' tunnel from the undercroft of [[St. Andral's Church]] out to [[Sunset Lodge]] with Edric. On the lodge's shelf of mementos he recognised the name on a pocket watch, **P. Hask**, from the register of burials. When a [[Sunset Gargoyle]] crashed through the window and carried him up into the sky, he realised [[Pieter Hask]]'s recorded death, _a fall_, was no fall at all. He hacked through the gargoyle's grip and plummeted through the lodge roof, unconscious before he hit the floor.
+

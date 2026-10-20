@@ -33,6 +33,8 @@ In the town square of [[Vallaki]], where [[Baron Vargas Vallakovich]] was hearin
 
 When [[Volenta Popofsky]] approached the party, Ireena asked Virro whether they could trust her, but reasoned that she at least couldn't be a vampire, since the wards on the town keep them out. In [[Blinsky's Toys]] she found a doll made in her exact likeness, down to the line of her jaw, and learned that [[Izek Strazni]] demands one from the toymaker every month.
 
+She stayed behind at [[St. Andral's Church]] while the others followed the thieves' tunnel out to [[Sunset Lodge]].
+
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.
 >

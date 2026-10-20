@@ -127,3 +127,8 @@ Outside the old mill, [[Ireena Kolyana|Ireena]] asked whether he would really ha
 On the road to Vallaki, the party came upon two knights fighting. Retnuh decided first: he charged [[Dmitry]], the smiling knight, and knocked him to the ground, and [[Ernest Festibule]] beheaded him. Festibule found Retnuh's honesty about his accord with Strahd disarming, but his parting warning, that his lord [[Vladimir Horngaard]] brooks no ally of Strahd, was delivered looking straight at Retnuh. Retnuh made Virro swear to return Dmitry's sword to that spot when he was done with it.
 
 In [[Vallaki]], kneeling to feed the Baron's basset hounds, Retnuh smelled sulphur and old smoke on their breath, the same reek he knew from Buccephalus: they were [[Hell Hound|hellhounds]]. [[Volenta Popofsky]] kissed him in a side alley, catching him completely off guard, and they shared an awkward fist-bump. At the [[Blue Water Inn]], [[Urwin Martikov]] offered free room and board if the party finds out why the wine shipments have stopped. When [[Karl Wachter]] belched in his ear, Retnuh punched him between the legs, Volenta finished the job with a wine bottle and a kick, and the bar erupted.
+
+## Session 6 - Resting place
+
+In the brawl at the [[Blue Water Inn]], Retnuh tried to check on [[Karl Wachter]] while patrons, and [[Nikolai Wachter]] with a barstool, kept coming at him. He pleaded with the hunters [[Szoldar Szoldarovich|Szoldar]] and [[Yevgeni Krushkin|Yevgeni]] to help Karl, and Szoldar went for a doctor. Afterwards he found [[Bozena]], who told him of [[Sunset Lodge]] and Kozlov Manor, and walked north to join the party at the lodge. When a [[Sunset Gargoyle]] planted itself in the doorway, Retnuh charged it.
+
