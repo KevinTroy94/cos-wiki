@@ -34,8 +34,16 @@ Outside, something struck the porch with a heavy, deliberate thud. Then another.
 
 The first one crashed through a window in a burst of glass and splintered frame, and its claws closed around Ignacious’ chest. It hauled him up and out through the broken pane. The cabin dropped away beneath him. In the roar of the air, a thought came to him. [[Pieter Hask]], the name on the pocket watch and in the burial register, had a cause of death written beside it: _a fall._ He had not fallen. He had been taken up, just as Ignacious was being taken now.
 
+
+![[Pasted image 20261020223312.png]]
+
+
 High above the treeline, a second gargoyle had launched after him. He drew his blade, hacked through his captor’s grip and plummeted toward the second gargoyle, crashing through the roof. Ignacious didn’t feel the floor when he landed. He was already unconscious.
 
-At the front door, a gargoyle had planted itself in the doorway and blocked the way out. Retnuh charged it.
+At the front door, a gargoyle had planted itself in the doorway and blocked the way out. Retnuh charged it and it took him in its talons, pinning him to a tree and crashing his head against it. (Retnuh visions)
+
+Virro attacks the rug and Edric escapes, the rug curls around and ensnares Virro, Virro tears it thread from thread. 
+
+The gang defeats the gargoyles and narrowly escapes with their lives, they rush 
 
 PREVIOUS -> [[Session 5 - All will be well]]
