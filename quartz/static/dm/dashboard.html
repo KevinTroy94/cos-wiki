@@ -111,7 +111,7 @@
   .list { display: flex; flex-direction: column; gap: 0.35rem; }
   .row {
     display: grid;
-    grid-template-columns: 22px 76px minmax(0, 1.7fr) 132px 56px minmax(0, 1.2fr) 128px;
+    grid-template-columns: 22px 76px minmax(0, 1.7fr) 132px 56px minmax(0, 1.2fr) 154px;
     gap: 0.5rem;
     align-items: center;
     padding: 0.45rem 0.55rem;
@@ -341,6 +341,48 @@
   #dice-tray { position: fixed; inset: 0; z-index: 50; pointer-events: none; opacity: 0; transition: opacity 0.4s; }
   #dice-tray.show { opacity: 1; }
   #dice-tray canvas { width: 100%; height: 100%; }
+
+  /* Player view */
+  .acts .pvb { position: relative; }
+  .acts .pvb.off { opacity: 0.35; }
+  .acts .pvb.fresh { opacity: 1; animation: pvpulse 1.4s ease-in-out infinite; }
+  .acts .pvb.custom::after { content: ""; position: absolute; top: 2px; right: 2px; width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+  @keyframes pvpulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(212, 169, 51, 0); } 50% { box-shadow: 0 0 0 3px rgba(212, 169, 51, 0.6); } }
+  #pvPop {
+    position: absolute;
+    z-index: 21;
+    width: 320px;
+    padding: 0.6rem 0.7rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    font-size: 0.82rem;
+  }
+  #pvPop h3 { margin: 0 0 0.5rem; font-size: 0.85rem; }
+  #pvPop h3 small { color: var(--muted); font-weight: normal; }
+  #pvPop .f { display: grid; grid-template-columns: 78px 1fr; align-items: center; gap: 0.35rem; margin-bottom: 0.4rem; }
+  #pvPop .f > span { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; }
+  #pvPop .seg { display: flex; gap: 0.2rem; flex-wrap: wrap; }
+  #pvPop .seg button { padding: 0.12rem 0.45rem; font-size: 0.75rem; }
+  #pvPop .seg button.on { background: #f0d9a8; color: #2a2010; border-color: #f0d9a8; }
+  #pvPop input[type=text] { width: 100%; padding: 0.2rem 0.4rem; font-size: 0.8rem; }
+  #pvPop .condlist { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+  #pvPop .condlist label { display: inline-flex; gap: 0.2rem; align-items: center; padding: 0.05rem 0.4rem; border: 1px solid var(--line); border-radius: 999px; font-size: 0.72rem; }
+  #pvPop .btns { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.55rem; justify-content: flex-end; }
+  .pvctl { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.5rem; }
+  .pvctl input { flex: 1; min-width: 140px; font-size: 0.8rem; }
+  .pvlink { font-size: 0.75rem; color: var(--muted); margin-bottom: 0.5rem; overflow-wrap: anywhere; }
+  .pvlink a { color: var(--text); }
+  .pvprev { border: 1px dashed var(--line); border-radius: 6px; padding: 0.45rem; font-size: 0.8rem; }
+  .pvprev .ban { font-weight: 600; margin-bottom: 0.3rem; }
+  .pvprev .ban.vague { font-style: italic; color: var(--muted); }
+  .pvprev .it { display: flex; gap: 0.4rem; padding: 0.15rem 0.3rem; border-radius: 4px; }
+  .pvprev .it.cur { background: #3a2226; }
+  .pvprev .it .n { flex: 1; }
+  .pvprev .it small { color: var(--muted); }
+  .pvprev .none { color: var(--muted); font-style: italic; }
+  .pvsent { font-size: 0.7rem; color: var(--muted); margin-top: 0.4rem; }
 </style>
 </head>
 <body>
@@ -391,6 +433,18 @@
       <h2><span id="sbTitle">Stat block</span><span class="spacer"></span><button class="small ghost" id="sbClose" title="Close">✕</button></h2>
       <div id="sbBody"></div>
     </section>
+    <section id="pvSec">
+      <h2>Player view</h2>
+      <div class="pvctl">
+        <button type="button" id="pvOpen" title="Open the player view in a new window. Drag it onto the players' monitor.">📺 Open window</button>
+        <button type="button" id="pvPhones" title="Send the player view to phones through ntfy">📱 Phones: off</button>
+        <button type="button" id="pvBlank" title="Hide everything on the player view and show a message instead">🌫 Blank screen</button>
+      </div>
+      <div class="pvctl"><input id="pvBlankText" placeholder="The mists swirl…" title="Shown while the screen is blanked"></div>
+      <div class="pvlink">Phone link: <a id="pvLink" target="_blank"></a> <button type="button" class="small ghost" id="pvCopy">Copy</button></div>
+      <div class="pvprev" id="pvPreview"></div>
+      <div class="pvsent" id="pvSent"></div>
+    </section>
     <section>
       <h2>Feed</h2>
       <div id="feed" class="feed"><div class="item sys">Rolls and condition changes show up here.</div></div>
@@ -402,6 +456,7 @@
         HP box: <code>-7</code> damage, <code>+5</code> heal, or a number to set it.<br>
         📜 opens a monster's stat block here; tap its attacks to roll them.<br>
         ⚑ adds a condition. Ones with rounds count down each time a new round starts. Click a chip to remove it.<br>
+        👁 sets what players see. New monsters start hidden (the eye pulses) until you reveal them.<br>
         <kbd>Space</kbd> = next turn. Everything is saved in this browser.
       </div>
     </section>
@@ -413,6 +468,8 @@
   <div class="line">Rounds <input type="number" id="condRounds" min="1" placeholder="∞"> <input class="custom" id="condCustom" placeholder="or custom…"></div>
   <div class="line" style="margin-top:0.5rem; justify-content:flex-end"><button class="small" id="condCancel">Cancel</button><button class="small primary" id="condAdd">Add</button></div>
 </div>
+
+<div id="pvPop" hidden></div>
 
 <script src="../dice-roller.js"></script>
 <script>
@@ -429,9 +486,22 @@
   state.since = state.since || Math.floor(Date.now() / 1000) - 3600
   state.seen = state.seen || []
   state.started = !!state.started
+  state.pv = state.pv || { phones: false, blank: false, blankText: "" }
+  state.combatants.forEach(function (c) { if (!c.vis) c.vis = defaultVis(c.kind) })
+
+  // What the player view may show for each combatant. Monsters start unlisted.
+  function defaultVis(kind) {
+    return kind === "pc"
+      ? { listed: true, name: "real", label: "", hp: "show", ac: true, init: true, conds: "show", turn: "show", turnText: "" }
+      : { listed: false, name: "label", label: "", hp: "hide", ac: false, init: false, conds: "hide", turn: "show", turnText: "", fresh: true }
+  }
+  function isDefaultVis(c) {
+    var d = defaultVis(c.kind), v = c.vis
+    return ["listed", "name", "label", "hp", "ac", "init", "conds", "turn", "turnText"].every(function (k) { return v[k] === d[k] }) && !c.conds.some(function (k) { return k.hidden })
+  }
 
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) } catch (e) { return null } }
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {} }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {} pushView() }
   function uid() { return Math.random().toString(36).slice(2, 10) }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] }) }
   function sign(n) { return n >= 0 ? "+" + n : "−" + Math.abs(n) }
@@ -572,6 +642,8 @@
         '<div class="acts">' +
         (hasSb ? '<button class="small ghost sb" title="' + (c.kind === "pc" ? "Show character sheet" : "Show stat block") + '">📜</button>' : "") +
         '<button class="small ghost cnd" title="Add condition">⚑</button>' +
+        '<button class="small ghost pvb' + (c.vis.listed ? "" : " off") + (c.vis.fresh ? " fresh" : "") + (!isDefaultVis(c) ? " custom" : "") + '" title="' +
+        (c.vis.listed ? "On the player view" : "Hidden from the player view") + (c.vis.fresh ? " (new: not revealed yet)" : "") + '. Click to choose what players see.">👁</button>' +
         (c.kind === "monster" ? '<button class="small ghost reroll" title="Reroll initiative">🎲</button>' : "") +
         '<button class="small ghost del" title="Remove">✕</button></div>'
       var q = function (s) { return row.querySelector(s) }
@@ -622,6 +694,7 @@
       var sb = q(".sb")
       if (sb) sb.addEventListener("click", function () { openSb(c) })
       q(".cnd").addEventListener("click", function (e) { openCondPop(c, e.currentTarget) })
+      q(".pvb").addEventListener("click", function (e) { openPvPop(c, e.currentTarget) })
       row.querySelectorAll(".cond").forEach(function (chip) {
         chip.addEventListener("click", function () {
           snapshot("remove condition")
@@ -720,7 +793,7 @@
           name: count > 1 || existing ? name + " " + (existing + i + 1) : name,
           bonus: bonus, d20: roll, init: roll + bonus,
           hp: thisHp, maxHp: thisHp, hpNote: rollHp ? "HP rolled " + lib.hpDice : null,
-          ac: isNaN(ac) ? null : ac, notes: "", conds: [],
+          ac: isNaN(ac) ? null : ac, notes: "", conds: [], vis: defaultVis("monster"),
         }
         state.combatants.push(c)
         lastId = c.id
@@ -742,7 +815,7 @@
     var cur = currentId()
     var c = state.combatants.find(function (x) { return x.kind === "pc" && x.name.toLowerCase() === String(msg.who).toLowerCase() })
     if (!c) {
-      c = { id: uid(), kind: "pc", order: Date.now() + order++, name: msg.who, hp: null, maxHp: null, ac: null, notes: "", conds: [] }
+      c = { id: uid(), kind: "pc", order: Date.now() + order++, name: msg.who, hp: null, maxHp: null, ac: null, notes: "", conds: [], vis: defaultVis("pc") }
       state.combatants.push(c)
     }
     c.init = msg.total
@@ -924,6 +997,7 @@
     state.turn = d.turn
     state.started = d.started
     Object.keys(picked).forEach(function (id) { if (!state.combatants.some(function (c) { return c.id === id })) delete picked[id] })
+    closePvPop()
     log("Undid: " + h.label + ".")
     save(); render(); renderBulk(); syncUndo()
   }
@@ -1008,6 +1082,228 @@
     })
   })
 
+  // ── Player view (static/turns.html) ────────────────────────────────────
+  // Only the filtered view ever leaves this page: hidden rows, names and HP are never sent.
+  var PV_TOPIC = "cos-turns-q8m3xv2k7r" // must match static/turns.html
+  var PV_KEY = "cos-turns-v1"
+  var pvBc = "BroadcastChannel" in window ? new BroadcastChannel(PV_KEY) : null
+  var pvLast = ""
+  var pvTimer = null
+  var pvReady = false
+  var pvUrl = location.href.replace(/[?#].*$/, "").replace(/dm\/[^/]*$/, "turns.html")
+
+  function hpStatus(c) {
+    if (c.hp == null || !c.maxHp) return null
+    if (c.hp <= 0) return "Down"
+    if (c.hp >= c.maxHp) return "Unhurt"
+    if (c.hp > c.maxHp / 2) return "Hurt"
+    if (c.hp > c.maxHp / 4) return "Bloodied"
+    return "Near death"
+  }
+  function shownName(c) {
+    var v = c.vis
+    return v.name === "real" ? c.name : v.name === "label" ? (v.label.trim() || "???") : "???"
+  }
+  function turnShown(c) { return c.vis.listed && c.vis.turn === "show" }
+
+  function viewSnapshot() {
+    var pv = state.pv
+    if (pv.blank) return { v: 1, blank: true, blankText: pv.blankText.trim() || "The mists swirl…" }
+    var all = sorted()
+    var rows = all.filter(function (c) { return c.vis.listed })
+    var names = rows.map(shownName)
+    // Four "Stone creature"s become Stone creature 1-4, numbered in the order they were added
+    var groups = {}
+    rows.forEach(function (c, i) { if (c.vis.name !== "real") (groups[names[i]] = groups[names[i]] || []).push(c) })
+    Object.keys(groups).forEach(function (k) { groups[k].sort(function (a, b) { return a.order - b.order }) })
+    var list = rows.map(function (c, i) {
+      var v = c.vis, n = names[i], g = groups[n]
+      if (g && g.length > 1) n += " " + (g.indexOf(c) + 1)
+      var conds = c.conds.filter(function (k) { return !k.hidden })
+      var item = { n: n, pc: c.kind === "pc" }
+      if (v.init && c.init != null) item.init = c.init
+      if (v.hp === "show" && (c.hp != null || c.maxHp != null)) item.hp = (c.hp != null ? c.hp : "?") + (c.maxHp != null ? " / " + c.maxHp : "")
+      else if (v.hp === "vague" && hpStatus(c)) item.hp = hpStatus(c)
+      if (v.hp !== "hide" && c.maxHp && c.hp != null && c.hp <= 0) item.down = true
+      if (v.ac && c.ac != null) item.ac = c.ac
+      if (v.conds === "show" && conds.length) item.conds = conds.map(function (k) { return k.name + (k.rounds ? " (" + k.rounds + ")" : "") })
+      else if (v.conds === "vague" && conds.length) item.conds = ["Affected"]
+      return item
+    })
+    var snap = { v: 1, round: state.round, started: state.started && all.length > 0, cur: -1, next: -1, list: list }
+    if (snap.started) {
+      var n = all.length, now = all[state.turn]
+      if (now && now.vis.turn === "vague") snap.vague = now.vis.turnText.trim() || "Something moves…"
+      // A hidden turn leaves the highlight on whoever last acted openly
+      for (var back = 0; back < n && !snap.vague; back++) {
+        var c = all[(state.turn - back + n) % n]
+        if (turnShown(c)) { snap.cur = rows.indexOf(c); break }
+      }
+      for (var fwd = 1; fwd <= n; fwd++) {
+        var d = all[(state.turn + fwd) % n]
+        if (turnShown(d) && d !== now && rows.indexOf(d) !== snap.cur) { snap.next = rows.indexOf(d); break }
+      }
+    }
+    return snap
+  }
+
+  function pushView() {
+    if (!pvReady) return
+    var snap = viewSnapshot()
+    renderPreview(snap)
+    var key = JSON.stringify(snap)
+    if (key === pvLast) return
+    pvLast = key
+    snap.t = Date.now()
+    try { localStorage.setItem(PV_KEY, JSON.stringify(snap)) } catch (e) {}
+    if (pvBc) pvBc.postMessage(snap)
+    if (state.pv.phones) { clearTimeout(pvTimer); pvTimer = setTimeout(sendPhones, 1200) } // batch quick edits
+  }
+  function sendPhones() {
+    var snap = viewSnapshot()
+    snap.t = Date.now()
+    fetch("https://ntfy.sh/" + PV_TOPIC, { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify(snap) })
+      .then(function (r) { if (!r.ok) throw r.status; countSent() })
+      .catch(function (e) { document.getElementById("pvSent").textContent = e === 429 ? "Phones not updated: ntfy's daily message limit is used up." : "Phones not updated. Check the connection." })
+  }
+  function countSent() {
+    var day = new Date().toDateString()
+    if (!state.pv.sent || state.pv.sent.day !== day) state.pv.sent = { day: day, n: 0 }
+    state.pv.sent.n++
+    try { localStorage.setItem(KEY, JSON.stringify(state)) } catch (e) {}
+    syncPvCtl()
+  }
+
+  function renderPreview(s) {
+    var el = document.getElementById("pvPreview")
+    var hidden = state.combatants.filter(function (c) { return !c.vis.listed }).length
+    var foot = hidden ? '<div class="none">+ ' + hidden + " hidden</div>" : ""
+    if (s.blank) { el.innerHTML = '<div class="none">Blank screen: “' + esc(s.blankText) + "”</div>"; return }
+    if (!s.list.length) { el.innerHTML = '<div class="none">Nothing shown yet.</div>' + foot; return }
+    var cur = s.list[s.cur]
+    var ban = !s.started ? "Roll for initiative" : s.vague || (cur ? cur.n + "’s turn" : "…")
+    el.innerHTML = '<div class="ban' + (s.vague ? " vague" : "") + '">' + esc(ban) + "</div>" + s.list.map(function (c, i) {
+      var bits = [c.hp, c.ac != null ? "AC " + c.ac : null].concat(c.conds || []).filter(Boolean)
+      return '<div class="it' + (s.started && i === s.cur && !s.vague ? " cur" : "") + '"><small>' + (c.init != null ? esc(c.init) : "·") +
+        '</small><span class="n">' + esc(c.n) + "</span><small>" + esc(bits.join(" · ")) + "</small></div>"
+    }).join("") + foot
+  }
+
+  function syncPvCtl() {
+    var ph = document.getElementById("pvPhones"), bl = document.getElementById("pvBlank")
+    ph.textContent = "📱 Phones: " + (state.pv.phones ? "on" : "off")
+    ph.classList.toggle("on", state.pv.phones)
+    bl.classList.toggle("on", state.pv.blank)
+    var sent = state.pv.sent && state.pv.sent.day === new Date().toDateString() ? state.pv.sent.n : 0
+    document.getElementById("pvSent").textContent = state.pv.phones || sent
+      ? "Updates sent to phones today: " + sent + " (ntfy's free limit is about 250 a day)."
+      : "Phones off: only the window on this computer updates."
+  }
+  var pvLink = document.getElementById("pvLink")
+  pvLink.href = pvUrl
+  pvLink.textContent = pvUrl.replace(/^https?:\/\//, "")
+  document.getElementById("pvCopy").addEventListener("click", function (e) {
+    var b = e.currentTarget
+    navigator.clipboard.writeText(pvUrl).then(function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy" }, 1500) })
+  })
+  document.getElementById("pvOpen").addEventListener("click", function () { window.open(pvUrl, "cos-turns", "popup,width=900,height=1000") })
+  document.getElementById("pvPhones").addEventListener("click", function () {
+    state.pv.phones = !state.pv.phones
+    save(); syncPvCtl()
+    if (state.pv.phones) sendPhones()
+  })
+  document.getElementById("pvBlank").addEventListener("click", function () { state.pv.blank = !state.pv.blank; save(); syncPvCtl() })
+  var pvBlankText = document.getElementById("pvBlankText")
+  pvBlankText.value = state.pv.blankText || ""
+  pvBlankText.addEventListener("input", function () { state.pv.blankText = pvBlankText.value; save() })
+
+  // 👁 panel: what players see of one combatant
+  var pvPop = document.getElementById("pvPop")
+  var pvTarget = null
+  function openPvPop(c, anchor) {
+    closePop()
+    pvTarget = c
+    drawPvPop()
+    var r = anchor.getBoundingClientRect()
+    pvPop.style.top = window.scrollY + r.bottom + 6 + "px"
+    pvPop.style.left = Math.max(8, window.scrollX + r.right - 320) + "px"
+    pvPop.hidden = false
+  }
+  function closePvPop() { pvPop.hidden = true; pvTarget = null }
+  function drawPvPop() {
+    var c = pvTarget
+    if (!c) return
+    var v = c.vis
+    function seg(f, opts) {
+      return '<div class="seg">' + opts.map(function (o) {
+        return '<button type="button" data-f="' + f + '" data-v="' + o[0] + '"' + (String(v[f]) === String(o[0]) ? ' class="on"' : "") + ">" + o[1] + "</button>"
+      }).join("") + "</div>"
+    }
+    function field(label, inner) { return '<div class="f"><span>' + label + "</span><div>" + inner + "</div></div>" }
+    var same = c.kind === "monster" ? state.combatants.filter(function (x) { return x.kind === "monster" && x.baseName === c.baseName }).length : 0
+    pvPop.innerHTML =
+      "<h3>👁 " + esc(c.name) + " <small>· what players see</small></h3>" +
+      field("Listed", seg("listed", [[true, "Shown"], [false, "Hidden"]])) +
+      field("Name", seg("name", [["real", "Real name"], ["label", "Label"], ["unknown", "???"]]) +
+        (v.name === "label" ? '<input type="text" data-t="label" placeholder="??? (type a label, e.g. Stone creature)" value="' + esc(v.label) + '" style="margin-top:0.25rem">' : "")) +
+      field("HP", seg("hp", [["show", "Numbers"], ["vague", "Status"], ["hide", "Hide"]])) +
+      field("AC", seg("ac", [[true, "Show"], [false, "Hide"]])) +
+      field("Initiative", seg("init", [[true, "Show"], [false, "Hide"]])) +
+      field("Conditions", seg("conds", [["show", "Show"], ["vague", "“Affected”"], ["hide", "Hide"]]) +
+        (c.conds.length && v.conds !== "hide" ? '<div class="condlist" style="margin-top:0.25rem">' + c.conds.map(function (k, i) {
+          return '<label title="Untick to keep this one secret"><input type="checkbox" data-ci="' + i + '"' + (k.hidden ? "" : " checked") + ">" + esc(k.name) + "</label>"
+        }).join("") + "</div>" : "")) +
+      field("Turn", seg("turn", [["show", "Show"], ["vague", "Vague"], ["hide", "Hide"]]) +
+        (v.turn === "vague" ? '<input type="text" data-t="turnText" placeholder="Something moves…" value="' + esc(v.turnText) + '" style="margin-top:0.25rem">' : "")) +
+      '<div class="btns">' +
+      '<button type="button" class="small primary" data-a="reveal" title="Show it, with its real name">Reveal</button>' +
+      '<button type="button" class="small" data-a="hide">Hide</button>' +
+      '<button type="button" class="small" data-a="reset" title="Back to the default for ' + (c.kind === "pc" ? "PCs" : "monsters") + '">Reset</button>' +
+      (same > 1 ? '<button type="button" class="small" data-a="all" title="Copy these settings to every ' + esc(c.baseName) + '">Apply to all ' + same + "</button>" : "") +
+      '<button type="button" class="small ghost" data-a="done">Done</button></div>'
+  }
+  function pvChanged() { pvTarget.vis.fresh = false; save(); render(); drawPvPop() }
+  pvPop.addEventListener("click", function (e) {
+    var c = pvTarget
+    if (!c) return
+    var b = e.target.closest("button")
+    if (!b) return
+    if (b.dataset.f) {
+      var val = b.dataset.v
+      c.vis[b.dataset.f] = val === "true" ? true : val === "false" ? false : val
+      return pvChanged()
+    }
+    var a = b.dataset.a
+    if (a === "done") return closePvPop()
+    if (a === "reveal") { c.vis.listed = true; c.vis.name = "real" }
+    if (a === "hide") c.vis.listed = false
+    if (a === "reset") { c.vis = defaultVis(c.kind); c.conds.forEach(function (k) { k.hidden = false }) }
+    if (a === "all") state.combatants.forEach(function (x) {
+      if (x !== c && x.kind === "monster" && x.baseName === c.baseName) x.vis = JSON.parse(JSON.stringify(c.vis))
+    })
+    if (a === "all") state.combatants.forEach(function (x) { if (x.baseName === c.baseName) x.vis.fresh = false })
+    pvChanged()
+  })
+  pvPop.addEventListener("input", function (e) {
+    var t = e.target
+    if (!pvTarget || !t.dataset.t) return
+    pvTarget.vis[t.dataset.t] = t.value
+    pvTarget.vis.fresh = false
+    save()
+  })
+  pvPop.addEventListener("change", function (e) {
+    var t = e.target
+    if (!pvTarget) return
+    if (t.dataset.ci != null) { pvTarget.conds[+t.dataset.ci].hidden = !t.checked; pvChanged() }
+    else if (t.dataset.t) render()
+  })
+  document.addEventListener("mousedown", function (e) {
+    if (!pvPop.hidden && !pvPop.contains(e.target) && !e.target.closest(".pvb")) closePvPop()
+  })
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !pvPop.hidden) closePvPop() })
+
+  pvReady = true
+  syncPvCtl()
   render()
   connect()
 })()

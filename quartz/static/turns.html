@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#120f10">
+<title>Turn Order</title>
+<link rel="icon" href="icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #120f10;
+    --panel: #1d191a;
+    --line: #3a3133;
+    --text: #efe6e2;
+    --muted: #9a8f8c;
+    --blood: #9b2335;
+    --blood-hi: #c8475a;
+    --gold: #d4a933;
+    --pc: #6f9bd1;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at top, #241b1c 0%, var(--bg) 60%) fixed, var(--bg);
+    color: var(--text);
+    font: 16px/1.35 "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+    /* Scales from phones up to a monitor across the room */
+    font-size: clamp(15px, 1.15vw + 9px, 30px);
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: max(16px, env(safe-area-inset-top)) 16px 2rem; }
+  header { display: flex; align-items: baseline; gap: 0.8rem; margin-bottom: 0.9rem; }
+  h1 { margin: 0; font: 700 1.5em/1 "Cormorant Garamond", Georgia, serif; letter-spacing: 0.02em; }
+  .round { margin-left: auto; color: var(--muted); font-size: 0.95em; white-space: nowrap; }
+  .round b { color: var(--text); font-size: 1.25em; }
+  .live { width: 0.55em; height: 0.55em; border-radius: 50%; background: var(--muted); display: inline-block; vertical-align: middle; margin-left: 0.4em; }
+  .live.on { background: #5a9e6f; box-shadow: 0 0 6px #5a9e6f; }
+
+  .banner {
+    border: 1px solid var(--blood);
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(155, 35, 53, 0.35), rgba(155, 35, 53, 0.08));
+    padding: 0.8em 1em;
+    margin-bottom: 0.9rem;
+    box-shadow: 0 0 24px rgba(200, 71, 90, 0.18) inset;
+  }
+  .banner .who { font: 700 2em/1.05 "Cormorant Garamond", Georgia, serif; overflow-wrap: anywhere; }
+  .banner .who.vague { font-style: italic; color: var(--muted); }
+  .banner .sub { color: var(--muted); margin-top: 0.25em; font-size: 0.95em; }
+  .banner .sub b { color: var(--gold); font-weight: 600; }
+
+  ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4em; }
+  li {
+    display: grid;
+    grid-template-columns: 2.4em minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.6em;
+    padding: 0.55em 0.75em;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-left: 0.3em solid var(--line);
+    border-radius: 8px;
+    transition: background 0.3s, border-color 0.3s;
+  }
+  li.pc { border-left-color: var(--pc); }
+  li.foe { border-left-color: var(--blood); }
+  li.cur { background: #2c1d20; border-color: var(--blood-hi); box-shadow: 0 0 16px rgba(200, 71, 90, 0.35); animation: flicker 3.2s infinite; }
+  li.next { border-color: var(--gold); }
+  li.down { opacity: 0.45; }
+  li.down .nm { text-decoration: line-through; }
+  @keyframes flicker { 0%, 100% { box-shadow: 0 0 16px rgba(200, 71, 90, 0.35); } 45% { box-shadow: 0 0 22px rgba(200, 71, 90, 0.5); } 55% { box-shadow: 0 0 12px rgba(200, 71, 90, 0.28); } }
+  .ini { text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; font-size: 1.05em; }
+  .nm { font-weight: 600; font-size: 1.1em; overflow-wrap: anywhere; }
+  .conds { display: flex; flex-wrap: wrap; gap: 0.3em; margin-top: 0.25em; }
+  .cond { font-size: 0.75em; padding: 0.1em 0.5em; border-radius: 999px; background: #3a2a14; color: #f0d79a; border: 1px solid #6b5220; }
+  .hp { font-variant-numeric: tabular-nums; white-space: nowrap; font-size: 0.95em; text-align: right; }
+  .hp.s-unhurt { color: #8fc79f; }
+  .hp.s-hurt { color: #e3c76a; }
+  .hp.s-bloodied { color: #e08a5c; }
+  .hp.s-near { color: var(--blood-hi); }
+  .hp.s-down { color: var(--muted); }
+  .tag { font-size: 0.7em; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-left: 0.4em; }
+
+  .blank, .waiting { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; }
+  .blank p { font: 700 2.2em/1.15 "Cormorant Garamond", Georgia, serif; font-style: italic; color: #cbbdb8; text-shadow: 0 0 30px rgba(200, 200, 220, 0.25); animation: drift 8s ease-in-out infinite; margin: 0; }
+  .waiting p { color: var(--muted); font-size: 1.1em; }
+  @keyframes drift { 0%, 100% { opacity: 0.75; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-6px); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Turn Order</h1>
+    <span class="round" id="round"></span>
+    <span class="live" id="live" title="Connection"></span>
+  </header>
+  <div id="view"><div class="waiting"><p>Waiting for the DM…</p></div></div>
+</div>
+<script>
+(function () {
+  // Must match PV_TOPIC in static/dm/dashboard.html
+  var PV_TOPIC = "cos-turns-q8m3xv2k7r"
+  var LOCAL_KEY = "cos-turns-v1"
+  var last = 0
+  var viewEl = document.getElementById("view")
+  var roundEl = document.getElementById("round")
+  var liveEl = document.getElementById("live")
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c] }) }
+
+  function show(v) {
+    if (!v || typeof v !== "object" || !(v.t > last)) return
+    last = v.t
+    roundEl.innerHTML = v.started && !v.blank ? "Round <b>" + esc(v.round) + "</b>" : ""
+    if (v.blank) {
+      viewEl.innerHTML = '<div class="blank"><p>' + esc(v.blankText || "The mists swirl…") + "</p></div>"
+      return
+    }
+    var list = v.list || []
+    if (!list.length) { viewEl.innerHTML = '<div class="waiting"><p>No combat right now.</p></div>'; return }
+    var html = ""
+    if (v.started) {
+      var cur = list[v.cur]
+      var nxt = list[v.next]
+      var who = v.vague ? '<div class="who vague">' + esc(v.vague) + "</div>"
+        : cur ? '<div class="who">' + esc(cur.n) + (/s$/i.test(cur.n) ? "’ turn" : "’s turn") + "</div>"
+        : '<div class="who vague">…</div>'
+      html += '<div class="banner">' + who + (nxt ? '<div class="sub">Up next: <b>' + esc(nxt.n) + "</b></div>" : "") + "</div>"
+    } else {
+      html += '<div class="banner"><div class="who">Roll for initiative</div><div class="sub">Combat is about to begin.</div></div>'
+    }
+    html += "<ol>"
+    list.forEach(function (c, i) {
+      var cls = (c.pc ? "pc" : "foe") + (v.started && i === v.cur && !v.vague ? " cur" : "") + (v.started && i === v.next ? " next" : "") + (c.down ? " down" : "")
+      var hp = ""
+      if (c.hp) {
+        var sc = { Unhurt: "s-unhurt", Hurt: "s-hurt", Bloodied: "s-bloodied", "Near death": "s-near", Down: "s-down" }[c.hp] || ""
+        hp = '<span class="hp ' + sc + '">' + esc(c.hp) + (c.ac != null ? " · AC " + esc(c.ac) : "") + "</span>"
+      } else if (c.ac != null) hp = '<span class="hp">AC ' + esc(c.ac) + "</span>"
+      html += '<li class="' + cls + '"><span class="ini">' + (c.init != null ? esc(c.init) : "") + "</span>" +
+        '<div><div class="nm">' + esc(c.n) + (v.started && i === v.next ? '<span class="tag">on deck</span>' : "") + "</div>" +
+        (c.conds && c.conds.length ? '<div class="conds">' + c.conds.map(function (k) { return '<span class="cond">' + esc(k) + "</span>" }).join("") + "</div>" : "") +
+        "</div>" + hp + "</li>"
+    })
+    html += "</ol>"
+    viewEl.innerHTML = html
+  }
+
+  // Same computer as the dashboard (second window on another monitor)
+  try { show(JSON.parse(localStorage.getItem(LOCAL_KEY))) } catch (e) {}
+  if ("BroadcastChannel" in window) new BroadcastChannel(LOCAL_KEY).onmessage = function (e) { show(e.data) }
+  window.addEventListener("storage", function (e) { if (e.key === LOCAL_KEY) try { show(JSON.parse(e.newValue)) } catch (x) {} })
+
+  // Any device: snapshots the dashboard sends through ntfy
+  function connect() {
+    var es = new EventSource("https://ntfy.sh/" + PV_TOPIC + "/sse?since=6h")
+    es.onopen = function () { liveEl.className = "live on" }
+    es.onerror = function () { liveEl.className = "live" }
+    es.onmessage = function (ev) {
+      try {
+        var m = JSON.parse(ev.data)
+        if (m.event === "message") show(JSON.parse(m.message))
+      } catch (e) {}
+    }
+  }
+  connect()
+
+  // Keep phone screens awake during combat where supported
+  if (navigator.wakeLock) {
+    var lock = function () { navigator.wakeLock.request("screen").catch(function () {}) }
+    lock()
+    document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") lock() })
+  }
+})()
+</script>
+</body>
+</html>
