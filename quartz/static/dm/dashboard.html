@@ -436,9 +436,9 @@
     <section id="pvSec">
       <h2>Player view</h2>
       <div class="pvctl">
-        <button type="button" id="pvOpen" title="Open the player view in a new window. Drag it onto the players' monitor.">📺 Open window</button>
-        <button type="button" id="pvPhones" title="Send the player view to phones through ntfy">📱 Phones: off</button>
-        <button type="button" id="pvBlank" title="Hide everything on the player view and show a message instead">🌫 Blank screen</button>
+        <button type="button" id="pvOpen" title="Open the player view in a new window. Drag it onto the players' monitor.">Open window</button>
+        <button type="button" id="pvPhones" title="Send the player view to phones through ntfy">Phones: off</button>
+        <button type="button" id="pvBlank" title="Hide everything on the player view and show a message instead">Blank screen</button>
       </div>
       <div class="pvctl"><input id="pvBlankText" placeholder="The mists swirl…" title="Shown while the screen is blanked"></div>
       <div class="pvlink">Phone link: <a id="pvLink" target="_blank"></a> <button type="button" class="small ghost" id="pvCopy">Copy</button></div>
@@ -448,17 +448,6 @@
     <section>
       <h2>Feed</h2>
       <div id="feed" class="feed"><div class="item sys">Rolls and condition changes show up here.</div></div>
-    </section>
-    <section>
-      <h2>Tips</h2>
-      <div class="help">
-        Pick a creature from the list as you type and its HP, AC and initiative fill in.<br>
-        HP box: <code>-7</code> damage, <code>+5</code> heal, or a number to set it.<br>
-        📜 opens a monster's stat block here; tap its attacks to roll them.<br>
-        ⚑ adds a condition. Ones with rounds count down each time a new round starts. Click a chip to remove it.<br>
-        👁 sets what players see. New monsters start hidden (the eye pulses) until you reveal them.<br>
-        <kbd>Space</kbd> = next turn. Everything is saved in this browser.
-      </div>
     </section>
   </aside>
 </main>
@@ -487,13 +476,19 @@
   state.seen = state.seen || []
   state.started = !!state.started
   state.pv = state.pv || { phones: false, blank: false, blankText: "" }
-  state.combatants.forEach(function (c) { if (!c.vis) c.vis = defaultVis(c.kind) })
+  state.combatants.forEach(function (c) {
+    // Monsters still on the first (fully hidden) defaults move to the current ones
+    var v = c.vis
+    if (v && c.kind === "monster" && !v.listed && v.name === "label" && !v.label && v.hp === "hide" && !v.ac && !v.init && v.conds === "hide" && v.turn === "show" && !v.turnText) v = null
+    if (!v) c.vis = defaultVis(c.kind)
+  })
 
-  // What the player view may show for each combatant. Monsters start unlisted.
+  // What the player view may show for each combatant. Monsters show as "???"
+  // with a health status until revealed.
   function defaultVis(kind) {
     return kind === "pc"
       ? { listed: true, name: "real", label: "", hp: "show", ac: true, init: true, conds: "show", turn: "show", turnText: "" }
-      : { listed: false, name: "label", label: "", hp: "hide", ac: false, init: false, conds: "hide", turn: "show", turnText: "", fresh: true }
+      : { listed: true, name: "unknown", label: "", hp: "vague", ac: false, init: false, conds: "show", turn: "show", turnText: "", fresh: true }
   }
   function isDefaultVis(c) {
     var d = defaultVis(c.kind), v = c.vis
@@ -1191,7 +1186,7 @@
 
   function syncPvCtl() {
     var ph = document.getElementById("pvPhones"), bl = document.getElementById("pvBlank")
-    ph.textContent = "📱 Phones: " + (state.pv.phones ? "on" : "off")
+    ph.textContent = "Phones: " + (state.pv.phones ? "on" : "off")
     ph.classList.toggle("on", state.pv.phones)
     bl.classList.toggle("on", state.pv.blank)
     var sent = state.pv.sent && state.pv.sent.day === new Date().toDateString() ? state.pv.sent.n : 0

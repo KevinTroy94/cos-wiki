@@ -82,7 +82,6 @@
   .hp.s-bloodied { color: #e08a5c; }
   .hp.s-near { color: var(--blood-hi); }
   .hp.s-down { color: var(--muted); }
-  .tag { font-size: 0.7em; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-left: 0.4em; }
 
   .blank, .waiting { min-height: 70vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; }
   .blank p { font: 700 2.2em/1.15 "Cormorant Garamond", Georgia, serif; font-style: italic; color: #cbbdb8; text-shadow: 0 0 30px rgba(200, 200, 220, 0.25); animation: drift 8s ease-in-out infinite; margin: 0; }
@@ -141,7 +140,7 @@
         hp = '<span class="hp ' + sc + '">' + esc(c.hp) + (c.ac != null ? " · AC " + esc(c.ac) : "") + "</span>"
       } else if (c.ac != null) hp = '<span class="hp">AC ' + esc(c.ac) + "</span>"
       html += '<li class="' + cls + '"><span class="ini">' + (c.init != null ? esc(c.init) : "") + "</span>" +
-        '<div><div class="nm">' + esc(c.n) + (v.started && i === v.next ? '<span class="tag">on deck</span>' : "") + "</div>" +
+        '<div><div class="nm">' + esc(c.n) + "</div>" +
         (c.conds && c.conds.length ? '<div class="conds">' + c.conds.map(function (k) { return '<span class="cond">' + esc(k) + "</span>" }).join("") + "</div>" : "") +
         "</div>" + hp + "</li>"
     })
