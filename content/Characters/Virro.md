@@ -152,3 +152,5 @@ In [[Vallaki]], Virro found himself in a face-off on the stage with [[Izek Straz
 
 In the undercroft of [[St. Andral's Church]], Virro found it suspicious that anyone else could know how to get in, and pressed [[Father Lucian]] on it. Inspecting the walls, he found the thieves' tunnel. At [[Sunset Lodge]] he noticed the pale grit on the porch, and looked up to see the four sun-faced statues on the roof.
 
+When the [[Animated Rug of Smothering|rug]] let go of Edric and ensnared him instead, Virro tore it apart, thread from thread. Back in Vallaki, he and Retnuh dug up the marked graves in the churchyard over [[Father Lucian]]'s protests, finding [[Pieter Hask]], a second man and a beautiful set of red armour. Lucian sent for the [[Order of Contentment]].
+

@@ -132,3 +132,5 @@ In [[Vallaki]], kneeling to feed the Baron's basset hounds, Retnuh smelled sulph
 
 In the brawl at the [[Blue Water Inn]], Retnuh tried to check on [[Karl Wachter]] while patrons, and [[Nikolai Wachter]] with a barstool, kept coming at him. He pleaded with the hunters [[Szoldar Szoldarovich|Szoldar]] and [[Yevgeni Krushkin|Yevgeni]] to help Karl, and Szoldar went for a doctor. Afterwards he found [[Bozena]], who told him of [[Sunset Lodge]] and Kozlov Manor, and walked north to join the party at the lodge. When a [[Sunset Gargoyle]] planted itself in the doorway, Retnuh charged it.
 
+Retnuh charged the gargoyle in the doorway, and it took him in its talons, pinned him to a tree and crashed his head against it. Back in Vallaki, he and Virro dug up the marked graves in the churchyard over [[Father Lucian]]'s protests, finding [[Pieter Hask]], a second man and a beautiful set of red armour. Lucian sent for the [[Order of Contentment]].
+

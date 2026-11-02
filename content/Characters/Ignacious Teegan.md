@@ -1,7 +1,7 @@
 ---
 Status: "Alive"
 Species: "Mountain Dwarf"
-Class: "Paladin 3 (Oathbreaker)"
+Class: "Paladin 4 (Devotion)"
 Portrait: "[[Pasted image 20260928004516.png]]"
 Affiliation: "[[Horsemen]]"
 ---
@@ -10,21 +10,21 @@ Mountain Dwarf Paladin
 ![[Pasted image 20260928004516.png]]
 
 > [!sheet]- Character Sheet
-> **Paladin 3 (Oathbreaker)** · Dwarf · Deacon · Neutral Good
+> **Paladin 4 (Devotion)** · Dwarf · Deacon · Lawful Good
 >
 > | STR | DEX | CON | INT | WIS | CHA |
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> | 17 | 10 | 15 | 10 | 10 | 14 |
-> | +3 | +0 | +2 | +0 | +0 | +2 |
+> | 18 | 10 | 16 | 10 | 10 | 14 |
+> | +4 | +0 | +3 | +0 | +0 | +2 |
 >
 > | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
 > |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-> | 17 | +0 | 30 ft | 29 | 3d10 | +2 | 10 |
+> | 17 | +0 | 30 ft | 44 | 4d10 | +2 | 10 |
 >
 > **Saving Throws**
-> - ○ Strength +3
+> - ○ Strength +4
 > - ○ Dexterity +0
-> - ○ Constitution +2
+> - ○ Constitution +3
 > - ○ Intelligence +0
 > - **● Wisdom +2**
 > - **● Charisma +4**
@@ -33,7 +33,7 @@ Mountain Dwarf Paladin
 > - ○ Acrobatics +0
 > - ○ Animal Handling +0
 > - ○ Arcana +0
-> - ○ Athletics +3
+> - ○ Athletics +4
 > - ○ Deception +2
 > - ○ History +0
 > - **● Insight +2**
@@ -53,9 +53,9 @@ Mountain Dwarf Paladin
 >
 > | Weapon | Hit | Damage | Notes |
 > |---|:---:|---|:---:|
-> | Longsword | +5 | 1d8 + 3 slashing (1d10 + 3 two-handed) | Sap |
-> | Flail | +5 | 1d6 + 3 bludgeoning | Sap |
-> | Dagger | +5 | 1d4 + 3 piercing | |
+> | Longsword | +6 | 1d8 + 4 slashing (1d10 + 4 two-handed) | Sap |
+> | Flail | +6 | 1d6 + 4 bludgeoning | Sap |
+> | Dagger | +6 | 1d4 + 4 piercing | |
 >
 > **Spells** Spell save DC 12 · Spell attack +4
 >
@@ -64,8 +64,10 @@ Mountain Dwarf Paladin
 > | Compel Duel (1st) | Bonus action | 30 ft | | Concentration |
 > | Detect Evil and Good (1st) | Action | Self | | Concentration |
 > | Detect Poison and Disease (1st) | Action | Self | | Concentration, ritual |
-> | Divine Smite (1st) | Bonus action | 10 ft | 2d8 radiant | After a melee hit; +1d8 per slot above 1st; +1d8 vs undead or fiend |
+> | Divine Smite (1st) | Bonus action | Self | 2d8 radiant | After a melee hit; +1d8 per slot above 1st; +1d8 vs undead or fiend |
+> | Protection from Evil and Good (1st) | Action | Touch | | Concentration; material (holy water or powdered silver and iron). Oath spell, always prepared |
 > | Purify Food and Drink (1st) | Action | 10 ft | | Ritual |
+> | Shield of Faith (1st) | Bonus action | 60 ft | | Concentration; +2 AC for up to 10 minutes. Oath spell, always prepared |
 >
 > **Features & Traits**
 > - Lay on Hands
@@ -73,8 +75,9 @@ Mountain Dwarf Paladin
 > - Weapon Mastery (Flail, Longsword)
 > - Fighting Style (Defense)
 > - Paladin's Smite
-> - Paladin Subclass: Oathbreaker
-> - Channel Divinity: Control Undead, Dreadful Aspect
+> - Paladin Subclass: Oath of Devotion
+> - Channel Divinity: Sacred Weapon
+> - Ability Score Improvement (level 4): +1 Strength, +1 Constitution
 > - **Darkvision:** 120 ft.
 > - **Dwarven Resilience:** resistance to poison damage, and advantage on saving throws to avoid or end the Poisoned condition.
 > - **Dwarven Toughness:** hit point maximum increases by 1, and by 1 again with every level gained.
@@ -88,7 +91,7 @@ Mountain Dwarf Paladin
 > - Languages: Common, Common Sign Language, Dwarvish
 >
 > **Equipment**
-> Chain mail, longsword, flail, dagger, holy symbol, priest's pack (backpack, blanket, holy water, lamp, 7 days of rations, robe, tinderbox), bedroll, belt pouch, traveler's clothes, lamp, oil flasks (3), book (prayers), herbalism kit. Coins: 14/8 gp (as written on the sheet).
+> Chain mail, longsword, flail, dagger, holy symbol, priest's pack (backpack, blanket, holy water, lamp, 7 days of rations, robe, tinderbox), bedroll, belt pouch, traveler's clothes, lamp, oil flasks (3), book (prayers), herbalism kit, a rusty Sharen holy symbol, an ornate quill, a cool ruby pendant, useless gold pieces (14). Coins: 38 gp.
 >
 > **Personality**
 > - **Traits:** TBC
@@ -176,3 +179,6 @@ In [[Vallaki]], Ignacious explained to [[Volenta Popofsky]] that Virro's ears we
 
 Ignacious followed the thieves' tunnel from the undercroft of [[St. Andral's Church]] out to [[Sunset Lodge]] with Edric. On the lodge's shelf of mementos he recognised the name on a pocket watch, **P. Hask**, from the register of burials. When a [[Sunset Gargoyle]] crashed through the window and carried him up into the sky, he realised [[Pieter Hask]]'s recorded death, _a fall_, was no fall at all. He hacked through the gargoyle's grip and plummeted through the lodge roof, unconscious before he hit the floor.
 
+Back in Vallaki, he went with Edric and Ireena to the [[Coffin Maker's Shop|coffin maker's shop]] and kicked the door down, knocking [[Henrik van der Voort]] prone. Upstairs, in a room full of coffins labelled "junk", he carved a stake from a piece of loose wood.
+
+In the coffin maker's shop, Ignacious reswore his oath, taking up the Oath of Devotion.

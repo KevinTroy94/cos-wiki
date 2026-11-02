@@ -13,6 +13,7 @@ Places the party has visited in town:
 - [[Blinsky's Toys]], the toymaker's shop
 - [[The Merry Crust]], [[Bozena]]'s bakery
 - [[St. Andral's Church]], tended by [[Father Lucian]]
+- [[Coffin Maker's Shop]], [[Henrik van der Voort]]'s workshop
 
 A sign in town details the methods of "discipline" used by the [[Order of Contentment]]: "Contentment", "Amusement", "Convalescence" and "Dischargement". Some townsfolk wear strapped masks, called masks of contentment.
 

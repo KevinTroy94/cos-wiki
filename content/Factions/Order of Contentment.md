@@ -6,3 +6,6 @@ Known Members
 -----------------------------
 - [[Izek Strazni]] (captain)
 - [[Dmitry]] (deceased)
+
+[[Father Lucian]] sent for the Order when [[Retnuh]] and [[Virro]] were digging up graves in the churchyard of [[St. Andral's Church]], and they arrived soon after.
+

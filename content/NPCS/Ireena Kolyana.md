@@ -35,6 +35,8 @@ When [[Volenta Popofsky]] approached the party, Ireena asked Virro whether they 
 
 She stayed behind at [[St. Andral's Church]] while the others followed the thieves' tunnel out to [[Sunset Lodge]].
 
+She was waiting at the church when the others returned, and went with Edric and Ignacious to the [[Coffin Maker's Shop|coffin maker's shop]]. [[Henrik van der Voort]] pushed past her as he fled.
+
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.
 >

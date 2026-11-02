@@ -127,6 +127,8 @@ In [[Vallaki]], Edric wandered the town with Ireena and Virro, and was at [[Blin
 
 Edric followed the thieves' tunnel from the undercroft of [[St. Andral's Church]] out to [[Sunset Lodge]] with Ignacious. Inside, he noticed that the [[Animated Rug of Smothering|rug]] at the centre of the room was far too clean, and took it by a corner tassel. It reared up like a cobra, dropped over him and coiled tight.
 
+Virro freed him from the rug. Back in Vallaki, he asked [[Father Lucian]] about the name **Van der Voort**, and went to the [[Coffin Maker's Shop|coffin maker's shop]], where he told [[Henrik van der Voort]], "I am a cleric of death, and I will show you the meaning of fear." (It was a lie.) Searching the ground floor, he found the bones of St. Andral in a sack behind a closet's false back.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

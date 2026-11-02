@@ -6,6 +6,10 @@ Beneath the altar is a hidden undercroft. Turning a crank on the pipe organ set 
 
 Behind a section of the undercroft wall, [[Virro]] found the thieves' way in: a tunnel that runs out beyond the town's bounds to [[Sunset Lodge]].
 
+Back from [[Sunset Lodge]], [[Retnuh]] and [[Virro]] dug up the plots marked in the register of interments, over [[Father Lucian]]'s protests. They found [[Pieter Hask]], a second man, and a beautiful set of red armour, and nothing else. Lucian sent for the [[Order of Contentment]].
+
+The bones were found in the [[Coffin Maker's Shop|coffin maker's shop]].
+
 > [!dmspoiler]
 > "This slouching, centuries-old stone church has a bulging steeple in the back and walls lined with cracked, stained glass windows depicting pious saints. A fence of wrought iron encloses a garden of gravestones next to the church. A thin mist creeps among the graves."
 >

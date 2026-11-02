@@ -34,16 +34,40 @@ Outside, something struck the porch with a heavy, deliberate thud. Then another.
 
 The first one crashed through a window in a burst of glass and splintered frame, and its claws closed around Ignacious’ chest. It hauled him up and out through the broken pane. The cabin dropped away beneath him. In the roar of the air, a thought came to him. [[Pieter Hask]], the name on the pocket watch and in the burial register, had a cause of death written beside it: _a fall._ He had not fallen. He had been taken up, just as Ignacious was being taken now.
 
-
 ![[Pasted image 20261020223312.png]]
-
 
 High above the treeline, a second gargoyle had launched after him. He drew his blade, hacked through his captor’s grip and plummeted toward the second gargoyle, crashing through the roof. Ignacious didn’t feel the floor when he landed. He was already unconscious.
 
-At the front door, a gargoyle had planted itself in the doorway and blocked the way out. Retnuh charged it and it took him in its talons, pinning him to a tree and crashing his head against it. (Retnuh visions)
+At the front door, a gargoyle had planted itself in the doorway and blocked the way out. Retnuh charged it, and it took him in its talons, pinning him to a tree and crashing his head against it. (Retnuh visions)
 
-Virro attacks the rug and Edric escapes, the rug curls around and ensnares Virro, Virro tears it thread from thread. 
+Virro attacked the [[Animated Rug of Smothering|rug]] and Edric escaped, but the rug curled around and ensnared Virro instead. Virro tore it apart, thread from thread.
 
-The gang defeats the gargoyles and narrowly escapes with their lives, they rush 
+The gang defeated the gargoyles and narrowly escaped with their lives. The party decided to rush back to St. Andral’s.
 
-PREVIOUS -> [[Session 5 - All will be well]]
+At the church, Ireena was waiting. Before the others began to dig, Edric and Ignacious asked Lucian if he recognised the name **Van der Voort**. He did. It belonged to Vallaki’s coffin maker. The three of them set off for his shop, while Retnuh and Virro took shovels to the churchyard. Father Lucian protested strongly, as grave robbing is considered a vile sin in Barovia.
+
+In the graveyard, Retnuh and Virro began to exhume bodies from the plots they’d marked. They found Pieter Hask, a second man, and a beautiful set of red armour. There was nothing else in the graves.
+
+Father Lucian came out and commanded them to stop. They protested that they were conducting an investigation, and that the graves were the proof. Lucian did not argue. He sent for the [[Order of Contentment]], who arrived soon after.
+
+At the [[Coffin Maker's Shop|coffin maker’s shop]], [[Henrik van der Voort]] told the party to go away. Ignacious kicked the door down, and it shattered in a hail of splinters, knocking the coffin maker standing behind it prone beneath him and Edric.
+
+He begged them not to go upstairs. “They are up there,” he whispered.
+
+They asked who had put him up to this, and where the bones were.
+
+“I can’t tell you. She will kill me if I talk to you.”
+
+“I am a cleric of death, and I will show you the meaning of fear,” lied Edric.
+
+“Nothing you can do to me will make me fear you more than the dread woman.”
+
+When Edric and Ireena took their eyes off Henrik, he bolted for the front door and pushed his way past Ireena, calling out into the street, warning folk to get inside and lock their doors. He seemed terrified as he ran toward the town’s eastern exit.
+
+Ignacious climbed to the upper floor, and Edric searched the ground floor. In the dark upstairs, Ignacious found a room full of coffins labelled “junk”. He picked up a piece of loose wood and sharpened it with the carpenter’s tools lying about, carving a stake.
+
+Downstairs, Edric found a closet with a false back, and within it were the bones of Saint Andral in a large sack. They couldn’t speak freely without waking the house, so Edric tried to say it without alerting whatever lay upstairs.
+
+“We should head back to the inn now, don’t you think?” he called out to Ignacious, who began to slip toward the exit. Something snapped under Edric’s boot, and the pine coffins began to move.
+
+PREVIOUS -> [[Session 5 - All will be well]] | | NEXT -> [[Session 7 - The feast of St. Andral]]

@@ -2,6 +2,8 @@
 
 A handsome rug, rich with wine-dark reds and a border of faded gold, lay at the centre of the single room of [[Sunset Lodge]], so clean that it looked out of place in a room otherwise coated in dust. When [[Edric Storm|Edric]] took it by a corner tassel, it woke in his hand and reared up like a cobra, its whole length lifting off the floor in a single serpentine motion, the fringe whipping and the pattern rippling along its back like scales. It dropped over him and coiled around him, drawing tight.
 
+[[Virro]] attacked it and Edric escaped, but the rug curled around and ensnared Virro instead. He tore it apart, thread from thread.
+
 > [!statblock]
 > **Animated Rug of Smothering**
 >

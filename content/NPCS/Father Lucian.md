@@ -11,6 +11,8 @@ A kindly priest of the Morninglord who tends [[St. Andral's Church]] in [[Vallak
 
 He led the party down to the hidden undercroft beneath the altar, opened by turning a crank on the pipe organ behind it and playing a note on the keys. The glass case where the bones should have lain stood open and empty. He hadn't checked on them in three days, and had thought he was the only one who knew how to get in. A decoy grave for Saint Andral, there to deter grave robbers, had been dug up the night before, which is what prompted him to check. He gave the party the cemetery's register of interments, including a crossed-out entry and reused plots.
 
+When the party returned from [[Sunset Lodge]], he recognised the name **Van der Voort** as Vallaki's coffin maker, [[Henrik van der Voort]]. He protested strongly when [[Retnuh]] and [[Virro]] took shovels to the churchyard, since grave robbing is considered a vile sin in Barovia. When they wouldn't stop, he didn't argue: he sent for the [[Order of Contentment]].
+
 > [!dmspoiler]
 > "Father Lucian Petrovich (LG male human **priest**) oversees the church and does his best to raise spirits. Assisting him is an orphan and altar boy named Yeska (LG male human noncombatant). A brawny lad with a perpetually furrowed brow named Milivoj tends the grounds and digs graves."
 >
