@@ -13,6 +13,8 @@ He led the party down to the hidden undercroft beneath the altar, opened by turn
 
 When the party returned from [[Sunset Lodge]], he recognised the name **Van der Voort** as Vallaki's coffin maker, [[Henrik van der Voort]]. He protested strongly when [[Retnuh]] and [[Virro]] took shovels to the churchyard, since grave robbing is considered a vile sin in Barovia. When they wouldn't stop, he didn't argue: he sent for the [[Order of Contentment]].
 
+On the night of the attack, [[Ireena Kolyana|Ireena]] brought the bones of St. Andral back to him, and the two of them worked through the ritual while the party held [[Anastrasya Karelova]] off at the door. It ended in a white flash of light seen across town.
+
 > [!dmspoiler]
 > "Father Lucian Petrovich (LG male human **priest**) oversees the church and does his best to raise spirits. Assisting him is an orphan and altar boy named Yeska (LG male human noncombatant). A brawny lad with a perpetually furrowed brow named Milivoj tends the grounds and digs graves."
 >

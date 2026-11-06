@@ -5,6 +5,8 @@ Humanoid figures drained of will and warmth, bound in undeath to serve a vampire
 
 In the undercroft of the [[Barovia Village Church|church]] in Barovia village, the party fought and killed [[Doru]], the son of [[Father Donavich]], who had become a vampire spawn.
 
+In the [[Coffin Maker's Shop|coffin maker's shop]], the party staked two vampire spawn in their coffins. One fled from Edric's radiance and tricked a townsman into inviting him inside. Another, tattooed and goateed, lost an arm to Ignacious, had his neck broken by [[Keneticut]] and watched it right itself, then knocked Retnuh unconscious.
+
 > [!statblock]
 > **Vampire Spawn**
 >

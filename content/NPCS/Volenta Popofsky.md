@@ -19,6 +19,8 @@ At the [[Blue Water Inn]] she drank a bottle of Red Strongwash straight from the
 
 As the brawl at the inn spread, several of the quieter drinkers stepped in without a word and pinned her arms. The moment she was released, she vanished through the door.
 
+During the attack on Vallaki, [[Virro]] found her being dragged along by two guards of the Order. He kicked one loose, she punched the other, and when three more stepped out ahead, she went at them with pure joy. Later she found [[Retnuh]] unconscious in the street, and was standing over him, smiling, when the light flashed from the church.
+
 > [!dmspoiler]
 > Volenta is one of Strahd's three brides, a [[Vampire Spawn]]. Module text, Strahd's tomb in Castle Ravenloft:
 >

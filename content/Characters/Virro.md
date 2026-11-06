@@ -1,7 +1,7 @@
 ---
 Status: "Alive"
 Species: "Harengon"
-Class: "Fighter 3 (Champion)"
+Class: "Fighter 4 (Champion)"
 Portrait: "[[Pasted image 20260928004458.png]]"
 Affiliation: "[[Horsemen]]"
 ---
@@ -10,16 +10,16 @@ Harengon Fighter
 ![[Pasted image 20260928004458.png]]
 
 > [!sheet]- Character Sheet
-> **Fighter 3 (Champion)** · Harengon · Soldier · Chaotic Neutral
+> **Fighter 4 (Champion)** · Harengon · Soldier · Chaotic Neutral
 >
 > | STR | DEX | CON | INT | WIS | CHA |
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> | 16 | 16 | 16 | 12 | 13 | 12 |
+> | 17 | 16 | 16 | 12 | 13 | 12 |
 > | +3 | +3 | +3 | +1 | +1 | +1 |
 >
-> | AC (Shield) | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
+> | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
 > |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-> | 16 (18) | +5 | 30 ft | 33 | 3d10 | +2 | 13 |
+> | 17 | +5 | 30 ft | 42 | 4d10 | +2 | 13 |
 >
 > **Saving Throws**
 > - **● Strength +5**
@@ -32,13 +32,13 @@ Harengon Fighter
 > **Skills**
 > - **● Acrobatics +5**
 > - ○ Animal Handling +1
-> - ○ Arcana +1
+> - **● Arcana +3**
 > - **● Athletics +5**
 > - ○ Deception +1
 > - ○ History +1
 > - ○ Insight +1
 > - **● Intimidation +3**
-> - ○ Investigation +1
+> - **● Investigation +3**
 > - ○ Medicine +1
 > - ○ Nature +1
 > - **● Perception +3**
@@ -46,7 +46,7 @@ Harengon Fighter
 > - ○ Persuasion +1
 > - ○ Religion +1
 > - ○ Sleight of Hand +3
-> - ○ Stealth +3
+> - **● Stealth +5**
 > - **● Survival +3**
 >
 > **Attacks**
@@ -55,7 +55,8 @@ Harengon Fighter
 > |---|:---:|---|
 > | Sabre | +5 | 1d8 + 3 slashing |
 > | Longbow | +5 | 1d8 + 3 piercing |
-> | Spear | +4 | 1d6 + 3 piercing (1d8 + 3 two-handed) |
+> | Spear | +5 | 1d6 + 3 piercing (1d8 + 3 two-handed) |
+> | +1 Tinybane Longsword | +6 | 1d8 + 4 slashing (1d10 + 4 two-handed) |
 >
 > **Features & Traits**
 > - **Hare-Trigger:** add proficiency bonus to initiative rolls.
@@ -63,13 +64,14 @@ Harengon Fighter
 > - **Lucky Footwork:** when you fail a Dexterity saving throw, use your reaction to roll a d4 and add it to the save. Not usable while prone or at speed 0.
 > - **Rabbit Hop:** as a bonus action, jump a number of feet equal to five times your proficiency bonus without provoking opportunity attacks. Uses equal to proficiency bonus per long rest.
 > - Savage Attacker
-> - Fighting Style (Defense)
+> - Fighting Style (Blind Fighting)
 > - Second Wind
-> - Weapon Mastery (Sabre, Longbow, Shortsword)
+> - Weapon Mastery (Sabre, Longbow, Spear, Longsword)
 > - Action Surge
 > - Tactical Mind
 > - Improved Critical
 > - Remarkable Athlete
+> - **Skilled (feat, level 4):** proficiency in Arcana, Investigation and Stealth.
 >
 > **Proficiencies & Languages**
 > - Armour: all armour, shields
@@ -78,7 +80,7 @@ Harengon Fighter
 > - Languages: Common, Sylvan, Elvish
 >
 > **Equipment**
-> Sabre (2), longbow, spear, studded leather armour, shield, quiver, arrows (19), healer's kit (8), backpack, tinderbox, bedroll, caltrops, rope, crowbar, hooded lantern, manacles, oil (2), torches (10), rations (10), iron spikes (9), dice set, grappling hook, bounty poster, vial of stinky black oil.
+> Sabre (2), +1 Tinybane longsword, longbow, spear, studded leather armour, quiver, arrows (19), healer's kit (8), backpack, tinderbox, bedroll, caltrops, rope, crowbar, hooded lantern, manacles, oil (2), torches (10), rations (10), waterskin, iron spikes (9), grappling hook, bounty poster, shovel, wedding ring, comb, Sunset Lodge ledger, dice set. Coins: 18 gp.
 >
 > **Personality**
 > - **Traits:** I don't stress easy and just about always optimistic.
@@ -86,7 +88,7 @@ Harengon Fighter
 > - **Bonds:** I will never return to the life I lived in the Feywild.
 > - **Flaws:** I've been called unrefined, unsophisticated and uncouth. Proud of it, I say.
 >
-> **Appearance:** Age 25 · 5'10" · 120 lb · Brown eyes · Russet brown hair
+> **Appearance:** Age 25 · 5'10" · 120 lb · Lithe, athletic build · Russet brown fur · Dark brown eyes
 
 ## Background
 
@@ -153,4 +155,8 @@ In [[Vallaki]], Virro found himself in a face-off on the stage with [[Izek Straz
 In the undercroft of [[St. Andral's Church]], Virro found it suspicious that anyone else could know how to get in, and pressed [[Father Lucian]] on it. Inspecting the walls, he found the thieves' tunnel. At [[Sunset Lodge]] he noticed the pale grit on the porch, and looked up to see the four sun-faced statues on the roof.
 
 When the [[Animated Rug of Smothering|rug]] let go of Edric and ensnared him instead, Virro tore it apart, thread from thread. Back in Vallaki, he and Retnuh dug up the marked graves in the churchyard over [[Father Lucian]]'s protests, finding [[Pieter Hask]], a second man and a beautiful set of red armour. Lucian sent for the [[Order of Contentment]].
+
+## Session 7 - The feast of St. Andral
+
+Caught at the churchyard by the Order of Contentment, Virro threw grave dirt in the plumed knight's face, shouted "Eat shit" and bounded off. In the streets he freed [[Volenta Popofsky]] from two guards and pointed her at three more. At the church he held the line against [[Anastrasya Karelova]].
 

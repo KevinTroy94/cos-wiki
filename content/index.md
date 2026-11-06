@@ -4,7 +4,7 @@ title: "Curse of Strahd: Player Wiki"
 
 Welcome to the player wiki for our Curse of Strahd campaign.
 
-Latest session: [[Session 6 - Resting place]]
+Latest session: [[Session 7 - The feast of St. Andral]]
 
 ## Browse by section
 

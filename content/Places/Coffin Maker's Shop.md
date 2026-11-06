@@ -2,6 +2,8 @@ The shop of [[Henrik van der Voort]], [[Vallaki]]'s coffin maker. It has a downs
 
 Upstairs, [[Ignacious Teegan|Ignacious]] found a room full of pine coffins labelled "junk", and carved a stake from a piece of loose wood. Downstairs, [[Edric Storm|Edric]] found a closet with a false back, and inside it the bones of St. Andral in a large sack. Then something snapped under his boot, and the coffins began to move.
 
+Six coffins. Ignacious staked one vampire as it rested, and he and Edric staked a second together. A third fled through the window when Edric's radiance filled the house, and the one who rose yawning, "Is it time already?", fought Ignacious in the street and lost an arm. [[Anastrasya Karelova]] was waiting downstairs.
+
 > [!dmspoiler]
 > "This uninviting shop is two stories tall and has a sign shaped like a coffin above the front door. All of the window shutters are closed up tight, and a deathly silence surrounds the establishment."
 >

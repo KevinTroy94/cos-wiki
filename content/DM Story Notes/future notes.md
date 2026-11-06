@@ -63,3 +63,7 @@ volenta is very hype about the violence
 
 the rest of the gang meet at the church and learn the bones are missing
 last line is "there could be vampires among us"
+
+Boris Martikov
+
+Fox and bee

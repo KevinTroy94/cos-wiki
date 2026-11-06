@@ -9,3 +9,5 @@ Known Members
 
 [[Father Lucian]] sent for the Order when [[Retnuh]] and [[Virro]] were digging up graves in the churchyard of [[St. Andral's Church]], and they arrived soon after.
 
+On the night of the attack, the Order rang the town's alarm bells. Four knights, led by one with a long amber plume on his bascinet, came for [[Retnuh]] and [[Virro]] at the churchyard, and gave chase when they fled. Others had [[Volenta Popofsky]] in custody, and one chased [[Edric Storm|Edric]] from a man in the pillory. Yet one knight followed the party into [[St. Andral's Church]] and stood shoulder to shoulder with them against [[Anastrasya Karelova]].
+

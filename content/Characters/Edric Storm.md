@@ -129,6 +129,10 @@ Edric followed the thieves' tunnel from the undercroft of [[St. Andral's Church]
 
 Virro freed him from the rug. Back in Vallaki, he asked [[Father Lucian]] about the name **Van der Voort**, and went to the [[Coffin Maker's Shop|coffin maker's shop]], where he told [[Henrik van der Voort]], "I am a cleric of death, and I will show you the meaning of fear." (It was a lie.) Searching the ground floor, he found the bones of St. Andral in a sack behind a closet's false back.
 
+## Session 7 - The feast of St. Andral
+
+In the [[Coffin Maker's Shop|coffin maker's shop]], [[Anastrasya Karelova]] demanded the bones. Edric refused, "Vile creatures, leave this house at once!", and radiance burst from him through the whole building. He staked a vampire in its coffin with Ignacious' help, dodged under Anastrasya's mist and passed the bones to Ireena at the door. On the way to the church he stopped to free a man from a pillory, but a knight of the Order fell on him and he had to abandon the man, the hardest thing he did that night. At the church he held the line against Anastrasya.
+
 > [!dmspoiler]
 > SECRET PLAYER ONLY: 
 > Edric is allergic to shrimp

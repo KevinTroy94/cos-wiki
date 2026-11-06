@@ -182,3 +182,8 @@ Ignacious followed the thieves' tunnel from the undercroft of [[St. Andral's Chu
 Back in Vallaki, he went with Edric and Ireena to the [[Coffin Maker's Shop|coffin maker's shop]] and kicked the door down, knocking [[Henrik van der Voort]] prone. Upstairs, in a room full of coffins labelled "junk", he carved a stake from a piece of loose wood.
 
 In the coffin maker's shop, Ignacious reswore his oath, taking up the Oath of Devotion.
+
+## Session 7 - The feast of St. Andral
+
+In the [[Coffin Maker's Shop|coffin maker's shop]] he staked a vampire as it rested, and drove home Edric's stake into a second. Surrounded by three vampire spawn, he cried "No better stand... for the son of Ilmater!" and crashed into them in a burst of light. In the street, the yawning vampire caught him by the throat. He took its arm off at the elbow, and [[Keneticut]] arrived to carry him away. At the church he held the line against [[Anastrasya Karelova]].
+

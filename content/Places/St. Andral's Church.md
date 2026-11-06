@@ -10,6 +10,8 @@ Back from [[Sunset Lodge]], [[Retnuh]] and [[Virro]] dug up the plots marked in 
 
 The bones were found in the [[Coffin Maker's Shop|coffin maker's shop]].
 
+On the night of the attack on Vallaki, [[Ireena Kolyana|Ireena]] brought the bones back. [[Anastrasya Karelova]] was held at the threshold until she charmed a passer-by into inviting her in. The party and a knight of the Order held her off while Ireena and [[Father Lucian]] completed the ritual, which ended in a white flash of light seen across town.
+
 > [!dmspoiler]
 > "This slouching, centuries-old stone church has a bulging steeple in the back and walls lined with cracked, stained glass windows depicting pious saints. A fence of wrought iron encloses a garden of gravestones next to the church. A thin mist creeps among the graves."
 >

@@ -1,22 +1,22 @@
 ---
 Status: "Alive"
 Species: "Goliath"
-Class: "Barbarian 3 (Wild Heart)"
+Class: "Barbarian 4 (Wild Heart)"
 Affiliation: "[[Horsemen]]"
 ---
 Goliath Barbarian
 
 > [!sheet]- Character Sheet
-> **Barbarian 3 (Path of the Wild Heart)** · Goliath · Guard · Alignment TBC
+> **Retnuh Elgguns** · **Barbarian 4 (Path of the Wild Heart)** · Goliath · Guard · Alignment TBC
 >
 > | STR | DEX | CON | INT | WIS | CHA |
 > |:---:|:---:|:---:|:---:|:---:|:---:|
-> | 16 | 12 | 15 | 8 | 10 | 13 |
-> | +3 | +1 | +2 | −1 | +0 | +1 |
+> | 16 | 12 | 15 | 8 | 10 | 14 |
+> | +3 | +1 | +2 | −1 | +0 | +2 |
 >
 > | AC | Initiative | Speed | HP | Hit Dice | Proficiency | Passive Perc. |
 > |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-> | 13 | +3 | 35 ft | 32 | 3d12 | +2 | 12 |
+> | 13 | +3 | 35 ft | 41 | 4d12 | +2 | 12 |
 >
 > **Saving Throws**
 > - **● Strength +5**
@@ -24,23 +24,23 @@ Goliath Barbarian
 > - **● Constitution +4**
 > - ○ Intelligence −1
 > - ○ Wisdom +0
-> - ○ Charisma +1
+> - ○ Charisma +2
 >
 > **Skills**
 > - ○ Acrobatics +1
 > - **● Animal Handling +2**
 > - ○ Arcana −1
 > - **● Athletics +5**
-> - ○ Deception +1
+> - ○ Deception +2
 > - ○ History −1
 > - ○ Insight +0
-> - **● Intimidation +3**
+> - **● Intimidation +4**
 > - ○ Investigation −1
 > - ○ Medicine +0
 > - ○ Nature −1
 > - **● Perception +2**
-> - ○ Performance +1
-> - **● Persuasion +3**
+> - ○ Performance +2
+> - **● Persuasion +4**
 > - ○ Religion −1
 > - ○ Sleight of Hand +1
 > - ○ Stealth +1
@@ -51,13 +51,14 @@ Goliath Barbarian
 > | Weapon | Hit | Damage | Range |
 > |---|:---:|---|:---:|
 > | Greataxe | +5 | 1d12 + 3 slashing | 5 ft |
+> | Handaxe | +5 | 1d6 + 3 slashing | 20 (60) ft |
 > | Light Crossbow | +3 | 1d8 + 1 piercing | 80 (320) ft |
 > | Unarmed Strike | +5 | 4 bludgeoning | 5 ft |
 >
 > **Features & Traits**
 > - **Rage:** as a bonus action, enter a Rage if not wearing heavy armour. 3 uses per long rest; regain one on a short rest.
 > - **Unarmored Defense:** while not wearing armour, base AC equals 13 + any shield bonus.
-> - **Weapon Mastery:** Greataxe (Cleave), Greatsword (Graze).
+> - **Weapon Mastery:** Greataxe (Cleave), Greatsword (Graze), Spear (Sap).
 > - **Danger Sense:** advantage on Dexterity saving throws unless Incapacitated.
 > - **Reckless Attack:** on the first attack roll of your turn, gain advantage on Strength attack rolls until your next turn; attacks against you also have advantage.
 > - **Primal Knowledge:** proficiency in Animal Handling. While raging, Acrobatics, Intimidation, Perception, Stealth and Survival checks can be made as Strength checks.
@@ -66,6 +67,7 @@ Goliath Barbarian
 > - **Stone's Endurance (Giant Ancestry):** when you take damage, use your reaction to roll 1d12 + 2 and reduce the damage by that total. 2 uses per long rest.
 > - **Powerful Build:** advantage on checks to end the Grappled condition; count as one size larger for carrying capacity.
 > - **Alert (feat, from Guard):** add proficiency bonus to initiative rolls.
+> - **Level 4 feat:** TBC (Charisma went from 13 to 14).
 >
 > **Proficiencies & Languages**
 > - Armour: light armour, medium armour, shields
@@ -133,4 +135,8 @@ In [[Vallaki]], kneeling to feed the Baron's basset hounds, Retnuh smelled sulph
 In the brawl at the [[Blue Water Inn]], Retnuh tried to check on [[Karl Wachter]] while patrons, and [[Nikolai Wachter]] with a barstool, kept coming at him. He pleaded with the hunters [[Szoldar Szoldarovich|Szoldar]] and [[Yevgeni Krushkin|Yevgeni]] to help Karl, and Szoldar went for a doctor. Afterwards he found [[Bozena]], who told him of [[Sunset Lodge]] and Kozlov Manor, and walked north to join the party at the lodge. When a [[Sunset Gargoyle]] planted itself in the doorway, Retnuh charged it.
 
 Retnuh charged the gargoyle in the doorway, and it took him in its talons, pinned him to a tree and crashed his head against it. Back in Vallaki, he and Virro dug up the marked graves in the churchyard over [[Father Lucian]]'s protests, finding [[Pieter Hask]], a second man and a beautiful set of red armour. Lucian sent for the [[Order of Contentment]].
+
+## Session 7 - The feast of St. Andral
+
+Caught at the churchyard by the Order of Contentment, Retnuh pleaded with them at length (trout came into it) before Virro threw dirt in the plumed knight's face and they ran. He fled across the rooftops, fell through a rotten roof into a stockyard, and was chased by a saber-toothed tiger to the burgomaster's mansion, where [[Victor Vallakovich]] knocked him out with a wave of thunder. He woke, ran into the one-armed vampire and was knocked out again, and woke a second time to find [[Volenta Popofsky]] smiling down at him.
 

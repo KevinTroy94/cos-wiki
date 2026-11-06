@@ -37,6 +37,8 @@ She stayed behind at [[St. Andral's Church]] while the others followed the thiev
 
 She was waiting at the church when the others returned, and went with Edric and Ignacious to the [[Coffin Maker's Shop|coffin maker's shop]]. [[Henrik van der Voort]] pushed past her as he fled.
 
+During the attack on Vallaki, she carried the bones of St. Andral from the [[Coffin Maker's Shop|coffin maker's shop]] to the church while [[Anastrasya Karelova]] chased her through the streets with lightning, looking at her with an intense familiarity and hatred. Ireena reached the church first and, with [[Father Lucian]], completed the ritual.
+
 > [!dmspoiler]
 > Kolyan found Ireena as a girl at the edge of the Svalich Woods near the Pillarstone of Ravenloft, with no memory of her past. He adopted her and loved her dearly. Ireena never knew. [[Father Donavich]] knows.
 >

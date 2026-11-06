@@ -21,6 +21,8 @@ The town is said to be warded against vampires. According to Father Lucian, thos
 
 Outside the walls, an hour's walk north, stands [[Sunset Lodge]], one of the town's punishments. Kozlov Manor, in town, has stood empty since its family was sent out to the lodge three years ago.
 
+On the night of St. Andral's feast, vampires attacked the town. Bells rang, streets burned, and the party fought their way to the church while the Order of Contentment hunted them.
+
 > [!dmspoiler]
 > See [[Undiscovered Places/The Town of Vallaki|The Town of Vallaki]] for the full module text.
 >

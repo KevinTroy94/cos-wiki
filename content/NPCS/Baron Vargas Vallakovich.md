@@ -18,6 +18,8 @@ The church sexton's complaint about stolen church property was dismissed the sam
 
 His two basset hounds are not what they seem. When [[Retnuh]] knelt to feed them, he smelled sulphur and old smoke on their breath, the same infernal reek he knew from Buccephalus. They are [[Hell Hound|hellhounds]].
 
+His son, [[Victor Vallakovich]], was out front of the mansion during the attack on Vallaki, and knocked [[Retnuh]] out with a wave of thunder.
+
 > [!dmspoiler]
 > The burgomaster, Baron Vargas Vallakovich (NE male human **noble**), is a ruthless heel who prides himself on his good breeding and finely honed leadership skills. Baron Vallakovich has deluded himself into believing that hope and happiness are the keys to Vallaki's salvation. If he can make everyone in Vallaki happy, the burgomaster thinks that the town will somehow escape Strahd's grasp and return to the forgotten world whence it came.
 >
