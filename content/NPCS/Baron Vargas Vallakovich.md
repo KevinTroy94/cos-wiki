@@ -3,8 +3,11 @@ Status: "Alive"
 Affiliation: "Unaffiliated"
 Location: "[[Vallaki]]"
 First met: "[[Session 5 - All will be well]]"
+Portrait: "[[Baron Vargas Vallakovich.png]]"
 ---
-The ruler of [[Vallaki]]. A squat man with long, receding hair and vibrant red finery, whose arms move about as though he were a conductor while he speaks. A tall, slender woman in similar finery stands at his side, wringing her hands, and two large basset hounds flank the pair and eye the crowd. [[Izek Strazni]] stands nearby.
+![[Baron Vargas Vallakovich.png|300]]
+
+The ruler of [[Vallaki]]. A squat man with long, receding hair and vibrant red finery, whose arms move about as though he were a conductor while he speaks. A tall, slender woman in similar finery stands at his side, wringing her hands, and two large basset hounds, [[Hell Hound|hellhounds]] in truth, flank the pair and eye the crowd. [[Izek Strazni]] stands nearby.
 
 When the party arrived, he was hearing petitions from atop the repurposed gallows in the town square, the way a king does. Every concern was met with blind optimism:
 
