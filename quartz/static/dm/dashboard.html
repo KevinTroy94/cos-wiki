@@ -475,7 +475,9 @@
   state.since = state.since || Math.floor(Date.now() / 1000) - 3600
   state.seen = state.seen || []
   state.started = !!state.started
-  state.pv = state.pv || { phones: false, blank: false, blankText: "" }
+  state.pv = state.pv || { phones: true, blank: false, blankText: "" }
+  // Phones used to start switched off, which left players on "Waiting for the DM"
+  if (!state.pv.phonesDefault2) { state.pv.phones = true; state.pv.phonesDefault2 = true }
   state.combatants.forEach(function (c) {
     // Monsters still on the first (fully hidden) defaults move to the current ones
     var v = c.vis
@@ -1152,14 +1154,22 @@
     snap.t = Date.now()
     try { localStorage.setItem(PV_KEY, JSON.stringify(snap)) } catch (e) {}
     if (pvBc) pvBc.postMessage(snap)
-    if (state.pv.phones) { clearTimeout(pvTimer); pvTimer = setTimeout(sendPhones, 1200) } // batch quick edits
+    if (state.pv.phones) queuePhones(1500) // batch quick edits into one message
   }
+  function queuePhones(ms) { clearTimeout(pvTimer); pvTimer = setTimeout(sendPhones, ms) }
   function sendPhones() {
     var snap = viewSnapshot()
     snap.t = Date.now()
     fetch("https://ntfy.sh/" + PV_TOPIC, { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify(snap) })
       .then(function (r) { if (!r.ok) throw r.status; countSent() })
-      .catch(function (e) { document.getElementById("pvSent").textContent = e === 429 ? "Phones not updated: ntfy's daily message limit is used up." : "Phones not updated. Check the connection." })
+      .catch(function (e) {
+        var used = state.pv.sent && state.pv.sent.day === new Date().toDateString() ? state.pv.sent.n : 0
+        // ntfy also throttles quick bursts; try again shortly unless the day's 250 are gone
+        if (state.pv.phones && !(e === 429 && used >= 245)) queuePhones(6000)
+        document.getElementById("pvSent").textContent = e === 429
+          ? (used >= 245 ? "Phones not updated: ntfy's 250-a-day limit is used up." : "ntfy asked us to slow down. Retrying in a few seconds…")
+          : "Phones not updated. Retrying… (check the connection)"
+      })
   }
   function countSent() {
     var day = new Date().toDateString()
@@ -1191,8 +1201,8 @@
     bl.classList.toggle("on", state.pv.blank)
     var sent = state.pv.sent && state.pv.sent.day === new Date().toDateString() ? state.pv.sent.n : 0
     document.getElementById("pvSent").textContent = state.pv.phones || sent
-      ? "Updates sent to phones today: " + sent + " (ntfy's free limit is about 250 a day)."
-      : "Phones off: only the window on this computer updates."
+      ? "Updates sent to phones today: " + sent + " of 250 (ntfy's free daily limit)."
+      : "Phones off: players' phones won't update, only the window on this computer."
   }
   var pvLink = document.getElementById("pvLink")
   pvLink.href = pvUrl
