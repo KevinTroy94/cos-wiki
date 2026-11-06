@@ -1,6 +1,10 @@
 ![[Pasted image 20260929224730.png|400]]
 
-On the road between two halves of an old graveyard, a dozen zombies clawed their way out of the graves and attacked the party, the same "things that come out of the ground" that had been following [[Red]]. [[Edric Storm|Edric]] turned several of them with *turn undead*, sending them marching off into the mists, and the party destroyed the rest.
+Corpses that claw their way up out of their graves and attack the living.
+
+**Encounters**
+
+- [[Session 4 - Horsemen|Session 4]]: on the road between two halves of an old graveyard, a dozen rose and attacked the party, the same "things that come out of the ground" that had been following [[Red]]. [[Edric Storm|Edric]] turned several with *turn undead*, sending them marching off into the mists, and the party destroyed the rest.
 
 > [!statblock]
 > **Zombie**

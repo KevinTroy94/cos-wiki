@@ -1,11 +1,11 @@
 ![[image-removebg-preview(6).png]]
 
+Humanoid figures drained of will and warmth, bound in undeath to serve a vampire master. They move with unnatural speed and strength, their eyes vacant, their faces slack. They feel no pain and know no mercy. A stake through the heart while they rest in their coffins turns them to ash.
 
-Humanoid figures drained of will and warmth, bound in undeath to serve a vampire master. They move with unnatural speed and strength, their eyes vacant, their faces slack. They feel no pain and know no mercy.
+**Encounters**
 
-In the undercroft of the [[Barovia Village Church|church]] in Barovia village, the party fought and killed [[Doru]], the son of [[Father Donavich]], who had become a vampire spawn.
-
-In the [[Coffin Maker's Shop|coffin maker's shop]], the party staked two vampire spawn in their coffins. One fled from Edric's radiance and tricked a townsman into inviting him inside. Another, tattooed and goateed, lost an arm to Ignacious, had his neck broken by [[Keneticut]] and watched it right itself, then knocked Retnuh unconscious.
+- [[Session 3 - Spawn|Session 3]]: in the undercroft of the [[Barovia Village Church|church]] in Barovia village, the party fought and killed [[Doru]], the son of [[Father Donavich]], who had become a vampire spawn.
+- [[Session 7 - The feast of St. Andral|Session 7]]: in the [[Coffin Maker's Shop|coffin maker's shop]] in Vallaki, the party staked two in their coffins. One fled from Edric's radiance and tricked a townsman into inviting him inside. Another, tattooed and goateed, lost an arm to Ignacious, had his neck broken by [[Keneticut]] and watched it right itself, then knocked Retnuh unconscious.
 
 > [!statblock]
 > **Vampire Spawn**

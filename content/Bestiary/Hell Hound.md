@@ -1,4 +1,6 @@
-[[Baron Vargas Vallakovich]] keeps two large basset hounds at his side. When [[Retnuh]] knelt to feed them, he caught the smell on their breath: sulphur and old smoke, the same infernal reek he knew from Buccephalus, his [[Nightmare]]. These are no dogs. They are hellhounds.
+Fiendish hounds that can pass for ordinary dogs. The giveaway is their breath: sulphur and old smoke, the same infernal reek as a [[Nightmare]]'s.
 
-During the attack on Vallaki, one of the Baron's hounds threw itself between [[Victor Vallakovich]] and a saber-toothed tiger. Afterwards it lay still on its side, and the tiger was dead.
+**Encounters**
 
+- [[Session 5 - All will be well|Session 5]]: [[Baron Vargas Vallakovich]] keeps two, which look like large basset hounds, at his side. [[Retnuh]] caught the smell when he knelt to feed them.
+- [[Session 7 - The feast of St. Andral|Session 7]]: during the attack on [[Vallaki]], one of the Baron's hounds threw itself between [[Victor Vallakovich]] and a [[Saber-Toothed Tiger|saber-toothed tiger]]. Afterwards it lay still on its side, and the tiger was dead.

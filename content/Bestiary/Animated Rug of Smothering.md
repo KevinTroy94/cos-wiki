@@ -1,8 +1,10 @@
 ![[Pasted image 20261020205241.png|400]]
 
-A handsome rug, rich with wine-dark reds and a border of faded gold, lay at the centre of the single room of [[Sunset Lodge]], so clean that it looked out of place in a room otherwise coated in dust. When [[Edric Storm|Edric]] took it by a corner tassel, it woke in his hand and reared up like a cobra, its whole length lifting off the floor in a single serpentine motion, the fringe whipping and the pattern rippling along its back like scales. It dropped over him and coiled around him, drawing tight.
+A rug that lies still and harmless until touched. Then it rears up like a cobra, its whole length lifting off the floor, the fringe whipping and the pattern rippling along its back like scales, and drops over its victim and coils tight. The one the party met gave itself away by being far too clean for the dusty room it lay in.
 
-[[Virro]] attacked it and Edric escaped, but the rug curled around and ensnared Virro instead. He tore it apart, thread from thread.
+**Encounters**
+
+- [[Session 6 - Resting place|Session 6]]: at the centre of [[Sunset Lodge]], a handsome rug rich with wine-dark reds and a border of faded gold. It took [[Edric Storm|Edric]] when he picked it up by a corner tassel. [[Virro]] attacked it and Edric escaped, but it ensnared Virro instead, and he tore it apart, thread from thread.
 
 > [!statblock]
 > **Animated Rug of Smothering**

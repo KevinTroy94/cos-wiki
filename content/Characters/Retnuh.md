@@ -138,5 +138,5 @@ Retnuh charged the gargoyle in the doorway, and it took him in its talons, pinne
 
 ## Session 7 - The feast of St. Andral
 
-Caught at the churchyard by the Order of Contentment, Retnuh pleaded with them at length (trout came into it) before Virro threw dirt in the plumed knight's face and they ran. He fled across the rooftops, fell through a rotten roof into a stockyard, and was chased by a saber-toothed tiger to the burgomaster's mansion, where [[Victor Vallakovich]] knocked him out with a wave of thunder. He woke, ran into the one-armed vampire and was knocked out again, and woke a second time to find [[Volenta Popofsky]] smiling down at him.
+Caught at the churchyard by the Order of Contentment, Retnuh pleaded with them at length (trout came into it) before Virro threw dirt in the plumed knight's face and they ran. He fled across the rooftops, fell through a rotten roof into a stockyard, and was chased by a [[Saber-Toothed Tiger|saber-toothed tiger]] to the burgomaster's mansion, where [[Victor Vallakovich]] knocked him out with a wave of thunder. He woke, ran into the one-armed vampire and was knocked out again, and woke a second time to find [[Volenta Popofsky]] smiling down at him.
 

@@ -54,7 +54,7 @@ The pair bounded through the streets with the Order of Contentment hot on their 
 
 ![[Weathered Carnival Wagon Sign.png]]
 
-The creature that met him there was a chained saber-toothed tiger. It chased him out of the stockyard and down the street until he reached the burgomaster’s mansion.
+The creature that met him there was a chained [[Saber-Toothed Tiger|saber-toothed tiger]]. It chased him out of the stockyard and down the street until he reached the burgomaster’s mansion.
 
 ![[test1.png]]
 

@@ -7,7 +7,7 @@ Portrait: "[[image-removebg-preview(14).png]]"
 ---
 ![[image-removebg-preview(14).png|300]]
 
-A woman in red who was waiting at the foot of the stairs in the [[Coffin Maker's Shop|coffin maker's shop]] when [[Edric Storm|Edric]] found the bones of St. Andral. Tall and slender, with skin the grey-blue of old moonlight, long pointed ears hung with heavy golden earrings, amber eyes lined in black, and black hair to her hips. She wears a headdress of red silk set with a single jewel, a collar of dark stones, and a long-sleeved gown the red of fresh blood with a heavy train. Her nails are black and curved like claws. Her voice is low and warm, "like velvet drawn over a blade".
+A woman in red who was waiting at the foot of the stairs in the [[Coffin Maker's Shop|coffin maker's shop]] when [[Edric Storm|Edric]] found the bones of St. Andral. Tall and slender, with skin the grey-blue of old moonlight, long pointed ears hung with heavy golden earrings, amber eyes lined in black, and black hair to her hips. She wears a headdress of red silk set with a single jewel, a collar of dark stones, and a long-sleeved gown the red of fresh blood with a heavy train. Her nails are black and curved like claws. Her voice is low and warm, "like velvet drawn over a blade". She was the "dread woman" that [[Henrik van der Voort]] feared more than anything the party could do to him.
 
 > "Hand over the bones, little man. Or everyone dies."
 

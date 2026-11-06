@@ -1,8 +1,10 @@
 ![[Pasted image 20261017071843.png]]
 
-Stone creatures with smiling, sun-faced heads that crouch on the roof of [[Sunset Lodge]], weathered pale, indistinguishable from statues until they move. A fine pale grit on the porch below is the only sign. When [[Edric Storm|Edric]] woke the rug inside, four of them unfurled and struck: one crashed through a window, seized [[Ignacious Teegan|Ignacious]] and carried him up into the sky, and another blocked the front door.
+Stone creatures with smiling, sun-faced heads, weathered pale, indistinguishable from statues until they move. A fine pale grit below where they perch is the only sign. They strike from above, seizing prey and carrying it up into the sky.
 
-At the front door, a gargoyle took [[Retnuh]] in its talons, pinned him to a tree and crashed his head against it. The party defeated all four, and narrowly escaped with their lives.
+**Encounters**
+
+- [[Session 6 - Resting place|Session 6]]: four crouched on the roof of [[Sunset Lodge]]. When [[Edric Storm|Edric]] woke the rug inside, they unfurled and attacked. One crashed through a window, seized [[Ignacious Teegan|Ignacious]] and carried him up into the sky, another blocked the front door, and one took [[Retnuh]] in its talons, pinned him to a tree and crashed his head against it. The party defeated all four and narrowly escaped with their lives.
 
 > [!statblock]
 > **Sunset Gargoyle**

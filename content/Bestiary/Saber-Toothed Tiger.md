@@ -1,3 +1,11 @@
+![[test1.png|400]]
+
+Great cats with long sabre fangs, big and fast enough to run down a fleeing man.
+
+**Encounters**
+
+- [[Session 7 - The feast of St. Andral|Session 7]]: during the attack on [[Vallaki]], [[Retnuh]] fell through a rotten roof into a stockyard where one was kept chained. It chased him down the street to the burgomaster's mansion and fell upon him and [[Victor Vallakovich]]. One of the Baron's [[Hell Hound|hounds]] threw itself between the tiger and Victor. When Retnuh came to, the tiger was dead.
+
 > [!statblock]
 > **Saber-Toothed Tiger**
 >
