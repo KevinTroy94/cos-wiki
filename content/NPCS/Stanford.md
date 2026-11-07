@@ -8,7 +8,7 @@ One of two dappled grey-black Basuto ponies that pulled [[Garlan Shepard]]'s cov
 
 The party found his body in the road between two halves of an old graveyard, mauled and stiff, barely recognisable as the horse that once drew their wagon. [[Red]] knelt beside him. Hoofprints circled the corpse at odd, dragging angles, and a long smear of gore trailed off toward the treeline, as if something had dragged him there. [[Retnuh]] wondered aloud whether Stanford, or Red, was bait.
 
-After [[Red]] drew a horse on a page of his lilac book and handed it to [[Edric Storm|Edric]], Stanford rose again. Edric carefully approached him, and Stanford let Edric mount him.
+As [[Red]] drew a horse on a page of his lilac book, Stanford rose to his feet, his skin sloughing off his face. Red handed the page to [[Edric Storm|Edric]]. Edric carefully approached him, and Stanford let Edric mount him.
 
 > [!statblock]
 > **Stanford**

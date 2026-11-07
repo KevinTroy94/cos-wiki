@@ -34,7 +34,7 @@ Several dour-looking, sallow-skinned [[Barovian|Barovians]] gathered for a hurri
 
 "We gather here in the light of the Morninglord to honour a mighty and compassionate fallen friend to all."
 
-Before he could continue the eulogy, a figure appeared behind him. He was tall and dark-skinned, with long hair, dressed in fine black and deep purple, the fabric cut close and precise in a style that belonged. Ismark pointed out to Edric that he was [[NPCS/Rahadin|Rahadin]], the castle chamberlain.
+Before he could continue the eulogy, a figure appeared behind him. He was tall and dark-skinned, with long hair, dressed in fine black and deep purple, the fabric cut close and precise in a style that belonged to a rich man. Ismark pointed out to Edric that he was [[NPCS/Rahadin|Rahadin]], the castle chamberlain.
 
 ![[Pasted image 20260930234405.png]]
 
@@ -94,7 +94,7 @@ Red attempted to climb the mausoleum but slipped and landed on the side of his a
 
 The gang dispatched the rest of the zombies and rushed to Red, who immediately took in a sharp breath and bolted upright, clutching his lilac book. Red's skin was pale and Virro's arrow was clean through his heart. He looked deeply confused. "You got me," he said, his other hand waving vaguely at the arrow in his chest. Virro ripped the arrow out and Red got to his feet, his right ankle folding under his shin, though he didn't seem to notice it.
 
-"Lad, I think you might be dead," chirped Ignacious, "or undead at least." The party deliberated over what this could mean for some time, before Red asked, "Do you guys have a quill? I lost mine," and Edric obliged him. Over Ignacious's protests, Red began to draw a horse on a page of the lilac book. (describe stanford rising from the ground as a reanimated corpse). Red handed the page to Edric and moved to march on into the mists in search of the woman who gave him the book, so that he could be fixed. The party tried to get him to stay but failed to persuade him, only managing to anger him when they forgot his name.
+"Lad, I think you might be dead," chirped Ignacious, "or undead at least." The party deliberated over what this could mean for some time, before Red asked, "Do you guys have a quill? I lost mine," and Edric obliged him. Over Ignacious's protests, Red began to draw a horse on a page of the lilac book, and [[Stanford]] rose to his feet, his skin sloughing off his face. Red handed the page to Edric and moved to march on into the mists in search of the woman who gave him the book, so that he could be fixed. The party tried to get him to stay but failed to persuade him, only managing to anger him when they forgot his name.
 
 "IT'S FREDRICK!!" roared Red, his voice breaking as he shambled into the distance.
 

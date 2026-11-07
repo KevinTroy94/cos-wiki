@@ -83,9 +83,6 @@ Among them was a woman rendered in wood, and unlike everything surrounding it, t
 
 ![[finishedanastasia.png]]
 
-
-Among them was a woman rendered in wood, and unlike everything surrounding it, this one was flawless. The wood had been worked so finely that it no longer looked carved at all. Her lips held a softness that shouldn't have been possible from a blade and a block of timber. Her hair fell in strands so fine they seemed to catch light the way real hair might. Even the folds of her dress carried a smoothness usually reserved for polished marble, not whittled wood.
-
 Meanwhile, Retnuh made his way toward the far end of the church, where the main chapel opened up in a state of disarray. Pews lay broken and overturned across a dusty floor, and dozens of candles, set into candlesticks and candelabras crowded into every corner, burned steadily against a darkness, determined not to let any darkness in.  At the end of the room stood a claw scarred altar, and kneeling in front of it, dressed in vestments gone soiled and threadbare, was a priest.
 ![[Pasted image 20260927130303.png]]
 
@@ -111,7 +108,7 @@ The sound of chains moving quickly across the floor underneath could be hear thr
 
 "The morninglord has sent you to me!" Donavich continued "You have to save my boy"
 
-They learn that [[Doru]], Donavich's son was stricken with the curse of vampirism, Ignacious tells of a story he remembers about a vampire that became a monk by dedicating himself to the light of [[Lathander]]. Ignacious tells them that a strict regimen or death is the only cure. 
+They learn that [[Doru]], Donavich's son was stricken with the curse of vampirism, Ignacious tells of a story he remembers about a vampire that became a monk by dedicating himself to the light of Lathander. Ignacious tells them that a strict regimen or death is the only cure. 
 
 ![[Pasted image 20260927130402.png]]
 
